@@ -8,14 +8,9 @@
              xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.ContextMenuController" style="-fx-border-width: 5; -fx-border-color: rgb(18, 19, 20)">
 
     <items>
-<<<<<<< HEAD
-        <MenuItem text="Word Detail" onAction="#handleDetail" style="-fx-font-size: 18;"/>
-        <MenuItem text="Add to game library" onAction="#handleAddGame" style="-fx-font-size: 18"/>
-=======
         <MenuItem text="Word Form" onAction="#handleWordForm" style="-fx-font-size: 18;"/>
         <MenuItem text="Opposite" onAction="#handleOpposite" style="-fx-font-size: 18"/>
         <MenuItem text="Closest Word" onAction="#handleClosestWord" style="-fx-font-size: 18"/>
->>>>>>> origin/main
         <SeparatorMenuItem/>
     </items>
 </ContextMenu>
