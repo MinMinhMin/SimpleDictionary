@@ -17,7 +17,7 @@ public class MainController {
 
     @FXML
     private void initialize() {
-        trie = AutoComplete.buildTrieFromFile("src/main/java/myapp/List.txt");
+        trie = AutoComplete.buildTrieFromFile("data/List.txt");
         searchBar.textProperty().addListener((observable, oV, nV) -> {
             if (nV.isEmpty()) {
                 suggestionBox.getChildren().clear();
@@ -44,7 +44,7 @@ public class MainController {
             Optional<String> meaningResult = meaningDialog.showAndWait();
             meaningResult.ifPresent(meaning -> {
                 String line = english + "\t" + meaning;
-                FileUtil.AddtoFIle("src/main/java/myapp/List.txt", line);
+                FileUtil.AddtoFIle("data/List.txt", line);
                 trie.insert(english, meaning);
                 SugesstionUpdate.sugesstionUpdate(searchBar.getText(),trie,suggestionBox,searchBar);
             });
