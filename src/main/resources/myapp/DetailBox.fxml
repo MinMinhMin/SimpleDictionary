@@ -9,6 +9,10 @@
 
     <Button style="-fx-font-weight: 900; -fx-border-width: 6; -fx-border-color: rgb(7, 17, 17)"
             text="Close" onAction="#close" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10"/>
+    <Button style="-fx-font-size: 13;-fx-font-weight: 900; -fx-border-width: 6; -fx-border-color: rgb(7, 17, 17)"
+      text="+" onAction="#resizeUP" AnchorPane.topAnchor="10" AnchorPane.rightAnchor="10"/>
+    <Button style="-fx-font-size: 13;-fx-font-weight: 900; -fx-border-width: 6; -fx-border-color: rgb(7, 17, 17)"
+      text="-" onAction="#resizeDOWN" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="90"/>
 
     <ScrollPane fitToWidth="true" fitToHeight="true" hbarPolicy="AS_NEEDED" vbarPolicy="AS_NEEDED"
                 AnchorPane.topAnchor="50" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="1" AnchorPane.bottomAnchor="10">
