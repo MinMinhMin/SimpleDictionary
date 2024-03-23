@@ -37,7 +37,7 @@ public class ContextMenuController {
 			setStg();
 			showDetailBox(selectedWord);
 		}
-		System.out.print(option);
+		System.out.println(option);
 	}
 
 	public void setSelectedWord(String word) {
@@ -68,14 +68,14 @@ public class ContextMenuController {
 			@Override
 			protected Scene call() throws Exception {
 				detailBoxController.setWord(selectedWord);
-				DetailBoxStage.setX(115);
-				DetailBoxStage.setY(265);
-				Scene scene = new Scene(layout, 385, 500);
+				Scene scene;
+				scene = new Scene(layout, 385, 500);
 				return scene;
 			}
 		};
 		rederTask.setOnSucceeded(event ->DetailBoxStage.setScene(rederTask.getValue()));
 		new Thread(rederTask).start();
+
 
 
 	}

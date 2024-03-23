@@ -12,9 +12,9 @@ public class DeleteWord {
 		try {
 			if (word.isEmpty() || !trie.contains(word)){return;}
 
-			Path path = Path.of("src/main/java/myapp/List.txt");
+			Path path = Path.of("data/List.txt");
 			List<String> lines = Files.readAllLines(path, StandardCharsets.UTF_8);
-			lines.removeIf(line -> line.equals(word) || line.contains(word));
+			lines.removeIf(line -> line.equals(word));
 			try (BufferedWriter writer = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
 				for (String line : lines) {
 					writer.write(line);

@@ -221,7 +221,16 @@ public class API implements Serializable{
 
         return null; // Return null in case of an error
     }
+    public static String getAudioCountry(String url){
 
+        if (url.isEmpty())return null;
+        int last_index=url.length()-1;
+        String country="";
+        country+=url.charAt(last_index-5);
+        country+=url.charAt(last_index-4);
+        return country;
+
+    }
     public static void findWord(String word){
 
         //connect to online dictionary
