@@ -37,6 +37,8 @@ public class DetailBoxController {
 
 	public void setWord(String word) {
 		this.word = word;
+		FileUtil.cache();
+		FileUtil.AddtoFIle("data/cache.txt",word);
 		updateUI();
 	}
 
