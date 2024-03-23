@@ -1,5 +1,6 @@
 package myapp;
 
+import javafx.animation.FadeTransition;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -10,6 +11,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import javafx.util.Duration;
 
 import java.util.List;
 
@@ -18,18 +20,16 @@ public class DetailBoxController {
     List<API.Meaning>meanings;
     List<API.Phonetic>phonetics;
 	private Stage stage;
+
 	private String word;
 
-	@FXML
-	private Button closeButton;
-
-	@FXML
-	private ScrollPane scrollPane;
+	public String getWord() {
+		return word;
+	}
 
 	@FXML
 	private VBox infoVBox;
-	@FXML
-	private TabPane tp;
+
 
 	public void setStage(Stage stage) {
 		this.stage = stage;
@@ -63,6 +63,7 @@ public class DetailBoxController {
 
 	private void addLabel(String text) {
 		Text label = new Text(text);
+		label.setStyle("-fx-font-weight: 900");
 
 		infoVBox.getChildren().add(label);
 	}
@@ -85,10 +86,11 @@ public class DetailBoxController {
 
 	@FXML
 	public void close() {
+
 		stage.close();
 	}
 	@FXML
-	public void resizeUP(){stage.setHeight(500);stage.setWidth(1200);}
+	public void resizeUP(){stage.setHeight(500);stage.setWidth(1275);}
 	@FXML
 	public void resizeDOWN(){stage.setHeight(500);stage.setWidth(385);}
 }

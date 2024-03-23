@@ -79,7 +79,6 @@ pm	buổi chiều
 view	xem
 online	trực tuyến
 c	c
-e	e
 first	Đầu tiên
 am	là
 been	là
@@ -1444,7 +1443,6 @@ bin	thùng rác
 modern	hiện đại
 senior	người lớn tuổi
 ireland	Ireland
-sexy	gợi cảm
 teaching	giảng bài
 door	cửa
 grand	vĩ đại
@@ -5490,7 +5488,6 @@ michelle	Michelle
 essay	tiểu luận
 discipline	kỷ luật
 amy	Amy
-ts	ts
 demonstrated	chứng minh
 dialogue	hội thoại
 identifying	xác định
@@ -5703,7 +5700,6 @@ stack	cây rơm
 methodology	phương pháp luận
 somebody	có ai
 sue	kiện
-ep	ep
 housewares	đồ gia dụng
 reputation	danh tiếng
 resistant	kháng cự
