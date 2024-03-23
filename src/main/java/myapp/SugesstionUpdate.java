@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 public class SugesstionUpdate {
 	public static void sugesstionUpdate(String prefix, AutoComplete.Trie trie, VBox suggestionBox, TextField searchBar) {
+		prefix = prefix.toLowerCase();
 		List<String> suggestions = trie.autocompleteWithMeanings(prefix);
 
 		suggestionBox.getChildren().clear();

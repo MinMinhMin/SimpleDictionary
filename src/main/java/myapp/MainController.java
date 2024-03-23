@@ -2,16 +2,26 @@ package myapp;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.ContextMenu;
-import javafx.scene.control.TextField;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.VBox;
-
-import java.util.Optional;
-import javafx.scene.control.TextInputDialog;
+import javafx.scene.paint.Color;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class MainController {
+    public Stage getStage() {
+        return stage;
+    }
+
+    public void setStage(Stage stage) {
+        this.stage = stage;
+    }
+
+    private Stage stage;
     @FXML
     public TextField searchBar;
     @FXML
@@ -21,7 +31,7 @@ public class MainController {
     private Button gamebutton;
 
     @FXML
-    private void initialize() {
+    private void initialize(){
         trie = AutoComplete.buildTrieFromFile("data/List.txt");
         searchBar.textProperty().addListener((observable, oV, nV) -> {
             if (nV.isEmpty()) {
@@ -31,29 +41,58 @@ public class MainController {
             }
         });
     }
+
     
     @FXML
-    private void AddClicked(ActionEvent event) {
-        TextInputDialog englishDialog = new TextInputDialog();
-        englishDialog.setTitle("Add Vocabulary");
-        englishDialog.setHeaderText(null);
-        englishDialog.setContentText("Enter English word:");
-        Optional<String> englishResult = englishDialog.showAndWait();
-        englishResult.ifPresent(english -> {
+    private void AddClicked() {
+        String english = searchBar.getText();
+        /*StringBuilder sb = new StringBuilder(english);
 
-            TextInputDialog meaningDialog = new TextInputDialog();
-            meaningDialog.setTitle("Add Vocabulary");
-            meaningDialog.setHeaderText(null);
-            meaningDialog.setContentText("Enter meaning for " + english + ":");
+        int i = 0;
+        while (i + 30 < sb.length() && (i = sb.lastIndexOf(" ", i + 30)) != -1) {
+            sb.replace(i, i + 1, "\n");
+        }
 
-            Optional<String> meaningResult = meaningDialog.showAndWait();
-            meaningResult.ifPresent(meaning -> {
-                String line = english + "\t" + meaning;
-                FileUtil.AddtoFIle("data/List.txt", line);
-                trie.insert(english, meaning);
-                SugesstionUpdate.sugesstionUpdate(searchBar.getText(),trie,suggestionBox,searchBar);
-            });
+        System.out.println(sb.toString());*/
+        Stage addWordStage = new Stage();
+        Label label = new Label('"'+english+'"'+"means:");
+        label.setStyle("-fx-font-weight: 900;");
+        label.setMaxWidth(Double.MAX_VALUE);
+        label.setAlignment(Pos.CENTER);
+        TextField meaning = new TextField();
+        meaning.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black");
+        Button setButton = new Button("Set");
+        setButton.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
+        setButton.getStyleClass().add("normalButton");
+        setButton.setMaxWidth(Double.MAX_VALUE);
+        setButton.setAlignment(Pos.CENTER);
+        setButton.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black" );
+        Button closeButton = new Button("Close");
+        closeButton.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
+        closeButton.getStyleClass().add("normalButton");
+        setButton.setOnAction(event -> {
+            String mean = meaning.getText();
+            String line = english + "\t" + mean;
+            FileUtil.AddtoFIle("data/List.txt", line);
+            trie.insert(english, mean);
+            SugesstionUpdate.sugesstionUpdate(searchBar.getText(),trie,suggestionBox,searchBar);
+            addWordStage.close();
         });
+        closeButton.setStyle("-fx-font-weight: 900;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black;-fx-background-color: white" );
+        closeButton.setOnAction(event -> {addWordStage.close();});
+        VBox vbox = new VBox(10);
+        vbox.getChildren().addAll(closeButton,label,meaning, setButton);
+        vbox.setSpacing(10);
+        vbox.setStyle("-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 6;-fx-border-color: black" );
+        Scene scene = new Scene(vbox, 200, 180);
+        scene.setFill(Color.TRANSPARENT);
+        addWordStage.initStyle(StageStyle.TRANSPARENT);
+        addWordStage.setX(1080);
+        addWordStage.setY(250);
+        addWordStage.setResizable(false);
+        addWordStage.setScene(scene);
+        addWordStage.initModality(Modality.APPLICATION_MODAL);
+        addWordStage.show();
     }
 
     @FXML
@@ -78,6 +117,10 @@ public class MainController {
             }
         });
     }
+    @FXML
+    private void ShutDownStage(ActionEvent event){
+        this.stage.close();
 
+    }
 
 }
