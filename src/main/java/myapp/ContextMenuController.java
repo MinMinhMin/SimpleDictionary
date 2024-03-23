@@ -23,11 +23,7 @@ public class ContextMenuController {
 
 	private String selectedWord;
 
-	public void setStg(Stage newStage) {
-		this.DetailBoxStage = newStage;
-	}
 
-	private Stage DetailBoxStage = new Stage();
 
 	public void handleDetail() throws IOException {
 		handleOption("Word Detail");
@@ -38,29 +34,33 @@ public class ContextMenuController {
 	}
 
 	private void handleOption(String option) throws IOException {
-		Stage currentDetailStage = new Stage();
 		if (option == "Word Detail") {
-			setStg(currentDetailStage);
-			System.out.println(selectedWord);
 			showDetailBox(selectedWord);
 
 		}
 
 	}
+	private  static Stage DetailBoxStage;
 
 	public void setSelectedWord(String word) {
 		this.selectedWord = word;
 	}
 
 	public void showDetailBox(String word) throws IOException{
+		if(Objects.equals(word, FileUtil.getCache())){return;}
+		if (DetailBoxStage != null) {
+			DetailBoxStage.close();
+		}
+
+		DetailBoxStage = new Stage();
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("DetailBox.fxml"));
 
 		Parent layout = loader.load();
 		DetailBoxController detailBoxController = loader.getController();
-		System.out.println(detailBoxController.getWord());
-		detailBoxController.setStage(DetailBoxStage);
+		FileUtil.AddtoFIle("data/cache.txt",word);
 		DetailBoxStage.setTitle("Word Detail");
 		//DetailBoxStage.initModality(Modality.APPLICATION_MODAL);
+		DetailBoxStage.setAlwaysOnTop(true);
 		ProgressBar progressBar = new ProgressBar();
 		progressBar.getStylesheets().add(ContextMenuController.class.getResource("Styling.css").toExternalForm());
 		progressBar.getStyleClass().add("progress-bar");
@@ -76,13 +76,15 @@ public class ContextMenuController {
 		DetailBoxStage.setResizable(false);
 		DetailBoxStage.initStyle(StageStyle.TRANSPARENT);
 		DetailBoxStage.setScene(loadingscene);
+
+		detailBoxController.setStage(DetailBoxStage);
 		DetailBoxStage.show();
 		//Loading....
 		Task<Scene> rederTask = new Task<>() {
 			@Override
 			protected Scene call() throws Exception {
 				detailBoxController.setWord(selectedWord);
-				Thread.sleep(1600);
+				Thread.sleep(1000);
 				Scene scene;
 				FadeTransition ft = new FadeTransition(Duration.millis(1300), layout);
 				ft.setFromValue(0.0);
