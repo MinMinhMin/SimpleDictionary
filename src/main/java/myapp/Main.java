@@ -11,12 +11,21 @@ import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
 public class Main extends Application {
+    double xOffset, yOffset;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FileUtil.cache();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("main.fxml"));
         Parent root = loader.load();
+        root.setOnMousePressed(event -> {
+            xOffset = event.getSceneX();
+            yOffset = event.getSceneY();
+        });
+        root.setOnMouseDragged(event -> {
+            primaryStage.setX(event.getScreenX() - xOffset);
+            primaryStage.setY(event.getScreenY() - yOffset);
+        });
+
         primaryStage.setTitle("Search App");
         primaryStage.setMinWidth(1360);
         primaryStage.setMinHeight(768);
@@ -33,6 +42,7 @@ public class Main extends Application {
         scene.setFill(Color.TRANSPARENT);
         primaryStage.setScene(scene);
         MainController mainController = loader.getController();
+        ContextMenuController.setPrimaryStage(primaryStage);
         mainController.setStage(primaryStage);
         primaryStage.show();
     }

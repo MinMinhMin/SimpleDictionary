@@ -3,6 +3,8 @@ package myapp;
 import java.io.InterruptedIOException;
 
 import javafx.animation.FadeTransition;
+import javafx.beans.property.DoubleProperty;
+import javafx.beans.property.SimpleDoubleProperty;
 import javafx.concurrent.Task;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -23,6 +25,12 @@ public class ContextMenuController {
 
 	private String selectedWord;
 
+	public static void setPrimaryStage(Stage primaryStage) {
+		ContextMenuController.primaryStage = primaryStage;
+	}
+
+	public static Stage primaryStage;
+
 
 
 	public void handleDetail() throws IOException {
@@ -40,6 +48,11 @@ public class ContextMenuController {
 		}
 
 	}
+
+	public static Stage getDetailBoxStage() {
+		return DetailBoxStage;
+	}
+
 	private  static Stage DetailBoxStage;
 
 	public void setSelectedWord(String word) {
@@ -47,20 +60,19 @@ public class ContextMenuController {
 	}
 
 	public void showDetailBox(String word) throws IOException{
-		if(Objects.equals(word, FileUtil.getCache())){return;}
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("DetailBox.fxml"));
+		Parent layout = loader.load();
+		DetailBoxController detailBoxController = loader.getController();
+		if(Objects.equals(word, detailBoxController.getWord())) {
+			return;
+		}
 		if (DetailBoxStage != null) {
 			DetailBoxStage.close();
 		}
-
 		DetailBoxStage = new Stage();
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("DetailBox.fxml"));
-
-		Parent layout = loader.load();
-		DetailBoxController detailBoxController = loader.getController();
-		FileUtil.AddtoFIle("data/cache.txt",word);
+		DetailBoxStage.initOwner(primaryStage);
 		DetailBoxStage.setTitle("Word Detail");
-		//DetailBoxStage.initModality(Modality.APPLICATION_MODAL);
-		DetailBoxStage.setAlwaysOnTop(true);
+		DetailBoxStage.initModality(Modality.NONE);
 		ProgressBar progressBar = new ProgressBar();
 		progressBar.getStylesheets().add(ContextMenuController.class.getResource("Styling.css").toExternalForm());
 		progressBar.getStyleClass().add("progress-bar");
@@ -71,14 +83,24 @@ public class ContextMenuController {
 		loadingPane.getChildren().add(loadingText);
 		loadingPane.setStyle("-fx-border-color: rgb(7, 17, 17);-fx-border-width: 10;-fx-background-radius: 30; -fx-border-radius:  20");
 		Scene loadingscene = new Scene(loadingPane,385,500);
-		DetailBoxStage.setX(115);
-		DetailBoxStage.setY(265);
 		DetailBoxStage.setResizable(false);
 		DetailBoxStage.initStyle(StageStyle.TRANSPARENT);
 		DetailBoxStage.setScene(loadingscene);
 
 		detailBoxController.setStage(DetailBoxStage);
+
+		primaryStage.xProperty().addListener((observable, oldValue, newValue) -> {
+			adjustDetailBoxPosition();
+		});
+
+		primaryStage.yProperty().addListener((observable, oldValue, newValue) -> {
+			adjustDetailBoxPosition();
+		});
+
+		adjustDetailBoxPosition();
+
 		DetailBoxStage.show();
+
 		//Loading....
 		Task<Scene> rederTask = new Task<>() {
 			@Override
@@ -94,11 +116,16 @@ public class ContextMenuController {
 				return scene;
 			}
 		};
-		rederTask.setOnSucceeded(event ->DetailBoxStage.setScene(rederTask.getValue()));
+		rederTask.setOnSucceeded(event -> DetailBoxStage.setScene(rederTask.getValue()));
 		new Thread(rederTask).start();
-
-
-
-
 	}
+	private void adjustDetailBoxPosition() {
+		if (DetailBoxStage != null && primaryStage != null) {
+			double offsetX = -1335;
+			double offsetY = 230;
+			DetailBoxStage.setX(primaryStage.getX() + primaryStage.getWidth() + offsetX);
+			DetailBoxStage.setY(primaryStage.getY() + offsetY);
+		}
+	}
+
 }
