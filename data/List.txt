@@ -1,1331 +1,10000 @@
-abandon	bỏ rơi V
-ability	khả năng
-about	Về
-abroad	ở nước ngoài
-absent	vắng mặt
-absorb	hấp thụ
-abuse	lạm dụng
-academy	học viện
-accept	chấp nhận
-access	truy cập
-access	truy cập
-accidental	tình cờ
-accompany	đồng hành
-account	tài khoản
-accuse	buộc tội
-acknowledge	thừa nhận
-acquisition	sự mua lại
-act	hành động
-activate	kích hoạt
-activity	hoạt động
-actual	thật sự
-acute	nhọn
-achievement	thành tích
-adapt	thích nghi
-abbreviation	viết tắt
-able	có thể
-above	bên trên
-absence	vắng mặt
-absolute	tuyệt đối
-abstract	trừu tượng
-academic	học thuật
-accent	giọng
-acceptable	chấp nhận được
-accommodation	chỗ ở
-accordance	Tùy theo
-accountancy	kế toán
-accurate	chính xác
-acquire	giành được
-across	sang
-action	hoạt động
-active	tích cực
-actor	diễn viên
-actress	nữ diễn viên
-achieve	đạt được
-add	thêm vào
-addition	phép cộng
-admit	thừa nhận
-adult	người lớn
-advantage	lợi thế
-advertisement	quảng cáo
-agriculture	nông nghiệp
-agreement	hiệp định
-aesthetic	thẩm mỹ
-affect	ảnh hưởng
-agency	hãng
-afford	đủ khả năng
-adjustment	điều chỉnh
-adopt	nhận nuôi
-advance	nâng cao
-aggressive	hung dữ
-answer	trả lời
-annoy	làm phiền
-another	khác
-animal	động vật
-ambulance	xe cứu thương
-allow	cho phép
-anti	chống
-appointment	cuộc hẹn
-argument	lý lẽ
-arrangement	sắp xếp
-apostrophe	dấu nháy đơn
-appreciate	đánh giá
-argue	tranh cãi
-attack	tấn công
-autumn	mùa thu
-attractive	hấp dẫn
-ant	con kiến
-audience	khán giả
-author	tác giả
-average	trung bình
-awareness	nhận thức
-avoid	tránh xa
-baby	Đứa bé
-back ground	lý lịch
-bacteria	vi khuẩn
-band	ban nhạc
-bass	âm trầm
-beauty	sắc đẹp
-bedroom	phòng ngủ
-banker	chủ ngân hàng
-behave	ứng xử
-behalf	thay mặt
-behaviour	hành vi
-because	bởi vì
-base	căn cứ
-bake	nướng
-beef	thịt bò
-blank	trống
-big	to lớn
-blade	lưỡi
-blow	thổi
-blue	màu xanh da trời
-blame	đổ tội
-boar	con lợn rừng
-biscuit	bánh quy
-beyond	vượt ra
-benefit	lợi ích
-biology	sinh vật học
-board	Cái bảng
-bitter	vị đắng
-birthday	sinh nhật
-bone	xương
-book	sách
-breathe	thở
-brick	gạch
-broken	vỡ
-broadcast	phát tin
-bronze	đồng
-brown	màu nâu
-brother	anh trai
-boost	tăng
-breast	nhũ hoa
-brand	thương hiệu
-bubble	bong bóng
-bullet	đạn
-brush	chải
-burden	gánh nặng
-bus	xe buýt
-business	việc kinh doanh
-busy	bận
-bye	tạm biệt
-buyer	người mua
-butter	bơ
-cable	cáp
-calcium	canxi
-calm	điềm tĩnh
-carbon	carbon
-cancel	Hủy bỏ
-case	trường hợp
-cat	con mèo
-catch	nắm lấy
-cause	gây ra
-ceiling	trần nhà
-category	loại
-catalogue	mục lục
-candy	kẹo
-cancer	bệnh ung thư
-career	sự nghiệp
-carrot	cà rốt
-campaign	chiến dịch
-card	Thẻ
-carpet	thảm
-celebrate	kỉ niệm
-cell	tế bào
-ceremony	lễ
-certificate	giấy chứng nhận
-clinic	phòng khám
-clock	cái đồng hồ
-close	đóng
-cloud	đám mây
-cluster	cụm
-coal	than đá
-clone	dòng vô tính
-club	câu lạc bộ
-coach	huấn luyện viên
-coast	bờ biển
-cent	xu
-cloth	vải
-circle	vòng tròn
-closet	buồng nhỏ
-certain	chắc chắn
-clerk	nhân viên văn phòng
-classic	cổ điển
-cigarette	thuốc lá
-century	thế kỷ
-clever	thông minh
-classroom	lớp học
-clean	lau dọn
-clause	điều khoản
-coat	áo choàng
-coffe	cà phê
-compare	so sánh
-comment	bình luận
-community	cộng đồng
-competition	cuộc thi
-complaint	lời phàn nàn
-complete	hoàn thành
-committee	ủy ban
-college	trường cao đẳng
-code	mã số
-combination	sự kết hợp
-come	đến
-command	yêu cầu
-complex	tổ hợp
-colour	màu sắc
-commit	làm
-cold	lạnh lẽo
-comedy	hài kịch
-colon	Đại tràng
-comfortable	thoải mái
-compose	soạn, biên soạn
-confuse	bối rối
-consequently	do đó
-concentrate	tập trung
-consider	coi như
-concert	buổi hòa nhạc
-compound	hợp chất
-complicate	phức tạp
-compute	tính toán
-conductor	Nhạc trưởng
-contain	bao gồm
-cooker	nồi cơm điện
-corner	góc
-cookie	bánh quy
-cost	trị giá
-convince	thuyết phục
-container	thùng đựng hàng
-content	nội dung
-correct	Chính xác
-corporate	công ty
-congress	Hội nghị
-conversation	cuộc hội thoại
-control	điều khiển
-core	cốt lõi
-cool	mát mẻ
-contract	hợp đồng
-consumption	sự tiêu thụ
-convert	chuyển thành
-cotton	bông
-could	có thể
-count	đếm
-creative	sáng tạo
-crown	vương miện
-crue	tàn nhẫn
-cry	khóc
-crush	người mình thích
-crop	mùa vụ
-crystal	pha lê
-credit	tín dụng
-critic	nhà phê bình
-crucial	chủ yếu
-criminal	tội phạm
-crash	tai nạn
-culture	văn hoá
-curb	lề đường
-chart	đồ thị
-cheerful	vui vẻ
-chat	trò chuyện
-cheese	phô mai
-chemist	nhà hóa học
-chest	ngực
-chain	xích
-check	kiểm tra
-chemical	hóa chất
-chapter	chương
-charge	thù lao
-chamber	buồng
-cut	cắt
-curly	quăn
-cupboard	cái tủ
-cheap	rẻ
-cheat	gian lận
-chew	nhai
-chicken	thịt gà
-chef	đầu bếp
-child	đứa trẻ
-chord	dây nhau
-chorus	Điệp khúc
-church	nhà thờ
-choose	chọn
-choice	sự lựa chọn
-chocolate	sô cô la
-chop	chặt
-dad	bố
-damage	hư hại
-dance	nhảy
-danger	sự nguy hiểm
-data	dữ liệu
-date	ngày
-deaf	điếc
-decide	quyết định
-defeat	đánh bại
-definiton	định nghĩa
-delay	trì hoãn
-defend	phòng vệ
-define	định nghĩa
-dear	Thân mến
-daily	hằng ngày
-dark	tối tăm
-degree	bằng cấp
-delicate	thanh tú
-dancer	vũ công
-dangerous	nguy hiểm
-decrease	giảm bớt
-december	tháng 12
-decline	sự suy sụp
-defence	phòng thủ
-daughter	con gái
-delight	Hân hoan
-depth	chiều sâu
-diameter	đường kính
-develop	phát triển
-destruction	sự phá hủy
-describe	mô tả
-diamond	kim cương
-dictionary	từ điển
-diet	ăn kiêng
-deny	từ chối
-demand	yêu cầu
-design	thiết kế
-destroy	hủy hoại
-devote	cống hiến
-desert	sa mạc
-deposit	tiền gửi
-desire	sự mong muốn
-detail	chi tiết
-differ	khác nhau
-discount	giảm giá
-discovery	khám phá
-dislike	không thích
-disorder	rối loạn
-disposal	xử lý
-distance	khoảng cách
-dirt	bụi bẩn
-dish	món ăn
-disk	đĩa
-directive	chỉ thị
-difference	sự khác biệt
-disabled	tàn tật
-display	trưng bày
-distant	xa xôi
-distintion	sự khác biệt
-doubt	nghi ngờ
-drawer	ngăn kéo
-drive	lái xe
-drama	kịch
-dress	đầm
-drum	cái trống
-dry	khô
-drunk	say rượu
-domain	lãnh địa
-double	gấp đôi
-divide	chia
-down	xuống
-dream	mơ
-drop	làm rơi
-distribution	phân bổ
-document	tài liệu
-drag	lôi kéo
-doctor	bác sĩ
-due	quá hạn
-dull	đần độn
-during	trong lúc
-duty	nhiệm vụ
-dynamic	năng động
-dust	bụi
-dump	bãi rác
-early	sớm
-economy	kinh tế
-election	cuộc bầu cử
-education	giáo dục
-echo	tiếng vọng
-eliminate	loại bỏ
-element	yếu tố
-elevator	thang máy
-electric	điện
-effort	cố gắng
-else	khác
-edit	biên tập
-effective	hiệu quả
-ear	tai
-earth	trái đất
-each	mỗi
-efficency	hiệu quả
-emission	khí thải
-entertain	giải trí
-entry	lối vào
-environment	môi trường
-enthusiastic	nhiệt tình
-enter	đi vào
-encounter	bắt gặp
-empty	trống
-empire	đế chế
-entrance	cổng vào
-engage	đính hôn
-enginner	kỹ sư
-enhance	nâng cao
-episode	tập phim
-equation	phương trình
-everyday	Hằng ngày
-even	thậm chí
-event	sự kiện
-expect	trông chờ
-exception	ngoại lệ
-evolve	tiến hóa
-exam	bài thi
-evening	buổi tối
-estate	tài sản
-establish	thành lập
-escape	bỏ trốn
-era	kỷ nguyên
-equipment	thiết bị
-essential	thiết yếu
-excitement	sự phấn khích
-error	lỗi
-exchange	trao đổi
-expert	chuyên gia
-extract	trích xuất
-eye	mắt
-exploit	khai thác
-extreme	vô cùng
-expensive	đắt
-exhibition	triển lãm
-excursive	độc thoại
-explode	nổ tung
-exclusive	loại trừ
-explore	khám phá
-exit	lối ra
-fabric	vải vóc
-facility	cơ sở
-faithful	Trung thành
-fault	lỗi
-fee	phí
-female	nữ giới
-feel	cảm thấy
-fellow	đồng nghiệp
-favour	ủng hộ
-familiar	thân thuộc
-famous	nổi tiếng
-fancy	si mê
-false	SAI
-feature	tính năng
-fear	nỗi sợ
-farther	xa hơn
-fail	thất bại
-feed	cho ăn
-fashionable	hợp thời trang
-fast	nhanh
-farmer	nông dân
-failure	sự thất bại
-face	khuôn mặt
-fair	hội chợ
-festival	lễ hội
-fever	sốt
-fine	khỏe
-flavour	hương vị
-flow	chảy
-flute	ống sáo
-focus	tập trung
-float	trôi nổi
-fix	sửa chữa
-fish	cá
-financial	tài chính
-flesh	thịt
-flat	phẳng
-flame	ngọn lửa
-fly	bay
-fine	khỏe
-flag	lá cờ
-flexibility	Uyển chuyển
-flood	lụt
-flour	bột mì
-final	cuối cùng
-field	cánh đồng
-fold	nếp gấp
-freedom	tự do
-free	miễn phí
-freeze	đông cứng
-from	từ
-frozen	Đông cứng
-fry	chiên rán
-franchise	nhượng quyền thương mại
-friend	người bạn
-fridge	tủ lạnh
-fruit	hoa quả
-fossil	hóa thạch
-formula	công thức
-fowl	gia cầm
-forest	rừng
-forget	quên
+the	các
+of	của
+and	Và
+to	ĐẾN
+a	Một
+in	TRONG
 for	vì
-foot	chân
-food	đồ ăn
-fortune	vận may
-funny	buồn cười
-future	tương lai
-fuel	nhiên liệu
-function	chức năng
-full	đầy
-fundamental	cơ bản
-fur	lông thú
-further	hơn nữa
-furniture	nội thất
-galaxy	ngân hà
-garage	ga-ra
-generation	thế hệ
-go	đi
-golden	vàng
-goodbye	tạm biệt
-good	Tốt
-glove	găng tay
-genre	thể loại
-global	toàn cầu
-glass	thủy tinh
-gas	khí ga
-gate	cổng
-gear	bánh răng
-gene	gen
-generous	hào phóng
-gather	tập trung
-gender	giới tính
-garbage	rác
-gain	nhận được
-get	lấy
-gallery	phòng trưng bày
-goal	mục tiêu
-grab	vồ lấy
-guy	chàng trai
-gift	quà
-giant	người khổng lồ
-grocery	cửa hàng tạp hóa
-grand	vĩ đại
-graphic	đồ họa
-ground	đất
-gun	súng
-government	chính phủ
-guess	đoán
-guilty	tội lỗi
-grave	phần mộ
-graduate	tốt nghiệp
-give	đưa cho
-hobby	sở thích
-hard	cứng
-hear	nghe
-hello	Xin chào
-helpful	hữu ích
-heat	nhiệt
-her	cô ấy
-hi	CHÀO
-hell	địa ngục
-heaven	thiên đường
-here	đây
-hide	trốn
-hesitate	do dự
-hide	trốn
-hang	treo
-heavy	nặng
-habitat	môi trường sống
-harm	làm hại
-hat	mũ
-happy	vui mừng
-heritage	di sản
-herself	chính cô ấy
-health	sức khỏe
-hunt	săn bắn
-harmless	vô hại
-heal	chữa lành
-him	anh ta
-high	cao
-hill	đồi
-himself	bản thân anh ấy
-history	lịch sử
-holder	người giữ
-household	hộ gia đình
-hungry	đói bụng
-house	căn nhà
-hurry	sự vội vàng
-humorous	hài hước
-holding	giữ
-hire	Thuê
-human	nhân loại
-hollow	rỗng
-highway	Xa lộ
-homework	bài tập về nhà
-hurt	đau
-husband	chồng
-hyphen	gạch nối
-idea	ý tưởng
-identical	giống hệt nhau
-improvement	sự cải tiến
-imply	bao hàm, ngụ ý
-importance	tầm quan trọng
-incentive	khích lệ
-image	hình ảnh
-include	bao gồm
-idiom	cách diễn đạt
-ice	đá
-imagination	trí tưởng tượng
-illness	sự ốm yếu
-identify	nhận dạng
-ignore	phớt lờ
-impress	gây ấn tượng
-increase	tăng
-ink	mực
-innocent	vô tội
-install	cài đặt
-instance	ví dụ
-indeed	thực vậy
-injury	chấn thương
-installation	cài đặt
-inspire	truyền cảm hứng
-input	đầu vào
-insect	côn trùng
-infinity	vô cực
-insert	chèn
-individual	cá nhân
-independent	độc lập
-instead	thay vì
-industriual	công nghiệp
-infect	lây nhiễm
-inside	bên trong
-integrate	tích hợp
-intend	có ý định
-invent	phát minh
-iron	sắt
-iron	sắt
-irony	sự mỉa mai
-internet	Internet
-invest	đầu tư
-intelligent	thông minh
-info	thông tin
-invite	mời
-international	quốc tế
-ingredient	nguyên liệu
-interview	phỏng vấn
-instrument	dụng cụ
-isolate	cô lập
-item	mục
-island	hòn đảo
-jacket	áo khoác
-jealous	ghen tị
-jazz	nhạc jazz
-jump	nhảy
-junior	nhỏ
-justice	Sự công bằng
-justify	biện minh
-july	tháng bảy
-job	công việc
-join	tham gia
-joke	câu nói đùa
-juice	nước ép
-journal	tạp chí
-june	tháng sáu
-lournalist	người theo chủ nghĩa lười biếng
-joint	chung
-jelly	thạch
-just	chỉ
-judgement	sự phán xét
-journey	hành trình
-keyboard	bàn phím
-keen	sắc sảo
-kilometre	km
-knee	đầu gối
-knowledge	kiến thức
-knot	nút thắt
-know	biết
-knife	dao
-kilogram	kg
-king	nhà vua
-kind	loại
-kid	đứa trẻ
-kick	đá
-key	chìa khóa
-kiss	hôn
-knock	cú đánh
-kitchen	phòng bếp
-label	nhãn
-lake	hồ
-labour	nhân công
-lad	thanh niên
-land	đất
-landscape	phong cảnh
-language	ngôn ngữ
-leap	bước nhảy vọt
-legal	hợp pháp
-leaf	lá cây
-left	bên trái
-lemon	chanh vàng
-lender	người cho vay
-lend	cho mượn
-lazy	lười
-lay	đặt nằm
-laser	tia laze
-lady	quý bà
-law	pháp luật
-legend	huyền thoại
-latter	sau này
-large	lớn
-launch	phóng
-lane	làn đường
-late	muộn
-laugh	cười
-learn	học hỏi
-leader	lãnh đạo
-laptop	máy tính xách tay
-lack	thiếu
-length	chiều dài
-letter	thư
-link	liên kết
-listen	Nghe
-liver	gan
-loan	khoản vay
-lock	khóa
-logical	hợp lý
-lonely	cô đơn
-location	vị trí
-litre	lít
-life	mạng sống
-light	ánh sáng
-local	địa phương
-linear	tuyến tính
-load	trọng tải
-logic	Hợp lý
-long	dài
-light	ánh sáng
-level	mức độ
-less	ít hơn
-license	giấy phép
-lesson	bài học
-library	thư viện
-look	Nhìn
-lot	nhiều
-loose	lỏng lẻo
-lunch	bữa trưa
-lyric	lời bài hát
-loud	ồn ào
-lung	phổi
-love	yêu
-lucky	may mắn
-low	thấp
-loyal	trung thành
-machine	máy móc
-mad	điên rồ
-mail	thư
-mainstream	Xu hướng
-main	chủ yếu
-map	bản đồ
-massive	to lớn
-mate	bạn
-masteriece	kiệt tác
-match	cuộc thi đấu
-man	người đàn ông
-mass	khối
-material	vật liệu
-marine	hàng hải
-material	vật liệu
-magnificient	tráng lệ
-manual	thủ công
-many	nhiều
-mark	đánh dấu
-marry	kết hôn
-marvellous	tuyệt vời
-magic	ảo thuật
-magazine	tạp chí
-maintain	duy trì
-make	làm
-matter	vấn đề
-metal	kim loại
-midnight	nửa đêm
-mid	giữa
-merge	hợp nhất
-menu	thực đơn
-meal	bữa ăn
-may	có thể
-matrix	ma trận
-mention	đề cập đến
-melody	giai điệu
-media	phương tiện truyền thông
-mental	tâm thần
-measure	đo lường
-medicine	thuốc
-message	tin nhắn
-maybe	Có lẽ
-method	phương pháp
-middle	ở giữa
-milk	sữa
-mine	của tôi
-moral	có đạo đức
-mood	tâm trạng
-motor	động cơ
-motivate	động viên
-morning	buổi sáng
-mordern	hiện đại
-mostly	hầu hết
-mortage	thế chấp
-month	tháng
-model	người mẫu
-monitor	màn hình
-most	hầu hết
-mom	mẹ
-money	tiền bạc
-motion	cử động
-military	quân đội
-mixture	hỗn hợp
-modal	phương thức
-modest	khiêm tốn
-moment	chốc lát
-motorcycle	xe máy
-mount	gắn kết
-mother	mẹ
-mountain	núi
-mud	bùn
-mystery	bí ẩn
-mutiply	xen kẽ nhau
-murder	giết người
-museum	bảo tàng
-music	âm nhạc
-musician	nhạc sĩ
-movement	sự chuyển động
-mouse	chuột
-myself	riêng tôi
-movie	bộ phim
-nail	móng tay
-nature	thiên nhiên
-no	KHÔNG
-nobody	không ai
-nice	Đẹp
-node	nút
-needle	cây kim
-neat	gọn gàng
-necesscary	cần thiết
-national	quốc gia
-naked	khỏa thân
-need	nhu cầu
-neither	không
-narrow	chật hẹp
-name	tên
-negative	tiêu cực
-network	mạng
-never	không bao giờ
-net	mạng lưới
-nearby	gần đó
-nightmare	cơn ác mộng
-noise	tiếng ồn
-noisy	ồn ào
-notice	để ý
-number	con số
-nurse	y tá
-numerous	nhiều
-nut	hạt
-north	phía bắc
-noticeable	đáng chú ý
-nose	mũi
-nothing	Không có gì
-obey	tuân theo
-object	sự vật
-obscure	mơ hồ
-occurrence	tần suất xảy ra
-once	một lần
-open	mở
-operate	vận hành
-opinion	ý kiến
-opportunity	cơ hội
-opponent	phản đối
-opera	opera
-online	trực tuyến
-oil	dầu
-offer	lời đề nghị
-ocean	đại dương
-odd	số lẻ
-october	Tháng Mười
-office	văn phòng
-occasion	dịp
-official	chính thức
-offence	xúc phạm
-offensive	phản cảm
-obtain	đạt được
-off	tắt
-often	thường
-oppose	phản đối
-oral	miệng
-orbit	quỹ đạo
-our	của chúng tôi
-own	sở hữu
-oxygen	ôxy
-organ	đàn organ
-orange	quả cam
-optical	quang học
-outdoors	ngoài trời
-original	nguyên bản
-order	đặt hàng
-outcome	kết quả
-overseas	Hải ngoại
-organize	tổ chức
-opposite	đối diện
-pace	nhịp độ
-peace	hòa bình
-park	công viên
-packet	gói
-party	buổi tiệc
-pay	chi trả
-pattern	mẫu
-pass	vượt qua
-pan	chảo
-pain	nỗi đau
-paint	sơn
-pair	đôi
-past	quá khứ
-palace	cung điện
-passive	thụ động
-parallel	song song
-passport	hộ chiếu
-path	con đường
-pack	đóng gói
-pants	quần dài
-payment	sự chi trả
-pension	lương hưu
-permit	cho phép làm gì
-pill	Viên thuốc
-pitch	sân bóng đá
-pink	hồng
-pipe	đường ống
-piece	cái
-person	người
-personal	riêng tư
-perfect	hoàn hảo
-pencil	bút chì
-peak	đỉnh cao
-perform	trình diễn
-period	Giai đoạn
-percent	phần trăm
-people	mọi người
-picture	hình ảnh
-pity	lòng thương xót
-place	địa điểm
-plan	kế hoạch
-plural	số nhiều
-port	Hải cảng
-poison	chất độc
-pose	tư thế
-positive	tích cực
-position	chức vụ
-population	dân số
-pool	hồ bơi
-political	thuộc về chính trị
-polish	đánh bóng
-plus	thêm
-plane	máy bay
-poet	nhà thơ
-popular	phổ biến
-pose	tư thế
-poor	nghèo
-pollution	sự ô nhiễm
-possible	khả thi
-prayer	người cầu nguyện
-pot	nồi
-prepare	chuẩn bị
-prevent	ngăn chặn
-price	giá
-pretty	đẹp
-prefer	thích hơn
-press	nhấn
-pressure	áp lực
-power	quyền lực
-potato	khoai tây
-powder	bột
-powerful	mạnh mẽ
-pour	đổ
-predict	dự đoán
-presence	sự hiện diện
-pride	kiêu hãnh
-premium	phần thưởng
-post	bưu kiện
-precise	chính xác
-pregnant	có thai
-priest	thầy tu
-primary	sơ đẳng
-princess	công chúa
-problem	vấn đề
-pronoun	đại từ
-proof	bằng chứng
-proper	thích hợp
-produce	sản xuất
-programme	chương trình
-prompt	lời nhắc
-project	dự án
-prison	nhà tù
-professional	chuyên nghiệp
-promise	hứa
-protein	chất đạm
-purchase	mua
-photocopy	sao chụp
-phone	điện thoại
-protection	sự bảo vệ
-phase	giai đoạn
-push	xô
-prove	chứng minh
-proud	tự hào
-pursue	theo đuổi
-put	đặt
-punish	trừng phạt
-public	công cộng
-publish	công bố
-pulse	xung
-phrase	cụm từ
-physics	vật lý
-physical	thuộc vật chất
-qualification	trình độ chuyên môn
-qualify	đủ điều kiện
-quarter	một phần tư
-quite	khá
-quit	từ bỏ
-quiet	im lặng
-quantity	Số lượng
-quote	trích dẫn
-queen	nữ hoàng
-sack	bao
-sauce	nước xốt
-sad	buồn
-scare	sự sợ hãi
-sea	biển
-search	tìm kiếm
-seal	niêm phong
-score	điểm
-saturday	Thứ bảy
-salary	lương
-scissors	kéo
-scratch	cào
-salt	muối
-season	mùa
-segment	bộ phận
-separate	chia
-sexual	tình dục
-settlement	giải quyết
-seed	hạt giống
-seller	người bán
-senior	người lớn tuổi
-secondary	sơ trung
-sensitive	nhạy cảm
-select	lựa chọn
-security	bảo vệ
-sexuality	tình dục
-shade	bóng râm
-should	nên
-shy	xấu hổ
-signal	tín hiệu
-significance	ý nghĩa
-sideways	một bên
-shield	cái khiên
-shake	lắc
-sharp	sắc
-shop	cửa hàng
-shut	đóng lại
-shortly	trong thời gian ngắn
-sign	dấu hiệu
-significant	có ý nghĩa
-sister	em gái
-smooth	trơn tru
-snow	tuyết
-social	xã hội
-sock	bít tất
-smell	mùi
-skin	da
-singer	ca sĩ
-size	kích cỡ
-skillful	khéo léo
-skirt	váy ngắn
-smooth	trơn tru
-soap	xà bông
-silk	lụa
-smart	thông minh
-software	phần mềm
-spend	tiêu
-spectrum	quang phổ
-something	thứ gì đó
-space	không gian
-speak	nói chuyện
-speaker	loa
-soul	linh hồn
-source	nguồn
-solve	gỡ rối
-sound	âm thanh
-spice	gia vị
-stand	đứng
-steer	chỉ đạo
-steady	vững chắc
-standard	tiêu chuẩn
-square	quảng trường
-spoon	thìa
-split	tách ra
-spirit	tinh thần
-steal	ăn cắp
-steam	hơi nước
-stage	sân khấu
-sticky	dính
-strip	dải
-stroke	đột quỵ
-stun	choáng váng
-stomach	cái bụng
-stupid	ngốc nghếch
-stranger	người lạ
-string	sợi dây
-structure	kết cấu
-subscribe	đặt mua
-superb	tuyệt vời
-subsequent	tiếp theo
-subscription	đăng ký
-suck	hút
-suggest	gợi ý
-suitcase	va li
-superior	thượng đẳng
-supply	cung cấp
-surplus	số dư
-surround	vây quanh
-survival	sống sót
-summary	bản tóm tắt
-suggestion	gợi ý
-suppose	giả định
-suspicious	khả nghi
-sustain	duy trì
-swallow	nuốt
-swollen	sưng lên
-syllable	âm tiết
-sweet	ngọt
-swim	bơi
-system	hệ thống
-sympathy	sự đồng cảm
-table	bàn
-tatoo	xăm hình
-tablet	viên thuốc
-take	lấy
-taxation	đánh thuế
-technology	công nghệ
-temple	ngôi đền
-temporary	tạm thời
-teacher	giáo viên
-tea	trà
-taxi	xe tắc xi
-tender	mềm
-term	thuật ngữ
-terrible	kinh khủng
-text	chữ
-ticket	vé
-test	Bài kiểm tra
-texture	kết cấu
-tidy	ngăn nắp
-tail	đuôi
-temperature	nhiệt độ
-tie	cà vạt
-tomato	cà chua
-tumour	khối u
-tunnel	đường hầm
-time	thời gian
-tune	điều chỉnh
-tower	tòa tháp
-tissue	mô
-tongue	lưỡi
-tourist	du khách
-total	tổng cộng
-top	đứng đầu
-tool	dụng cụ
-tuesday	Thứ ba
-toy	đồ chơi
-twice	hai lần
-twist	xoắn
-tiny	nhỏ xíu
-tire	lốp xe
-typical	đặc trưng
-than	hơn
+is	là
+on	TRÊN
 that	cái đó
-them	họ
-therapy	trị liệu
-thick	dày
-thief	tên trộm
-thirsty	khát
-through	bởi vì
-throw	ném
-trace	dấu vết
-trade	buôn bán
-tradition	truyền thống
-traffic	giao thông
-train	xe lửa
-thank	cám ơn
-theme	chủ đề
-their	của họ
-thickness	độ dày
-theory	lý thuyết
-threaten	hăm dọa
-thing	điều
-throat	họng
-thumb	ngón tay cái
-track	theo dõi
-traditional	truyền thống
-transaction	giao dịch
-tragedy	bi kịch
-trader	thương nhân
-transfer	chuyển khoản
-transformation	sự biến đổi
-transition	chuyển tiếp
-transmission	quá trình lây truyền
-translation	dịch
-treatment	sự đối đãi
-traveller	du khách
-tree	cây
-tribute	cống vật
-tropical	nhiệt đới
-trousers	quần dài
-truth	sự thật
-trust	lòng tin
-truck	xe tải
-try	thử
-treasure	kho báu
-ugly	xấu xí
-ultimate	tối thượng
-umbrella	Chiếc ô
-unable	không thể
-unacceptable	không thể chấp nhận được
-uncle	chú
-under	dưới
-undertake	đảm nhận
-undo	Hoàn tác
-underwater	dưới nước
-understand	hiểu
-underground	bí mật
-unfortunate	thật không may
-uniform	đồng phục
-universe	vũ trụ
-unless	Trừ khi
-unknown	không xác định
-university	trường đại học
-unique	độc nhất
-unite	đoàn kết
-union	liên hiệp
-until	cho đến khi
-unusual	bất thường
-up	hướng lên
-useful	hữu ích
-use	sử dụng
+by	qua
+this	cái này
+with	với
+i	Tôi
+you	Bạn
+it	Nó
+not	không
+or	hoặc
+be	là
+are	là
+from	từ
+at	Tại
+as	BẰNG
+your	của bạn
+all	tất cả
+have	có
+new	mới
+more	hơn
+an	MỘT
+was	đã từng là
+we	chúng tôi
+will	sẽ
+home	trang chủ
+can	Có thể
 us	chúng ta
-urgent	cấp bách
-usage	cách sử dụng
-utility	tính thiết thực
-vacation	kì nghỉ
-valley	thung lũng
-van	xe tải
-value	giá trị
-valid	có hiệu lực
-vast	rộng lớn
-vegetable	rau quả
-vector	vectơ
-variable	Biến đổi
-variety	đa dạng
-various	nhiều
-velocity	vận tốc
-vehicle	phương tiện giao thông
-verb	động từ
-version	phiên bản
-via	thông qua
-video	băng hình
-violence	bạo lực
-visitor	khách thăm quan
-visit	thăm nom
-visible	dễ thấy
-village	làng bản
-victory	chiến thắng
-vision	tầm nhìn
-view	xem
-voice	tiếng nói
-vocabulary	từ vựng
-volume	âm lượng
-voluntary	tình nguyện
-vowel	nguyên âm
-vote	bỏ phiếu
-wage	tiền công
-waiter	phục vụ nam
-wait	Chờ đợi
-wall	tường
-walk	đi bộ
-wallet	cái ví
-want	muốn
-war	chiến tranh
-warm	ấm
-warn	cảnh báo
-waste	rác thải
-wash	rửa
-wave	sóng
-way	đường
-weak	yếu đuối
-weakness	yếu đuối
-wealth	sự giàu có
-wear	mặc
-weapon	vũ khí
-weather	thời tiết
-weekend	ngày cuối tuần
-weekly	hàng tuần
-west	hướng Tây
-welcome	Chào mừng
-wet	ướt
-where	Ở đâu
-wheel	bánh xe
-while	trong khi
-weight	cân nặng
+about	Về
+if	nếu như
+page	trang
+my	Của tôi
+has	có
+search	tìm kiếm
+free	miễn phí
+but	Nhưng
+our	của chúng tôi
+one	một
+other	khác
+do	LÀM
+no	KHÔNG
+information	thông tin
+time	thời gian
+they	họ
+site	địa điểm
+he	Anh ta
+up	hướng lên
+may	có thể
+what	Gì
 which	cái mà
-whistle	còi
-white	trắng
+their	của họ
+news	Tin tức
+out	ngoài
+use	sử dụng
+any	bất kì
+there	ở đó
+see	nhìn thấy
+only	chỉ một
+so	Vì thế
+his	của anh ấy
+when	khi
+contact	liên hệ
+here	đây
+business	việc kinh doanh
 who	Ai
-winner	người chiến thắng
-wire	dây điện
-window	cửa sổ
-wildlife	động vật hoang dã
-wife	vợ
-width	chiều rộng
-wood	gỗ
-wool	len
-wonderful	tuyệt vời
-world	thế giới
-work	công việc
-worry	lo lắng
-worse	tệ hơn
+web	mạng lưới
+also	Mà còn
+now	Hiện nay
+help	giúp đỡ
+get	lấy
+pm	buổi chiều
+view	xem
+online	trực tuyến
+c	c
+e	e
+first	Đầu tiên
+am	là
+been	là
 would	sẽ
-worth	đáng giá
-worship	tôn thờ
-wrap	bọc
-write	viết
-wrong	sai
-wrist	cổ tay
-yard	sân
-yeah	vâng
-yesterday	Hôm qua
-yes	Đúng
-youth	thiếu niên
+how	Làm sao
+were	đã từng
+me	Tôi
+s	S
+services	dịch vụ
+some	một số
+these	những cái này
+click	nhấp chuột
+its	của nó
+like	giống
+service	dịch vụ
+x	x
+than	hơn
+find	tìm thấy
+price	giá
+date	ngày
+back	mặt sau
+top	đứng đầu
+people	mọi người
+had	có
+list	danh sách
+name	tên
+just	chỉ
+over	qua
+state	tình trạng
 year	năm
-yield	năng suất
+day	ngày
+into	vào trong
+email	e-mail
+two	hai
+health	sức khỏe
+n	N
+world	thế giới
+re	nốt Rê
+next	Kế tiếp
+used	đã sử dụng
+go	đi
+b	b
+work	công việc
+last	cuối cùng
+most	hầu hết
+products	các sản phẩm
+music	âm nhạc
+buy	mua
+data	dữ liệu
+make	làm
+them	họ
+should	nên
+product	sản phẩm
+system	hệ thống
+post	bưu kiện
+her	cô ấy
+city	thành phố
+t	t
+add	thêm vào
+policy	chính sách
+number	con số
+such	như là
+please	Xin vui lòng
+available	có sẵn
+copyright	bản quyền
+support	ủng hộ
+message	tin nhắn
+after	sau đó
+best	tốt nhất
+software	phần mềm
+then	sau đó
+jan	tháng một
+good	Tốt
+video	băng hình
+well	Tốt
+d	d
+where	Ở đâu
+info	thông tin
+rights	quyền
+public	công cộng
+books	sách
+high	cao
+school	trường học
+through	bởi vì
+m	tôi
+each	mỗi
+links	liên kết
+she	cô ấy
+review	ôn tập
+years	năm
+order	đặt hàng
+very	rất
+privacy	sự riêng tư
+book	sách
+items	mặt hàng
+company	công ty
+r	r
+read	đọc
+group	nhóm
+sex	tình dục
+need	nhu cầu
+many	nhiều
+user	người dùng
+said	nói
+de	de
+does	làm
+set	bộ
+under	dưới
+general	tổng quan
+research	nghiên cứu
+university	trường đại học
+january	tháng Giêng
+mail	thư
+full	đầy
+map	bản đồ
+reviews	đánh giá
+program	chương trình
+life	mạng sống
+know	biết
+games	Trò chơi
+way	đường
+days	ngày
+management	sự quản lý
+p	P
+part	phần
+could	có thể
+great	Tuyệt
+united	thống nhất
+hotel	khách sạn
+real	thực tế
+f	f
+item	mục
+international	quốc tế
+center	trung tâm
+ebay	ebay
+must	phải
+store	cửa hàng
+travel	du lịch
+comments	bình luận
+made	làm ra
+development	phát triển
+report	báo cáo
+off	tắt
+member	thành viên
+details	chi tiết
+line	đường kẻ
+terms	điều kiện
+before	trước
+hotels	nhiều khách sạn
+did	làm
+send	gửi
+right	Phải
+type	kiểu
+because	bởi vì
+local	địa phương
+those	những thứ kia
+using	sử dụng
+results	kết quả
+office	văn phòng
+education	giáo dục
+national	quốc gia
+car	xe hơi
+design	thiết kế
+take	lấy
+posted	đã đăng
+internet	Internet
+address	Địa chỉ
+community	cộng đồng
+within	ở trong
+states	Những trạng thái
+area	khu vực
+want	muốn
+phone	điện thoại
+dvd	đĩa DVD
+shipping	Đang chuyển hàng
+reserved	kín đáo
+subject	chủ thể
+between	giữa
+forum	diễn đàn
+family	gia đình
+l	tôi
+long	dài
+based	dựa trên
+w	w
+code	mã số
+show	trình diễn
+o	ồ
+even	thậm chí
+black	đen
+check	kiểm tra
+special	đặc biệt
+prices	giá cả
+website	trang mạng
+index	mục lục
+being	hiện tại
+women	phụ nữ
+much	nhiều
+sign	dấu hiệu
+file	tài liệu
+link	liên kết
+open	mở
+today	Hôm nay
+technology	công nghệ
+south	phía nam
+case	trường hợp
+project	dự án
+same	như nhau
+pages	trang
+uk	Vương quốc Anh
+version	phiên bản
+section	phần
+own	sở hữu
+found	thành lập
+sports	các môn thể thao
+house	căn nhà
+related	có liên quan
+security	bảo vệ
+both	cả hai
+g	g
+county	quận
+american	Người Mỹ
+photo	hình chụp
+game	trò chơi
+members	các thành viên
+power	quyền lực
+while	trong khi
+care	quan tâm
+network	mạng
+down	xuống
+computer	máy tính
+systems	hệ thống
+three	ba
+total	tổng cộng
+place	địa điểm
+end	kết thúc
+following	tiếp theo
+download	Tải xuống
+h	h
+him	anh ta
+without	không có
+per	mỗi
+access	truy cập
+think	nghĩ
+north	phía bắc
+resources	tài nguyên
+current	hiện hành
+posts	bài viết
+big	to lớn
+media	phương tiện truyền thông
+law	pháp luật
+control	điều khiển
+water	Nước
+history	lịch sử
+pictures	những bức ảnh
+size	kích cỡ
+art	nghệ thuật
+personal	riêng tư
+since	từ
+including	bao gồm
+guide	hướng dẫn
+shop	cửa hàng
+directory	danh mục
+board	Cái bảng
+location	vị trí
+change	thay đổi
+white	trắng
+text	chữ
+small	bé nhỏ
+rating	Xếp hạng
+rate	tỷ lệ
+government	chính phủ
+children	những đứa trẻ
+during	trong lúc
+usa	Hoa Kỳ
+return	trở lại
+students	sinh viên
+v	v
+shopping	mua sắm
+account	tài khoản
+times	lần
+sites	trang web
+level	mức độ
+digital	điện tử
+profile	hồ sơ
+previous	trước
+form	hình thức
+events	sự kiện
+love	yêu
+old	cũ
+john	John
+main	chủ yếu
+call	gọi
+hours	giờ
+image	hình ảnh
+department	phòng
+title	tiêu đề
+description	Sự miêu tả
+non	không
+k	k
+y	y
+insurance	bảo hiểm
+another	khác
+why	Tại sao
+shall	nên
+property	tài sản
+class	lớp học
+cd	đĩa CD
+still	vẫn
+money	tiền bạc
+quality	chất lượng
+every	mọi
+listing	niêm yết
+content	nội dung
+country	quốc gia
+private	riêng tư
+little	nhỏ bé
+visit	thăm nom
+save	cứu
+tools	công cụ
+low	thấp
+reply	hồi đáp
+customer	khách hàng
+december	tháng 12
+compare	so sánh
+movies	phim
+include	bao gồm
+college	trường cao đẳng
+value	giá trị
+article	bài báo
+york	York
+man	người đàn ông
+card	Thẻ
+jobs	việc làm
+provide	cung cấp
+j	j
+food	đồ ăn
+source	nguồn
+author	tác giả
+different	khác biệt
+press	nhấn
+u	bạn
+learn	học hỏi
+sale	doanh thu
+around	xung quanh
+print	in
+course	khóa học
+job	công việc
+canada	Canada
+process	quá trình
+teen	thiếu niên
+room	phòng
+stock	Cổ phần
+training	đào tạo
+too	cũng vậy
+credit	tín dụng
+point	điểm
+join	tham gia
+science	khoa học
+men	đàn ông
+categories	Thể loại
+advanced	trình độ cao
+west	hướng Tây
+sales	việc bán hàng
+look	Nhìn
+english	Tiếng Anh
+left	bên trái
+team	đội
+estate	tài sản
+box	hộp
+conditions	điều kiện
+select	lựa chọn
+windows	các cửa sổ
+photos	những bức ảnh
+gay	đồng tính nam
+thread	chủ đề
+week	tuần
+category	loại
+note	ghi chú
+live	sống
+large	lớn
+gallery	phòng trưng bày
+table	bàn
+register	đăng ký
+however	Tuy nhiên
+june	tháng sáu
+october	Tháng Mười
+november	tháng mười một
+market	chợ
+library	thư viện
+really	Thực ra
+action	hoạt động
+start	bắt đầu
+series	loạt
+model	người mẫu
+features	đặc trưng
+air	không khí
+industry	ngành công nghiệp
+plan	kế hoạch
+human	nhân loại
+provided	cung cấp
+tv	TV
+yes	Đúng
+required	yêu cầu
+second	thứ hai
+hot	nóng
+accessories	phụ kiện
+cost	trị giá
+movie	bộ phim
+forums	diễn đàn
+march	bước đều
+la	la
+september	tháng 9
+better	tốt hơn
+say	nói
+questions	câu hỏi
+july	tháng bảy
+yahoo	Yahoo
+going	đang đi
+medical	thuộc về y học
+test	Bài kiểm tra
+friend	người bạn
+come	đến
+dec	Tháng mười hai
+server	máy chủ
+pc	máy tính
+study	học
+application	ứng dụng
+cart	xe đẩy
+staff	nhân viên
+articles	bài viết
+san	san
+feedback	nhận xét
+again	lại
+play	chơi
+looking	đang nhìn
+issues	vấn đề
+april	tháng tư
+never	không bao giờ
+users	người dùng
+complete	hoàn thành
+street	đường phố
+topic	đề tài
+comment	bình luận
+financial	tài chính
+things	đồ đạc
+working	đang làm việc
+against	chống lại
+standard	tiêu chuẩn
+tax	Thuế
+person	người
+below	dưới
+mobile	di động
+less	ít hơn
+got	lấy
+blog	Blog
+party	buổi tiệc
+payment	sự chi trả
+equipment	thiết bị
+login	đăng nhập
+student	học sinh
+let	cho phép
+programs	chương trình
+offers	ưu đãi
+legal	hợp pháp
+above	bên trên
+recent	gần đây
+park	công viên
+stores	cửa hàng
+side	bên
+act	hành động
+problem	vấn đề
+red	màu đỏ
+give	đưa cho
+memory	ký ức
+performance	hiệu suất
+social	xã hội
+q	q
+august	tháng tám
+quote	trích dẫn
+language	ngôn ngữ
+story	câu chuyện
+sell	bán
+options	tùy chọn
+experience	kinh nghiệm
+rates	giá
+create	tạo nên
+key	chìa khóa
+body	thân hình
 young	trẻ
-yourself	bản thân bạn
+america	nước Mỹ
+important	quan trọng
+field	cánh đồng
+few	một vài
+east	phía đông
+paper	giấy
+single	đơn
+ii	ii
+age	tuổi
+activities	các hoạt động
+club	câu lạc bộ
+example	ví dụ
+girls	cô gái
+additional	thêm vào
+password	mật khẩu
+z	z
+latest	muộn nhất
+something	thứ gì đó
+road	đường
+gift	quà
+question	câu hỏi
+changes	thay đổi
+night	đêm
+ca	ca
+hard	cứng
+texas	Texas
+oct	tháng mười
+pay	chi trả
+four	bốn
+poker	bài bạc
+status	trạng thái
+browse	duyệt qua
+issue	vấn đề
+range	phạm vi
+building	xây dựng
+seller	người bán
+court	tòa án
+february	tháng 2
+always	luôn luôn
+result	kết quả
+audio	âm thanh
+light	ánh sáng
+write	viết
+war	chiến tranh
+nov	tháng mười một
+offer	lời đề nghị
+blue	màu xanh da trời
+groups	các nhóm
+al	tất cả
+easy	dễ
+given	được cho
+files	các tập tin
+event	sự kiện
+release	giải phóng
+analysis	Phân tích
+request	lời yêu cầu
+fax	số fax
+china	Trung Quốc
+making	làm
+picture	hình ảnh
+needs	nhu cầu
+possible	khả thi
+might	có thể
+professional	chuyên nghiệp
+yet	chưa
+month	tháng
+major	lớn lao
+star	ngôi sao
+areas	khu vực
+future	tương lai
+space	không gian
+committee	ủy ban
+hand	tay
+sun	mặt trời
+cards	thẻ
+problems	các vấn đề
+london	London
+washington	Washington
+meeting	cuộc họp
+rss	rss
+become	trở nên
+interest	quan tâm
+id	nhận dạng
+child	đứa trẻ
+keep	giữ
+enter	đi vào
+california	California
+porn	khiêu dâm
+share	chia sẻ
+similar	tương tự
+garden	vườn
+schools	trường học
+million	triệu
+added	thêm
+reference	thẩm quyền giải quyết
+companies	các công ty
+listed	liệt kê
+baby	Đứa bé
+learning	học hỏi
+energy	năng lượng
+run	chạy
+delivery	vận chuyển
+net	mạng lưới
+popular	phổ biến
+term	thuật ngữ
+film	phim ảnh
+stories	những câu chuyện
+put	đặt
+computers	máy tính
+journal	tạp chí
+reports	báo cáo
+co	đồng
+try	thử
+welcome	Chào mừng
+central	trung tâm
+images	hình ảnh
+president	chủ tịch
+notice	để ý
+god	chúa
+original	nguyên bản
+head	cái đầu
+radio	Đài
+until	cho đến khi
+cell	tế bào
+color	màu sắc
+self	bản thân
+council	hội đồng
+away	xa
+includes	bao gồm
+track	theo dõi
+australia	Châu Úc
+discussion	cuộc thảo luận
+archive	lưu trữ
+once	một lần
+others	người khác
+entertainment	sự giải trí
+agreement	hiệp định
+format	định dạng
+least	ít nhất
+society	xã hội
+months	tháng
+log	nhật ký
+safety	sự an toàn
+friends	bạn
+sure	Chắc chắn
+faq	câu hỏi thường gặp
+trade	buôn bán
+edition	phiên bản
+cars	xe ô tô
+messages	tin nhắn
+marketing	tiếp thị
+tell	kể
+further	hơn nữa
+updated	đã cập nhật
+association	sự kết hợp
+able	có thể
+having	đang có
+provides	cung cấp
+david	david
+fun	vui vẻ
+already	đã
+green	màu xanh lá
+studies	học
+close	đóng
+common	chung
+drive	lái xe
+specific	cụ thể
+several	một số
+gold	vàng
+feb	tháng Hai
+living	cuộc sống
+sep	tháng chín
+collection	bộ sưu tập
+called	gọi điện
+short	ngắn
+arts	nghệ thuật
+lot	nhiều
+ask	hỏi
+display	trưng bày
+limited	giới hạn
+powered	được hỗ trợ
+solutions	các giải pháp
+means	có nghĩa
+director	giám đốc
+daily	hằng ngày
+beach	bãi biển
+past	quá khứ
+natural	tự nhiên
+whether	liệu
+due	quá hạn
+et	và
+electronics	thiết bị điện tử
+five	năm
+upon	trên
+period	Giai đoạn
+planning	lập kế hoạch
+database	cơ sở dữ liệu
+says	nói
+official	chính thức
+weather	thời tiết
+mar	tháng ba
+land	đất
+average	trung bình
+done	xong
+technical	kỹ thuật
+window	cửa sổ
+france	Pháp
+pro	chuyên nghiệp
+region	vùng đất
+island	hòn đảo
+record	ghi
+direct	trực tiếp
+microsoft	microsoft
+conference	hội nghị
+environment	môi trường
+records	Hồ sơ
+st	st
+district	huyện
+calendar	lịch
+costs	chi phí
+style	phong cách
+url	địa chỉ
+front	đằng trước
+statement	tuyên bố
+update	cập nhật
+parts	các bộ phận
+aug	tháng tám
+ever	bao giờ
+downloads	lượt tải xuống
+early	sớm
+miles	dặm
+sound	âm thanh
+resource	nguồn
+present	hiện tại
+applications	các ứng dụng
+either	hoặc
+ago	trước kia
+document	tài liệu
+word	từ
+works	làm
+material	vật liệu
+bill	hóa đơn
+apr	tháng tư
+written	bằng văn bản
+talk	nói chuyện
+federal	liên bang
+hosting	lưu trữ
+rules	quy tắc
+final	cuối cùng
+adult	người lớn
+tickets	vé
+thing	điều
+centre	trung tâm
+requirements	yêu cầu
+via	thông qua
+cheap	rẻ
+nude	khỏa thân
+kids	trẻ em
+finance	tài chính
+true	ĐÚNG VẬY
+minutes	phút
+else	khác
+mark	đánh dấu
+third	ngày thứ ba
+rock	đá
+gifts	những món quà
+europe	Châu Âu
+reading	đọc
+topics	chủ đề
+bad	xấu
+individual	cá nhân
+tips	lời khuyên
+plus	thêm
+auto	tự động
+cover	che phủ
+usually	thường xuyên
+edit	biên tập
+together	cùng nhau
+videos	video
+percent	phần trăm
+fast	nhanh
+function	chức năng
+fact	sự thật
+unit	đơn vị
+getting	nhận
+global	toàn cầu
+tech	công nghệ
+meet	gặp
+far	xa
+economic	thuộc kinh tế
+en	vi
+player	người chơi
+projects	dự án
+lyrics	lời bài hát
+often	thường
+subscribe	đặt mua
+submit	nộp
+germany	nước Đức
+amount	số lượng
+watch	đồng hồ
+included	bao gồm
+feel	cảm thấy
+though	mặc dù
+bank	ngân hàng
+risk	rủi ro
+thanks	Cảm ơn
+everything	mọi thứ
+deals	giao dịch
+various	nhiều
+words	từ
+linux	linux
+jul	tháng bảy
+production	sản xuất
+commercial	thuộc về thương mại
+james	James
+weight	cân nặng
+town	thị trấn
+heart	trái tim
+advertising	quảng cáo
+received	đã nhận
+choose	chọn
+treatment	sự đối đãi
+newsletter	bản tin
+archives	kho lưu trữ
+points	điểm
+knowledge	kiến thức
+magazine	tạp chí
+error	lỗi
+camera	Máy ảnh
+jun	tháng sáu
+girl	con gái
+currently	Hiện nay
+construction	sự thi công
+toys	đồ chơi
+registered	đăng ký
+clear	thông thoáng
+golf	golf
+receive	nhận được
+domain	lãnh địa
+methods	phương pháp
+chapter	chương
+makes	làm cho
+protection	sự bảo vệ
+policies	chính sách
+loan	khoản vay
+wide	rộng
+beauty	sắc đẹp
+manager	giám đốc
+india	Ấn Độ
+position	chức vụ
+taken	lấy
+sort	loại
+listings	danh sách
+models	mô hình
+michael	Michael
+known	được biết đến
+half	một nửa
+cases	các trường hợp
+step	bước chân
+engineering	kỹ thuật
+florida	Florida
+simple	đơn giản
+quick	nhanh
+none	không có
+wireless	không dây
+license	giấy phép
+paul	Paul
+friday	Thứ sáu
+lake	hồ
+whole	trọn
+annual	hàng năm
+published	được phát hành
+later	sau đó
+basic	nền tảng
+sony	sony
+shows	trình diễn
+corporate	công ty
+google	Google
+church	nhà thờ
+method	phương pháp
+purchase	mua
+customers	khách hàng
+active	tích cực
+response	phản ứng
+practice	luyện tập
+hardware	phần cứng
+figure	nhân vật
+materials	nguyên vật liệu
+fire	ngọn lửa
+holiday	ngày lễ
+chat	trò chuyện
+enough	đủ
+designed	được thiết kế
+along	dọc theo
+among	giữa
+death	cái chết
+writing	viết
+speed	tốc độ
+html	html
+countries	Quốc gia
+loss	sự mất mát
+face	khuôn mặt
+brand	thương hiệu
+discount	giảm giá
+higher	cao hơn
+effects	các hiệu ứng
+created	tạo
+remember	nhớ
+standards	tiêu chuẩn
+oil	dầu
+bit	chút
 yellow	màu vàng
-zero	số không
+political	thuộc về chính trị
+increase	tăng
+advertise	Quảng cáo
+kingdom	Vương quốc
+base	căn cứ
+near	gần
+environmental	thuộc về môi trường
+thought	nghĩ
+stuff	chất liệu
+french	người Pháp
+storage	kho
+oh	Ồ
+japan	Nhật Bản
+doing	đang làm
+loans	khoản vay
+shoes	đôi giày
+entry	lối vào
+stay	ở lại
+nature	thiên nhiên
+orders	mệnh lệnh
+availability	khả dụng
+africa	Châu phi
+summary	bản tóm tắt
+turn	xoay
+mean	nghĩa là
+growth	sự phát triển
+notes	ghi chú
+agency	hãng
+king	nhà vua
+monday	Thứ hai
+european	Châu Âu
+activity	hoạt động
+copy	sao chép
+although	mặc dù
+drug	thuốc
+pics	bức ảnh
+western	miền Tây
+income	thu nhập
+force	lực lượng
+cash	tiền mặt
+employment	thuê người làm
+overall	tổng thể
+bay	vịnh
+river	dòng sông
+commission	nhiệm vụ
+ad	quảng cáo
+package	bưu kiện
+contents	nội dung
+seen	đã xem
+players	người chơi
+engine	động cơ
+port	Hải cảng
+album	album
+regional	khu vực
+stop	dừng lại
+supplies	quân nhu
+started	đã bắt đầu
+administration	sự quản lý
+bar	quán ba
+institute	học viện
+views	lượt xem
+plans	các kế hoạch
+double	gấp đôi
+dog	chó
+build	xây dựng
+screen	màn hình
+exchange	trao đổi
+types	các loại
+soon	sớm
+sponsored	được tài trợ
+lines	dòng
+electronic	điện tử
+continue	Tiếp tục
+across	sang
+benefits	những lợi ích
+needed	cần thiết
+season	mùa
+apply	áp dụng
+someone	người nào đó
+held	cầm
+ny	này
+anything	bất cứ điều gì
+printer	máy in
+condition	tình trạng
+effective	hiệu quả
+believe	tin tưởng
+organization	tổ chức
+effect	tác dụng
+asked	yêu cầu
+eur	eur
+mind	tâm trí
+sunday	chủ nhật
+selection	lựa chọn
+casino	sòng bạc
+pdf	pdf
+lost	mất
+tour	chuyến du lịch
+menu	thực đơn
+volume	âm lượng
+cross	đi qua
+anyone	bất cứ ai
+mortgage	thế chấp
+hope	mong
+silver	bạc
+corporation	tập đoàn
+wish	ước
+inside	bên trong
+solution	giải pháp
+mature	trưởng thành
+role	vai trò
+rather	hơn là
+weeks	tuần
+addition	phép cộng
+came	đã đến
+supply	cung cấp
+nothing	Không có gì
+certain	chắc chắn
+usr	sử dụng
+executive	điều hành
+running	đang chạy
+lower	thấp hơn
+necessary	cần thiết
+union	liên hiệp
+jewelry	trang sức
+according	theo
+dc	dc
+clothing	quần áo
+mon	Thứ hai
+com	com
+particular	cụ thể
+fine	khỏe
+names	tên
+robert	Robert
+homepage	trang chủ
+hour	giờ
+gas	khí ga
+skills	kỹ năng
+six	sáu
+bush	bụi cây
+islands	hòn đảo
+advice	khuyên bảo
+career	sự nghiệp
+military	quân đội
+rental	cho thuê
+decision	phán quyết
+leave	rời khỏi
+british	người Anh
+teens	thanh thiếu niên
+pre	trước
+huge	to lớn
+sat	đã ngồi
+woman	đàn bà
+facilities	cơ sở
+zip	zip
+bid	đấu thầu
+kind	loại
+sellers	người bán hàng
+middle	ở giữa
+move	di chuyển
+cable	cáp
+opportunities	những cơ hội
+taking	đang lấy
+values	giá trị
+division	phân công
+coming	đang tới
+tuesday	Thứ ba
+object	sự vật
+lesbian	đồng tính nữ
+appropriate	phù hợp
+machine	máy móc
+logo	Logo
+length	chiều dài
+actually	Thực ra
+nice	Đẹp
+score	điểm
+statistics	số liệu thống kê
+client	khách hàng
+ok	Được rồi
+returns	trả lại
+capital	thủ đô
+follow	theo
+sample	vật mẫu
+investment	sự đầu tư
+sent	đã gửi
+shown	cho xem
+saturday	Thứ bảy
+christmas	Giáng sinh
+england	nước Anh
+culture	văn hoá
+band	ban nhạc
+flash	tốc biến
+ms	bệnh đa xơ cứng
+lead	chỉ huy
+george	George
+choice	sự lựa chọn
+went	đi
+starting	bắt đầu
+registration	sự đăng ký
+fri	thứ sáu
+thursday	thứ năm
+courses	các khóa học
+consumer	người tiêu dùng
+hi	CHÀO
+airport	sân bay
+foreign	nước ngoài
+artist	nghệ sĩ
+outside	ngoài
+furniture	nội thất
+levels	cấp độ
+channel	kênh
+letter	thư
+mode	cách thức
+phones	những cái điện thoại
+ideas	ý tưởng
+wednesday	Thứ Tư
+structure	kết cấu
+fund	quỹ
+summer	mùa hè
+allow	cho phép
+degree	bằng cấp
+contract	hợp đồng
+button	cái nút
+releases	phát hành
+wed	Thứ Tư
+homes	nhà
+super	siêu
+male	nam giới
+matter	vấn đề
+custom	phong tục
+virginia	Virginia
+almost	hầu hết
+took	lấy đi
+located	xác định vị trí
+multiple	nhiều
+asian	Châu Á
+distribution	phân bổ
+editor	biên tập viên
+inn	nhà trọ
+industrial	công nghiệp
+cause	gây ra
+potential	tiềm năng
+song	bài hát
+cnet	Cnet
+ltd	công ty TNHH
+los	thua
+hp	hp
+focus	tập trung
+late	muộn
+fall	ngã
+featured	đặc sắc
+idea	ý tưởng
+rooms	phòng
+female	nữ giới
+responsible	chịu trách nhiệm
+inc	inc
+communications	thông tin liên lạc
+win	thắng
+associated	có liên quan
+thomas	thomas
+primary	sơ đẳng
+cancer	bệnh ung thư
+numbers	con số
+reason	lý do
+tool	dụng cụ
+browser	trình duyệt
+spring	mùa xuân
+foundation	sự thành lập
+answer	trả lời
+voice	tiếng nói
+eg	ví dụ
+friendly	thân thiện
+schedule	lịch trình
+documents	các tài liệu
+communication	giao tiếp
+purpose	mục đích
+feature	tính năng
+bed	giường
+comes	đến
+police	cảnh sát
+everyone	mọi người
+independent	độc lập
+ip	ip
+approach	tiếp cận
+cameras	máy ảnh
+brown	màu nâu
+physical	thuộc vật chất
+operating	điều hành
+hill	đồi
+maps	bản đồ
+medicine	thuốc
+deal	thỏa thuận
+hold	giữ
+ratings	xếp hạng
+chicago	Chicago
+forms	các hình thức
+glass	thủy tinh
+happy	vui mừng
+tue	thứ ba
+smith	thợ rèn
+wanted	muốn
+developed	đã phát triển
+thank	cám ơn
+safe	an toàn
+unique	độc nhất
+survey	sự khảo sát
+prior	trước
+telephone	Điện thoại
+sport	thể thao
+ready	sẵn sàng
+feed	cho ăn
+animal	động vật
+sources	nguồn
+mexico	Mexico
+population	dân số
+pa	bố
+regular	thường xuyên
+secure	chắc chắn
+navigation	dẫn đường
+operations	hoạt động
+therefore	Vì vậy
+ass	mông
+simply	đơn giản
+evidence	chứng cớ
+station	ga tàu
+christian	người theo đạo thiên chúa
+round	tròn
+paypal	paypal
+favorite	yêu thích
+understand	hiểu
+option	lựa chọn
+master	bậc thầy
+valley	thung lũng
+recently	gần đây
+probably	có lẽ
+thu	thu
+rentals	tiền thuê nhà
+sea	biển
+built	được xây dựng
+publications	ấn phẩm
+blood	máu
+cut	cắt
+worldwide	trên toàn thế giới
+improve	cải thiện
+connection	sự liên quan
+publisher	nhà xuất bản
+hall	sảnh
+larger	lớn hơn
+anti	chống
+networks	mạng lưới
+earth	trái đất
+parents	cha mẹ
+nokia	nokia
+impact	sự va chạm
+transfer	chuyển khoản
+introduction	giới thiệu
+kitchen	phòng bếp
+strong	mạnh
+tel	điện thoại
+carolina	Carolina
+wedding	lễ cưới
+properties	của cải
+hospital	bệnh viện
+ground	đất
+overview	Tổng quan
+ship	tàu thủy
+accommodation	chỗ ở
+owners	những chủ sở hữu
+disease	bệnh
+tx	tx
+excellent	xuất sắc
+paid	trả
+italy	Nước Ý
+perfect	hoàn hảo
+hair	tóc
+opportunity	cơ hội
+kit	bộ dụng cụ
+classic	cổ điển
+basis	nền tảng
+command	yêu cầu
+cities	các thành phố
+william	William
+express	thể hiện
+anal	hậu môn
+award	phần thưởng
+distance	khoảng cách
+tree	cây
+peter	Peter
+assessment	đánh giá
+ensure	đảm bảo
+thus	do đó
+wall	tường
+ie	I E
+involved	có liên quan
+el	el
+extra	thêm
+especially	đặc biệt
+interface	giao diện
+pussy	âm hộ
+partners	đối tác
+budget	ngân sách
+rated	đánh giá
+guides	hướng dẫn
+success	thành công
+maximum	tối đa
+ma	mẹ
+operation	hoạt động
+existing	hiện có
+quite	khá
+selected	đã chọn
+boy	con trai
+amazon	amazon
+patients	người bệnh
+restaurants	nhà hàng
+beautiful	xinh đẹp
+warning	cảnh báo
+wine	rượu
+locations	địa điểm
+horse	ngựa
+vote	bỏ phiếu
+forward	phía trước
+flowers	những bông hoa
+stars	ngôi sao
+significant	có ý nghĩa
+lists	danh sách
+technologies	công nghệ
+owner	người sở hữu
+retail	bán lẻ
+animals	động vật
+useful	hữu ích
+directly	trực tiếp
+manufacturer	nhà chế tạo
+ways	cách
+est	ước tính
+son	Con trai
+providing	cung cấp
+rule	luật lệ
+mac	mac
+housing	nhà ở
+takes	nhận
+iii	iii
+gmt	gmt
+bring	mang đến
+catalog	mục lục
+searches	tìm kiếm
+max	tối đa
+trying	cố gắng
+mother	mẹ
+authority	thẩm quyền
+considered	được xem xét
+told	nói
+xml	xml
+traffic	giao thông
+programme	chương trình
+joined	đã tham gia
+input	đầu vào
+strategy	chiến lược
+feet	bàn chân
+agent	đại lý
+valid	có hiệu lực
+bin	thùng rác
+modern	hiện đại
+senior	người lớn tuổi
+ireland	Ireland
+sexy	gợi cảm
+teaching	giảng bài
+door	cửa
+grand	vĩ đại
+testing	thử nghiệm
+trial	sự thử nghiệm
+charge	thù lao
+units	các đơn vị
+instead	thay vì
+canadian	người Canada
+cool	mát mẻ
+normal	Bình thường
+wrote	đã viết
+enterprise	doanh nghiệp
+ships	tàu thuyền
+entire	toàn bộ
+educational	giáo dục
+md	md
+leading	dẫn đầu
+metal	kim loại
+positive	tích cực
+fl	fl
+fitness	sự thích hợp
+chinese	người Trung Quốc
+opinion	ý kiến
+mb	mb
+asia	Châu Á
+football	bóng đá
+abstract	trừu tượng
+uses	công dụng
+output	đầu ra
+funds	quỹ
+mr	Ông
+greater	lớn hơn
+likely	rất có thể
+develop	phát triển
+employees	người lao động
+artists	nghệ sĩ
+alternative	thay thế
+processing	xử lý
+responsibility	trách nhiệm
+resolution	nghị quyết
+java	java
+guest	khách mời
+seems	có vẻ như
+publication	sự xuất bản
+pass	vượt qua
+relations	quan hệ
+trust	lòng tin
+van	xe tải
+contains	chứa
+session	phiên họp
+multi	đa
+photography	nhiếp ảnh
+republic	nước cộng hòa
+fees	lệ phí
+components	các thành phần
+vacation	kì nghỉ
+century	thế kỷ
+academic	học thuật
+assistance	hỗ trợ
+completed	hoàn thành
+skin	da
+graphics	đồ họa
+indian	người Ấn Độ
+prev	trước
+ads	Quảng cáo
+mary	mary
+il	Il
+expected	hy vọng
+ring	nhẫn
+grade	cấp
+dating	hẹn hò
+pacific	thái bình dương
+mountain	núi
+organizations	tổ chức
+pop	nhạc pop
+filter	lọc
+mailing	gửi thư
+vehicle	phương tiện giao thông
+longer	lâu hơn
+consider	coi như
+int	int
+northern	Phương bắc
+behind	phía sau
+panel	bảng điều khiển
+floor	sàn nhà
+german	tiếng Đức
+buying	mua
+match	cuộc thi đấu
+proposed	đề xuất
+default	mặc định
+require	yêu cầu
+iraq	Irắc
+boys	những cậu bé
+outdoor	ngoài trời
+deep	sâu
+morning	buổi sáng
+otherwise	nếu không thì
+allows	cho phép
+rest	nghỉ ngơi
+protein	chất đạm
+plant	thực vật
+reported	đã báo cáo
+hit	đánh
+transportation	vận tải
+mm	mm
+pool	hồ bơi
+mini	nhỏ
+politics	chính trị
+partner	cộng sự
+disclaimer	từ chối trách nhiệm
+authors	tác giả
+boards	bảng
+faculty	khoa
+parties	các bữa tiệc
+fish	cá
+membership	tư cách thành viên
+mission	Sứ mệnh
+eye	mắt
+string	sợi dây
+sense	giác quan
+modified	đã sửa đổi
+pack	đóng gói
+released	phát hành
+stage	sân khấu
+internal	nội bộ
+goods	Các mặt hàng
+recommended	khuyến khích
+born	sinh ra
+unless	Trừ khi
+richard	Richard
+detailed	chi tiết
+japanese	tiếng Nhật
+race	loài
+approved	tán thành
+background	lý lịch
+target	mục tiêu
+except	ngoại trừ
+character	tính cách
+usb	USB
+maintenance	BẢO TRÌ
+ability	khả năng
+maybe	Có lẽ
+functions	chức năng
+ed	ed
+moving	di chuyển
+brands	nhãn hiệu
+places	địa điểm
+php	php
+pretty	đẹp
+trademarks	nhãn hiệu
+phentermine	thuốc phentermin
+spain	tây ban nha
+southern	phía Nam
+yourself	bản thân bạn
+etc	vân vân
+winter	mùa đông
+rape	hiếp dâm
+battery	ắc quy
+youth	thiếu niên
+pressure	áp lực
+submitted	đã gửi
+boston	boston
+incest	loạn luân
+debt	món nợ
+keywords	từ khóa
+medium	trung bình
+television	tivi
+interested	thú vị
+core	cốt lõi
+break	phá vỡ
+purposes	mục đích
+throughout	khắp
+sets	bộ
+dance	nhảy
+wood	gỗ
+msn	msn
+itself	chính nó
+defined	được xác định
+papers	giấy tờ
+playing	đang chơi
+awards	giải thưởng
+fee	phí
+studio	phòng thu
+reader	người đọc
+virtual	ảo
+device	thiết bị
+established	thành lập
+answers	câu trả lời
+rent	thuê
+las	las
+remote	xa
+dark	tối tăm
+programming	lập trình
+external	bên ngoài
+apple	quả táo
+le	le
+regarding	về
+instructions	hướng dẫn
+min	phút
+offered	ngỏ ý
+theory	lý thuyết
+enjoy	thưởng thức
+remove	di dời
+aid	sự giúp đỡ
+surface	bề mặt
+minimum	tối thiểu
+visual	thị giác
+host	chủ nhà
+variety	đa dạng
+teachers	giáo viên
+isbn	isbn
+martin	Martin
+manual	thủ công
+block	khối
+subjects	đối tượng
+agents	đại lý
+increased	tăng
+repair	Sửa chữa
+fair	hội chợ
+civil	dân sự
+steel	Thép
+understanding	sự hiểu biết
+songs	bài hát
+fixed	đã sửa
+wrong	sai
+beginning	sự khởi đầu
+hands	bàn tay
+associates	cộng sự
+finally	Cuối cùng
+az	az
+updates	cập nhật
+desktop	máy tính để bàn
+classes	các lớp học
+paris	Paris
+ohio	Ohio
+gets	được
+sector	lĩnh vực
+capacity	dung tích
+requires	đòi hỏi
+jersey	áo đấu
+un	bỏ
+fat	mập
+fully	đầy đủ
+father	bố
+electric	điện
+saw	cái cưa
+instruments	dụng cụ
+quotes	dấu ngoặc kép
+officer	nhân viên văn phòng
+driver	tài xế
+businesses	các doanh nghiệp
+dead	chết
+respect	sự tôn trọng
+unknown	không xác định
+specified	được chỉ định
+restaurant	nhà hàng
+mike	Mike
+trip	chuyến đi
+pst	pst
+worth	đáng giá
+mi	tôi
+procedures	thủ tục
+poor	nghèo
+teacher	giáo viên
+xxx	xxx
+eyes	mắt
+relationship	mối quan hệ
+workers	công nhân
+farm	nông trại
+fucking	chết tiệt
+georgia	bang Georgia
+peace	hòa bình
+traditional	truyền thống
+campus	khuôn viên đại học
+tom	tom
+showing	hiển thị
+creative	sáng tạo
+coast	bờ biển
+benefit	lợi ích
+progress	tiến triển
+funding	kinh phí
+devices	thiết bị
+lord	Chúa tể
+grant	khoản trợ cấp
+sub	phụ
+agree	đồng ý
+fiction	viễn tưởng
+hear	nghe
+sometimes	Thỉnh thoảng
+watches	xem
+careers	sự nghiệp
+beyond	vượt ra
+goes	đi
+families	các gia đình
+led	dẫn đến
+museum	bảo tàng
+themselves	chúng tôi
+fan	cái quạt
+transport	chuyên chở
+interesting	hấp dẫn
+blogs	blog
+wife	vợ
+evaluation	sự đánh giá
+accepted	Đã được chấp nhận
+former	trước
+implementation	thực hiện
+ten	mười
+hits	lượt truy cập
 zone	vùng
-Pressent	Hiện tại
-Present	Hiện tại
-present	Hiện tại
+complex	tổ hợp
+th	quần què
+cat	con mèo
+galleries	phòng trưng bày
+references	người giới thiệu
+die	chết
+presented	trình bày
+jack	giắc cắm
+flat	phẳng
+flow	chảy
+agencies	cơ quan
+literature	văn học
+respective	tương ứng
+parent	cha mẹ
+spanish	người Tây Ban Nha
+michigan	Michigan
+columbia	Colombia
+setting	cài đặt
+dr	bác sĩ
+scale	tỉ lệ
+stand	đứng
+economy	kinh tế
+highest	cao nhất
+helpful	hữu ích
+monthly	hàng tháng
+critical	phê bình
+frame	khung
+musical	âm nhạc
+definition	sự định nghĩa
+secretary	thư ký
+angeles	thiên thần
+networking	mạng
+path	con đường
+australian	người Úc
+employee	người lao động
+chief	người đứng đầu
+gives	cho
+kb	kb
+bottom	đáy
+magazines	tạp chí thời sự
+packages	gói
+detail	chi tiết
+francisco	francisco
+laws	pháp luật
+changed	đã thay đổi
+pet	thú cưng
+heard	đã nghe
+begin	bắt đầu
+individuals	cá nhân
+colorado	Colorado
+royal	hoàng gia
+clean	lau dọn
+switch	công tắc
+russian	tiếng Nga
+largest	lớn nhất
+african	Người châu Phi
+guy	chàng trai
+titles	danh hiệu
+relevant	liên quan
+guidelines	hướng dẫn
+justice	Sự công bằng
+connect	kết nối
+bible	kinh thánh
+dev	nhà phát triển
+cup	tách
+basket	rổ
+applied	áp dụng
+weekly	hàng tuần
+vol	tập
+installation	cài đặt
+described	mô tả
+demand	yêu cầu
+pp	trang
+suite	Thượng hạng
+vegas	vegas
+na	không có
+square	quảng trường
+chris	chris
+attention	chú ý
+advance	nâng cao
+skip	nhảy
+diet	ăn kiêng
+army	quân đội
+auction	bán đấu giá
+gear	bánh răng
+lee	Lee
+os	hệ điều hành
+difference	sự khác biệt
+allowed	cho phép
+correct	Chính xác
+charles	Charles
+nation	Quốc gia
+selling	bán
+lots	rất nhiều
+piece	cái
+sheet	tờ giấy
+firm	vững chãi
+seven	bảy
+older	lớn hơn
+illinois	bang Illinois
+regulations	quy định
+elements	yếu tố
+species	giống loài
+jump	nhảy
+cells	tế bào
+module	mô-đun
+resort	khu nghỉ mát
+facility	cơ sở
+random	ngẫu nhiên
+pricing	định giá
+dvds	DVD
+certificate	giấy chứng nhận
+minister	bộ trưởng, mục sư
+motion	cử động
+looks	nhìn
+fashion	thời trang
+directions	hướng
+visitors	khách
+documentation	tài liệu
+monitor	màn hình
+trading	thương mại
+forest	rừng
+calls	cuộc gọi
+whose	của ai
+coverage	phủ sóng
+couple	cặp đôi
+giving	cho đi
+chance	cơ hội
+vision	tầm nhìn
+ball	quả bóng
+ending	kết thúc
+clients	khách hàng
+actions	hành động
+listen	Nghe
+discuss	bàn luận
+accept	chấp nhận
+automotive	ô tô
+naked	khỏa thân
+goal	mục tiêu
+successful	thành công
+sold	đã bán
+wind	gió
+communities	cộng đồng
+clinical	lâm sàng
+situation	tình huống
+sciences	khoa học
+markets	thị trường
+lowest	thấp nhất
+highly	đánh giá cao
+publishing	xuất bản
+appear	xuất hiện
+emergency	khẩn cấp
+developing	đang phát triển
+lives	cuộc sống
+currency	tiền tệ
+leather	da thú
+determine	quyết tâm
+milf	SỮA.
+temperature	nhiệt độ
+palm	lòng bàn tay
+announcements	thông báo
+patient	kiên nhẫn
+actual	thật sự
+historical	lịch sử
+stone	cục đá
+bob	bob
+commerce	thương mại
+ringtones	nhạc chuông
+perhaps	có lẽ
+persons	người
+difficult	khó
+scientific	có tính khoa học
+satellite	vệ tinh
+fit	phù hợp
+tests	kiểm tra
+village	làng bản
+accounts	tài khoản
+amateur	nghiệp dư
+ex	bán tại
+met	gặp
+pain	nỗi đau
+xbox	xbox
+particularly	cụ thể
+factors	các nhân tố
+coffee	cà phê
+www	www
+settings	cài đặt
+cum	kiêm
+buyer	người mua
+cultural	thuộc văn hóa
+steve	Steve
+easily	một cách dễ dàng
+oral	miệng
+ford	ford
+poster	áp phích
+edge	bờ rìa
+functional	chức năng
+root	nguồn gốc
+au	au
+fi	fi
+closed	đóng cửa
+holidays	ngày lễ
+ice	đá
+pink	hồng
+zealand	Zealand
+balance	THĂNG BẰNG
+monitoring	giám sát
+graduate	tốt nghiệp
+replies	câu trả lời
+shot	bắn
+nc	nc
+architecture	ngành kiến ​​​​trúc
+initial	ban đầu
+label	nhãn
+thinking	Suy nghĩ
+scott	Scott
+llc	llc
+sec	giây
+recommend	gợi ý
+canon	kinh điển
+hardcore	khó tính
+league	liên đoàn
+waste	rác thải
+minute	phút
+bus	xe buýt
+provider	các nhà cung cấp
+optional	không bắt buộc
+dictionary	từ điển
+cold	lạnh lẽo
+accounting	kế toán
+manufacturing	chế tạo
+sections	phần
+chair	cái ghế
+fishing	đánh bắt cá
+effort	cố gắng
+phase	giai đoạn
+fields	lĩnh vực
+bag	cái túi
+fantasy	tưởng tượng
+po	po
+letters	bức thư
+motor	động cơ
+va	va
+professor	giáo sư
+context	bối cảnh
+install	cài đặt
+shirt	áo sơ mi
+apparel	may mặc
+generally	nói chung là
+continued	tiếp tục
+foot	chân
+mass	khối
+crime	tội phạm
+count	đếm
+breast	nhũ hoa
+techniques	kỹ thuật
+ibm	ibm
+rd	thứ
+johnson	johnson
+sc	sc
+quickly	nhanh
+dollars	USD
+websites	các trang web
+religion	tôn giáo
+claim	khẳng định
+driving	điều khiển
+permission	sự cho phép
+surgery	ca phẫu thuật
+patch	vá
+heat	nhiệt
+wild	hoang dã
+measures	đo
+generation	thế hệ
+kansas	Kansas
+miss	cô
+chemical	hóa chất
+doctor	bác sĩ
+task	nhiệm vụ
+reduce	giảm bớt
+brought	đem lại
+himself	bản thân anh ấy
+nor	cũng không
+component	thành phần
+enable	cho phép
+exercise	bài tập
+bug	sâu bọ
+santa	ông già Noel
+mid	giữa
+guarantee	bảo đảm
+leader	lãnh đạo
+diamond	kim cương
+israel	Người israel
+se	se
+processes	quy trình
+soft	mềm mại
+servers	may chủ
+alone	một mình
+meetings	các cuộc họp
+seconds	giây
+jones	jones
+arizona	Arizona
+keyword	từ khóa
+interests	sở thích
+flight	chuyến bay
+congress	Hội nghị
+fuel	nhiên liệu
+username	tên tài khoản
+walk	đi bộ
+fuck	chết tiệt
+produced	sản xuất
+italian	người Ý
+paperback	bìa mềm
+classifieds	rao vặt
+wait	Chờ đợi
+supported	được hỗ trợ
+pocket	túi
+saint	thánh nhân
+rose	hoa hồng
+freedom	tự do
+argument	lý lẽ
+competition	cuộc thi
+creating	tạo ra
+jim	Jim
+drugs	thuốc
+joint	chung
+premium	phần thưởng
+providers	nhà cung cấp
+fresh	tươi
+characters	nhân vật
+attorney	luật sư
+upgrade	nâng cấp
+di	di
+factor	nhân tố
+growing	phát triển
+thousands	hàng ngàn
+km	km
+stream	suối
+apartments	căn hộ
+pick	nhặt
+hearing	thính giác
+eastern	phương Đông
+auctions	đấu giá
+therapy	trị liệu
+entries	mục
+dates	ngày
+generated	tạo ra
+signed	đã ký
+upper	phía trên
+administrative	hành chính
+serious	nghiêm trọng
+prime	xuất sắc
+samsung	SAMSUNG
+limit	giới hạn
+began	đã bắt đầu
+louis	Louis
+steps	bước
+errors	lỗi
+shops	cửa hàng
+bondage	sự trói buộc
+del	del
+efforts	nỗ lực
+informed	nắm được tin tức
+ga	ga
+ac	AC
+thoughts	suy nghĩ
+creek	Lạch nhỏ
+ft	ft
+worked	đã làm việc
+quantity	Số lượng
+urban	đô thị
+practices	thực hành
+sorted	sắp xếp
+reporting	Báo cáo
+essential	thiết yếu
+myself	riêng tôi
+tours	chuyến du lịch
+platform	nền tảng
+load	trọng tải
+affiliate	liên kết
+labor	nhân công
+immediately	ngay lập tức
+admin	quản trị viên
+nursing	điều dưỡng
+defense	phòng thủ
+machines	máy móc
+designated	được chỉ định
+tags	thẻ
+heavy	nặng
+covered	đề cập
+recovery	sự hồi phục
+joe	joe
+guys	các bạn
+integrated	tích hợp
+configuration	cấu hình
+cock	gà trống
+merchant	thương gia
+comprehensive	toàn diện
+expert	chuyên gia
+universal	phổ quát
+protect	bảo vệ
+drop	làm rơi
+solid	chất rắn
+cds	băng đĩa
+presentation	bài thuyết trình
+languages	ngôn ngữ
+became	đã trở thành
+orange	quả cam
+compliance	Tuân thủ
+vehicles	xe cộ
+prevent	ngăn chặn
+theme	chủ đề
+rich	giàu có
+im	Tôi
+campaign	chiến dịch
+marine	hàng hải
+improvement	sự cải tiến
+vs	vs
+guitar	đàn ghi ta
+finding	Phát hiện
+pennsylvania	Pennsylvania
+examples	ví dụ
+ipod	ipod
+saying	nói
+spirit	tinh thần
+ar	ar
+claims	yêu sách
+porno	khiêu dâm
+challenge	thử thách
+motorola	motorola
+acceptance	chấp thuận
+strategies	chiến lược
+mo	mo
+seem	có vẻ
+affairs	chuyện
+touch	chạm
+intended	dự định
+towards	đối với
+sa	sa
+goals	bàn thắng
+hire	Thuê
+election	cuộc bầu cử
+suggest	gợi ý
+branch	chi nhánh
+charges	phí
+serve	phục vụ
+affiliates	chi nhánh
+reasons	lý do
+magic	ảo thuật
+mount	gắn kết
+smart	thông minh
+talking	đang nói
+gave	đã đưa cho
+ones	những cái
+latin	Latin
+multimedia	đa phương tiện
+xp	xp
+tits	ngực
+avoid	tránh xa
+certified	được chứng nhận
+manage	quản lý
+corner	góc
+rank	thứ hạng
+computing	tin học
+oregon	Oregon
+element	yếu tố
+birth	Sinh
+virus	vi-rút
+abuse	lạm dụng
+interactive	tương tác
+requests	yêu cầu
+separate	chia
+quarter	một phần tư
+procedure	thủ tục
+leadership	Khả năng lãnh đạo
+tables	những cái bàn
+define	định nghĩa
+racing	cuộc đua
+religious	tôn giáo
+facts	sự thật
+breakfast	bữa sáng
+kong	kong
+column	cột
+plants	thực vật
+faith	sự tin tưởng
+chain	xích
+developer	nhà phát triển
+identify	nhận dạng
+avenue	đại lộ
+missing	mất tích
+died	chết
+approximately	khoảng
+domestic	nội địa
+sitemap	sơ đồ trang web
+recommendations	khuyến nghị
+moved	đã di chuyển
+houston	houston
+reach	với tới
+comparison	so sánh
+mental	tâm thần
+viewed	đã xem
+moment	chốc lát
+extended	mở rộng
+sequence	sự liên tiếp
+inch	inch
+attack	tấn công
+sorry	Xin lỗi
+centers	trung tâm
+opening	khai mạc
+damage	hư hại
+lab	phòng thí nghiệm
+reserve	dự trữ
+recipes	công thức nấu ăn
+cvs	cv
+gamma	gamma
+plastic	nhựa
+produce	sản xuất
+snow	tuyết
+placed	đặt
+truth	sự thật
+counter	quầy tính tiền
+failure	sự thất bại
+follows	theo sau
+eu	EU
+weekend	ngày cuối tuần
+dollar	đô la
+camp	trại
+ontario	Ontario
+automatically	tự động
+des	des
+minnesota	minnesota
+films	phim
+bridge	cầu
+native	tự nhiên
+fill	đổ đầy
+williams	Williams
+movement	sự chuyển động
+printing	in ấn
+baseball	bóng chày
+owned	sở hữu
+approval	sự chấp thuận
+draft	bản nháp
+chart	đồ thị
+played	chơi
+contacts	liên lạc
+cc	cc
+jesus	Chúa Giêsu
+readers	độc giả
+clubs	câu lạc bộ
+lcd	màn hình LCD
+wa	wa
+jackson	jackson
+equal	bình đẳng
+adventure	cuộc phiêu lưu
+matching	khớp
+offering	chào bán
+shirts	Áo sơ mi
+profit	lợi nhuận
+leaders	lãnh đạo
+posters	áp phích
+institutions	thể chế
+assistant	trợ lý
+variable	Biến đổi
+ave	đại lộ
+dj	dj
+advertisement	quảng cáo
+expect	trông chờ
+parking	bãi đậu xe
+headlines	tiêu đề
+yesterday	Hôm qua
+compared	so
+determined	xác định
+wholesale	bán sỉ
+workshop	xưởng
+russia	Nga
+gone	đi mất
+codes	mã
+kinds	các loại
+extension	sự mở rộng
+seattle	seattle
+statements	các câu lệnh
+golden	vàng
+completely	hoàn toàn
+teams	đội
+fort	pháo đài
+cm	cmt
+wi	Wi
+lighting	thắp sáng
+senate	Thượng nghị viện
+forces	lực lượng
+funny	buồn cười
+brother	anh trai
+gene	gen
+turned	quay
+portable	cầm tay
+tried	đã thử
+electrical	điện
+applicable	áp dụng
+disc	đĩa
+returned	trả lại
+pattern	mẫu
+ct	ct
+hentai	hoạt
+boat	thuyền
+named	đặt tên
+theatre	nhà hát
+laser	tia laze
+earlier	sớm hơn
+manufacturers	Nhà sản xuất của
+sponsor	nhà tài trợ
+classical	cổ điển
+icon	biểu tượng
+warranty	sự bảo đảm
+dedicated	tận tụy
+indiana	Indiana
+direction	phương hướng
+harry	Harry
+basketball	bóng rổ
+objects	các đối tượng
+ends	kết thúc
+delete	xóa bỏ
+evening	buổi tối
+assembly	cuộc họp
+nuclear	hạt nhân
+taxes	thuế
+mouse	chuột
+signal	tín hiệu
+criminal	tội phạm
+issued	cấp
+brain	não
+sexual	tình dục
+wisconsin	Wisconsin
+powerful	mạnh mẽ
+dream	mơ
+obtained	thu được
+false	SAI
+da	da
+cast	dàn diễn viên
+flower	hoa
+felt	cảm thấy
+personnel	nhân viên
+passed	đi qua
+supplied	cung cấp
+identified	xác định
+falls	ngã
+pic	bức ảnh
+soul	linh hồn
+aids	AIDS
+opinions	ý kiến
+promote	khuyến khích
+stated	đã nêu
+stats	số liệu thống kê
+hawaii	hawaii
+professionals	chuyên gia
+appears	xuất hiện
+carry	mang
+flag	lá cờ
+decided	quyết định
+nj	nj
+covers	bao gồm
+hr	giờ
+em	em
+advantage	lợi thế
+hello	Xin chào
+designs	thiết kế
+maintain	duy trì
+tourism	du lịch
+priority	sự ưu tiên
+newsletters	bản tin
+adults	người lớn
+clips	clip
+savings	tiết kiệm
+iv	iv
+graphic	đồ họa
+atom	nguyên tử
+payments	thanh toán
+rw	rw
+estimated	ước lượng
+binding	ràng buộc
+brief	ngắn gọn
+ended	đã kết thúc
+winning	chiến thắng
+eight	tám
+anonymous	vô danh
+iron	sắt
+straight	thẳng
+script	kịch bản
+served	phục vụ
+wants	muốn
+miscellaneous	Điều khoản khác
+prepared	chuẩn bị
+void	trống rỗng
+dining	ăn uống
+alert	báo động
+integration	hội nhập
+atlanta	Atlanta
+dakota	dakota
+tag	nhãn
+interview	phỏng vấn
+mix	pha trộn
+framework	khuôn khổ
+disk	đĩa
+installed	Cài đặt
+queen	nữ hoàng
+vhs	vhs
+credits	tín dụng
+clearly	rõ ràng
+fix	sửa chữa
+handle	xử lý
+sweet	ngọt
+desk	bàn làm việc
+criteria	tiêu chuẩn
+pubmed	đã xuất bản
+dave	dave
+massachusetts	Massachusetts
+diego	diego
+hong	hồng
+vice	hành vi xấu xa
+associate	kết hợp
+ne	ne
+truck	xe tải
+behavior	hành vi
+enlarge	phóng to
+ray	cá đuối
+frequently	thường xuyên
+revenue	doanh thu
+measure	đo lường
+changing	thay đổi
+votes	phiếu bầu
+du	bạn
+duty	nhiệm vụ
+looked	nhìn
+discussions	thảo luận
+bear	con gấu
+gain	nhận được
+festival	lễ hội
+laboratory	phòng thí nghiệm
+ocean	đại dương
+flights	chuyến bay
+experts	Các chuyên gia
+signs	dấu hiệu
+lack	thiếu
+depth	chiều sâu
+iowa	Iowa
+whatever	bất cứ điều gì
+logged	đã đăng nhập
+laptop	máy tính xách tay
+vintage	cổ điển
+train	xe lửa
+exactly	chính xác
+dry	khô
+explore	khám phá
+maryland	maryland
+spa	spa
+concept	ý tưởng
+nearly	gần như
+eligible	đạt chuẩn
+checkout	Thủ tục thanh toán
+reality	thực tế
+forgot	quên
+handling	sự điều khiển
+origin	nguồn gốc
+knew	biết
+gaming	chơi game
+feeds	nguồn cấp dữ liệu
+billion	tỷ
+destination	điểm đến
+scotland	Scotland
+faster	nhanh hơn
+intelligence	Sự thông minh
+dallas	Dallas
+bought	mua
+con	lừa đảo
+ups	thăng cấp
+nations	quốc gia
+route	tuyến đường
+followed	đã theo dõi
+specifications	thông số kỹ thuật
+broken	vỡ
+tripadvisor	cố vấn ba chuyến
+frank	thẳng thắn
+alaska	Alaska
+zoom	phóng
+blow	thổi
+battle	trận đánh
+residential	khu dân cư
+anime	phim hoạt hình
+speak	nói chuyện
+decisions	quyết định
+industries	các ngành nghề
+protocol	giao thức
+query	truy vấn
+clip	kẹp
+partnership	quan hệ đối tác
+editorial	biên tập
+nt	nt
+expression	sự biểu lộ
+es	es
+equity	công bằng
+provisions	điều khoản
+speech	lời nói
+wire	dây điện
+principles	Nguyên tắc
+suggestions	gợi ý
+rural	nông thôn
+shared	đã chia sẻ
+sounds	âm thanh
+replacement	thay thế
+tape	băng
+strategic	chiến lược
+judge	phán xét
+spam	thư rác
+economics	Kinh tế học
+acid	axit
+bytes	byte
+cent	xu
+forced	bị ép
+compatible	tương thích
+fight	trận đánh
+apartment	căn hộ
+height	chiều cao
+null	vô giá trị
+zero	số không
+speaker	loa
+filed	nộp
+gb	gb
+netherlands	nước Hà Lan
+obtain	đạt được
+bc	bc
+consulting	tư vấn
+recreation	giải trí
+offices	văn phòng
+designer	nhà thiết kế
+remain	duy trì
+managed	được quản lý
+pr	PR
+failed	thất bại
+marriage	kết hôn
+roll	cuộn
+korea	Hàn Quốc
+banks	ngân hàng
+fr	bạn
+participants	những người tham gia
+secret	bí mật
+bath	bồn tắm
+aa	aaa
+kelly	Kelly
+leads	dẫn
+negative	tiêu cực
+austin	Austin
+favorites	yêu thích
+toronto	toronto
+theater	nhà hát
+springs	lò xo
+missouri	Missouri
+andrew	Andrew
+var	var
+perform	trình diễn
+healthy	khỏe mạnh
+translation	dịch
+estimates	ước tính
+font	nét chữ
+assets	tài sản
+injury	chấn thương
+mt	tấn
+joseph	Joseph
+ministry	Bộ
+drivers	trình điều khiển
+lawyer	luật sư
+figures	số liệu
+married	đã cưới
+protected	được bảo vệ
+proposal	đề xuất
+sharing	chia sẻ
+philadelphia	Philadelphia
+portal	cổng thông tin
+waiting	chờ
+birthday	sinh nhật
+beta	phiên bản beta
+fail	thất bại
+gratis	miễn phí
+banking	ngân hàng
+officials	quan chức
+brian	Brian
+toward	theo hướng
+won	thắng
+slightly	nhẹ nhàng
+assist	hỗ trợ
+conduct	chỉ đạo
+contained	chứa đựng
+lingerie	đồ lót
+shemale	chuyển giới
+legislation	pháp luật
+calling	đang gọi điện
+parameters	thông số
+jazz	nhạc jazz
+serving	phục vụ
+bags	túi
+profiles	hồ sơ
+miami	miami
+comics	truyện tranh
+matters	vấn đề
+houses	nhà ở
+doc	bác sĩ
+postal	Thuộc về bưu điện
+relationships	các mối quan hệ
+tennessee	Tennessee
+wear	mặc
+controls	điều khiển
+breaking	phá vỡ
+combined	kết hợp
+ultimate	tối thượng
+wales	xứ Wales
+representative	tiêu biểu
+frequency	Tính thường xuyên
+introduced	được giới thiệu
+minor	người vị thành niên
+finish	hoàn thành
+departments	phòng ban
+residents	cư dân
+noted	ghi nhận
+displayed	hiển thị
+mom	mẹ
+reduced	giảm
+physics	vật lý
+rare	hiếm
+spent	đã tiêu
+performed	thực hiện
+extreme	vô cùng
+samples	mẫu
+davis	Davis
+daniel	Daniel
+bars	thanh
+reviewed	đã xem xét
+row	hàng ngang
+oz	oz
+forecast	dự báo
+removed	LOẠI BỎ
+helps	giúp
+singles	người độc thân
+administrator	người quản lý
+cycle	xe đạp
+amounts	lượng
+contain	bao gồm
+accuracy	sự chính xác
+dual	hai
+rise	tăng lên
+usd	đô la Mỹ
+sleep	ngủ
+mg	mg
+bird	chim
+pharmacy	tiệm thuốc
+brazil	Brazil
+creation	sự sáng tạo
+static	tĩnh
+scene	bối cảnh
+hunter	thợ săn
+addresses	địa chỉ
+lady	quý bà
+crystal	pha lê
+famous	nổi tiếng
+writer	nhà văn
+chairman	Chủ tịch
+violence	bạo lực
+fans	người hâm mộ
+oklahoma	Oklahoma
+speakers	diễn giả
+drink	uống
+academy	học viện
+dynamic	năng động
+gender	giới tính
+eat	ăn
+permanent	Vĩnh viễn
+agriculture	nông nghiệp
+dell	Dell
+cleaning	làm sạch
+constitutes	cấu thành
+portfolio	danh mục đầu tư
+practical	thực tế
+delivered	đã giao hàng
+collectibles	đồ sưu tầm
+infrastructure	cơ sở hạ tầng
+exclusive	loại trừ
+seat	ghế
+concerns	mối quan tâm
+colour	màu sắc
+vendor	người bán
+originally	ban đầu
+intel	thông tin
+utilities	tiện ích
+philosophy	triết lý
+regulation	quy định
+officers	sĩ quan
+reduction	sự giảm bớt
+aim	mục tiêu
+bids	giá thầu
+referred	được giới thiệu
+supports	hỗ trợ
+nutrition	dinh dưỡng
+recording	ghi âm
+regions	vùng
+junior	nhỏ
+toll	số điện thoại
+les	tập tin
+cape	mũi
+ann	ann
+rings	Nhẫn
+meaning	nghĩa
+tip	mẹo
+secondary	sơ trung
+wonderful	tuyệt vời
+mine	của tôi
+ladies	quý cô
+henry	Henry
+ticket	vé
+announced	công bố
+guess	đoán
+agreed	đã đồng ý
+prevention	Phòng ngừa
+whom	ai
+ski	trượt tuyết
+soccer	bóng đá
+math	toán học
+import	nhập khẩu
+posting	đăng bài
+presence	sự hiện diện
+instant	lập tức
+mentioned	được nhắc đến
+automatic	tự động
+healthcare	chăm sóc sức khỏe
+viewing	đang xem
+maintained	duy trì
+ch	ch
+increasing	tăng dần
+majority	số đông
+connected	đã kết nối
+christ	Đấng Christ
+dan	đàn
+dogs	chó
+sd	sd
+directors	đạo diễn
+aspects	các khía cạnh
+austria	Áo
+ahead	phía trước
+moon	mặt trăng
+participation	sự tham gia
+scheme	cơ chế
+utility	tính thiết thực
+preview	xem trước
+fly	bay
+manner	thái độ
+matrix	ma trận
+containing	chứa đựng
+combination	sự kết hợp
+devel	phát triển
+amendment	sửa đổi
+despite	cho dù
+strength	sức mạnh
+guaranteed	đảm bảo
+turkey	Thổ Nhĩ Kỳ
+libraries	thư viện
+proper	thích hợp
+distributed	phân phối
+degrees	độ
+singapore	Singapore
+enterprises	doanh nghiệp
+delta	đồng bằng
+fear	nỗi sợ
+seeking	đang tìm kiếm
+inches	inch
+phoenix	Phượng Hoàng
+rs	rs
+convention	quy ước
+shares	cổ phần
+principal	hiệu trưởng
+daughter	con gái
+standing	đứng
+voyeur	người thích xem hình ảnh liên quan đến tình dục
+comfort	an ủi
+colors	màu sắc
+wars	chiến tranh
+cisco	cisco
+ordering	đặt hàng
+kept	đã giữ
+alpha	alpha
+appeal	bắt mắt
+cruise	du thuyền
+bonus	thưởng
+certification	chứng nhận
+previously	trước đây
+hey	Chào
+bookmark	đánh dấu trang
+buildings	các tòa nhà
+specials	đặc biệt
+beat	tiết tấu
+disney	Disney
+household	hộ gia đình
+batteries	pin
+adobe	adobe
+smoking	hút thuốc
+bbc	bbc
+becomes	trở thành
+drives	ổ đĩa
+arms	cánh tay
+alabama	Alabama
+tea	trà
+improved	được cải thiện
+trees	cây
+avg	trung bình
+achieve	đạt được
+positions	chức vụ
+dress	đầm
+subscription	đăng ký
+dealer	người buôn bán
+contemporary	đồng thời
+sky	bầu trời
+utah	utah
+nearby	gần đó
+rom	rom
+carried	mang theo
+happen	xảy ra
+exposure	phơi bày
+panasonic	panasonic
+hide	trốn
+permalink	liên kết cố định
+signature	chữ ký
+gambling	bài bạc
+refer	tham khảo
+miller	cối xay
+provision	sự cung cấp
+outdoors	ngoài trời
+clothes	quần áo
+caused	gây ra
+luxury	sang trọng
+babes	em yêu
+frames	khung
+viagra	viagra
+certainly	chắc chắn
+indeed	thực vậy
+newspaper	báo
+toy	đồ chơi
+circuit	mạch điện
+layer	lớp
+printed	in
+slow	chậm
+removal	gỡ bỏ
+easier	dễ dàng hơn
+src	src
+liability	trách nhiệm pháp lý
+trademark	Nhãn hiệu
+hip	hông
+printers	máy in
+faqs	câu hỏi thường gặp
+nine	chín
+adding	thêm
+kentucky	kentucky
+mostly	hầu hết
+eric	Eric
+spot	điểm
+taylor	taylor
+trackback	theo dõi lại
+prints	bản in
+spend	tiêu
+factory	nhà máy
+interior	Nội địa
+revised	sửa lại
+grow	phát triển
+americans	người Mỹ
+optical	quang học
+promotion	khuyến mãi
+relative	liên quan đến
+amazing	tuyệt vời
+clock	cái đồng hồ
+dot	dấu chấm
+hiv	HIV
+identity	danh tính
+suites	dãy phòng
+conversion	chuyển đổi
+feeling	cảm giác
+hidden	ẩn giấu
+reasonable	hợp lý
+victoria	Victoria
+serial	nối tiếp
+relief	sự cứu tế
+revision	ôn tập
+broadband	băng thông rộng
+influence	ảnh hưởng
+ratio	tỉ lệ
+pda	pda
+importance	tầm quan trọng
+rain	cơn mưa
+onto	trên
+dsl	dsl
+planet	hành tinh
+webmaster	quản trị trang web
+copies	bản sao
+recipe	công thức
+zum	ừm
+permit	cho phép làm gì
+seeing	nhìn thấy
+proof	bằng chứng
+dna	dna
+diff	khác biệt
+tennis	quần vợt
+bass	âm trầm
+prescription	đơn thuốc
+bedroom	phòng ngủ
+empty	trống
+instance	ví dụ
+hole	hố
+pets	vật nuôi
+ride	lái
+licensed	được cấp phép
+orlando	orlando
+specifically	đặc biệt
+tim	tim
+bureau	văn phòng
+maine	Maine
+sql	sql
+represent	đại diện
+conservation	bảo tồn
+pair	đôi
+ideal	lý tưởng
+specs	thông số kỹ thuật
+recorded	ghi lại
+don	giảng viên đại học
+pieces	miếng
+finished	hoàn thành
+parks	công viên
+dinner	bữa tối
+lawyers	luật sư
+sydney	Sydney
+stress	nhấn mạnh
+cream	kem
+ss	ss
+runs	chạy
+trends	xu hướng
+yeah	vâng
+discover	phát hiện
+sexo	tình dục
+ap	ap
+patterns	hoa văn
+boxes	hộp
+louisiana	louisiana
+hills	Đồi
+javascript	javascript
+fourth	thứ tư
+nm	bước sóng
+advisor	cố vấn
+mn	tôi
+marketplace	thương trường
+nd	thứ
+evil	độc ác
+aware	nhận thức
+wilson	Wilson
+shape	hình dạng
+evolution	sự tiến hóa
+irish	người Ailen
+certificates	giấy chứng nhận
+objectives	mục tiêu
+stations	trạm
+suggested	đề xuất
+gps	gps
+op	op
+remains	còn lại
+acc	tài khoản
+greatest	vĩ đại nhất
+firms	hãng
+concerned	lo âu
+euro	euro
+operator	nhà điều hành
+structures	cấu trúc
+generic	chung
+encyclopedia	bách khoa toàn thư
+usage	cách sử dụng
+cap	mũ lưỡi trai
+ink	mực
+charts	biểu đồ
+continuing	tiếp tục
+mixed	Trộn
+census	điều tra dân số
+interracial	đa chủng tộc
+peak	đỉnh cao
+tn	tn
+competitive	cạnh tranh
+exist	hiện hữu
+wheel	bánh xe
+transit	quá cảnh
+dick	tinh ranh
+suppliers	các nhà cung cấp
+salt	muối
+compact	gọn nhẹ
+poetry	thơ
+lights	đèn
+tracking	theo dõi
+angel	thiên thần
+bell	chuông
+keeping	duy trì
+preparation	sự chuẩn bị
+attempt	nỗ lực
+receiving	nhận được
+matches	diêm
+accordance	Tùy theo
+width	chiều rộng
+noise	tiếng ồn
+engines	động cơ
+forget	quên
+array	mảng
+discussed	thảo luận
+accurate	chính xác
+stephen	Stephen
+elizabeth	Elizabeth
+climate	khí hậu
+reservations	đặt chỗ
+pin	ghim
+playstation	máy chơi game
+alcohol	rượu bia
+greek	người Hy Lạp
+instruction	chỉ dẫn
+managing	quản lý
+annotation	chú thích
+sister	em gái
+raw	thô
+differences	sự khác biệt
+walking	đi dạo
+explain	giải thích
+smaller	nhỏ hơn
+newest	mới nhất
+establish	thành lập
+gnu	gnu
+happened	đã xảy ra
+expressed	bày tỏ
+jeff	jeff
+extent	phạm vi
+sharp	sắc
+lesbians	đồng tính nữ
+ben	ben
+lane	làn đường
+paragraph	đoạn văn
+kill	giết
+mathematics	toán học
+aol	ồ
+compensation	đền bù
+ce	ce
+export	xuất khẩu
+managers	người quản lý
+aircraft	phi cơ
+modules	mô-đun
+sweden	Thụy Điển
+conflict	xung đột
+conducted	tiến hành
+versions	phiên bản
+employer	nhà tuyển dụng
+occur	xảy ra
+percentage	phần trăm
+knows	biết
+mississippi	Mississippi
+describe	mô tả
+concern	bận tâm
+backup	hỗ trợ
+requested	yêu cầu
+citizens	công dân
+connecticut	Connecticut
+heritage	di sản
+personals	cá nhân
+immediate	ngay tức khắc
+holding	giữ
+trouble	rắc rối
+spread	lây lan
+coach	huấn luyện viên
+kevin	kevin
+agricultural	nông nghiệp
+expand	mở rộng
+supporting	hỗ trợ
+audience	khán giả
+assigned	giao
+jordan	jordan
+collections	bộ sưu tập
+ages	lứa tuổi
+participate	tham gia
+plug	phích cắm
+specialist	chuyên gia
+cook	đầu bếp
+affect	ảnh hưởng
+virgin	trinh nữ
+experienced	có kinh nghiệm
+investigation	cuộc điều tra
+raised	nâng lên
+hat	mũ
+institution	tổ chức
+directed	Chỉ đạo
+dealers	đại lý
+searching	đang tìm kiếm
+sporting	thể thao
+helping	giúp đỡ
+perl	perl
+affected	ảnh hưởng
+lib	lib
+bike	xe đạp
+totally	Tổng cộng
+plate	đĩa
+expenses	chi phí
+indicate	biểu thị
+blonde	vàng
+ab	bụng
+proceedings	thủ tục tố tụng
+favourite	yêu thích
+transmission	quá trình lây truyền
+anderson	Anderson
+utc	utc
+characteristics	đặc trưng
+der	der
+lose	thua
+organic	hữu cơ
+seek	tìm kiếm
+experiences	kinh nghiệm
+albums	tập ảnh
+cheats	gian lận
+extremely	vô cùng
+verzeichnis	verzeichnis
+contracts	hợp đồng
+guests	khách
+hosted	được lưu trữ
+diseases	bệnh tật
+concerning	liên quan đến
+developers	nhà phát triển
+equivalent	tương đương
+chemistry	hoá học
+tony	Tony
+neighborhood	hàng xóm
+nevada	Nevada
+kits	bộ dụng cụ
+thailand	nước Thái Lan
+variables	biến
+agenda	chương trình nghị sự
+anyway	Dẫu sao thì
+continues	tiếp tục
+tracks	bài hát
+advisory	tham mưu
+cam	máy quay
+curriculum	chương trình giảng dạy
+logic	Hợp lý
+template	bản mẫu
+prince	Hoàng tử
+circle	vòng tròn
+soil	đất
+grants	tài trợ
+anywhere	bất cứ nơi nào
+psychology	tâm lý
+responses	phản hồi
+atlantic	Đại Tây Dương
+wet	ướt
+circumstances	trường hợp
+edward	edward
+investor	nhà đầu tư
+identification	nhận biết
+ram	đập
+leaving	rời đi
+wildlife	động vật hoang dã
+appliances	thiết bị
+matt	mờ
+elementary	tiểu học
+cooking	nấu nướng
+speaking	nói
+sponsors	nhà tài trợ
+fox	cáo
+unlimited	vô hạn
+respond	trả lời
+sizes	kích cỡ
+plain	đơn giản
+exit	lối ra
+entered	đã nhập
+iran	Iran
+arm	cánh tay
+keys	phím
+launch	phóng
+wave	sóng
+checking	kiểm tra
+costa	bờ biển
+belgium	nước Bỉ
+printable	có thể in được
+holy	thánh thiện
+acts	hành vi
+guidance	hướng dẫn
+mesh	lưới thép
+trail	dấu vết
+enforcement	thực thi
+symbol	biểu tượng
+crafts	đồ thủ công
+highway	Xa lộ
+buddy	bạn bè
+hardcover	bìa cứng
+observed	Được Quan sát
+dean	trưởng khoa
+setup	cài đặt
+poll	thăm dò ý kiến
+booking	Đặt trước
+glossary	bảng chú giải
+fiscal	ngân sách
+celebrity	người nổi tiếng
+styles	phong cách
+denver	denver
+unix	unix
+filled	điền
+bond	liên kết
+channels	kênh truyền hình
+ericsson	ericsson
+appendix	ruột thừa
+notify	thông báo
+blues	nhạc blues
+chocolate	sô cô la
+pub	quán rượu
+portion	phần
+scope	phạm vi
+hampshire	Hampshire
+supplier	nhà cung cấp
+cables	cáp
+cotton	bông
+bluetooth	Bluetooth
+controlled	được kiểm soát
+requirement	yêu cầu
+authorities	chính quyền
+biology	sinh vật học
+dental	nha khoa
+killed	bị giết
+border	ranh giới
+ancient	cổ đại
+debate	tranh luận
+representatives	đại diện
+starts	bắt đầu
+pregnancy	thai kỳ
+causes	nguyên nhân
+arkansas	Arkansas
+biography	tiểu sử
+leisure	thời gian rảnh rỗi
+attractions	điểm tham quan
+learned	đã học
+transactions	giao dịch
+notebook	sổ tay
+explorer	nhà thám hiểm
+historic	mang tính lịch sử
+attached	đính kèm
+opened	đã mở
+tm	tm
+husband	chồng
+disabled	tàn tật
+authorized	được ủy quyền
+crazy	điên
+upcoming	sắp tới
+britain	nước Anh
+concert	buổi hòa nhạc
+retirement	sự nghỉ hưu
+scores	điểm số
+financing	tài chính
+efficiency	hiệu quả
+sp	sp
+comedy	hài kịch
+adopted	con nuôi
+efficient	có hiệu quả
+weblog	nhật ký web
+linear	tuyến tính
+commitment	sự cam kết
+specialty	chuyên môn
+bears	gấu
+jean	quần jean
+hop	nhảy lò cò
+carrier	vận chuyển
+edited	đã chỉnh sửa
+constant	không thay đổi
+visa	hộ chiếu
+mouth	miệng
+jewish	người Do Thái
+meter	mét
+linked	liên kết
+portland	Portland
+interviews	phỏng vấn
+concepts	các khái niệm
+nh	nh
+gun	súng
+reflect	phản ánh
+pure	nguyên chất
+deliver	giao
+wonder	thắc mắc
+hell	địa ngục
+lessons	Những bài học
+fruit	hoa quả
+begins	bắt đầu
+qualified	đạt tiêu chuẩn
+reform	cải cách
+lens	ống kính
+alerts	cảnh báo
+treated	được điều trị
+discovery	khám phá
+draw	vẽ tranh
+mysql	mysql
+classified	phân loại
+relating	liên quan
+assume	cho rằng
+confidence	sự tự tin
+alliance	liên minh
+fm	fm
+confirm	xác nhận
+warm	ấm
+neither	không
+lewis	Lewis
+howard	Howard
+offline	ngoại tuyến
+leaves	lá
+engineer	kỹ sư
+lifestyle	cách sống
+consistent	nhất quán
+replace	thay thế
+clearance	giải tỏa
+connections	kết nối
+inventory	hàng tồn kho
+converter	bộ chuyển đổi
+suck	hút
+organisation	tổ chức
+babe	em yêu
+checks	Séc
+reached	đạt
+becoming	trở thành
+blowjob	thổi kèn
+safari	cuộc đi săn
+objective	khách quan
+indicated	chỉ ra
+sugar	đường
+crew	phi hành đoàn
+legs	chân
+sam	sam
+stick	dán
+securities	chứng khoán
+allen	Allen
+pdt	pdt
+relation	mối quan hệ
+enabled	đã bật
+genre	thể loại
+slide	cầu trượt
+montana	montana
+volunteer	tình nguyện viên
+tested	thử nghiệm
+rear	ở phía sau
+democratic	dân chủ
+enhance	nâng cao
+switzerland	Thụy sĩ
+exact	chính xác
+bound	ràng buộc
+parameter	tham số
+adapter	bộ chuyển đổi
+processor	bộ xử lý
+node	nút
+formal	chính thức
+dimensions	kích thước
+contribute	đóng góp
+lock	khóa
+hockey	khúc côn cầu
+storm	bão
+micro	vi mô
+colleges	trường Cao đẳng
+laptops	máy tính xách tay
+mile	dặm
+showed	cho thấy
+challenges	thử thách
+editors	biên tập viên
+mens	đàn ông
+threads	chủ đề
+bowl	cái bát
+supreme	tối cao
+brothers	anh em
+recognition	sự công nhận
+presents	quà tặng
+ref	giới thiệu
+tank	xe tăng
+submission	nộp hồ sơ
+dolls	búp bê
+estimate	ước lượng
+encourage	khuyến khích
+navy	Hải quân
+kid	đứa trẻ
+regulatory	quy định
+inspection	điều tra
+consumers	người tiêu dùng
+cancel	Hủy bỏ
+limits	Hạn mức
+territory	lãnh thổ
+transaction	giao dịch
+manchester	manchester
+weapons	vũ khí
+paint	sơn
+delay	trì hoãn
+pilot	phi công
+outlet	chỗ thoát
+contributions	đóng góp
+continuous	tiếp diễn
+db	db
+czech	Séc
+resulting	kết quả
+cambridge	Cambridge
+initiative	sáng kiến
+novel	cuốn tiểu thuyết
+pan	chảo
+execution	chấp hành
+disability	khuyết tật
+increases	tăng
+ultra	cực kỳ
+winner	người chiến thắng
+idaho	idaho
+contractor	Nhà thầu
+ph	ph
+episode	tập phim
+examination	bài kiểm tra
+potter	thợ gốm
+dish	món ăn
+plays	vở kịch
+bulletin	bản tin
+ia	ia
+pt	điểm
+indicates	chỉ ra
+modify	biến đổi
+oxford	oxford
+adam	Adam
+truly	thực sự
+epinions	epinions
+painting	bức vẽ
+committed	tận tụy
+extensive	rộng rãi
+affordable	có thể chi trả
+universe	vũ trụ
+candidate	ứng viên
+databases	cơ sở dữ liệu
+patent	bằng sáng chế
+slot	chỗ
+psp	psp
+outstanding	nổi bật
+ha	ha
+eating	Ăn
+perspective	luật xa gần
+planned	kế hoạch
+watching	xem
+lodge	lều
+messenger	tin nhắn
+mirror	gương
+tournament	giải đấu
+consideration	Sự xem xét
+ds	ds
+discounts	giảm giá
+sterling	đồng bảng Anh
+sessions	phiên
+kernel	hạt nhân
+boobs	ngực
+stocks	cổ phiếu
+buyers	người mua
+journals	tạp chí
+gray	xám
+catalogue	mục lục
+ea	ea
+jennifer	jennifer
+antonio	antonio
+charged	tính phí
+broad	rộng lớn
+taiwan	Đài Loan
+und	và
+chosen	đã chọn
+demo	thử nghiệm
+greece	Hy Lạp
+lg	lg
+swiss	người Thụy Sĩ
+sarah	sarah
+clark	Clark
+labour	nhân công
+hate	ghét
+terminal	phần cuối
+publishers	nhà xuất bản
+nights	đêm
+behalf	thay mặt
+caribbean	người Caribe
+liquid	chất lỏng
+rice	cơm
+nebraska	nebraska
+loop	vòng
+salary	lương
+reservation	sự đặt chỗ
+foods	thực phẩm
+gourmet	người sành ăn
+guard	bảo vệ
+properly	đúng cách
+orleans	người dân orlean
+saving	tiết kiệm
+nfl	nfl
+remaining	còn lại
+empire	đế chế
+resume	bản tóm tắt
+twenty	hai mươi
+newly	mới
+raise	nâng lên
+prepare	chuẩn bị
+avatar	hình đại diện
+gary	Gary
+depending	tùy
+illegal	bất hợp pháp
+expansion	sự bành trướng
+vary	thay đổi
+hundreds	hàng trăm
+rome	la Mã
+arab	Ả rập
+lincoln	lincoln
+helped	đã giúp
+premier	thủ tướng
+tomorrow	Ngày mai
+purchased	đã mua
+milk	sữa
+decide	quyết định
+consent	bằng lòng
+drama	kịch
+visiting	thăm viếng
+performing	biểu diễn
+downtown	trung tâm thành phố
+keyboard	bàn phím
+contest	cuộc thi
+collected	đã thu thập
+nw	bây giờ
+bands	ban nhạc
+boot	khởi động
+suitable	thích hợp
+ff	ff
+absolutely	tuyệt đối
+millions	hàng triệu
+lunch	bữa trưa
+dildo	dương vật giả
+audit	kiểm toán
+push	xô
+chamber	buồng
+guinea	ghi-nê
+findings	phát hiện
+muscle	cơ bắp
+featuring	đặc trưng
+iso	iso
+implement	thực hiện
+clicking	nhấp chuột
+scheduled	lên kế hoạch
+polls	cuộc thăm dò ý kiến
+typical	đặc trưng
+tower	tòa tháp
+yours	của bạn
+sum	Tổng
+misc	linh tinh
+calculator	máy tính
+significantly	đáng kể
+chicken	thịt gà
+temporary	tạm thời
+attend	tham gia
+shower	vòi sen
+alan	Alan
+sending	gửi
+jason	Jason
+tonight	tối nay
+dear	Thân mến
+sufficient	hợp lý
+holdem	nắm giữ
+shell	vỏ bọc
+province	tỉnh
+catholic	Công giáo
+oak	cây sồi
+vat	thùng
+awareness	nhận thức
+vancouver	vancouver
+governor	thống đốc
+beer	bia
+seemed	dường như
+contribution	sự đóng góp
+measurement	đo đạc
+swimming	bơi lội
+spyware	phần mềm gián điệp
+formula	công thức
+constitution	cấu tạo
+packaging	bao bì
+solar	mặt trời
+jose	Jose
+catch	nắm lấy
+jane	Jane
+pakistan	Pakistan
+ps	ps
+reliable	đáng tin cậy
+consultation	tư vấn
+northwest	Tây Bắc
+sir	quý ngài
+doubt	nghi ngờ
+earn	kiếm
+finder	người tìm kiếm
+unable	không thể
+periods	Chu kỳ
+classroom	lớp học
+tasks	nhiệm vụ
+democracy	nền dân chủ
+attacks	tấn công
+kim	kim
+wallpaper	hình nền
+merchandise	hàng hóa
+const	hằng số
+resistance	sức chống cự
+doors	cửa ra vào
+symptoms	triệu chứng
+resorts	khu nghỉ dưỡng
+biggest	To nhất
+memorial	Đài kỷ niệm
+visitor	khách thăm quan
+twin	sinh đôi
+forth	ra
+insert	chèn
+baltimore	baltimore
+gateway	cửa ngõ
+ky	kỷ
+dont	đừng
+alumni	cựu sinh viên
+drawing	vẽ
+candidates	ứng viên
+charlotte	charlotte
+ordered	ra lệnh
+biological	sinh học
+fighting	Chiến đấu
+transition	chuyển tiếp
+happens	xảy ra
+preferences	sở thích
+spy	gián điệp
+romance	lãng mạn
+instrument	dụng cụ
+bruce	Bruce
+split	tách ra
+themes	chủ đề
+powers	quyền hạn
+heaven	thiên đường
+br	anh
+bits	chút ít
+pregnant	có thai
+twice	hai lần
+classification	phân loại
+focused	tập trung
+egypt	Ai Cập
+physician	bác sĩ
+hollywood	hollywood
+bargain	mặc cả
+wikipedia	wikipedia
+cellular	di động
+norway	Na Uy
+vermont	Vermont
+asking	hỏi
+blocks	khối
+normally	thông thường
+lo	ồ
+spiritual	tinh thần
+hunting	săn bắn
+diabetes	bệnh tiểu đường
+suit	bộ đồ
+ml	ml
+shift	sự thay đổi
+chip	Chip
+res	độ phân giải
+sit	ngồi
+bodies	thi thể
+photographs	bức ảnh
+cutting	cắt
+wow	Ồ
+simon	Simon
+writers	nhà văn
+marks	điểm
+flexible	linh hoạt
+loved	yêu
+favourites	yêu thích
+mapping	lập bản đồ
+numerous	nhiều
+relatively	tương đối
+birds	chim
+satisfaction	sự hài lòng
+represents	đại diện
+char	ký tự
+indexed	được lập chỉ mục
+pittsburgh	pittsburgh
+superior	thượng đẳng
+preferred	ưa thích
+saved	đã lưu
+paying	trả tiền
+cartoon	hoạt hình
+shots	bức ảnh
+intellectual	trí tuệ
+moore	neo đậu
+granted	giả dụ như vậy
+choices	sự lựa chọn
+carbon	carbon
+spending	chi tiêu
+comfortable	thoải mái
+magnetic	từ tính
+interaction	sự tương tác
+listening	lắng nghe
+effectively	có hiệu quả
+registry	sổ đăng ký
+crisis	khủng hoảng
+outlook	quan điểm
+massive	to lớn
+denmark	Đan mạch
+employed	có việc làm
+bright	sáng
+treat	đối xử
+header	tiêu đề
+cs	cs
+poverty	nghèo
+formed	hình thành
+piano	đàn piano
+echo	tiếng vọng
+que	que
+grid	lưới
+sheets	tờ
+patrick	Patrick
+experimental	thực nghiệm
+puerto	Puerto
+revolution	cuộc cách mạng
+consolidation	sự hợp nhất
+displays	hiển thị
+plasma	huyết tương
+allowing	cho phép
+earnings	thu nhập
+voip	voip
+mystery	bí ẩn
+landscape	phong cảnh
+dependent	sự phụ thuộc
+mechanical	cơ khí
+journey	hành trình
+delaware	Delaware
+bidding	đấu thầu
+consultants	nhà tư vấn
+risks	rủi ro
+banner	ngọn cờ
+applicant	người xin việc
+charter	điều lệ
+fig	quả sung
+barbara	barbara
+cooperation	sự hợp tác
+counties	quận
+acquisition	sự mua lại
+ports	cổng
+implemented	thực hiện
+sf	sf
+directories	thư mục
+recognized	được công nhận
+dreams	những giấc mơ
+blogger	người viết blog
+notification	thông báo
+kg	Kilôgam
+licensing	cấp phép
+stands	khán đài
+teach	dạy bảo
+occurred	xảy ra
+textbooks	sách giáo khoa
+rapid	nhanh
+pull	sự lôi kéo
+hairy	có lông
+diversity	đa dạng
+cleveland	cleveland
+ut	út
+reverse	đảo ngược
+deposit	tiền gửi
+seminar	hội thảo
+investments	đầu tư
+latina	latina
+nasa	nasa
+wheels	bánh xe
+sexcam	máy quay tình dục
+specify	chỉ định
+accessibility	khả năng tiếp cận
+dutch	tiếng Hà Lan
+sensitive	nhạy cảm
+templates	mẫu
+formats	định dạng
+tab	chuyển hướng
+depends	phụ thuộc
+boots	bốt
+holds	nắm giữ
+router	bộ định tuyến
+concrete	bê tông
+si	tôi
+editing	chỉnh sửa
+poland	Ba Lan
+folder	thư mục
+womens	phụ nữ
+css	css
+completion	hoàn thành
+upload	tải lên
+pulse	xung
+universities	trường đại học
+technique	kỹ thuật
+contractors	nhà thầu
+milfhunter	thợ săn sữa
+voting	bỏ phiếu
+courts	tòa án
+notices	thông báo
+subscriptions	đăng ký
+calculate	tính toán
+mc	mc
+detroit	Detroit
+alexander	alexander
+broadcast	phát tin
+converted	chuyển đổi
+metro	tàu điện
+toshiba	toshiba
+anniversary	dịp kỉ niệm
+improvements	cải tiến
+strip	dải
+specification	sự chỉ rõ
+pearl	Ngọc trai
+accident	tai nạn
+nick	biệt danh
+accessible	có thể truy cập
+accessory	phụ kiện
+resident	người dân
+plot	kịch bản
+qty	số lượng
+possibly	có khả năng
+airline	hãng hàng không
+typically	tiêu biểu
+representation	đại diện
+regard	về
+pump	bơm
+exists	tồn tại
+arrangements	sắp xếp
+smooth	trơn tru
+conferences	hội nghị
+uniprotkb	uniprotkb
+beastiality	thú tính
+strike	đánh đập
+consumption	sự tiêu thụ
+birmingham	birmingham
+flashing	nhấp nháy
+lp	lp
+narrow	chật hẹp
+afternoon	buổi chiều
+threat	mối đe dọa
+surveys	khảo sát
+sitting	ngồi
+putting	đặt
+consultant	tư vấn
+controller	bộ điều khiển
+ownership	quyền sở hữu
+committees	ủy ban
+penis	dương vật
+legislative	lập pháp
+researchers	Các nhà nghiên cứu
+vietnam	Việt Nam
+trailer	đoạn phim giới thiệu
+anne	Anne
+castle	lâu đài
+gardens	khu vườn
+missed	bỏ lỡ
+malaysia	Malaysia
+unsubscribe	hủy đăng ký
+antique	đồ cổ
+labels	nhãn
+willing	sẵn sàng
+bio	sinh học
+molecular	phân tử
+upskirt	vén váy
+acting	diễn xuất
+heads	cái đầu
+stored	được lưu trữ
+exam	bài thi
+logos	logo
+residence	nơi cư trú
+attorneys	luật sư
+milfs	những bà vợ
+antiques	đồ cổ
+density	Tỉ trọng
+hundred	trăm
+ryan	Ryan
+operators	toán tử
+strange	lạ lùng
+sustainable	bền vững
+philippines	philippines
+statistical	thống kê
+beds	giường
+breasts	ngực
+mention	đề cập đến
+innovation	sự đổi mới
+pcs	chiếc
+employers	người sử dụng lao động
+grey	xám
+parallel	song song
+honda	honda
+amended	sửa đổi
+operate	vận hành
+bills	hóa đơn
+bold	in đậm
+bathroom	phòng tắm
+stable	ổn định
+opera	opera
+definitions	các định nghĩa
+von	von
+doctors	nhiêu bác sĩ
+lesson	bài học
+cinema	rạp chiếu phim
+asset	tài sản
+ag	ag
+scan	quét
+elections	cuộc bầu cử
+drinking	uống rượu
+blowjobs	thổi kèn
+reaction	sự phản ứng lại
+blank	trống
+enhanced	nâng cao
+entitled	được phép
+severe	nghiêm trọng
+generate	phát ra
+stainless	không gỉ
+newspapers	Báo
+hospitals	bệnh viện
+vi	vi
+deluxe	sang trọng
+humor	hài hước
+aged	già
+monitors	màn hình
+exception	ngoại lệ
+lived	đã sống
+duration	khoảng thời gian
+bulk	số lượng lớn
+successfully	thành công
+indonesia	Indonesia
+pursuant	theo
+sci	khoa học
+fabric	vải vóc
+edt	EDT
+visits	thăm
+primarily	chủ yếu
+tight	chặt
+domains	tên miền
+capabilities	khả năng
+pmid	chiều
+contrast	sự tương phản
+recommendation	sự giới thiệu
+flying	bay
+recruitment	tuyển dụng
+sin	tội
+berlin	Béc-lin
+cute	dễ thương
+organized	được tổ chức
+ba	ba
+para	đoạn
+siemens	siemens
+adoption	nhận con nuôi
+improving	nâng cao
+cr	cr
+expensive	đắt
+meant	có nghĩa là
+capture	chiếm lấy
+pounds	bảng
+buffalo	trâu
+organisations	tổ chức
+plane	máy bay
+pg	trang
+explained	giải thích
+seed	hạt giống
+programmes	chương trình
+desire	sự mong muốn
+expertise	chuyên môn
+mechanism	cơ chế
+camping	cắm trại
+ee	ôi
+jewellery	đồ kim hoàn
+meets	gặp gỡ
+welfare	phúc lợi
+peer	ngang nhau
+caught	bắt gặp
+eventually	sau cùng
+marked	đánh dấu
+driven	điều khiển
+measured	đo
+medline	dòng thuốc
+bottle	cái chai
+agreements	thỏa thuận
+considering	xem xét
+innovative	đổi mới
+marshall	cảnh sát trưởng
+massage	mát xa
+rubber	cao su
+conclusion	Phần kết luận
+closing	đóng cửa
+tampa	tampa
+thousand	nghìn
+meat	thịt
+legend	huyền thoại
+grace	duyên dáng
+susan	Susan
+ing	ing
+ks	ks
+adams	Adams
+python	trăn
+monster	quái vật
+alex	alex
+bang	bang
+villa	Biệt thự
+bone	xương
+columns	cột
+disorders	rối loạn
+bugs	lỗi
+collaboration	sự hợp tác
+hamilton	Hamilton
+detection	phát hiện
+ftp	ftp
+cookies	bánh quy
+inner	bên trong
+formation	sự hình thành
+tutorial	hướng dẫn
+med	thuốc
+engineers	Kỹ sư
+entity	thực thể
+cruises	du lịch trên biển
+gate	cổng
+holder	người giữ
+proposals	đề xuất
+moderator	người điều hành
+sw	sw
+tutorials	hướng dẫn
+settlement	giải quyết
+portugal	Bồ Đào Nha
+lawrence	Lawrence
+roman	Roman
+duties	nhiệm vụ
+valuable	có giá trị lớn
+erotic	khiêu dâm
+tone	tấn
+collectables	đồ sưu tầm
+ethics	đạo đức
+forever	mãi mãi
+dragon	rồng
+busy	bận
+captain	đội trưởng
+fantastic	tuyệt vời
+imagine	tưởng tượng
+brings	mang lại
+heating	sưởi
+leg	chân
+neck	cổ
+hd	hd
+wing	cánh
+governments	chính phủ
+purchasing	thu mua
+scripts	kịch bản
+abc	abc
+stereo	âm thanh nổi
+appointed	bổ nhiệm
+taste	nếm
+dealing	xử lý
+commit	làm
+tiny	nhỏ xíu
+operational	hoạt động
+rail	đường sắt
+airlines	hãng hàng không
+liberal	tự do
+livecam	máy quay trực tiếp
+jay	chim giẻ cùi
+trips	chuyến đi
+gap	khoảng cách
+sides	bên
+tube	ống
+turns	lần lượt
+corresponding	tương ứng
+descriptions	mô tả
+cache	bộ nhớ đệm
+belt	thắt lưng
+jacket	áo khoác
+determination	sự quyết tâm
+animation	hoạt hình
+oracle	lời tiên tri
+er	ờ
+matthew	matthew
+lease	cho thuê
+productions	sản phẩm
+aviation	hàng không
+hobbies	sở thích
+proud	tự hào
+excess	thặng dư
+disaster	thảm họa
+console	bảng điều khiển
+commands	lệnh
+jr	jr
+telecommunications	viễn thông
+instructor	người hướng dẫn
+giant	người khổng lồ
+achieved	đạt được
+injuries	vết thương
+shipped	đã vận chuyển
+bestiality	thú tính
+seats	chỗ ngồi
+approaches	cách tiếp cận
+biz	chuyện lớn
+alarm	báo thức
+voltage	Vôn
+anthony	Anthony
+nintendo	nintendo
+usual	thường
+loading	đang tải
+stamps	tem
+appeared	đã xuất hiện
+franklin	Franklin
+angle	góc
+rob	cướp
+vinyl	nhựa vinyl
+highlights	điểm nổi bật
+mining	khai thác mỏ
+designers	nhà thiết kế
+melbourne	melbourne
+ongoing	đang diễn ra
+worst	tồi tệ nhất
+imaging	hình ảnh
+betting	cá cược
+scientists	các nhà khoa học
+liberty	tự do
+wyoming	Wyoming
+blackjack	bài xì dách
+argentina	Argentina
+era	kỷ nguyên
+convert	chuyển thành
+possibility	khả năng
+analyst	nhà phân tích
+commissioner	ủy viên
+dangerous	nguy hiểm
+garage	ga-ra
+exciting	thú vị
+reliability	độ tin cậy
+thongs	quần lót
+gcc	gcc
+unfortunately	Không may
+respectively	tương ứng
+volunteers	tình nguyện viên
+attachment	tập tin đính kèm
+ringtone	Nhạc chuông
+finland	Phần Lan
+morgan	Morgan
+derived	nguồn gốc
+pleasure	vinh hạnh
+honor	tôn kính
+asp	asp
+oriented	định hướng
+eagle	chim ưng
+desktops	máy tính để bàn
+pants	quần dài
+columbus	columbus
+nurse	y tá
+prayer	người cầu nguyện
+appointment	cuộc hẹn
+workshops	hội thảo
+hurricane	bão
+quiet	im lặng
+luck	may mắn
+postage	bưu phí
+producer	nhà sản xuất
+represented	đại diện
+mortgages	thế chấp
+dial	quay số
+responsibilities	trách nhiệm
+cheese	phô mai
+comic	hài hước
+carefully	cẩn thận
+jet	máy bay phản lực
+productivity	năng suất
+investors	nhà đầu tư
+crown	vương miện
+par	ngang bằng
+underground	bí mật
+diagnosis	chẩn đoán
+maker	người chế tạo
+crack	nứt
+principle	nguyên tắc
+picks	lựa chọn
+vacations	kỳ nghỉ
+gang	băng nhóm
+semester	học kỳ
+calculated	tính toán
+cumshot	xuất tinh
+fetish	tôn sùng
+applies	áp dụng
+casinos	sòng bạc
+appearance	vẻ bề ngoài
+smoke	Khói
+apache	apache
+filters	bộ lọc
+incorporated	hợp nhất
+nv	nv
+craft	thủ công
+cake	bánh ngọt
+notebooks	sổ ghi chép
+apart	riêng biệt
+fellow	đồng nghiệp
+blind	mù
+lounge	phòng chờ
+mad	điên rồ
+algorithm	thuật toán
+semi	một nửa
+coins	đồng xu
+andy	Andy
+gross	tổng
+strongly	mạnh mẽ
+cafe	quán cà phê
+valentine	lễ tình nhân
+hilton	hilton
+ken	ken
+proteins	chất đạm
+horror	kinh dị
+su	su
+exp	điểm kinh nghiệm
+familiar	thân thuộc
+capable	có khả năng
+douglas	douglas
+debian	debian
+till	cho đến khi
+involving	liên quan đến
+pen	cái bút
+investing	đầu tư
+christopher	Christopher
+admission	nhận vào
+epson	epson
+shoe	giày
+elected	bầu
+carrying	chở
+victory	chiến thắng
+sand	cát
+madison	Madison
+terrorism	khủng bố
+joy	vui sướng
+editions	ấn bản
+cpu	CPU
+mainly	chủ yếu
+ethnic	dân tộc
+ran	đã chạy
+parliament	quốc hội
+actor	diễn viên
+finds	tìm thấy
+seal	niêm phong
+situations	tình huống
+fifth	thứ năm
+allocated	được phân bổ
+citizen	công dân
+vertical	thẳng đứng
+corrections	đính chính
+structural	cấu trúc
+municipal	thành phố
+describes	mô tả
+prize	phần thưởng
+sr	sr
+occurs	xảy ra
+jon	Jon
+absolute	tuyệt đối
+disabilities	khuyết tật
+consists	bao gồm
+anytime	Bất cứ lúc nào
+substance	chất
+prohibited	Cấm
+addressed	địa chỉ
+lies	dối trá
+pipe	đường ống
+soldiers	lính
+nr	nr
+guardian	người giám hộ
+lecture	bài học
+simulation	mô phỏng
+layout	cách trình bày
+initiatives	khả năng phán đoán
+ill	ốm
+concentration	sự tập trung
+classics	kinh điển
+lbs	pound
+lay	đặt nằm
+interpretation	diễn dịch
+horses	ngựa
+lol	cười
+dirty	bẩn thỉu
+deck	boong tàu
+wayne	Wayne
+donate	quyên tặng
+taught	dạy
+bankruptcy	phá sản
+mp	mp
+worker	công nhân
+optimization	tối ưu hóa
+alive	còn sống
+temple	ngôi đền
+substances	vật liệu xây dựng
+prove	chứng minh
+discovered	đã phát hiện
+wings	cánh
+breaks	nghỉ giải lao
+genetic	di truyền
+restrictions	những hạn chế
+participating	tham gia
+waters	nhiều nước
+promise	hứa
+thin	gầy
+exhibition	triển lãm
+prefer	thích hơn
+ridge	cây rơm
+cabinet	tủ
+modem	modem
+harris	Harris
+mph	mph
+bringing	đưa
+sick	đau ốm
+dose	liều lượng
+evaluate	đánh giá
+tiffany	Tiffany
+tropical	nhiệt đới
+collect	sưu tầm
+bet	cá cược
+composition	thành phần
+toyota	toyota
+streets	đường phố
+nationwide	toàn quốc
+vector	vectơ
+definitely	chắc chắn
+shaved	cạo
+turning	quay
+buffer	đệm
+purple	màu tím
+existence	sự tồn tại
+commentary	bình luận
+larry	Larry
+limousines	xe limousine
+developments	sự phát triển
+def	chắc chắn
+immigration	nhập cư
+destinations	điểm đến
+lets	hãy
+mutual	qua lại
+pipeline	đường ống
+necessarily	nhất thiết
+syntax	cú pháp
+li	lý
+attribute	thuộc tính
+prison	nhà tù
+skill	kỹ năng
+chairs	Nhiều cái ghế
+nl	nl
+everyday	Hằng ngày
+apparently	rõ ràng
+surrounding	xung quanh
+mountains	núi
+moves	di chuyển
+popularity	phổ biến
+inquiry	cuộc điều tra
+ethernet	ethernet
+checked	đã kiểm tra
+exhibit	triển lãm
+throw	ném
+trend	xu hướng
+sierra	dãy núi Sierra
+visible	dễ thấy
+cats	những con mèo
+desert	sa mạc
+postposted	được đăng sau
+ya	ừ
+oldest	lâu đời nhất
+rhode	Rhodes
+nba	nba
+busty	ngực
+coordinator	điều phối viên
+obviously	rõ ràng
+mercury	thủy ngân
+steven	Steven
+handbook	sổ tay
+greg	Greg
+navigate	điều hướng
+worse	tệ hơn
+summit	đỉnh cao
+victims	nạn nhân
+epa	epa
+spaces	khoảng trống
+fundamental	cơ bản
+burning	đốt cháy
+escape	bỏ trốn
+coupons	phiếu giảm giá
+somewhat	phần nào
+receiver	người nhận
+substantial	đáng kể
+tr	tr
+progressive	cấp tiến
+cialis	cialis
+bb	bb
+boats	thuyền
+glance	liếc nhìn
+scottish	người Scotland
+championship	chức vô địch
+arcade	giải trí
+richmond	Richmond
+sacramento	bí tích
+impossible	không thể nào
+ron	ron
+russell	russell
+tells	kể
+obvious	rõ ràng
+fiber	chất xơ
+depression	trầm cảm
+graph	đồ thị
+covering	che phủ
+platinum	bạch kim
+judgment	sự phán xét
+bedrooms	phòng ngủ
+talks	cuộc nói chuyện
+filing	nộp hồ sơ
+foster	nuôi dưỡng
+modeling	người mẫu
+passing	đi qua
+awarded	Trao giải thưởng
+testimonials	lời chứng thực
+trials	thử nghiệm
+tissue	mô
+nz	nz
+memorabilia	kỷ vật
+clinton	clinton
+masters	bậc thầy
+bonds	trái phiếu
+cartridge	hộp đạn
+alberta	Alberta
+explanation	giải trình
+folk	dân gian
+org	tổ chức
+commons	tài sản chung
+cincinnati	cincinnati
+subsection	tiểu mục
+fraud	gian lận
+electricity	điện
+permitted	được phép
+spectrum	quang phổ
+arrival	đến
+okay	được rồi
+pottery	đồ gốm
+emphasis	sự nhấn mạnh
+roger	roger
+aspect	diện mạo
+workplace	nơi làm việc
+awesome	tuyệt vời
+mexican	người Mexico
+confirmed	đã xác nhận
+counts	đếm
+priced	có giá
+wallpapers	hình nền
+hist	lịch sử
+crash	tai nạn
+lift	thang máy
+desired	mong muốn
+inter	chôn cất
+closer	gần hơn
+assumes	giả định
+heights	độ cao
+shadow	bóng tối
+riding	cưỡi
+infection	sự nhiễm trùng
+firefox	firefox
+lisa	Lisa
+expense	chi phí
+grove	khu rừng
+eligibility	đủ điều kiện
+venture	mạo hiểm
+clinic	phòng khám
+korean	Hàn Quốc
+healing	đang lành lại
+princess	công chúa
+mall	trung tâm mua sắm
+entering	đi vào
+packet	gói
+spray	Xịt nước
+studios	studio
+involvement	sự tham gia
+dad	bố
+buttons	nút
+placement	vị trí
+observations	quan sát
+vbulletin	bản tin
+funded	được tài trợ
+thompson	thompson
+winners	người chiến thắng
+extend	mở rộng
+roads	đường
+subsequent	tiếp theo
+pat	vỗ về
+dublin	dublin
+rolling	lăn
+fell	rơi
+motorcycle	xe máy
+yard	sân
+disclosure	tiết lộ
+establishment	thành lập
+memories	ký ức
+nelson	Nelson
+te	bạn
+arrived	tới nơi
+creates	tạo ra
+faces	khuôn mặt
+tourist	du khách
+cocks	gà trống
+av	av
+mayor	thị trưởng
+murder	giết người
+sean	Sean
+adequate	đủ
+senator	thượng nghị sĩ
+yield	năng suất
+presentations	thuyết trình
+grades	điểm
+cartoons	phim hoạt hình
+pour	đổ
+digest	tiêu
+reg	đăng ký
+lodging	chỗ ở
+tion	sự
+dust	bụi
+hence	kể từ đây
+wiki	wiki
+entirely	toàn bộ
+replaced	thay thế
+radar	rađa
+rescue	giải thoát
+undergraduate	đại học
+losses	lỗ vốn
+combat	chiến đấu
+reducing	giảm bớt
+stopped	dừng lại
+occupation	nghề nghiệp
+lakes	hồ
+butt	mông
+donations	Quyên góp
+associations	hiệp hội
+citysearch	tìm kiếm thành phố
+closely	chặt chẽ
+radiation	sự bức xạ
+diary	Nhật ký
+seriously	nghiêm túc
+kings	các vị vua
+shooting	chụp
+kent	Kent
+adds	thêm vào
+nsw	nsw
+ear	tai
+flags	cờ
+pci	pci
+baker	thợ làm bánh
+launched	ra mắt
+elsewhere	nơi khác
+pollution	sự ô nhiễm
+conservative	thận trọng
+guestbook	sổ lưu bút
+shock	sốc
+effectiveness	hiệu quả
+walls	bức tường
+abroad	ở nước ngoài
+ebony	gỗ mun
+tie	cà vạt
+ward	phường
+drawn	vẽ
+arthur	Arthur
+ian	Ian
+visited	đã đến thăm
+roof	mái nhà
+walker	khung tập đi
+demonstrate	chứng minh
+atmosphere	bầu không khí
+suggests	gợi ý
+kiss	hôn
+beast	quái thú
+ra	ra
+operated	vận hành
+experiment	cuộc thí nghiệm
+targets	mục tiêu
+overseas	Hải ngoại
+purchases	mua hàng
+dodge	né tránh
+counsel	lời khuyên
+federation	liên đoàn
+pizza	pizza
+invited	được mời
+yards	bãi
+assignment	phân công
+chemicals	hóa chất
+gordon	gordon
+mod	mod
+farmers	nông dân
+rc	rc
+queries	truy vấn
+bmw	xe BMW
+rush	cây bấc
+ukraine	Ukraina
+absence	vắng mặt
+nearest	gần nhất
+cluster	cụm
+vendors	nhà cung cấp
+mpeg	mpeg
+whereas	trong khi
+yoga	yoga
+serves	phục vụ
+woods	gỗ
+surprise	sự ngạc nhiên
+lamp	đèn
+rico	rico
+partial	một phần
+shoppers	người mua sắm
+phil	phil
+everybody	mọi người
+couples	cặp đôi
+nashville	Nashville
+ranking	xếp hạng
+jokes	truyện cười
+cst	cst
+http	http
+ceo	CEO
+simpson	simpson
+twiki	twiki
+sublime	tuyệt vời
+counseling	tư vấn
+palace	cung điện
+acceptable	chấp nhận được
+satisfied	thỏa mãn
+glad	vui mừng
+wins	thắng
+measurements	đo
+verify	xác minh
+globe	khối cầu
+trusted	đáng tin cậy
+copper	đồng
+milwaukee	milwaukee
+rack	giá đỡ
+medication	thuốc
+warehouse	kho
+shareware	phần mềm chia sẻ
+ec	ec
+rep	trả lời
+dicke	cu
+kerry	kerry
+receipt	biên lai
+supposed	giả sử
+ordinary	bình thường
+nobody	không ai
+ghost	bóng ma
+violation	sự vi phạm
+configure	cấu hình
+stability	sự ổn định
+mit	găng tay
+applying	áp dụng
+southwest	tây nam
+boss	ông chủ
+pride	kiêu hãnh
+institutional	thể chế
+expectations	mong đợi
+independence	Sự độc lập
+knowing	biết
+reporter	phóng viên
+metabolism	sự trao đổi chất
+keith	keith
+champion	quán quân
+cloudy	nhiều mây
+linda	Linda
+ross	màu hồng
+personally	cá nhân
+chile	ớt
+anna	anna
+plenty	nhiều
+solo	đấu
+sentence	câu
+throat	họng
+ignore	phớt lờ
+maria	Maria
+uniform	đồng phục
+excellence	xuất sắc
+wealth	sự giàu có
+tall	cao
+rm	rm
+somewhere	một vài nơi
+vacuum	máy hút bụi
+dancing	khiêu vũ
+attributes	thuộc tính
+recognize	nhận ra
+brass	thau
+writes	viết
+plaza	quảng trường
+pdas	pda
+outcomes	kết quả
+survival	sống sót
+quest	nhiệm vụ
+publish	công bố
+sri	sri
+screening	sàng lọc
+toe	ngón chân
+thumbnail	hình nhỏ
+trans	Dịch
+jonathan	jonathan
+whenever	bất cứ khi nào
+nova	tân tinh
+lifetime	cả đời
+api	API
+pioneer	người tiên phong
+booty	chiến lợi phẩm
+forgotten	bị lãng quên
+acrobat	diễn viên xiếc
+plates	tấm
+acres	đất cày cấy
+venue	địa điểm
+athletic	Khỏe mạnh
+thermal	nhiệt
+essays	tiểu luận
+behaviour	hành vi
+vital	thiết yếu
+telling	nói
+fairly	công bằng
+coastal	duyên hải
+config	cấu hình
+cf	cf
+charity	tổ chức từ thiện
+intelligent	thông minh
+edinburgh	edinburgh
+vt	vt
+excel	vượt trội
+modes	chế độ
+obligation	nghĩa vụ
+campbell	chuông campbell
+wake	thức dậy
+stupid	ngốc nghếch
+harbor	Hải cảng
+hungary	Hungary
+traveler	du khách
+urw	ồ
+segment	bộ phận
+realize	nhận ra
+regardless	bất kể
+lan	lan
+enemy	kẻ thù
+puzzle	câu đố
+rising	trỗi dậy
+aluminum	nhôm
+wells	giếng
+wishlist	danh sách mong muốn
+opens	mở ra
+insight	cái nhìn thấu suốt
+sms	tin nhắn
+shit	Chết tiệt
+restricted	hạn chế
+republican	người theo chủ nghĩa cộng hòa
+secrets	bí mật
+lucky	may mắn
+latter	sau này
+merchants	thương gia
+thick	dày
+trailers	xe kéo
+repeat	lặp lại
+syndrome	hội chứng
+philips	philips
+attendance	sự tham dự
+penalty	hình phạt
+drum	cái trống
+glasses	kính
+enables	cho phép
+nec	không cần
+iraqi	người Iraq
+builder	người xây dựng
+vista	tầm nhìn
+jessica	jessica
+chips	khoai tây chiên
+terry	vải bông
+flood	lụt
+foto	bức ảnh
+ease	xoa dịu
+arguments	tranh luận
+amsterdam	amsterdam
+orgy	thác loạn
+arena	đấu trường
+adventures	cuộc phiêu lưu
+pupils	học sinh
+stewart	người quản lý
+announcement	thông báo
+tabs	tab
+outcome	kết quả
+xx	xx
+appreciate	đánh giá
+expanded	mở rộng
+casual	bình thường
+grown	tăng
+polish	đánh bóng
+lovely	đáng yêu
+extras	tính năng bổ sung
+gm	gm
+centres	trung tâm
+jerry	jerry
+clause	điều khoản
+smile	nụ cười
+lands	vùng đất
+ri	ri
+troops	quân đội
+indoor	trong nhà
+bulgaria	Bungari
+armed	vũ trang
+broker	người môi giới
+charger	sạc
+regularly	thường xuyên
+believed	tin
+pine	cây thông
+cooling	làm mát
+tend	có khuynh hướng
+gulf	Vịnh
+rt	rt
+rick	đụn rơm
+trucks	xe tải
+cp	cp
+mechanisms	cơ chế
+divorce	ly hôn
+laura	laura
+shopper	người mua sắm
+tokyo	tokyo
+partly	từng phần
+nikon	Nikon
+customize	tùy chỉnh
+tradition	truyền thống
+candy	kẹo
+pills	thuốc
+tiger	con hổ
+donald	Donald
+folks	mọi người
+sensor	cảm biến
+exposed	để lộ ra
+telecom	viễn thông
+hunt	săn bắn
+angels	thiên thần
+deputy	phó
+indicators	chỉ số
+sealed	niêm phong
+thai	người Thái
+emissions	khí thải
+physicians	bác sĩ
+loaded	nạp vào
+fred	Fred
+complaint	lời phàn nàn
+scenes	cảnh
+experiments	thí nghiệm
+balls	những quả bóng
+afghanistan	Afghanistan
+dd	đ
+boost	tăng
+spanking	đánh đòn
+scholarship	học bổng
+governance	quản trị
+mill	cối xay
+founded	thành lập
+supplements	chất bổ sung
+chronic	mãn tính
+icons	biểu tượng
+tranny	chuyển giới
+moral	có đạo đức
+den	cái hang
+catering	phục vụ ăn uống
+aud	kiểm toán
+finger	ngón tay
+keeps	giữ
+pound	pao
+locate	định vị
+camcorder	máy quay phim
+pl	làm ơn
+trained	đào tạo
+burn	đốt cháy
+implementing	thực thi
+roses	hoa hồng
+labs	phòng thí nghiệm
+ourselves	chính chúng ta
+bread	bánh mỳ
+tobacco	thuốc lá
+wooden	bằng gỗ
+motors	động cơ
+tough	khó
+roberts	Roberts
+incident	sự cố
+gonna	sẽ
+dynamics	động lực học
+lie	nói dối
+crm	crm
+rf	rf
+conversation	cuộc hội thoại
+decrease	giảm bớt
+cumshots	bắn tinh
+chest	ngực
+pension	lương hưu
+billy	Billy
+revenues	doanh thu
+emerging	mới nổi
+worship	tôn thờ
+bukkake	nhiều người
+capability	khả năng
+ak	ak
+fe	fe
+craig	Craig
+herself	chính cô ấy
+producing	sản xuất
+churches	nhà thờ
+precision	độ chính xác
+damages	thiệt hại
+reserves	dự trữ
+contributed	đóng góp
+solve	gỡ rối
+shorts	quần short
+reproduction	sinh sản
+minority	thiểu số
+td	td
+diverse	phong phú
+amp	amp
+ingredients	thành phần
+sb	sb
+ah	Ah
+johnny	Johnny
+sole	Duy Nhất
+franchise	nhượng quyền thương mại
+recorder	máy ghi âm
+complaints	phàn nàn
+facing	đối mặt
+sm	sm
+nancy	Nancy
+promotions	khuyến mãi
+tones	âm
+passion	niềm đam mê
+rehabilitation	phục hồi chức năng
+maintaining	duy trì
+sight	thị giác
+laid	đặt
+clay	đất sét
+defence	phòng thủ
+patches	bản vá lỗi
+weak	yếu đuối
+refund	đền bù
+usc	usc
+towns	thị trấn
+environments	môi trường
+trembl	run rẩy
+divided	đã chia ra
+blvd	blvd
+reception	thu nhận
+amd	amd
+wise	khôn ngoan
+emails	email
+cyprus	Síp
+wv	wv
+odds	tỷ lệ cược
+correctly	chính xác
+insider	người trong cuộc
+seminars	hội thảo
+consequences	hậu quả
+makers	nhà sản xuất
+hearts	trái tim
+geography	địa lý
+appearing	xuất hiện
+integrity	chính trực
+worry	lo lắng
+ns	ns
+discrimination	phân biệt
+eve	đêm
+carter	người vận chuyển
+legacy	di sản
+marc	marc
+pleased	vừa lòng
+danger	sự nguy hiểm
+vitamin	vitamin
+widely	rộng rãi
+processed	xử lý
+phrase	cụm từ
+genuine	thành thật
+raising	nâng cao
+implications	hàm ý
+functionality	chức năng
+paradise	thiên đường
+hybrid	hỗn hợp
+reads	đọc
+roles	vai trò
+intermediate	trung cấp
+emotional	xúc động
+sons	con trai
+leaf	lá cây
+pad	tập giấy
+glory	vinh quang
+platforms	nền tảng
+ja	à
+bigger	to hơn
+billing	thanh toán
+diesel	dầu diesel
+versus	đấu với
+combine	kết hợp
+overnight	qua đêm
+geographic	Địa lý
+exceed	quá
+bs	bs
+rod	gậy
+saudi	người saudi
+fault	lỗi
+cuba	cuba
+hrs	giờ
+preliminary	sơ bộ
+districts	huyện
+introduce	giới thiệu
+silk	lụa
+promotional	khuyến mãi
+kate	Kate
+chevrolet	chevrolet
+babies	đứa trẻ
+bi	bi
+karen	Karen
+compiled	biên soạn
+romantic	lãng mạn
+revealed	tiết lộ
+specialists	chuyên gia
+generator	máy phát điện
+albert	albert
+examine	nghiên cứu
+jimmy	jimmy
+graham	graham
+suspension	đình chỉ
+bristol	bristol
+margaret	bơ thực vật
+compaq	compaq
+sad	buồn
+correction	điều chỉnh
+wolf	chó sói
+slowly	chậm
+authentication	xác thực
+communicate	giao tiếp
+rugby	bóng bầu dục
+supplement	phần bổ sung
+showtimes	lịch chiếu phim
+cal	cal
+portions	phần ăn
+infant	trẻ sơ sinh
+promoting	quảng bá
+sectors	lĩnh vực
+samuel	Samuel
+fluid	dịch
+grounds	căn cứ
+fits	phù hợp
+kick	đá
+regards	Trân trọng
+meal	bữa ăn
+ta	ta
+hurt	đau
+machinery	máy móc
+bandwidth	băng thông
+unlike	không giống
+equation	phương trình
+baskets	giỏ
+probability	xác suất
+pot	nồi
+dimension	kích thước
+wright	đúng
+img	hình ảnh
+barry	Barry
+proven	chứng minh
+schedules	lịch trình
+admissions	tuyển sinh
+cached	được lưu vào bộ nhớ đệm
+warren	Warren
+slip	trượt
+studied	đã học
+reviewer	người đánh giá
+involves	liên quan đến
+quarterly	hàng quý
+rpm	vòng/phút
+profits	lợi nhuận
+devil	ác quỷ
+grass	cỏ
+comply	tuân theo
+marie	marie
+florist	người bán hoa
+illustrated	minh họa
+cherry	quả anh đào
+continental	lục địa
+alternate	Luân phiên
+deutsch	tiếng Đức
+achievement	thành tích
+limitations	hạn chế
+kenya	Kenya
+webcam	webcam
+cuts	vết cắt
+funeral	tang lễ
+nutten	hạt dẻ
+earrings	Hoa tai
+enjoyed	rất thích
+automated	tự động
+chapters	chương
+pee	tiểu
+charlie	Charlie
+quebec	người quebec
+nipples	núm vú
+passenger	hành khách
+convenient	thuận lợi
+dennis	dennis
+mars	Sao Hoả
+francis	Francis
+tvs	tivi
+sized	có kích thước
+manga	truyện
+noticed	nhận thấy
+socket	ổ cắm
+silent	im lặng
+literary	văn học
+egg	trứng
+mhz	mhz
+signals	tín hiệu
+caps	mũ lưỡi trai
+orientation	định hướng
+pill	Viên thuốc
+theft	trộm cắp
+childhood	thời thơ ấu
+swing	xích đu
+symbols	biểu tượng
+lat	vĩ độ
+meta	meta
+humans	con người
+analog	tương tự
+facial	mặt
+choosing	lựa chọn
+talent	tài năng
+dated	ngày tháng
+flexibility	Uyển chuyển
+seeker	người tìm kiếm
+wisdom	khôn ngoan
+shoot	bắn
+boundary	ranh giới
+mint	cây bạc hà
+packard	người đóng gói
+offset	bù lại
+payday	ngày trả lương
+philip	Philip
+elite	ưu tú
+gi	gi
+spin	quay
+holders	người nắm giữ
+believes	tin tưởng
+swedish	người Thụy Điển
+poems	bài thơ
+deadline	thời hạn
+jurisdiction	quyền hạn
+robot	người máy
+displaying	hiển thị
+witness	nhân chứng
+collins	Collin
+equipped	đã trang bị
+stages	giai đoạn
+encouraged	động viên
+sur	sur
+winds	gió
+powder	bột
+broadway	đường rộng
+acquired	mua
+assess	đánh giá
+wash	rửa
+cartridges	hộp mực
+stones	đá
+entrance	cổng vào
+gnome	thần lùn
+roots	rễ
+declaration	tuyên ngôn
+losing	thua cuộc
+attempts	nỗ lực
+gadgets	dụng cụ
+noble	cao quý
+glasgow	Glasgow
+automation	tự động hóa
+impacts	tác động
+rev	vòng quay
+gospel	sách Phúc Âm
+advantages	thuận lợi
+shore	bờ biển
+loves	yêu
+induced	gây ra
+ll	sẽ
+knight	Hiệp sỹ
+preparing	chuẩn bị
+loose	lỏng lẻo
+aims	mục đích
+recipient	người nhận
+linking	liên kết
+extensions	tiện ích mở rộng
+appeals	kháng cáo
+cl	cl
+earned	kiếm được
+illness	sự ốm yếu
+islamic	Hồi giáo
+athletics	Thế vận hội
+southeast	Đông Nam
+ieee	ieee
+ho	ho
+alternatives	lựa chọn thay thế
+pending	chưa giải quyết
+parker	người đậu xe
+determining	xác định
+lebanon	lebanon
+corp	tập đoàn
+personalized	cá nhân hóa
+kennedy	kennedy
+gt	gt
+sh	sh
+conditioning	điều hòa
+teenage	thiếu niên
+soap	xà bông
+ae	ae
+triple	gấp ba
+cooper	thùng đựng đồ
+nyc	New York
+vincent	Vincent
+jam	mứt
+secured	bảo đảm
+unusual	bất thường
+answered	đã trả lời
+partnerships	quan hệ đối tác
+destruction	sự phá hủy
+slots	khe cắm
+increasingly	ngày càng
+migration	di cư
+disorder	rối loạn
+routine	lịch trình
+toolbar	thanh công cụ
+basically	về cơ bản
+rocks	đá
+conventional	thông thường
+titans	người khổng lồ
+applicants	ứng viên
+wearing	mặc
+axis	trục
+sought	tìm kiếm
+genes	gen
+mounted	gắn kết
+habitat	môi trường sống
+firewall	bức tường lửa
+median	Trung bình
+guns	súng
+scanner	máy quét
+herein	ở đây
+occupational	nghề nghiệp
+animated	hoạt hình
+horny	đam mê
+judicial	tư pháp
+rio	sông
+hs	hs
+adjustment	điều chỉnh
+hero	anh hùng
+integer	số nguyên
+treatments	phương pháp điều trị
+bachelor	cử nhân
+attitude	thái độ
+camcorders	máy quay phim
+engaged	đính hôn
+falling	rơi xuống
+basics	điều cơ bản
+montreal	Montréal
+carpet	thảm
+rv	rv
+struct	cấu trúc
+lenses	ống kính
+binary	nhị phân
+genetics	di truyền học
+attended	tham dự
+difficulty	khó khăn
+punk	đồ chơi khăm
+collective	tập thể
+coalition	liên minh
+pi	số Pi
+dropped	giảm
+enrollment	ghi danh
+duke	công tước
+walter	Walter
+ai	ai
+pace	nhịp độ
+besides	bên cạnh đó
+wage	tiền công
+producers	nhà sản xuất
+ot	ồ
+collector	người sưu tầm
+arc	vòng cung
+hosts	máy chủ
+interfaces	giao diện
+advertisers	nhà quảng cáo
+moments	khoảnh khắc
+atlas	bản đồ
+strings	dây
+dawn	bình minh
+representing	đại diện
+observation	quan sát
+feels	cảm thấy
+torture	tra tấn
+carl	carl
+deleted	đã xóa
+coat	áo choàng
+mitchell	mitchell
+mrs	Bà
+rica	rica
+restoration	sự phục hồi
+convenience	sự tiện lợi
+returning	trở về
+ralph	ralph
+opposition	Sự đối lập
+container	thùng đựng hàng
+yr	năm
+defendant	bị cáo
+warner	cảnh báo
+confirmation	xác nhận
+app	ứng dụng
+embedded	nhúng
+inkjet	máy in phun
+supervisor	người giám sát
+wizard	Thuật sĩ
+corps	quân đoàn
+actors	diễn viên
+liver	gan
+peripherals	thiết bị ngoại vi
+liable	chịu trách nhiệm
+brochure	cuốn sách nhỏ
+morris	morris
+bestsellers	bán chạy nhất
+petition	đơn kiến ​​nghị
+eminem	eminem
+recall	nhớ lại
+antenna	ăng-ten
+picked	đã chọn
+assumed	giả định
+departure	sự khởi hành
+minneapolis	minneapolis
+belief	sự tin tưởng
+killing	giết chóc
+bikini	bikini
+memphis	memphis
+shoulder	vai
+decor	thiết kế nội thất
+lookup	tra cứu
+texts	văn bản
+harvard	đại học Harvard
+brokers	người môi giới
+roy	hoàng tử
+ion	ion
+diameter	đường kính
+ottawa	ottawa
+doll	BÚP BÊ
+ic	ic
+podcast	tệp âm thanh
+tit	tit
+seasons	các mùa
+peru	peru
+interactions	tương tác
+refine	lọc
+bidder	người đấu giá
+singer	ca sĩ
+evans	xe tải
+herald	báo trước
+literacy	trình độ học vấn
+fails	thất bại
+aging	sự lão hóa
+nike	Nike
+intervention	sự can thiệp
+pissing	đi tiểu
+fed	đã nuôi
+plugin	cắm vào
+attraction	sự thu hút
+diving	lặn
+invite	mời
+modification	sửa đổi
+alice	Alice
+latinas	người latin
+suppose	giả định
+customized	tùy chỉnh
+reed	cây lau
+involve	liên quan
+moderate	vừa phải
+terror	khủng bố
+younger	trẻ hơn
+thirty	ba mươi
+mice	chuột
+opposite	đối diện
+understood	hiểu
+rapidly	liên tục
+dealtime	thời gian giao dịch
+ban	lệnh cấm
+temp	nhiệt độ
+intro	phần giới thiệu
+mercedes	Mercedes
+zus	zu
+assurance	sự đảm bảo
+fisting	đánh tay
+clerk	nhân viên văn phòng
+happening	đang xảy ra
+vast	rộng lớn
+mills	nhà máy
+outline	đề cương
+amendments	sửa đổi
+tramadol	tramadol
+holland	Hà Lan
+receives	nhận được
+jeans	Quần jean
+metropolitan	đô thị
+compilation	biên soạn
+verification	xác minh
+fonts	phông chữ
+ent	ent
+odd	số lẻ
+wrap	bọc
+refers	ám chỉ
+mood	tâm trạng
+favor	ủng hộ
+veterans	cựu chiến binh
+quiz	đố
+mx	mx
+sigma	sigma
+gr	gr
+attractive	hấp dẫn
+xhtml	xhtml
+occasion	dịp
+recordings	bản ghi âm
+jefferson	jefferson
+victim	nạn nhân
+demands	yêu cầu
+sleeping	đang ngủ
+careful	cẩn thận
+ext	máy lẻ
+beam	chùm tia
+gardening	làm vườn
+obligations	nghĩa vụ
+arrive	đến
+orchestra	dàn nhạc
+sunset	Hoàng hôn
+tracked	theo dõi
+moreover	Hơn thế nữa
+minimal	tối thiểu
+polyphonic	đa âm
+lottery	vé số
+tops	ngọn
+framed	đóng khung
+aside	qua một bên
+outsourcing	gia công phần mềm
+licence	giấy phép
+adjustable	có thể điều chỉnh
+allocation	phân bổ
+michelle	Michelle
+essay	tiểu luận
+discipline	kỷ luật
+amy	Amy
+ts	ts
+demonstrated	chứng minh
+dialogue	hội thoại
+identifying	xác định
+alphabetical	theo bảng chữ cái
+camps	trại
+declared	khai báo
+dispatched	phái đi
+aaron	Aaron
+handheld	cầm tay
+trace	dấu vết
+disposal	xử lý
+shut	đóng lại
+florists	người bán hoa
+packs	gói
+ge	ge
+installing	cài đặt
+switches	công tắc
+romania	Rumani
+voluntary	tình nguyện
+ncaa	ncaa
+thou	bạn
+consult	tham khảo ý kiến
+phd	Bằng tiến sĩ
+greatly	rất nhiều
+blogging	viết blog
+mask	mặt nạ
+cycling	đạp xe
+midnight	nửa đêm
+ng	ng
+commonly	thông thường
+pe	Thể dục
+photographer	nhiếp ảnh gia
+inform	thông báo
+turkish	tiếng Thổ Nhĩ Kỳ
+coal	than đá
+cry	khóc
+messaging	nhắn tin
+pentium	pentium
+quantum	lượng tử
+murray	Murray
+intent	ý định
+tt	tt
+zoo	vườn bách thú
+largely	phần lớn
+pleasant	dễ thương
+announce	thông báo
+constructed	được xây dựng
+additions	bổ sung
+requiring	yêu cầu
+spoke	nói chuyện
+aka	hay còn gọi là
+arrow	mũi tên
+engagement	hôn ước
+sampling	lấy mẫu
+rough	thô
+weird	kỳ quặc
+tee	phát bóng
+refinance	tái cấp vốn
+lion	con sư tử
+inspired	lấy cảm hứng
+holes	hố
+weddings	đám cưới
+blade	lưỡi
+suddenly	đột nhiên
+oxygen	ôxy
+cookie	bánh quy
+meals	bữa ăn
+canyon	hẻm núi
+goto	đi đến
+meters	mét
+merely	chỉ đơn thuần là
+calendars	lịch
+arrangement	sắp xếp
+conclusions	kết luận
+passes	vượt qua
+bibliography	thư mục
+pointer	con trỏ
+compatibility	khả năng tương thích
+stretch	kéo dài
+durham	Durham
+furthermore	hơn nữa
+permits	giấy phép
+cooperative	hợp tác xã
+muslim	Hồi
+xl	xl
+neil	Neil
+sleeve	tay áo
+netscape	cảnh quan mạng
+cleaner	sạch hơn
+cricket	bóng chày
+beef	thịt bò
+feeding	cho ăn
+stroke	đột quỵ
+township	thị trấn
+rankings	bảng xếp hạng
+measuring	đo lường
+cad	cad
+hats	mũ
+robin	chim cổ đỏ
+robinson	robinson
+jacksonville	jacksonville
+strap	dây đeo
+headquarters	trụ sở chính
+sharon	Sharon
+crowd	đám đông
+tcp	tcp
+transfers	chuyển nhượng
+surf	lướt sóng
+olympic	thế vận hội
+transformation	sự biến đổi
+remained	vẫn
+attachments	tệp đính kèm
+dv	dv
+dir	thư mục
+entities	thực thể
+customs	phong tục
+administrators	quản trị viên
+personality	nhân cách
+rainbow	cầu vồng
+hook	cái móc
+roulette	roulette
+decline	sự suy sụp
+gloves	găng tay
+israeli	người Israel
+medicare	thuốc men
+cord	dây
+skiing	trượt tuyết
+cloud	đám mây
+facilitate	tạo điều kiện
+subscriber	người đăng kí
+valve	van
+val	giá trị
+hewlett	hewlett
+explains	giải thích
+proceed	tiếp tục
+flickr	Flickr
+feelings	cảm xúc
+knife	dao
+jamaica	Jamaica
+priorities	ưu tiên
+shelf	cái kệ
+bookstore	hiệu sách
+timing	thời gian
+liked	đã thích
+parenting	nuôi dạy con cái
+adopt	nhận nuôi
+denied	từ chối
+fotos	bức ảnh
+incredible	đáng kinh ngạc
+britney	britney
+freeware	phần mềm miễn phí
+fucked	chết tiệt
+donation	Quyên góp
+outer	bên ngoài
+crop	mùa vụ
+deaths	cái chết
+rivers	sông
+commonwealth	liên bang
+pharmaceutical	dược phẩm
+manhattan	thành phố Manhattan
+tales	truyện cổ tích
+katrina	katrina
+workforce	lực lượng lao động
+islam	đạo Hồi
+nodes	điểm giao
+tu	bạn
+fy	fy
+thumbs	ngón tay cái
+seeds	hạt giống
+cited	trích dẫn
+lite	nhẹ nhàng
+ghz	ghz
+hub	trung tâm
+targeted	nhắm mục tiêu
+organizational	tổ chức
+skype	Ứng dụng trò chuyện
+realized	nhận ra
+twelve	mười hai
+founder	người sáng lập
+decade	thập kỷ
+gamecube	gamecube
+rr	rr
+dispute	tranh luận
+portuguese	người Bồ Đào Nha
+tired	mệt
+titten	ngực
+adverse	bất lợi
+everywhere	mọi nơi
+excerpt	đoạn trích
+eng	tiếng anh
+steam	hơi nước
+discharge	phóng điện
+ef	ef
+drinks	đồ uống
+ace	át chủ
+voices	tiếng nói
+acute	nhọn
+halloween	lễ hội halloween
+climbing	leo
+stood	đứng
+sing	hát
+tons	tấn
+perfume	nước hoa
+carol	bài hát mừng
+honest	trung thực
+albany	người al-bany
+hazardous	nguy hiểm
+restore	khôi phục
+stack	cây rơm
+methodology	phương pháp luận
+somebody	có ai
+sue	kiện
+ep	ep
+housewares	đồ gia dụng
+reputation	danh tiếng
+resistant	kháng cự
+democrats	nhà dân chủ
+recycling	tái chế
+hang	treo
+gbp	gbp
+curve	đường cong
+creator	người sáng tạo
+amber	hổ phách
+qualifications	bằng cấp
+museums	viện bảo tàng
+coding	mã hóa
+slideshow	trình chiếu
+tracker	người theo dõi
+variation	biến thể
+passage	đoạn văn
+transferred	chuyển nhượng
+trunk	Thân cây
+hiking	đi bộ đường dài
+lb	lb
+damn	chết tiệt
+pierre	Pierre
+jelsoft	jelsoft
+headset	tai nghe
+photograph	ảnh chụp
+oakland	vùng đất sồi
+colombia	Colombia
+waves	sóng
+camel	con lạc đà
+distributor	nhà phân phối
+lamps	đèn
+underlying	cơ bản
+hood	Mui xe
+wrestling	đấu vật
+suicide	tự tử
+archived	đã lưu trữ
+photoshop	photoshop
+jp	jp
+chi	khí
+bt	bt
+arabia	Ả Rập
+gathering	thu thập
+projection	phép chiếu
+juice	nước ép
+chase	đuổi
+mathematical	toán học
+logical	hợp lý
+sauce	nước xốt
+fame	danh tiếng
+extract	trích xuất
+specialized	chuyên
+diagnostic	chẩn đoán
+panama	panama
+indianapolis	Indianapolis
+af	af
+payable	phải trả
+corporations	tập đoàn
+courtesy	lịch sự
+criticism	sự chỉ trích
+automobile	ô tô
+confidential	bảo mật
+rfc	rfc
+statutory	theo luật định
+accommodations	chỗ ở
+athens	Athens
+northeast	hướng đông bắc
+downloaded	đã tải xuống
+judges	ban giám khảo
+sl	sl
+seo	seo
+retired	đã nghỉ hưu
+isp	con ong
+remarks	nhận xét
+detected	phát hiện
+decades	thập kỷ
+paintings	những bức tranh
+walked	đi bộ
+arising	phát sinh
+nissan	Nissan
+bracelet	vòng đeo tay
+ins	trong
+eggs	trứng
+juvenile	vị thành niên
+injection	mũi tiêm
+yorkshire	yorkshire
+populations	quần thể
+protective	bảo vệ
+afraid	sợ
+acoustic	âm học
+railway	đường sắt
+cassette	băng cassette
+initially	ban đầu
+indicator	chỉ báo
+pointed	nhọn
+hb	hb
+jpg	jpg
+causing	gây ra
+mistake	sai lầm
+norton	Norton
+locked	bị khóa
+eliminate	loại bỏ
+tc	tc
+fusion	dung hợp
+mineral	khoáng sản
+sunglasses	kính râm
+ruby	hồng ngọc
+steering	Hệ thống lái
+beads	hạt
+fortune	vận may
+preference	sự ưa thích
+canvas	Tranh sơn dầu
+threshold	ngưỡng
+parish	giáo xứ
+claimed	đã tuyên bố
+screens	màn hình
+cemetery	nghĩa trang
+planner	người lập kế hoạch
+croatia	Croatia
+flows	chảy
+stadium	sân vận động
+venezuela	Venezuela
+exploration	thăm dò
+mins	phút
+fewer	ít hơn
+sequences	trình tự
+coupon	phiếu mua hàng
+nurses	y tá
+ssl	ssl
+stem	thân cây
+proxy	Ủy quyền
+gangbang	tập thể
+astronomy	thiên văn học
+lanka	lanka
+opt	opt
+edwards	edwards
+drew	đã vẽ
+contests	cuộc thi
+flu	cúm
+translate	dịch
+announces	thông báo
+mlb	mlb
+costume	trang phục
+tagged	được gắn thẻ
+berkeley	Berkeley
+voted	đã bình chọn
+killer	sát thủ
+bikes	xe đạp
+gates	cổng
+adjusted	điều chỉnh
+rap	rap
+tune	điều chỉnh
+bishop	giám mục
+pulled	kéo
+corn	Ngô
+gp	gp
+shaped	có hình dạng
+compression	nén
+seasonal	theo mùa
+establishing	thiết lập
+farmer	nông dân
+counters	quầy
+puts	đặt
+constitutional	hiến pháp
+grew	lớn lên
+perfectly	hoàn hảo
+tin	thiếc
+slave	nô lệ
+instantly	ngay lập tức
+cultures	nền văn hóa
+norfolk	người dân bình thường
+coaching	huấn luyện
+examined	đã kiểm tra
+trek	hành trình
+encoding	mã hóa
+litigation	kiện tụng
+submissions	bài nộp
+oem	oem
+heroes	anh hùng
+painted	Sơn
+lycos	lyco
+ir	tôi
+zdnet	zdnet
+broadcasting	phát thanh truyền hình
+horizontal	nằm ngang
+artwork	tác phẩm nghệ thuật
+cosmetic	mỹ phẩm
+resulted	kết quả
+portrait	chân dung
+terrorist	khủng bố
+informational	thông tin
+ethical	đạo đức
+carriers	người vận chuyển
+ecommerce	thương mại điện tử
+mobility	tính di động
+floral	hoa
+builders	người xây dựng
+ties	quan hệ
+struggle	đấu tranh
+schemes	kế hoạch
+suffering	đau khổ
+neutral	trung lập
+fisher	người câu cá
+rat	con chuột
+spears	ngọn giáo
+prospective	triển vọng
+dildos	dương vật giả
+bedding	chăn ga gối đệm
+ultimately	cuối cùng
+joining	tham gia
+heading	phần mở đầu
+equally	bằng nhau
+artificial	nhân tạo
+bearing	Ổ đỡ trục
+spectacular	hùng vĩ
+coordination	phối hợp
+connector	kết nối
+brad	brad
+combo	kết hợp
+seniors	người lớn tuổi
+worlds	thế giới
+guilty	tội lỗi
+affiliated	liên kết
+activation	kích hoạt
+naturally	một cách tự nhiên
+haven	trú ẩn
+tablet	viên thuốc
+jury	bồi thẩm đoàn
+dos	việc nên làm
+tail	đuôi
+subscribers	người đăng ký
+charm	quyến rũ
+lawn	bãi cỏ
+violent	hung bạo
+mitsubishi	mitsubishi
+underwear	đồ lót
+basin	lòng chảo
+soup	canh
+potentially	có tiềm năng
+ranch	trang trại
+constraints	hạn chế
+crossing	băng qua
+inclusive	bao gồm
+dimensional	chiều
+cottage	ngôi nhà tranh
+drunk	say rượu
+considerable	đáng kể
+crimes	tội ác
+resolved	đã giải quyết
+mozilla	mozilla
+byte	byte
+toner	mực toner
+nose	mũi
+latex	mủ cao su
+branches	chi nhánh
+anymore	nữa không
+oclc	oclc
+delhi	Delhi
+holdings	cổ phần
+alien	người ngoài hành tinh
+locator	máy định vị
+selecting	lựa chọn
+processors	bộ vi xử lý
+pantyhose	quần tất
+plc	plc
+broke	phá sản
+nepal	nepal
+zimbabwe	zimbabwe
+difficulties	nỗi khó khăn
+juan	juan
+complexity	sự phức tạp
+msg	tin nhắn
+constantly	liên tục
+browsing	duyệt
+resolve	giải quyết
+barcelona	Barcelona
+presidential	tổng thống
+documentary	phim tài liệu
+cod	cá tuyết
+territories	lãnh thổ
+melissa	Melissa
+moscow	Mátxcơva
+thesis	luận án
+thru	xuyên qua
+jews	người Do Thái
+nylon	nylon
+palestinian	người Palestine
+discs	đĩa
+rocky	nhiều đá
+bargains	món hời
+frequent	thường xuyên
+trim	cắt tỉa
+nigeria	nigeria
+ceiling	trần nhà
+pixels	điểm ảnh
+ensuring	đảm bảo
+hispanic	người Tây Ban Nha
+cv	cv
+cb	cb
+legislature	cơ quan lập pháp
+hospitality	lòng hiếu khách
+gen	thế hệ
+anybody	bất cứ ai
+procurement	tạp vụ
+diamonds	kim cương
+espn	đặc biệt
+fleet	hạm đội
+untitled	không có tiêu đề
+bunch	bó
+totals	tổng số
+marriott	marriott
+singing	ca hát
+theoretical	lý thuyết
+afford	đủ khả năng
+exercises	bài tập
+starring	đóng vai chính
+referral	giới thiệu
+nhl	nhl
+surveillance	giám sát
+optimal	tối ưu
+quit	từ bỏ
+distinct	riêng biệt
+protocols	giao thức
+lung	phổi
+highlight	điểm nổi bật
+substitute	thay thế
+inclusion	bao gồm
+hopefully	hy vọng
+brilliant	xuất sắc
+turner	người quay vòng
+sucking	mút
+cents	xu
+reuters	reuters
+ti	tôi
+fc	fc
+gel	gel
+todd	trẻ mới biết đi
+spoken	nói
+omega	omega
+evaluated	đánh giá
+stayed	đã ở lại
+civic	công dân
+assignments	bài tập
+fw	ôi
+manuals	hướng dẫn sử dụng
+doug	bột
+sees	nhìn
+termination	chấm dứt
+watched	đã xem
+saver	tiết kiệm
+thereof	của nó
+grill	nướng
+households	hộ gia đình
+gs	gs
+redeem	chuộc lại
+rogers	roger
+grain	ngũ cốc
+aaa	aaa
+authentic	thật
+regime	chế độ
+wanna	muốn
+wishes	mong muốn
+bull	bò đực
+montgomery	Montgomery
+architectural	kiến trúc
+louisville	Louisville
+depend	phụ thuộc
+differ	khác nhau
+macintosh	macintosh
+movements	sự di chuyển
+ranging	khác nhau
+monica	Monica
+repairs	sửa chữa
+breath	hơi thở
+amenities	tiện nghi
+virtually	hầu như
+cole	cole
+mart	siêu thị
+candle	nến
+hanging	treo
+colored	màu sắc rực rỡ
+authorization	ủy quyền
+tale	câu chuyện
+verified	đã xác minh
+lynn	lynn
+formerly	trước kia
+projector	máy chiếu
+bp	bp
+situated	nằm
+comparative	so sánh
+std	tiêu chuẩn
+seeks	tìm kiếm
+herbal	thảo dược
+loving	thương
+strictly	nghiêm ngặt
+routing	lộ trình
+docs	tài liệu
+stanley	Stanley
+psychological	tâm lý
+surprised	ngạc nhiên
+retailer	người bán lẻ
+vitamins	vitamin
+elegant	thanh lịch
+gains	lợi ích
+renewal	sự đổi mới
+vid	video
+genealogy	phả hệ
+opposed	phản đối
+deemed	coi là
+scoring	ghi điểm
+expenditure	chi phí
+panties	quần lót
+brooklyn	brooklyn
+liverpool	ganpool
+sisters	chị em gái
+critics	nhà phê bình
+connectivity	kết nối
+spots	điểm
+oo	ồ
+algorithms	thuật toán
+hacker	Tin tặc
+madrid	Madrid
+similarly	tương tự
+margin	lề
+coin	đồng tiền
+bbw	béo
+solely	cô độc
+fake	giả mạo
+salon	thẩm mỹ viện
+collaborative	hợp tác
+norman	Norman
+fda	fda
+excluding	loại trừ
+turbo	bộ tăng áp
+headed	đứng đầu
+voters	cử tri
+cure	sự chữa bệnh
+madonna	madonna
+commander	chỉ huy
+arch	vòm
+ni	ni
+murphy	Murphy
+thinks	nghĩ
+thats	đó là
+suggestion	gợi ý
+hdtv	hdtv
+soldier	lính
+phillips	Phillips
+asin	ngu xuẩn
+aimed	nhằm vào
+justin	Justin
+bomb	bom
+harm	làm hại
+interval	khoảng thời gian
+mirrors	gương
+spotlight	điểm sáng
+tricks	thủ thuật
+reset	cài lại
+brush	chải
+investigate	khảo sát
+thy	của mày
+expansys	mở rộng
+panels	tấm
+repeated	lặp đi lặp lại
+assault	tấn công
+connecting	Đang kết nối
+spare	dự phòng
+logistics	hậu cần
+deer	con nai
+kodak	kodak
+tongue	lưỡi
+bowling	bowling
+tri	tri
+danish	người Đan Mạch
+pal	bạn
+monkey	con khỉ
+proportion	tỷ lệ
+filename	tên tập tin
+skirt	váy ngắn
+florence	Florence
+invest	đầu tư
+honey	Mật ong
+um	ừm
+analyses	phân tích
+drawings	bản vẽ
+significance	ý nghĩa
+scenario	kịch bản
+ye	ừ
+fs	fs
+lovers	những người yêu nhau
+atomic	nguyên tử
+approx	khoảng
+symposium	hội nghị chuyên đề
+arabic	tiếng Ả Rập
+gauge	máy đo
+essentials	những thứ thiết yếu
+junction	giao lộ
+protecting	bảo vệ
+nn	nn
+faced	phải đối mặt
+mat	chiếu
+rachel	rachel
+solving	giải quyết
+transmitted	truyền đi
+weekends	nhưng ngay cuối tuần
+screenshots	ảnh chụp màn hình
+produces	sản xuất
+oven	lò vi sóng
+ted	Ted
+intensive	căng
+chains	dây chuyền
+kingston	kingston
+sixth	thứ sáu
+engage	đính hôn
+deviant	lệch lạc
+noon	buổi trưa
+switching	chuyển đổi
+quoted	trích dẫn
+adapters	bộ điều hợp
+correspondence	thư tín
+farms	trang trại
+imports	nhập khẩu
+supervision	giám sát
+cheat	gian lận
+bronze	đồng
+expenditures	chi tiêu
+sandy	cát
+separation	tách biệt
+testimony	lời khai
+suspect	nghi ngờ
+celebrities	người nổi tiếng
+macro	vĩ mô
+sender	người gửi
+mandatory	bắt buộc
+boundaries	ranh giới
+crucial	chủ yếu
+syndication	sự phân phối
+gym	phòng thể dục
+celebration	lễ ăn mừng
+kde	kde
+adjacent	liền kề
+filtering	lọc
+tuition	học phí
+spouse	vợ chồng
+exotic	kỳ lạ
+viewer	người xem
+signup	đăng ký
+threats	các mối đe dọa
+luxembourg	luxembourg
+puzzles	câu đố
+reaching	đạt
+vb	vb
+damaged	Bị hư hại
+cams	máy quay
+receptor	thụ thể
+piss	đái
+laugh	cười
+joel	joel
+surgical	phẫu thuật
+destroy	hủy hoại
+citation	trích dẫn
+pitch	sân bóng đá
+autos	ô tô
+yo	yo
+premises	cơ sở
+perry	quả lê
+proved	đã chứng minh
+offensive	phản cảm
+imperial	thành nội
+dozen	tá
+benjamin	benjamin
+deployment	triển khai
+teeth	răng
+cloth	vải
+studying	học
+colleagues	đồng nghiệp
+stamp	con tem
+lotus	hoa sen
+salmon	cá hồi
+olympus	olympus
+separated	ly thân
+proc	quá trình
+cargo	hàng hóa
+tan	rám nắng
+directive	chỉ thị
+fx	ngoại hối
+salem	salem
+mate	bạn
+dl	dl
+starter	món khai vị
+upgrades	nâng cấp
+likes	thích
+butter	bơ
+pepper	hạt tiêu
+weapon	vũ khí
+luggage	hành lý
+burden	gánh nặng
+chef	đầu bếp
+tapes	băng
+zones	khu vực
+races	chủng tộc
+isle	hòn đảo
+stylish	sành điệu
+slim	mảnh khảnh
+maple	cây phong
+luke	Luke
+grocery	cửa hàng tạp hóa
+offshore	ngoài khơi
+governing	quản lý
+retailers	nhà bán lẻ
+depot	kho chứa
+kenneth	kenneth
+comp	máy tính
+alt	thay thế
+pie	bánh
+blend	trộn
+harrison	Harrison
+ls	ls
+julie	Julie
+occasionally	thỉnh thoảng
+cbs	cbs
+attending	tham dự
+emission	khí thải
+pete	pete
+spec	thông số kỹ thuật
+finest	tốt nhất
+realty	thực tế
+janet	Janet
+bow	cây cung
+penn	đồng xu
+recruiting	tuyển dụng
+apparent	rõ ràng
+instructional	giảng dạy
+phpbb	phpbb
+autumn	mùa thu
+traveling	đi du lịch
+probe	thăm dò
+midi	midi
+permissions	quyền
+biotechnology	công nghệ sinh học
+toilet	phòng vệ sinh
+ranked	được xếp hạng
+jackets	áo khoác
+routes	tuyến đường
+packed	đóng gói
+excited	hào hứng
+outreach	tiếp cận cộng đồng
+helen	Helen
+mounting	gắn
+recover	hồi phục
+tied	bị ràng buộc
+lopez	lopez
+balanced	cân bằng
+prescribed	quy định
+catherine	Catherine
+timely	hợp thời
+talked	nói chuyện
+upskirts	vén váy
+debug	gỡ lỗi
+delayed	bị trì hoãn
+chuck	mâm cặp
+reproduced	tái sản xuất
+hon	em yêu
+dale	thung lũng
+explicit	rõ ràng
+calculation	phép tính
+villas	biệt thự
+ebook	sách điện tử
+consolidated	hợp nhất, củng cố
+boob	ngực
+exclude	loại trừ
+peeing	đi tiểu
+occasions	dịp
+brooks	dòng suối
+equations	phương trình
+newton	newton
+oils	dầu
+sept	tháng chín
+exceptional	đặc biệt
+anxiety	sự lo lắng
+bingo	chơi lô tô
+whilst	trong khi
+spatial	không gian
+respondents	người trả lời
+unto	cho đến
+lt	nó
+ceramic	gốm sứ
+prompt	lời nhắc
+precious	quý giá
+minds	tâm trí
+annually	hàng năm
+considerations	cân nhắc
+scanners	máy quét
+atm	ATM
+xanax	xanax
+eq	eq
+pays	thanh toán
+cox	đồng xu
+fingers	ngón tay
+sunny	nhiều nắng
+ebooks	sách điện tử
+delivers	mang lại
+je	tôi
+queensland	vương quốc queensland
+necklace	vòng cổ
+musicians	nhạc sĩ
+leeds	leed
+composite	hỗn hợp
+unavailable	không có sẵn
+cedar	cây tuyết tùng
+arranged	được sắp xếp
+lang	lang
+theaters	rạp hát
+advocacy	vận động
+raleigh	raleigh
+stud	đinh tán
+fold	nếp gấp
+essentially	Thiết yếu
+designing	thiết kế
+threaded	xâu chuỗi
+uv	tia cực tím
+qualify	đủ điều kiện
+fingering	ngón tay
+blair	blair
+hopes	hy vọng
+assessments	đánh giá
+cms	cmt
+mason	thợ nề
+diagram	biểu đồ
+burns	bỏng
+pumps	máy bơm
+slut	đĩ
+ejaculation	xuất tinh
+footwear	giày dép
+sg	sg
+vic	nạn nhân
+beijing	Bắc Kinh
+peoples	các dân tộc
+victor	người chiến thắng
+mario	mario
+pos	tư thế
+attach	gắn
+licenses	giấy phép
+utils	tiện ích
+removing	loại bỏ
+advised	khuyên
+brunswick	brunswick
+spider	nhện
+phys	thể chất
+ranges	các dãy
+pairs	cặp
+sensitivity	nhạy cảm
+trails	những con đường mòn
+preservation	sự bảo tồn
+hudson	hudson
+isolated	bị cô lập
+calgary	ca-gô-la
+interim	tạm thời
+assisted	được hỗ trợ
+divine	thần thánh
+streaming	phát trực tuyến
+approve	chấp thuận
+chose	đã chọn
+compound	hợp chất
+intensity	cường độ
+technological	công nghệ
+syndicate	tổ chức
+abortion	sự phá thai
+dialog	hộp thoại
+venues	địa điểm
+blast	vụ nổ
+wellness	sức khỏe
+calcium	canxi
+newport	cảng mới
+antivirus	chống virus
+addressing	địa chỉ
+pole	cây sào
+discounted	giảm giá
+indians	Ấn Độ
+shield	cái khiên
+harvest	mùa gặt
+membrane	màng
+prague	Praha
+previews	xem trước
+bangladesh	bangladesh
+constitute	cấu tạo
+locally	tại địa phương
+concluded	kết luận
+pickup	nhặt lên
+desperate	tuyệt vọng
+mothers	các bà mẹ
+nascar	nscar
+iceland	Nước Iceland
+demonstration	cuộc biểu tình
+governmental	chính phủ
+manufactured	được sản xuất
+candles	Nến
+graduation	tốt nghiệp
+mega	siêu cấp
+bend	bẻ cong
+sailing	đi thuyền
+variations	biến thể
+moms	các bà mẹ
+sacred	Linh thiêng
+addiction	nghiện
+morocco	Ma-rốc
+chrome	trình duyệt Chrome
+tommy	Tommy
+springfield	cánh đồng suối
+refused	bị từ chối
+brake	phanh
+exterior	ngoại thất
+greeting	Lời chào
+ecology	sinh thái
+oliver	ô liu
+congo	Công-gô
+glen	Glen
+botswana	Botswana
+nav	điều hướng
+delays	sự chậm trễ
+synthesis	tổng hợp
+olive	Ôliu
+undefined	không xác định
+unemployment	nạn thất nghiệp
+cyber	mạng
+verizon	verizon
+scored	ghi bàn
+enhancement	sự nâng cao
+newcastle	newcastle
+clone	dòng vô tính
+dicks	cu
+velocity	vận tốc
+lambda	lambda
+relay	tiếp sức
+composed	sáng tác
+tears	những giọt nước mắt
+performances	biểu diễn
+oasis	ốc đảo
+baseline	đường cơ sở
+cab	taxi
+angry	tức giận
+fa	fa
+societies	xã hội
+silicon	silic
+brazilian	người nước Brazil
+identical	giống hệt nhau
+petroleum	xăng dầu
+compete	hoàn thành
+ist	điều này
+norwegian	người Na Uy
+lover	người yêu
+belong	thuộc về
+honolulu	Honolulu
+beatles	ban nhạc beatles
+lips	đôi môi
+escort	hộ tống
+retention	giữ lại
+exchanges	trao đổi
+pond	ao
+rolls	Bánh cuốn
+thomson	thomson
+barnes	Barnes
+soundtrack	nhạc phim
+wondering	tự hỏi
+malta	mạch nha
+daddy	bố
+lc	lc
+ferry	chiếc phà
+rabbit	con thỏ
+profession	nghề nghiệp
+seating	chỗ ngồi
+dam	con đập
+cnn	CNN
+separately	riêng biệt
+physiology	sinh lý học
+lil	bé nhỏ
+collecting	sưu tập
+das	das
+exports	xuất khẩu
+omaha	omaha
+tire	lốp xe
+participant	người tham gia
+scholarships	học bổng
+recreational	giải trí
+dominican	người Dominica
+chad	chad
+electron	điện tử
+loads	tải
+friendship	tình bạn
+heather	cây thạch nam
+passport	hộ chiếu
+motel	nhà trọ
+unions	công đoàn
+treasury	kho bạc
+warrant	lệnh bảo đảm
+sys	hệ thống
+solaris	mặt trời
+frozen	Đông cứng
+occupied	chiếm lĩnh
+josh	Josh
+royalty	tiền bản quyền
+scales	quy mô
+rally	tập hợp
+observer	người quan sát
+sunshine	ánh sáng mặt trời
+strain	sự căng thẳng
+drag	lôi kéo
+ceremony	lễ
+somehow	bằng cách nào đó
+arrested	bắt giam
+expanding	mở rộng
+provincial	tỉnh
+investigations	điều tra
+icq	icq
+ripe	chín muồi
+yamaha	yamaha
+rely	phụ thuộc
+medications	thuốc men
+hebrew	tiếng Do Thái
+gained	đạt được
+rochester	rochester
+dying	sắp chết
+laundry	giặt ủi
+stuck	mắc kẹt
+solomon	solomon
+placing	đặt
+stops	dừng lại
+homework	bài tập về nhà
+adjust	điều chỉnh
+assessed	đánh giá
+advertiser	nhà quảng cáo
+enabling	cho phép
+encryption	mã hóa
+filling	đổ đầy
+downloadable	có thể tải xuống
+sophisticated	cầu kì
+imposed	áp đặt
+silence	im lặng
+scsi	scsi
+focuses	tập trung
+soviet	Xô viết
+possession	chiếm hữu
+cu	cu
+laboratories	các phòng thí nghiệm
+treaty	hiệp ước
+vocal	phát âm
+trainer	huấn luyện viên
+organ	đàn organ
+stronger	mạnh mẽ hơn
+volumes	tập
+advances	những tiến bộ
+vegetables	rau
+lemon	chanh vàng
+toxic	độc hại
+dns	dns
+thumbnails	hình thu nhỏ
+darkness	bóng tối
+pty	pty
+ws	là
+nuts	quả hạch
+nail	móng tay
+bizrate	kỳ quái
+vienna	Viên
+implied	bao hàm
+span	nhịp
+stanford	Stanford
+sox	đồ khốn
+stockings	vớ
+joke	câu nói đùa
+respondent	bị đơn
+packing	đóng gói
+statute	quy chế
+rejected	vật bị loại bỏ
+satisfy	thỏa mãn
+destroyed	bị phá hủy
+shelter	nơi trú ẩn
+chapel	nhà nguyện
+gamespot	gamespot
+manufacture	sản xuất
+layers	lớp
+wordpress	wordpress
+guided	được hướng dẫn
+vulnerability	tính dễ bị tổn thương
+accountability	trách nhiệm giải trình
+celebrate	kỉ niệm
+accredited	được công nhận
+appliance	thiết bị
+compressed	nén
+bahamas	bahama
+powell	powell
+mixture	hỗn hợp
+zoophilia	bệnh động vật ăn thịt
+bench	Băng ghế
+univ	đại học
+tub	bồn tắm
+rider	người cưỡi ngựa
+scheduling	lập kế hoạch
+radius	bán kính
+perspectives	quan điểm
+mortality	tỷ lệ tử vong
+logging	khai thác gỗ
+hampton	Hampton
+christians	Thiên Chúa giáo
+borders	biên giới
+therapeutic	trị liệu
+pads	miếng đệm
+butts	mông
+inns	quán trọ
+bobby	bobby
+impressive	ấn tượng
+sheep	con cừu
+accordingly	tương ứng
+architect	kiến trúc sư
+railroad	đường sắt
+lectures	bài giảng
+challenging	thách thức
+wines	rượu vang
+nursery	vườn ươm
+harder	khó hơn
+cups	cốc
+ash	tro
+microwave	lò vi sóng
+cheapest	rẻ nhất
+accidents	tai nạn
+travesti	hành động lố bịch
+relocation	tái định cư
+stuart	rượu vang
+contributors	người đóng góp
+salvador	Salvador
+ali	bí danh
+salad	xa lát
+np	np
+monroe	monroe
+tender	mềm
+violations	vi phạm
+foam	bọt
+temperatures	nhiệt độ
+paste	dán
+clouds	đám mây
+competitions	cuộc thi
+discretion	tùy ý
+tft	tft
+tanzania	tanzania
+preserve	bảo tồn
+jvc	jvc
+poem	bài thơ
+vibrator	máy rung
+unsigned	chưa ký
+staying	ở lại
+cosmetics	mỹ phẩm
+easter	Phục Sinh
+theories	lý thuyết
+repository	kho
+praise	khen
+jeremy	Jeremy
+venice	venice
+jo	jo
+concentrations	nồng độ
+vibrators	máy rung
+estonia	Estonia
+christianity	Thiên chúa giáo
+veteran	cựu chiến binh
+streams	dòng
+landing	đổ bộ
+signing	ký kết
+executed	Thực thi
+katie	Katie
+negotiations	đàm phán
+realistic	thực tế
+dt	dt
+cgi	cgi
+showcase	trưng bày
+integral	tích phân
+asks	hỏi
+relax	thư giãn
+namibia	namibia
+generating	tạo ra
+christina	christina
+congressional	quốc hội
+synopsis	Tóm tắt
+hardly	khắc nghiệt
+prairie	Thảo nguyên
+reunion	đoàn tụ
+composer	nhà soạn nhạc
+bean	hạt đậu
+sword	thanh kiếm
+absent	vắng mặt
+photographic	nhiếp ảnh
+sells	bán
+ecuador	Ecuador
+hoping	hi vọng
+accessed	đã truy cập
+spirits	tinh thần
+modifications	sửa đổi
+coral	san hô
+pixel	điểm ảnh
+float	trôi nổi
+colin	colin
+bias	Thiên kiến
+imported	nhập khẩu
+paths	đường dẫn
+bubble	bong bóng
+por	bởi vì
+acquire	giành được
+contrary	trái ngược
+millennium	thiên niên kỷ
+tribune	diễn đàn
+vessel	tàu
+acids	axit
+focusing	tập trung
+viruses	virus
+cheaper	giá rẻ hơn
+admitted	thừa nhận
+dairy	sản phẩm bơ sữa
+admit	thừa nhận
+mem	nhớ
+fancy	si mê
+equality	bình đẳng
+samoa	Samoa
+gc	gc
+achieving	đạt được
+tap	vỗ nhẹ
+stickers	nhãn dán
+fisheries	thủy sản
+exceptions	ngoại lệ
+reactions	phản ứng
+leasing	cho thuê
+lauren	lauren
+beliefs	niềm tin
+ci	ci
+macromedia	macromedia
+companion	bạn đồng hành
+squad	đội hình
+analyze	phân tích
+ashley	Ashley
+scroll	cuộn
+relate	liên quan
+divisions	sự phân chia
+swim	bơi
+wages	tiền lương
+additionally	Ngoài ra
+suffer	chịu đựng
+forests	rừng
+fellowship	tình bằng hữu
+nano	nano
+invalid	không hợp lệ
+concerts	buổi hòa nhạc
+martial	võ thuật
+males	nam giới
+victorian	người Victoria
+retain	giữ lại
+colours	màu sắc
+execute	hành hình
+tunnel	đường hầm
+genres	thể loại
+cambodia	Campuchia
+patents	bằng sáng chế
+copyrights	bản quyền
+yn	yn
+chaos	sự hỗn loạn
+lithuania	Litva
+mastercard	thẻ mastercard
+wheat	lúa mì
+chronicles	biên niên sử
+obtaining	thu được
+beaver	hải ly
+updating	đang cập nhật
+distribute	phân phát
+readings	bài đọc
+decorative	trang trí
+kijiji	kijiji
+confused	bối rối
+compiler	trình biên dịch
+enlargement	mở rộng
+eagles	đại bàng
+bases	căn cứ
+vii	vii
+accused	bị buộc tội
+bee	con ong
+campaigns	chiến dịch
+unity	đoàn kết
+loud	ồn ào
+conjunction	sự liên kết
+bride	cô dâu
+rats	chuột
+defines	định nghĩa
+airports	sân bay
+instances	trường hợp
+indigenous	bản địa
+begun	đã bắt đầu
+cfr	cfr
+brunette	tóc nâu
+packets	gói
+anchor	mỏ neo
+socks	vớ
+validation	Thẩm định
+parade	cuộc diễu hành
+corruption	tham nhũng
+stat	chỉ số
+trigger	cò súng
+incentives	ưu đãi
+cholesterol	cholesterol
+gathered	tập hợp lại
+essex	essex
+slovenia	Slovenia
+notified	đã thông báo
+differential	sự khác biệt
+beaches	bãi biển
+folders	thư mục
+dramatic	kịch
+surfaces	bề mặt
+terrible	kinh khủng
+routers	bộ định tuyến
+cruz	chéo
+pendant	mặt dây chuyền
+dresses	váy đầm
+baptist	người rửa tội
+scientist	nhà khoa học
+starsmerchant	ngôi sao thương gia
+hiring	tuyển dụng
+clocks	đồng hồ
+arthritis	viêm khớp
+bios	tiểu sử
+females	phụ nữ
+wallace	Wallace
+nevertheless	tuy nhiên
+reflects	phản ánh
+taxation	đánh thuế
+fever	sốt
+pmc	pmc
+cuisine	ẩm thực
+surely	chắc chắn
+practitioners	học viên
+transcript	bảng điểm
+myspace	chỗ của tôi
+theorem	định lý
+inflation	lạm phát
+thee	ngươi
+nb	nb
+ruth	ru rú
+pray	cầu nguyện
+stylus	bút cảm ứng
+compounds	Các hợp chất
+pope	giáo hoàng
+drums	trống
+contracting	hợp đồng
+topless	cởi trần
+arnold	Arnold
+structured	có cấu trúc
+reasonably	hợp lý
+jeep	xe jeep
+chicks	gà con
+bare	trần trụi
+hung	treo
+cattle	gia súc
+mba	mba
+radical	căn bản
+graduates	tốt nghiệp
+rover	người đi thám hiểm
+recommends	đề nghị
+controlling	kiểm soát
+treasure	kho báu
+reload	tải lại
+distributors	nhà phân phối
+flame	ngọn lửa
+levitra	Levitra
+tanks	xe tăng
+assuming	giả định
+monetary	tiền tệ
+elderly	người già
+pit	hố
+arlington	Arlington
+mono	bệnh tăng bạch cầu đơn nhân
+particles	vật rất nhỏ
+floating	nổi
+extraordinary	đặc biệt
+tile	ngói
+indicating	chỉ ra
+bolivia	bolivia
+spell	Đánh vần
+hottest	nóng nhất
+stevens	Stevens
+coordinate	điều phối
+kuwait	Cô-oét
+exclusively	duy nhất
+emily	Emily
+alleged	bị cáo buộc
+limitation	giới hạn
+widescreen	màn ảnh rộng
+compile	biên soạn
+squirting	xuất tinh
+webster	webster
+struck	đánh
+rx	rx
+illustration	hình minh họa
+plymouth	plymouth
+warnings	cảnh báo
+construct	xây dựng
+apps	ứng dụng
+inquiries	thắc mắc
+bridal	cô dâu
+annex	Phụ lục
+mag	tạp chí
+gsm	gsm
+inspiration	cảm hứng
+tribal	bộ lạc
+curious	tò mò
+affecting	ảnh hưởng đến
+freight	vận chuyển hàng hóa
+rebate	hạ giá
+meetup	gặp
+eclipse	nhật thực
+sudan	sudan
+ddr	ddr
+downloading	đang tải xuống
+rec	rec
+shuttle	đưa đón
+aggregate	tổng hợp
+stunning	kinh ngạc
+cycles	chu kỳ
+affects	ảnh hưởng
+forecasts	dự báo
+detect	phát hiện
+sluts	gái điếm
+actively	tích cực
+ciao	chào
+ampland	ampland
+knee	đầu gối
+prep	chuẩn bị
+pb	pb
+complicated	phức tap
+chem	hóa chất
+fastest	nhanh nhất
+butler	quản gia
+shopzilla	shopzilla
+injured	bị thương
+decorating	trang trí
+payroll	lương bổng
+cookbook	sách dạy nấu ăn
+expressions	biểu thức
+ton	tấn
+courier	chuyển phát nhanh
+uploaded	đã tải lên
+shakespeare	Shakespeare
+hints	gợi ý
+collapse	sụp đổ
+americas	Châu Mỹ
+connectors	đầu nối
+twinks	đồng tính
+unlikely	không thể
+oe	ôi
+gif	gif
+pros	thuận
+conflicts	xung đột
+techno	kỹ thuật
+beverage	đồ uống
+tribute	cống vật
+wired	có dây
+elvis	elvis
+immune	miễn dịch
+latvia	latvia
+travelers	Du khách
+forestry	lâm nghiệp
+barriers	rào cản
+cant	không thể
+jd	jd
+rarely	hiếm khi
+gpl	gpl
+infected	bị lây nhiễm
+offerings	lễ vật
+martha	martha
+genesis	nguồn gốc
+barrier	rào chắn
+argue	tranh cãi
+incorrect	không đúng
+trains	xe lửa
+metals	kim loại
+bicycle	xe đạp
+furnishings	nội thất
+letting	để cho
+arise	nảy sinh
+guatemala	guatemala
+celtic	người Celtic
+thereby	bằng cách ấy
+irc	irc
+jamie	Jamie
+particle	hạt
+perception	sự nhận thức
+minerals	khoáng sản
+advise	khuyên nhủ
+humidity	độ ẩm
+bottles	chai
+boxing	quyền anh
+wy	ôi
+dm	dm
+bangkok	bangkok
+renaissance	sự phục hưng
+pathology	bệnh lý
+sara	Sara
+bra	áo ngực
+ordinance	sắc lệnh
+hughes	ôm
+photographers	nhiếp ảnh gia
+bitch	con khốn
+infections	nhiễm trùng
+jeffrey	jeffrey
+chess	cờ vua
+operates	vận hành
+brisbane	brisbane
+configured	được cấu hình
+survive	tồn tại
+oscar	oscar
+festivals	lễ hội
+menus	thực đơn
+joan	Joan
+possibilities	khả năng
+duck	con vịt
+reveal	tiết lộ
+canal	con kênh
+amino	amino
+phi	phi
+contributing	đóng góp
+herbs	các loại thảo mộc
+clinics	phòng khám
+mls	ml
+cow	con bò
+manitoba	manitoba
+analytical	phân tích
+missions	nhiệm vụ
+watson	watson
+lying	nằm
+costumes	trang phục
+strict	nghiêm ngặt
+dive	lặn
+saddam	saddam
+circulation	vòng tuần hoàn
+drill	máy khoan
+offense	xúc phạm
+threesome	có ba người
+bryan	Bryan
+cet	cet
+protest	phản kháng
+handjob	sờ mó
+assumption	giả thiết
+jerusalem	Jerusalem
+hobby	sở thích
+tries	cố gắng
+transexuales	người chuyển giới
+invention	sự phát minh
+nickname	tên nick
+fiji	Fiji
+technician	kỹ thuật viên
+inline	nội tuyến
+executives	giám đốc điều hành
+enquiries	thắc mắc
+washing	rửa
+audi	audi
+staffing	nhân sự
+cognitive	nhận thức
+exploring	khám phá
+trick	lừa
+enquiry	cuộc điều tra
+closure	Khép kín
+raid	cuộc đột kích
+ppc	ppc
+timber	gỗ
+volt	vôn
+intense	mãnh liệt
+div	div
+playlist	danh sách phát
+registrar	người đăng ký
+showers	vòi hoa sen
+supporters	những người ủng hộ
+ruling	cầm quyền
+steady	vững chắc
+dirt	bụi bẩn
+statutes	quy chế
+withdrawal	rút tiền
+myers	myers
+drops	giọt
+predicted	dự đoán
+wider	rộng hơn
+saskatchewan	saskatchewan
+jc	jc
+cancellation	hủy bỏ
+plugins	bổ sung
+enrolled	đã ghi danh
+sensors	cảm biến
+screw	Đinh ốc
+ministers	bộ trưởng
+publicly	công khai
+hourly	hàng giờ
+blame	đổ tội
+geneva	Genève
+freebsd	freebsd
+veterinary	thú y
+acer	Acer
+prostores	bán dâm
+reseller	người bán lại
+dist	quận
+handed	trao tay
+suffered	chịu đựng
+intake	đầu vào
+informal	không chính thức
+relevance	sự liên quan
+incentive	khích lệ
+butterfly	bươm bướm
+tucson	tucson
+mechanics	cơ khí
+heavily	nặng nề
+swingers	người đánh đu
+fifty	năm mươi
+headers	tiêu đề
+mistakes	sai lầm
+numerical	số
+ons	tiện ích
+geek	người đam mê công nghệ
+uncle	chú
+defining	xác định
+xnxx	xnxx
+counting	đếm
+reflection	sự phản xạ
+sink	bồn rửa
+accompanied	đi kèm
+assure	cam đoan
+invitation	lời mời
+devoted	tận tâm
+princeton	Princeton
+jacob	jacob
+sodium	natri
+randy	ngẫu nhiên
+spirituality	tâm linh
+hormone	nội tiết tố
+meanwhile	trong khi đó
+proprietary	độc quyền
+timothy	timothy
+childrens	trẻ con
+brick	gạch
+grip	nắm chặt
+naval	hải quân
+thumbzilla	ngón tay cái
+medieval	thời trung cổ
+porcelain	sứ
+avi	avi
+bridges	cầu
+pichunter	thợ săn ảnh
+captured	bị bắt
+watt	oát
+thehun	thehun
+decent	tử tế
+casting	vật đúc
+dayton	dayton
+translated	đã dịch
+shortly	trong thời gian ngắn
+cameron	người quay phim
+columnists	người viết chuyên mục
+pins	ghim
+carlos	Carlos
+reno	cải tạo
+donna	không
+andreas	andrea
+warrior	chiến binh
+diploma	bằng cấp
+cabin	cabin
+innocent	vô tội
+bdsm	cực khoái
+scanning	quét
+ide	ý tưởng
+consensus	đoàn kết
+polo	polo
+valium	vali
+copying	sao chép
+rpg	nhập vai
+delivering	giao hàng
+cordless	không dây
+patricia	Patricia
+horn	sừng
+eddie	xoáy nước
+uganda	uganda
+fired	Bị sa thải
+journalism	báo chí
+pd	pd
+prot	ủng hộ
+trivia	chuyện vặt vãnh
+adidas	adidas
+perth	perth
+frog	con ếch
+grammar	ngữ pháp
+intention	chủ đích
+syria	Syria
+disagree	không đồng ý
+klein	klein
+harvey	Harvey
+tires	lốp xe
+logs	nhật ký
+undertaken	thực hiện
+tgp	tgp
+hazard	nguy hiểm
+retro	cổ điển
+leo	Sư Tử
+livesex	đời sống tình dục
+statewide	toàn tiểu bang
+semiconductor	chất bán dẫn
+gregory	tập đoàn
+episodes	tập phim
+boolean	boolean
+circular	dạng hình tròn
+anger	sự tức giận
+diy	tự làm lấy
+mainland	đất liền
+illustrations	minh họa
+suits	bộ quần áo
+chances	cơ hội
+interact	tương tác
+snap	búng tay
+happiness	niềm hạnh phúc
+arg	tranh luận
+substantially	đáng kể
+bizarre	kỳ quái
+glenn	Glenn
+ur	bạn
+auckland	Auckland
+olympics	Thế vận hội
+fruits	trái cây
+identifier	định danh
+geo	địa lý
+worldsex	thế giới tình dục
+ribbon	ruy-băng
+calculations	tính toán
+doe	nai cái
+jpeg	jpeg
+conducting	tiến hành
+startup	khởi động
+suzuki	suzuki
+trinidad	Trinidad
+ati	ati
+kissing	hôn nhau
+wal	đi lang thang
+handy	tiện dụng
+swap	tráo đổi
+exempt	miễn
+crops	cây trồng
+reduces	giảm
+accomplished	hoàn thành
+calculators	máy tính
+geometry	hình học
+impression	ấn tượng
+abs	cơ bụng
+slovakia	Slovakia
+flip	lật
+guild	bang hội
+correlation	sự tương quan
+gorgeous	lộng lẫy
+capitol	thủ đô
+sim	sim
+dishes	đĩa
+rna	rna
+barbados	barbados
+chrysler	chrysler
+nervous	lo lắng
+refuse	từ chối
+extends	mở rộng
+fragrance	hương thơm
+mcdonald	mcdonald
+replica	bản sao
+plumbing	hệ thống ống nước
+brussels	Bruxelles
+tribe	bộ lạc
+neighbors	người hàng xóm
+trades	giao dịch
+superb	tuyệt vời
+buzz	buzz
+transparent	trong suốt
+nuke	vũ khí hạt nhân
+rid	thoát khỏi
+trinity	ba ngôi
+charleston	Charleston
+handled	xử lý
+legends	truyền thuyết
+boom	bùng nổ
+calm	điềm tĩnh
+champions	nhà vô địch
+floors	tầng
+selections	sự lựa chọn
+projectors	máy chiếu
+inappropriate	không phù hợp
+exhaust	khí thải
+comparing	so sánh
+shanghai	Thượng Hải
+speaks	nói
+burton	burton
+vocational	nghề nghiệp
+davidson	Davidson
+copied	sao chép
+scotia	Scotia
+farming	nông nghiệp
+gibson	vượn
+pharmacies	hiệu thuốc
+fork	cái nĩa
+troy	troy
+ln	ln
+roller	Trục lăn
+introducing	giới thiệu
+batch	lô hàng
+organize	tổ chức
+appreciated	đánh giá cao
+alter	thay đổi
+nicole	Nicole
+latino	người la tinh
+ghana	Ghana
+edges	các cạnh
+uc	úc
+mixing	trộn
+handles	tay cầm
+skilled	có tay nghề cao
+fitted	được trang bị
+albuquerque	albuquerque
+harmony	hòa hợp
+distinguished	phân biệt
+asthma	bệnh hen suyễn
+projected	dự kiến
+assumptions	giả định
+shareholders	cổ đông
+twins	cặp song sinh
+developmental	phát triển
+rip	xé
+zope	zope
+regulated	quy định
+triangle	Tam giác
+amend	sửa đổi
+anticipated	dự kiến
+oriental	phương đông
+reward	phần thưởng
+windsor	cửa gió
+zambia	Zambia
+completing	hoàn thành
+gmbh	gmbh
+buf	buf
+ld	ld
+hydrogen	hydro
+webshots	ảnh chụp web
+sprint	tăng tốc
+comparable	so sánh được
+chick	gà con
+advocate	biện hộ
+sims	sim
+confusion	lú lẫn
+copyrighted	có bản quyền
+tray	cái mâm
+inputs	đầu vào
+warranties	bảo đảm
+genome	bộ gen
+escorts	hộ tống
+documented	tài liệu
+thong	quần lót
+medal	huy chương
+paperbacks	sách bìa mềm
+coaches	huấn luyện viên
+vessels	tàu thuyền
+harbour	Hải cảng
+walks	đi bộ
+sucks	tệ quá
+sol	sol
+keyboards	những bàn phím
+sage	Hiền nhân
+knives	những con dao
+eco	sinh thái
+vulnerable	dễ bị tổn thương
+arrange	sắp xếp
+artistic	thuộc về nghệ thuật
+bat	con dơi
+honors	danh dự
+booth	gian hàng
+indie	độc lập
+reflected	phản ánh
+unified	thống nhât
+bones	xương
+breed	giống
+detector	máy dò
+ignored	làm ngơ
+polar	vùng cực
+fallen	rơi
+precise	chính xác
+sussex	sussex
+respiratory	hô hấp
+notifications	thông báo
+msgid	msgstr
+transexual	chuyển giới
+mainstream	Xu hướng
+invoice	hóa đơn
+evaluating	đánh giá
+lip	môi
+subcommittee	tiểu ban
+sap	nhựa cây
+gather	tập trung
+suse	sử dụng
+maternity	thai sản
+backed	được hỗ trợ
+alfred	Alfred
+colonial	thuộc địa
+mf	bà già
+carey	cẩn thận
+motels	nhà nghỉ
+forming	hình thành
+embassy	đại sứ quán
+cave	hang
+journalists	nhà báo
+danny	danny
+rebecca	rebecca
+slight	mảnh dẻ
+proceeds	tiền thu được
+indirect	gián tiếp
+amongst	trong số
+wool	len
+foundations	nền móng
+msgstr	tin nhắn
+arrest	bắt giữ
+volleyball	bóng chuyền
+mw	mw
+adipex	phần mỡ
+horizon	chân trời
+nu	không
+deeply	sâu sắc
+toolbox	hộp công cụ
+ict	ict
+marina	bến du thuyền
+liabilities	nợ phải trả
+prizes	giải thưởng
+bosnia	bosnia
+browsers	trình duyệt
+decreased	giảm
+patio	hiên nhà
+dp	dp
+tolerance	sức chịu đựng
+surfing	lướt sóng
+creativity	sáng tạo
+lloyd	lloyd
+describing	miêu tả
+optics	quang học
+pursue	theo đuổi
+lightning	tia sét
+overcome	vượt qua
+eyed	có mắt
+ou	bạn
+quotations	trích dẫn
+grab	vồ lấy
+inspector	thanh tra
+attract	thu hút
+brighton	Brighton
+beans	đậu
+bookmarks	dấu trang
+ellis	ellis
+disable	vô hiệu hóa
+snake	rắn
+succeed	thành công
+leonard	leonard
+lending	cho vay
+oops	Ối
+reminder	lời nhắc nhở
+nipple	núm vú
+xi	xi
+searched	đã tìm kiếm
+behavioral	hành vi
+riverside	bờ sông
+bathrooms	phòng tắm
+plains	đồng bằng
+sku	mã hàng
+ht	ht
+raymond	raymond
+insights	hiểu biết sâu sắc
+abilities	khả năng
+initiated	khởi xướng
+sullivan	sullivan
+za	za
+midwest	trung tây
+karaoke	karaoke
+trap	cạm bẫy
+lonely	cô đơn
+fool	ngu xuẩn
+ve	đã
+nonprofit	phi lợi nhuận
+lancaster	lancaster
+suspended	cấm
+hereby	bằng cách này
+observe	quan sát
+julia	Julia
+containers	hộp đựng
+attitudes	thái độ
+karl	Karl
+berry	quả mọng
+collar	cổ áo
+simultaneously	đồng thời
+racial	chủng tộc
+integrate	tích hợp
+bermuda	bermuda
+amanda	amanda
+sociology	xã hội học
+mobiles	điện thoại di động
+screenshot	ảnh chụp màn hình
+exhibitions	triển lãm
+kelkoo	kelkoo
+confident	tự tin
+retrieved	đã lấy lại
+exhibits	vật trưng bày
+officially	chính thức
+consortium	tập đoàn
+dies	chết
+terrace	sân thượng
+bacteria	vi khuẩn
+pts	điểm
+replied	đã trả lời
+seafood	Hải sản
+novels	tiểu thuyết
+rh	ồ
+rrp	rr
+recipients	người nhận
+playboy	tay chơi
+ought	nên
+delicious	thơm ngon
+traditions	truyền thống
+fg	fg
+jail	nhà giam
+safely	an toàn
+finite	có hạn
+kidney	quả thận
+periodically	định kỳ
+fixes	sửa lỗi
+sends	gửi
+durable	bền chặt
+mazda	mazda
+allied	liên minh
+throws	ném
+moisture	độ ẩm
+hungarian	người Hungary
+roster	danh sách
+referring	giới thiệu
+symantec	symantec
+spencer	Spencer
+wichita	wichita
+nasdaq	nasdaq
+uruguay	uruguay
+ooo	ôi
+hz	hz
+transform	biến đổi
+timer	hẹn giờ
+tablets	máy tính bảng
+tuning	điều chỉnh
+gotten	nhận được
+educators	nhà giáo dục
+tyler	ông trùm
+futures	tương lai
+vegetable	rau quả
+verse	thơ
+highs	mức cao
+humanities	nhân văn
+independently	độc lập
+wanting	muốn
+custody	sự coi giư
+scratch	cào
+launches	ra mắt
+ipaq	ipaq
+alignment	căn chỉnh
+masturbating	thủ dâm
+henderson	henderson
+bk	bk
+britannica	nước Anh
+comm	liên lạc
+ellen	Ellen
+competitors	đối thủ cạnh tranh
+nhs	nhs
+rocket	tên lửa
+aye	vâng
+bullet	đạn
+towers	tháp
+racks	giá đỡ
+lace	ren
+nasty	bẩn thỉu
+visibility	hiển thị
+latitude	vĩ độ
+consciousness	ý thức
+ste	ste
+tumor	khối u
+ugly	xấu xí
+deposits	tiền gửi
+beverly	belly
+mistress	tình nhân
+encounter	bắt gặp
+trustees	người được ủy thác
+watts	watt
+duncan	ducan
+reprints	tái bản
+hart	con hươu đực
+bernard	Bernard
+resolutions	nghị quyết
+ment	tâm sự
+accessing	truy cập
+forty	bốn mươi
+tubes	ống
+attempted	đã cố gắng
+col	col
+midlands	trung du
+priest	thầy tu
+floyd	floyd
+ronald	ronald
+analysts	nhà phân tích
+queue	xếp hàng
+dx	dx
+sk	sk
+trance	xuất thần
+locale	ngôn ngữ
+nicholas	Nicholas
+biol	sinh học
+yu	bạn
+bundle	bó
+hammer	cây búa
+invasion	cuộc xâm lăng
+witnesses	nhân chứng
+runner	Á hậu
+rows	hàng
+administered	quản lý
+notion	khái niệm
+sq	vuông
+skins	da
+mailed	gửi qua đường bưu điện
+oc	oc
+fujitsu	fujitsu
+spelling	chính tả
+arctic	Bắc cực
+exams	kỳ thi
+rewards	phần thưởng
+beneath	bên dưới
+strengthen	tăng cường
+defend	phòng vệ
+aj	ôi
+frederick	Frederick
+medicaid	trợ cấp y tế
+treo	treo
+infrared	tia hồng ngoại
+seventh	thứ bảy
+gods	vị thần
+une	một
+welsh	người xứ Wales
+belly	bụng
+aggressive	hung dữ
+tex	tex
+advertisements	quảng cáo
+quarters	khu phố
+stolen	ăn cắp
+cia	cia
+sublimedirectory	thư mục siêu phàm
+soonest	sớm nhất
+haiti	Haiti
+disturbed	bị làm phiền
+determines	xác định
+sculpture	điêu khắc
+poly	nhiều
+ears	đôi tai
+dod	làm gì
+wp	wp
+fist	nắm tay
+naturals	tự nhiên
+neo	tân
+motivation	động lực
+lenders	người cho vay
+pharmacology	dược học
+fitting	lắp
+fixtures	đồ đạc
+bloggers	blogger
+mere	chỉ là
+agrees	đồng ý
+passengers	hành khách
+quantities	số lượng
+petersburg	petersburg
+consistently	nhất quán
+powerpoint	powerpoint
+cons	nhược điểm
+surplus	số dư
+elder	đàn anh
+sonic	âm thanh
+obituaries	cáo phó
+cheers	chúc mừng
+dig	đào
+taxi	xe tắc xi
+punishment	hình phạt
+appreciation	sự đánh giá
+subsequently	sau đó
+om	ồ
+belarus	Bêlarut
+nat	tự nhiên
+zoning	phân vùng
+gravity	Trọng lực
+providence	sự quan phòng
+thumb	ngón tay cái
+restriction	sự hạn chế
+incorporate	kết hợp
+backgrounds	tầng lớp
+treasurer	thủ quỹ
+guitars	ghi-ta
+essence	nước hoa
+flooring	ván sàn
+lightweight	nhẹ
+ethiopia	Ethiopia
+tp	tp
+mighty	hùng mạnh
+athletes	vận động viên
+humanity	nhân loại
+transcription	phiên mã
+jm	jm
+holmes	holmes
+complications	biến chứng
+scholars	học giả
+dpi	dpi
+scripting	kịch bản
+gis	gis
+remembered	đã nhớ
+galaxy	ngân hà
+chester	chester
+snapshot	ảnh chụp nhanh
+caring	quan tâm
+loc	lộc
+worn	rách nát
+synthetic	tổng hợp
+shaw	khăn choàng
+vp	phó chủ tịch
+segments	phân đoạn
+testament	di chúc
+expo	triển lãm
+dominant	trội
+twist	xoắn
+specifics	chi tiết cụ thể
+itunes	itunes
+stomach	cái bụng
+partially	một phần
+buried	chôn cất
+cn	cn
+newbie	người mới
+minimize	giảm thiểu
+darwin	Darwin
+ranks	cấp bậc
+wilderness	hoang dã
+debut	ra mắt
+generations	các thế hệ
+tournaments	giải đấu
+bradley	lúa mạch
+deny	từ chối
+anatomy	giải phẫu học
+bali	Bali
+judy	Judy
+sponsorship	sự tài trợ
+headphones	tai nghe
+fraction	phân số
+trio	bộ ba
+proceeding	tiến hành
+cube	khối lập phương
+defects	khiếm khuyết
+volkswagen	volkswagen
+uncertainty	tính không chắc chắn
+breakdown	phá vỡ
+milton	milton
+marker	đánh dấu
+reconstruction	tái thiết
+subsidiary	công ty con
+strengths	điểm mạnh
+clarity	trong trẻo
+rugs	thảm
+sandra	sandra
+adelaide	adelaide
+encouraging	đáng khích lệ
+furnished	trang bị
+monaco	monaco
+settled	định cư
+folding	gấp
+emirates	tiểu vương quốc
+terrorists	bọn khủng bố
+airfare	vé máy bay
+comparisons	sự so sánh
+beneficial	có lợi
+distributions	sự phân phối
+vaccine	vắc xin
+belize	Belize
+crap	tào lao
+fate	định mệnh
+viewpicture	xem hình ảnh
+promised	đã hứa
+volvo	volvo
+penny	đồng xu
+robust	khỏe mạnh
+bookings	đặt chỗ
+threatened	bị đe dọa
+minolta	minolta
+republicans	những người theo chủ nghĩa cộng hòa
+discusses	thảo luận
+gui	gui
+porter	người khuân vác
+gras	gan
+jungle	rừng
+ver	phiên bản
+rn	rn
+responded	đã trả lời
+rim	vành
+abstracts	tóm tắt
+zen	thiền học
+ivory	ngà voi
+alpine	núi cao
+dis	dis
+prediction	sự dự đoán
+pharmaceuticals	dược phẩm
+andale	Andale
+fabulous	tuyệt vời
+remix	phối lại
+alias	bí danh
+thesaurus	từ điển đồng nghĩa
+individually	riêng lẻ
+battlefield	chiến trường
+literally	theo đúng nghĩa đen
+newer	mới hơn
+kay	được rồi
+ecological	sinh thái
+spice	gia vị
+oval	hình trái xoan
+implies	ngụ ý
+cg	cg
+soma	soma
+ser	ser
+cooler	mát hơn
+appraisal	đánh giá
+consisting	bao gồm
+maritime	hàng hải
+periodic	định kỳ
+submitting	nộp
+overhead	trên không
+ascii	ascii
+prospect	tiềm năng
+shipment	lô hàng
+breeding	chăn nuôi
+citations	trích dẫn
+geographical	địa lý
+donor	nhà tài trợ
+mozambique	mozambique
+tension	căng thẳng
+href	href
+benz	benz
+trash	rác
+shapes	hình dạng
+wifi	wifi
+tier	tầng
+fwd	fwd
+earl	bá tước
+manor	trang viên
+envelope	phong bì
+diane	diane
+homeland	quê hương
+disclaimers	tuyên bố từ chối trách nhiệm
+championships	giải vô địch
+excluded	bị loại trừ
+andrea	andrea
+breeds	giống
+rapids	thác ghềnh
+disco	sàn nhảy
+sheffield	Sheffield
+bailey	Bailey
+aus	au
+endif	cuối cùng
+finishing	hoàn thiện
+emotions	những cảm xúc
+wellington	wellington
+incoming	mới đến
+prospects	tương lai
+lexmark	từ vựng
+cleaners	chất tẩy rửa
+bulgarian	tiếng Bungari
+hwy	đường cao tốc
+eternal	Vĩnh hằng
+cashiers	Thu ngân
+guam	guam
+cite	trích dẫn
+aboriginal	thổ dân
+remarkable	đáng chú ý
+rotation	Vòng xoay
+nam	nam
+preventing	ngăn ngừa
+productive	năng suất
+boulevard	đại lộ
+eugene	Eugene
+ix	ix
+gdp	gdp
+pig	con lợn
+metric	Hệ mét
+compliant	tuân thủ
+minus	dấu trừ
+penalties	hình phạt
+bennett	Bennet
+imagination	trí tưởng tượng
+hotmail	thư nóng
+refurbished	Tân trang lại
+joshua	joshua
+armenia	Armenia
+varied	đa dạng
+grande	vĩ đại
+closest	gần nhất
+activated	kích hoạt
+actress	nữ diễn viên
+mess	sự lộn xộn
+conferencing	hội nghị
+assign	giao phó
+armstrong	cánh tay mạnh mẽ
+politicians	chính trị gia
+trackbacks	trackback
+lit	thắp sáng
+accommodate	chứa
+tigers	Nhiều con hổ
+aurora	rạng Đông
+una	một
+slides	slide
+milan	milan
+premiere	ra mắt
+lender	người cho vay
+villages	làng
+shade	bóng râm
+chorus	Điệp khúc
+christine	christine
+rhythm	nhịp
+digit	chữ số
+argued	Tranh luận
+dietary	chế độ ăn kiêng
+symphony	bản giao hưởng
+clarke	clarke
+sudden	đột nhiên
+accepting	chấp nhận
+precipitation	sự kết tủa
+marilyn	Marilyn
+lions	sư tử
+findlaw	luật pháp
+ada	ada
+pools	hồ bơi
+tb	tb
+lyric	lời bài hát
+claire	claire
+isolation	sự cách ly
+speeds	tốc độ
+sustained	duy trì
+matched	phù hợp
+approximate	xấp xỉ
+rope	dây thừng
+carroll	carroll
+rational	hợp lý
+programmer	lập trình viên
+fighters	máy bay chiến đấu
+chambers	buồng
+dump	bãi rác
+greetings	lời chào hỏi
+inherited	thừa hưởng
+warming	sự nóng lên
+incomplete	chưa hoàn thiện
+vocals	giọng hát
+chronicle	ghi chép lại
+fountain	Đài phun nước
+chubby	mập mạp
+grave	phần mộ
+legitimate	hợp pháp
+biographies	tiểu sử
+burner	đầu đốt
+yrs	năm
+foo	foo
+investigator	người điều tra
+gba	gba
+plaintiff	nguyên đơn
+finnish	tiếng phần lan
+gentle	dịu dàng
+bm	bm
+prisoners	tù nhân
+deeper	sâu sắc hơn
+muslims	người Hồi giáo
+hose	vòi nước
+mediterranean	Địa Trung Hải
+nightlife	cuộc sống về đêm
+footage	cảnh quay
+howto	làm cách nào để
+worthy	xứng đáng
+reveals	tiết lộ
+architects	kiến trúc sư
+saints	thánh
+entrepreneur	doanh nhân
+carries	mang theo
+sig	ký tên
+freelance	người làm việc tự do
+duo	cặp đôi
+excessive	quá đáng
+devon	quỷ dữ
+screensaver	bảo vệ màn hình
+helena	Helena
+saves	tiết kiệm
+regarded	đánh giá
+valuation	định giá
+unexpected	không ngờ tới
+cigarette	thuốc lá
+fog	sương mù
+characteristic	đặc trưng
+marion	Marion
+lobby	sảnh
+egyptian	người Ai Cập
+tunisia	Tunisia
+metallica	kim loại
+outlined	nêu
+consequently	do đó
+headline	tiêu đề
+treating	điều trị
+punch	cú đấm
+appointments	cuộc hẹn
+str	str
+gotta	cần phải
+cowboy	cao bồi
+narrative	chuyện kể
+bahrain	Bahrain
+enormous	lớn lao
+karma	nghiệp chướng
+consist	bao gồm
+betty	betty
+queens	nữ hoàng
+academics	học giả
+pubs	quán rượu
+quantitative	định lượng
+shemales	người chuyển giới
+lucas	lucas
+screensavers	trình bảo vệ màn hình
+subdivision	phân khu
+tribes	bộ lạc
+vip	cao cấp
+defeat	đánh bại
+clicks	số lần nhấp chuột
+distinction	sự phân biệt
+honduras	Honduras
+naughty	nghịch ngợm
+hazards	mối nguy hiểm
+insured	được bảo hiểm
+harper	người chơi đàn hạc
+livestock	vật nuôi
+mardi	thứ ba
+exemption	miễn trừ
+tenant	người thuê nhà
+sustainability	Sự bền vững
+cabinets	tủ
+tattoo	xăm hình
+shake	lắc
+algebra	đại số học
+shadows	bóng tối
+holly	nhựa ruồi
+formatting	định dạng
+silly	ngớ ngẩn
+nutritional	dinh dưỡng
+yea	vâng
+mercy	nhân từ
+hartford	Hartford
+freely	tự do
+marcus	Marcus
+sunrise	bình Minh
+wrapping	gói
+mild	nhẹ
+fur	lông thú
+nicaragua	Nicaragua
+weblogs	nhật ký web
+timeline	mốc thời gian
+tar	hắc ín
+belongs	thuộc về
+rj	rj
+readily	dễ dàng
+affiliation	liên kết
+soc	soc
+fence	hàng rào
+nudist	người theo chủ nghĩa khỏa thân
+infinite	vô hạn
+diana	Diana
+ensures	đảm bảo
+relatives	họ hàng
+lindsay	lindsay
+clan	thị tộc
+legally	hợp pháp
+shame	nỗi tủi nhục
+satisfactory	thỏa đáng
+revolutionary	mang tính cách mạng
+bracelets	vòng tay
+sync	đồng bộ hóa
+civilian	dân sự
+telephony	điện thoại
+mesa	mesa
+fatal	gây tử vong
+remedy	phương thuốc
+realtors	người môi giới bất động sản
+breathing	thở
+briefly	Tóm tắt
+thickness	độ dày
+adjustments	điều chỉnh
+graphical	đồ họa
+genius	thiên tài
+discussing	thảo luận
+aerospace	hàng không vũ trụ
+fighter	đấu sĩ
+meaningful	có ý nghĩa
+flesh	thịt
+retreat	rút lui
+adapted	thích nghi
+barely	vừa đủ
+wherever	bất cứ nơi nào
+estates	bất động sản
+rug	tấm thảm
+democrat	nhà dân chủ
+borough	quận
+maintains	duy trì
+failing	thất bại
+shortcuts	phím tắt
+ka	ka
+retained	giữ lại
+voyeurweb	voyeurweb
+pamela	cây pamela
+andrews	Andrew
+marble	đá hoa
+extending	mở rộng
+jesse	Jesse
+specifies	chỉ định
+hull	thân tàu
+logitech	logitech
+surrey	surrey
+briefing	cuộc họp
+belkin	belkin
+dem	họ
+accreditation	công nhận
+wav	wav
+blackberry	dâu đen
+highland	Cao nguyên
+meditation	thiền
+modular	mô-đun
+microphone	cái mic cờ rô
+macedonia	Macedonia
+combining	kết hợp
+brandon	rượu mạnh
+instrumental	nhạc cụ
+giants	người khổng lồ
+organizing	tổ chức
+shed	túp lều
+balloon	bóng bay
+moderators	người điều hành
+winston	winston
+memo	bản ghi nhớ
+ham	giăm bông
+solved	đã giải quyết
+tide	thủy triều
+kazakhstan	Kazakhstan
+hawaiian	người Hawaii
+standings	bảng xếp hạng
+partition	vách ngăn
+invisible	vô hình
+gratuit	miễn phí
+consoles	bảng điều khiển
+funk	trò đùa
+fbi	FBI
+qatar	qatar
+magnet	nam châm
+translations	bản dịch
+porsche	porsche
+cayman	cayman
+jaguar	báo đốm
+reel	cuộn dây
+sheer	tuyệt đối
+commodity	hàng hóa
+posing	tạo dáng
+wang	Vương
+kilometers	km
+rp	rp
+bind	trói buộc
+thanksgiving	lễ tạ ơn
+rand	rand
+hopkins	hopkins
+urgent	cấp bách
+guarantees	đảm bảo
+infants	trẻ sơ sinh
+gothic	kiểu gô tích
+cylinder	hình trụ
+witch	phù thủy
+buck	Cái xô
+indication	chỉ dẫn
+eh	Hở
+congratulations	Chúc mừng
+tba	tba
+cohen	cohen
+sie	sie
+usgs	usgs
+puppy	cún yêu
+kathy	Kathy
+acre	mẫu Anh
+graphs	đồ thị
+surround	vây quanh
+cigarettes	thuốc lá
+revenge	sự trả thù
+expires	hết hạn
+enemies	kẻ thù
+lows	mức thấp
+controllers	bộ điều khiển
+aqua	nước
+chen	Trần
+emma	emma
+consultancy	tư vấn
+finances	tài chính
+accepts	chấp nhận
+enjoying	thưởng thức
+conventions	quy ước
+eva	eva
+patrol	tuần tra
+smell	mùi
+pest	côn trùng
+hc	hc
+italiano	người Ý
+coordinates	tọa độ
+rca	rca
+fp	fp
+carnival	lễ hội hóa trang
+roughly	đại khái
+sticker	nhãn dán
+promises	lời hứa
+responding	đáp ứng
+reef	rạn san hô
+physically	về thể chất
+divide	chia
+stakeholders	các bên liên quan
+hydrocodone	hydrocodone
+gst	gst
+consecutive	liên tiếp
+cornell	Cornell
+satin	sa tanh
+bon	vui vẻ
+deserve	xứng đáng
+attempting	cố gắng
+mailto	gửi thư
+promo	khuyến mãi
+jj	jj
+representations	sự đại diện
+chan	chan
+worried	lo lắng
+tunes	giai điệu
+garbage	rác
+competing	cạnh tranh
+combines	kết hợp
+mas	mẹ
+beth	beth
+bradford	Bradford
+len	len
+phrases	cụm từ
+kai	kai
+peninsula	bán đảo
+chelsea	Chelsea
+boring	nhạt nhẽo
+reynolds	reynolds
+dom	nhà thờ
+jill	jill
+accurately	chính xác
+speeches	bài phát biểu
+reaches	đạt tới
+schema	lược đồ
+considers	xem xét
+sofa	ghế sô pha
+catalogs	danh mục sản phẩm
+ministries	các bộ
+vacancies	vị trí tuyển dụng
+quizzes	câu đố
+parliamentary	nghị viện
+obj	vật thể
+prefix	tiếp đầu ngữ
+lucia	lucia
+savannah	thảo nguyên
+barrel	thùng
+typing	đánh máy
+nerve	dây thần kinh
+dans	dans
+planets	những hành tinh
+deficit	thiếu hụt hoặc khuyết
+boulder	tảng đá
+pointing	Chỉ trỏ
+renew	thay mới
+coupled	kết hợp
+viii	viiii
+myanmar	myanmar
+metadata	metadata
+harold	harold
+circuits	Chu trình
+floppy	đĩa mềm
+texture	kết cấu
+handbags	túi xách
+jar	cái lọ
+ev	ev
+somerset	người nào đó
+incurred	phát sinh
+acknowledge	thừa nhận
+thoroughly	triệt để
+antigua	antigua
+nottingham	nottingham
+thunder	sấm sét
+tent	lều
+caution	thận trọng
+identifies	xác định
+questionnaire	bảng câu hỏi
+qualification	trình độ chuyên môn
+locks	ổ khóa
+modelling	người mẫu
+namely	cụ thể là
+miniature	thu nhỏ
+dept	ban
+hack	gian lận
+dare	dám
+euros	euro
+interstate	liên bang
+pirates	Hải tặc
+aerial	trên không
+hawk	chim ưng
+consequence	kết quả
+rebel	nổi loạn
+systematic	có tính hệ thống
+perceived	lĩnh hội
+origins	nguồn gốc
+hired	được thuê
+makeup	trang điểm
+textile	dệt may
+lamb	cừu non
+madagascar	Madagascar
+nathan	nathan
+tobago	thuốc lá
+presenting	trình bày
+cos	vì
+troubleshooting	xử lý sự cố
+uzbekistan	uzbekistan
+indexes	chỉ số
+pac	nhịp độ
+rl	rl
+erp	erp
+centuries	thế kỉ
+gl	kính
+magnitude	kích cỡ
+ui	ui
+richardson	Richardson
+hindu	đạo Hindu
+dh	dh
+fragrances	nước hoa
+vocabulary	từ vựng
+licking	liếm
+earthquake	động đất
+vpn	vpn
+fundraising	gây quỹ
+fcc	fcc
+markers	đánh dấu
+weights	trọng lượng
+albania	người Anbani
+geological	Địa chất học
+assessing	đánh giá
+lasting	bền vững
+wicked	độc ác
+eds	biên tập
+introduces	giới thiệu
+kills	giết chết
+roommate	bạn cùng phòng
+webcams	webcam
+pushed	đẩy
+webmasters	quản trị trang web
+ro	ro
+df	df
+computational	tính toán
+acdbentity	tính quen thuộc
+participated	đã tham gia
+junk	rác
+handhelds	Thiết bị cầm tay
+wax	sáp
+lucy	lucy
+answering	trả lời
+hans	Hans
+impressed	ấn tượng
+slope	dốc
+reggae	nhạc reggae
+failures	thất bại
+poet	nhà thơ
+conspiracy	âm mưu
+surname	họ
+theology	thần học
+nails	móng tay
+evident	hiển nhiên
+whats	cái gì
+rides	cưỡi ngựa
+rehab	trại cai nghiện
+epic	sử thi
+saturn	sao Thổ
+organizer	người tổ chức
+nut	hạt
+allergy	dị ứng
+sake	lợi ích
+twisted	vặn vẹo
+combinations	sự kết hợp
+preceding	trước
+merit	công lao
+enzyme	enzim
+cumulative	tích lũy
+zshops	zshop
+planes	máy bay
+edmonton	edmonton
+tackle	giải quyết
+disks	đĩa
+condo	chung cư
+pokemon	pokemon
+amplifier	bộ khuếch đại
+ambien	môi trường xung quanh
+arbitrary	Bất kỳ
+prominent	nổi bật
+retrieve	lấy lại
+lexington	lexington
+vernon	vernon
+sans	không
+worldcat	mèo thế giới
+titanium	titan
+irs	IRS
+fairy	tiên
+builds	xây dựng
+contacted	đã liên hệ
+shaft	trục
+lean	độ nghiêng
+bye	tạm biệt
+cdt	cdt
+recorders	máy ghi âm
+occasional	thỉnh thoảng
+leslie	Leslie
+casio	casio
+deutsche	tiếng Đức
+ana	Ana
+postings	bài đăng
+innovations	đổi mới
+kitty	mèo con
+postcards	bưu thiếp
+dude	anh bạn
+drain	làm khô hạn
+monte	núi
+fires	hỏa hoạn
+algeria	Algeria
+blessed	Hạnh phúc
+luis	luis
+reviewing	xem xét
+cardiff	Cardiff
+cornwall	bức tường ngô
+favors	ân huệ
+potato	khoai tây
+panic	hoảng loạn
+explicitly	rõ ràng
+sticks	gậy
+leone	leon
+transsexual	chuyển đổi giới tính
+ez	ez
+citizenship	quyền công dân
+excuse	thứ lỗi
+reforms	cải cách
+basement	tầng hầm
+onion	củ hành
+strand	sợi dây
+pf	pf
+sandwich	bánh mì sandwich
+uw	ồ
+lawsuit	vụ kiện
+alto	giọng alto
+informative	nhiều thông tin
+girlfriend	bạn gái
+bloomberg	hoa nở
+cheque	kiểm tra
+hierarchy	hệ thống cấp bậc
+influenced	bị ảnh hưởng
+banners	băng rôn
+reject	từ chối
+eau	eau
+abandoned	bị bỏ rơi
+bd	bd
+circles	vòng tròn
+italic	in nghiêng
+beats	nhịp đập
+merry	vui
+mil	triệu
+scuba	lặn biển
+gore	máu me
+complement	bổ sung
+cult	giáo phái
+dash	dấu gạch ngang
+passive	thụ động
+mauritius	Mauritius
+valued	có giá trị
+cage	cái lồng
+checklist	danh mục
+bangbus	bangbus
+requesting	yêu cầu
+courage	lòng can đảm
+verde	xanh tươi
+lauderdale	lauderdale
+scenarios	kịch bản
+gazette	công báo
+hitachi	hitachi
+divx	divx
+extraction	khai thác
+batman	người dơi
+elevation	độ cao
+hearings	phiên điều trần
+coleman	coman
+hugh	ôm
+lap	lòng
+utilization	sự tận dụng
+beverages	đồ uống
+calibration	sự định cỡ
+jake	Jake
+eval	đánh giá
+efficiently	hiệu quả
+anaheim	anaheim
+ping	ping
+textbook	sách giáo khoa
+dried	khô
+entertaining	giải trí
+prerequisite	điều kiện tiên quyết
+luther	Luther
+frontier	biên giới
+settle	ổn định
+stopping	dừng lại
+refugees	những người tị nạn
+knights	hiệp sĩ
+hypothesis	giả thuyết
+palmer	cây cọ
+medicines	các loại thuốc
+flux	tuôn ra
+derby	trận derby
+sao	sao
+peaceful	hoà bình
+altered	bị thay đổi
+pontiac	pontiac
+regression	hồi quy
+doctrine	học thuyết
+scenic	có cảnh đẹp thiên nhiên
+trainers	huấn luyện viên
+muze	mê hoặc
+enhancements	cải tiến
+renewable	tái tạo
+intersection	ngã tư
+passwords	mật khẩu
+sewing	may vá
+consistency	Tính nhất quán
+collectors	người sưu tầm
+conclude	kết luận
+recognised	được công nhận
+munich	Munich
+oman	oman
+celebs	người nổi tiếng
+gmc	gmc
+propose	cầu hôn
+hh	hh
+azerbaijan	Azerbaijan
+lighter	nhẹ hơn
+rage	cơn thịnh nộ
+adsl	quảng cáo
+uh	ừ
+prix	giải nhất
+astrology	chiêm tinh học
+advisors	cố vấn
+pavilion	gian hàng
+tactics	chiến thuật
+trusts	quỹ tín thác
+occurring	xảy ra
+supplemental	bổ sung
+travelling	đi du lịch
+talented	có tài
+annie	Annie
+pillow	cái gối
+induction	hướng dẫn
+derek	derek
+precisely	đúng
+shorter	ngắn hơn
+harley	harley
+spreading	truyền bá
+provinces	tỉnh
+relying	dựa vào
+finals	trận chung kết
+paraguay	paraguay
+steal	ăn cắp
+parcel	bưu kiện
+refined	tinh tế
+fd	fd
+bo	bo
+fifteen	mười lăm
+widespread	phổ biến rộng rãi
+incidence	tỷ lệ mắc bệnh
+fears	sợ hãi
+predict	dự đoán
+boutique	cửa hàng
+acrylic	acrylic
+rolled	cán
+tuner	bộ chỉnh âm
+avon	avon
+incidents	sự cố
+peterson	Peterson
+rays	tia
+asn	mông
+shannon	shannon
+toddler	trẻ mới biết đi
+enhancing	tăng cường
+flavor	hương vị
+alike	như nhau
+walt	điệu valse
+homeless	vô gia cư
+horrible	tệ hại
+hungry	đói bụng
+metallic	kim loại
+acne	mụn
+blocked	bị chặn
+interference	sự can thiệp
+warriors	chiến binh
+palestine	xứ Palestin
+listprice	bảng giá
+libs	lib
+undo	Hoàn tác
+cadillac	cadillac
+atmospheric	khí quyển
+malawi	Malawi
+wm	cái gì
+pk	pk
+sagem	cây xô thơm
+knowledgestorm	cơn bão tri thức
+dana	bố thí
+halo	hào quang
+ppm	trang/phút
+curtis	curtis
+parental	cha mẹ
+referenced	được tham chiếu
+strikes	đình công
+lesser	ít hơn
+publicity	công khai
+marathon	maratông
+ant	con kiến
+proposition	Dự luật
+gays	người đồng tính
+pressing	ép
+gasoline	xăng
+apt	đúng cách
+dressed	mặc quần áo
+scout	trinh sát
+belfast	Belfast
+exec	người điều hành
+dealt	xử lý
+niagara	Niagara
+inf	thông tin
+eos	eos
+warcraft	chiến thuật
+charms	bùa chú
+catalyst	chất xúc tác
+trader	thương nhân
+bucks	Xô
+allowance	trợ cấp
+vcr	vcr
+denial	phủ nhận
+uri	nước tiểu
+designation	sự chỉ định
+thrown	ném
+prepaid	trả trước
+raises	tăng lên
+gem	đá quý
+duplicate	nhân bản
+electro	điện
+criterion	tiêu chuẩn
+badge	huy hiệu
+wrist	cổ tay
+civilization	nền văn minh
+analyzed	phân tích
+vietnamese	Tiếng Việt
+heath	cây thạch thảo
+tremendous	to lớn
+ballot	phiếu
+lexus	Lexus
+varying	thay đổi
+remedies	biện pháp khắc phục
+validity	hiệu lực
+trustee	người được ủy thác
+maui	maui
+handjobs	làm bằng tay
+weighted	có trọng lượng
+angola	Angola
+squirt	tia nước
+performs	thực hiện
+plastics	nhựa
+realm	vương quốc
+corrected	đã sửa
+jenny	cú chọc
+helmet	mũ bảo hiểm
+salaries	lương
+postcard	bưu thiếp
+elephant	con voi
+yemen	yêmen
+encountered	đã gặp
+tsunami	sóng thần
+scholar	học giả
+nickel	niken
+internationally	quốc tế
+surrounded	Được bao quanh
+psi	psi
+buses	xe buýt
+expedia	expedia
+geology	địa chất học
+pct	phần trăm
+wb	wb
+creatures	sinh vật
+coating	lớp áo
+commented	đã bình luận
+wallet	cái ví
+cleared	đã xóa
+smilies	mặt cười
+vids	video
+accomplish	hoàn thành
+boating	chèo thuyền
+drainage	thoát nước
+shakira	shakira
+corners	góc
+broader	rộng hơn
+vegetarian	người ăn chay
+rouge	màu hồng
+yeast	men
+yale	đại học Yale
+newfoundland	vùng đất mới
+sn	sn
+qld	qld
+pas	tạm thời
+clearing	thanh toán bù trừ
+investigated	điều tra
+dk	dk
+ambassador	đại sứ
+coated	tráng
+intend	có ý định
+stephanie	Stephanie
+contacting	liên lạc
+vegetation	thảm thực vật
+doom	sự chết
+findarticles	tìm bài viết
+louise	Louise
+kenny	kenny
+specially	đặc biệt
+owen	nợ
+routines	thói quen
+hitting	đánh
+yukon	yukon
+beings	chúng sinh
+bite	cắn
+issn	issn
+aquatic	thủy sinh
+reliance	sự trông cậy
+habits	thói quen
+striking	nổi bật
+myth	huyền thoại
+infectious	truyền nhiễm
+podcasts	podcast
+singh	singh
+gig	buổi biểu diễn
+gilbert	gilbert
+sas	sas
+ferrari	ferrari
+continuity	liên tục
+brook	dòng suối
+fu	fu
+outputs	kết quả đầu ra
+phenomenon	hiện tượng
+ensemble	quần thể
+insulin	insulin
+assured	yên tâm
+biblical	kinh thánh
+weed	cần sa
+conscious	biết rõ
+accent	giọng
+mysimon	mysimon
+eleven	mười một
+wives	những người vợ
+ambient	môi trường xung quanh
+utilize	sử dụng
+mileage	số dặm
+oecd	oecd
+prostate	tuyến tiền liệt
+adaptor	bộ chuyển đổi
+auburn	màu nâu vàng
+unlock	mở khóa
+hyundai	huyndai
+pledge	lời hứa
+vampire	ma cà rồng
+angela	Angela
+relates	liên quan
+nitrogen	nitơ
+xerox	xerox
+dice	xúc xắc
+merger	sáp nhập
+softball	bóng mềm
+referrals	giới thiệu
+quad	bốn người
+dock	bến tàu
+differently	khác nhau
+firewire	dây lửa
+mods	mod
+nextel	tiếp theo
+framing	đóng khung
+organised	được tổ chức
+musician	nhạc sĩ
+blocking	chặn
+rwanda	Rwanda
+sorts	sắp xếp
+integrating	tích hợp
+vsnet	vsnet
+limiting	hạn chế
+dispatch	gửi đi
+revisions	sửa đổi
+papua	papa
+restored	được phục hồi
+hint	gợi ý
+armor	áo giáp
+riders	tay đua
+chargers	bộ sạc
+remark	nhận xét
+dozens	hàng chục
+varies	thay đổi
+msie	msie
+reasoning	lý luận
+wn	wn
+liz	Liz
+rendered	kết xuất
+picking	hái
+charitable	từ thiện
+guards	lính canh
+annotated	chú thích
+ccd	ccd
+sv	sv
+convinced	bị thuyết phục
+openings	lỗ hở
+buys	Mua
+burlington	burlington
+replacing	thay thế
+researcher	nhà nghiên cứu
+watershed	lưu vực sông
+councils	hội đồng
+occupations	nghề nghiệp
+acknowledged	thừa nhận
+nudity	ảnh khoả thân
+kruger	người lùn
+pockets	túi
+granny	bà nội
+pork	thịt lợn
+zu	zu
+equilibrium	trạng thái cân bằng
+viral	nổi tiếng
+inquire	hỏi thăm
+pipes	đường ống
+characterized	đặc trưng
+laden	chất đầy
+aruba	Aruba
+cottages	nhà tranh
+realtor	người môi giới bất động sản
+merge	hợp nhất
+privilege	đặc quyền
+edgar	Edgar
+develops	phát triển
+qualifying	đủ điều kiện
+chassis	khung xe
+dubai	dubai
+estimation	ước lượng
+barn	chuồng trại
+pushing	đẩy
+llp	llp
+fleece	vải lông cừu
+pediatric	nhi khoa
+boc	boc
+fare	giá vé
+dg	dg
+asus	asus
+pierce	khoan
+allan	allan
+dressing	Cách ăn mặc
+techrepublic	cộng hòa công nghệ
+sperm	tinh trùng
+vg	vg
+bald	hói
+filme	phim
+craps	xúc xắc
+fuji	fuji
+frost	sương giá
+leon	leon
+institutes	viện
+mold	khuôn
+dame	phu nhân
+fo	cho
+sally	sally
+yacht	thuyền buồm
+tracy	tracy
+prefers	thích hơn
+drilling	khoan
+brochures	tài liệu quảng cáo
+herb	thảo dược
+tmp	tmp
+alot	nhiều
+ate	ăn
+breach	sự vi phạm
+whale	cá voi
+traveller	du khách
+appropriations	sự chiếm đoạt
+suspected	nghi ngờ
+tomatoes	cà chua
+benchmark	điểm chuẩn
+beginners	người mới bắt đầu
+instructors	giảng viên
+highlighted	nhấn mạnh
+bedford	bedford
+stationery	văn phòng phẩm
+idle	nhàn rỗi
+mustang	Mustang
+unauthorized	không được phép
+clusters	cụm
+antibody	kháng thể
+competent	có thẩm quyền
+momentum	Quán tính
+fin	vây
+wiring	hệ thống dây điện
+io	io
+pastor	mục sư
+mud	bùn
+calvin	Calvin
+uni	đại học
+shark	cá mập
+contributor	người đóng góp
+demonstrates	chứng tỏ
+phases	giai đoạn
+grateful	tri ân
+emerald	ngọc lục bảo
+gradually	dần dần
+laughing	cười
+grows	mọc
+cliff	vách đá
+desirable	mong muốn
+tract	đường
+ul	ul
+ballet	vở ballet
+ol	ôi
+journalist	nhà báo
+abraham	Áp-ra-ham
+js	js
+bumper	bội thu
+afterwards	sau đó
+webpage	trang web
+religions	tôn giáo
+garlic	tỏi
+hostels	ký túc xá
+shine	chiếu sáng
+senegal	người Sénégal
+explosion	vụ nổ
+pn	pn
+banned	bị cấm
+wendy	Wendy
+briefs	tóm tắt
+signatures	chữ ký
+diffs	sự khác biệt
+cove	vịnh nhỏ
+mumbai	Mumbai
+ozone	khí quyển
+disciplines	môn học
+casa	nhà ở
+mu	mu
+daughters	con gái
+conversations	cuộc trò chuyện
+radios	radio
+tariff	thuế quan
+nvidia	nvidia
+opponent	phản đối
+pasta	mỳ ống
+simplified	giản thể
+muscles	cơ bắp
+serum	huyết thanh
+wrapped	bọc
+swift	nhanh
+motherboard	bo mạch chủ
+runtime	thời gian chạy
+inbox	hộp thư đến
+focal	tiêu điểm
+bibliographic	thư mục
+vagina	âm đạo
+eden	Vườn Địa Đàng
+distant	xa xôi
+incl	bao gồm
+champagne	Rượu sâm banh
+ala	than ôi
+decimal	số thập phân
+hq	hq
+deviation	sự lệch lạc
+superintendent	giám đốc
+propecia	propecia
+dip	nhúng
+nbc	nbc
+samba	điệu samba
+hostel	nhà trọ
+housewives	các bà nội trợ
+employ	thuê
+mongolia	Mông Cổ
+penguin	chim cánh cụt
+magical	huyền diệu
+influences	ảnh hưởng
+inspections	kiểm tra
+irrigation	thủy lợi
+miracle	phép màu
+manually	bằng tay
+reprint	in lại
+reid	Reid
+wt	cái gì
+hydraulic	thủy lực
+centered	trung tâm
+robertson	robertson
+flex	uốn cong
+yearly	hàng năm
+penetration	thâm nhập
+wound	vết thương
+belle	người đẹp
+rosa	màu hồng
+conviction	lòng tin chắc, sự kết án, phán quyết
+hash	hàm băm
+omissions	thiếu sót
+writings	bài viết
+hamburg	hamburg
+lazy	lười
+mv	mv
+mpg	mpg
+retrieval	thu hồi
+qualities	phẩm chất
+cindy	cindy
+lolita	cô gái nhỏ
+fathers	những người cha
+carb	tinh bột
+charging	sạc
+cas	cas
+marvel	kỳ quan
+lined	lót
+cio	cio
+dow	xuống
+prototype	nguyên mẫu
+importantly	quan trọng
+rb	rb
+petite	nhỏ nhắn
+apparatus	bộ máy
+upc	upc
+terrain	địa hình
+dui	dui
+pens	bút mực
+explaining	giải thích
+yen	yên
+strips	dải
+gossip	chuyện phiếm
+rangers	kiểm lâm
+nomination	sự đề cử
+empirical	thực nghiệm
+mh	mh
+rotary	quay
+worm	sâu
+dependence	sự phụ thuộc
+discrete	rời rạc
+beginner	người bắt đầu
+boxed	đóng hộp
+lid	Nắp
+sexuality	tình dục
+polyester	polyester
+cubic	khối
+deaf	điếc
+commitments	cam kết
+suggesting	gợi ý
+sapphire	ngọc bích
+kinase	kinase
+skirts	váy
+mats	thảm
+remainder	phần còn lại
+crawford	crawford
+labeled	dán nhãn
+privileges	đặc quyền
+televisions	tivi
+specializing	chuyên môn
+marking	đánh dấu
+commodities	hàng hóa
+pvc	nhựa PVC
+serbia	Serbia
+sheriff	cảnh sát trưởng
+griffin	chim ưng
+declined	suy giảm
+guyana	Guyana
+spies	gián điệp
+blah	bla
+mime	kịch câm
+neighbor	hàng xóm
+motorcycles	xe máy
+elect	trúng tuyển
+highways	đường xa lộ
+thinkpad	thinkpad
+concentrate	tập trung
+intimate	thân mật
+reproductive	sinh sản
+preston	preston
+deadly	chết người
+cunt	lồn
+feof	sự giả dối
+bunny	chú thỏ
+chevy	chevy
+molecules	phân tử
+rounds	vòng
+longest	dài nhất
+refrigerator	tủ lạnh
+tions	ý kiến
+intervals	khoảng thời gian
+sentences	câu
+dentists	nha sĩ
+usda	usda
+exclusion	loại trừ
+workstation	trạm làm việc
+holocaust	sự tàn sát
+keen	sắc sảo
+flyer	tờ rơi
+peas	đậu Hà Lan
+dosage	liều lượng
+receivers	máy thu
+urls	url
+customise	tùy chỉnh
+disposition	bố trí
+variance	phương sai
+navigator	hoa tiêu
+investigators	điều tra viên
+cameroon	Cameroon
+baking	nướng bánh
+marijuana	cần sa
+adaptive	thích nghi
+computed	tính toán
+needle	cây kim
+baths	bồn tắm
+enb	enb
+gg	gg
+cathedral	thánh đường
+brakes	phanh
+og	ôi
+nirvana	niết bàn
+ko	ko
+fairfield	sân hội chợ
+owns	sở hữu
+til	cho đến khi
+invision	sự nhìn thấy
+sticky	dính
+destiny	định mệnh
+generous	hào phóng
+madness	điên cuồng
+emacs	emac
+climb	leo
+blowing	thổi
+fascinating	lôi cuốn
+landscapes	phong cảnh
+heated	đun nóng
+lafayette	lafayette
+jackie	jackie
+wto	wto
+computation	tính toán
+hay	cỏ khô
+cardiovascular	tim mạch
+ww	ôi
+sparc	tia lửa
+cardiac	tim
+salvation	sự cứu rỗi
+dover	dover
+adrian	Adrian
+predictions	phỏng đoán
+accompanying	đi kèm
+vatican	vatican
+brutal	tàn bạo
+learners	người học
+gd	gd
+selective	chọn lọc
+arbitration	trọng tài
+configuring	cấu hình
+token	mã thông báo
+editorials	bài xã luận
+zinc	kẽm
+sacrifice	hy sinh
+seekers	người tìm kiếm
+guru	đạo sư
+isa	là một
+removable	có thể tháo rời
+convergence	sự hội tụ
+yields	sản lượng
+gibraltar	gibraltar
+levy	thu thuế
+suited	phù hợp
+numeric	số
+anthropology	nhân học
+skating	trượt băng
+kinda	đại loại
+aberdeen	aberdeen
+emperor	hoàng đế
+grad	tốt nghiệp
+malpractice	hành vi sai trái
+dylan	dylan
+bras	áo ngực
+belts	thắt lưng
+blacks	người da đen
+educated	có học thức
+rebates	giảm giá
+reporters	những phóng viên
+burke	burke
+proudly	Tự hào
+pix	tiên
+necessity	sự cần thiết
+rendering	kết xuất
+mic	micrô
+inserted	chèn vào
+pulling	đang kéo
+basename	tên cơ sở
+kyle	Kyle
+obesity	béo phì
+curves	đường cong
+suburban	ngoại ô
+touring	du lịch
+clara	clara
+vertex	đỉnh
+bw	ôi
+hepatitis	viêm gan
+nationally	toàn quốc
+tomato	cà chua
+andorra	andorra
+waterproof	không thấm nước
+expired	hết hạn
+mj	mj
+travels	chuyến đi
+flush	tuôn ra
+waiver	sự từ bỏ
+pale	tái nhợt
+specialties	đặc sản
+hayes	vâng
+humanitarian	nhân đạo
+invitations	lời mời
+functioning	hoạt động
+delight	Hân hoan
+survivor	người sống sót
+garcia	Garcia
+cingular	hình vành khuyên
+economies	nền kinh tế
+alexandria	alexandria
+bacterial	vi khuẩn
+moses	Môi-se
+counted	tính
+undertake	đảm nhận
+declare	tuyên bố
+continuously	liên tục
+johns	John
+valves	van
+gaps	khoảng trống
+impaired	suy yếu
+achievements	thành tựu
+donors	nhà tài trợ
+tear	xé
+jewel	viên ngọc quý
+teddy	Teddy
+lf	nếu
+convertible	có thể chuyển đổi
+ata	ata
+teaches	dạy
+ventures	sự mạo hiểm
+nil	không
+bufing	đánh bóng
+stranger	người lạ
+tragedy	bi kịch
+julian	Julian
+nest	tổ
+pam	bố
+dryer	máy sấy khô
+painful	đau đớn
+velvet	nhung
+tribunal	tòa án
+ruled	cai trị
+nato	NATO
+pensions	lương hưu
+prayers	những lời cầu nguyện
+funky	sôi nổi
+secretariat	ban thư ký
+nowhere	hư không
+cop	cảnh sát
+paragraphs	đoạn văn
+gale	cơn lốc
+joins	tham gia
+adolescent	thanh niên
+nominations	đề cử
+wesley	wesley
+dim	lờ mờ
+lately	gần đây
+cancelled	đã hủy bỏ
+scary	đáng sợ
+mattress	nệm
+mpegs	mpeg
+brunei	brunei
+likewise	tương tự như vậy
+banana	chuối
+introductory	giới thiệu
+slovak	tiếng Slovak
+cakes	Bánh
+stan	stan
+reservoir	Hồ chứa
+occurrence	tần suất xảy ra
+idol	thần tượng
+bloody	dính máu
+mixer	máy trộn
+remind	nhắc lại
+wc	wc
+worcester	điều tồi tệ nhất
+sbjct	sbjct
+demographic	nhân khẩu học
+charming	quyến rũ
+mai	mai
+tooth	răng
+disciplinary	kỷ luật
+annoying	khó chịu
+respected	tôn trọng
+stays	ở lại
+disclose	tiết lộ
+affair	công việc
+drove	lái
+washer	máy giặt
+upset	buồn bã
+restrict	hạn chế
+springer	người làm lò xo
+beside	bên cạnh
+mines	mỏ
+portraits	chân dung
+rebound	dội lại
+logan	quả nhãn
+mentor	người hướng dẫn
+interpreted	thông dịch
+evaluations	đánh giá
+fought	đã chiến đấu
+baghdad	baghdad
+elimination	sự loại bỏ
+metres	mét
+hypothetical	giả định
+immigrants	Những người nhập cư
+complimentary	ca ngợi
+helicopter	trực thăng
+pencil	bút chì
+freeze	đông cứng
+hk	HK
+performer	người biểu diễn
+abu	abu
+titled	có tiêu đề
+commissions	hoa hồng
+sphere	quả cầu
+powerseller	người bán quyền lực
+moss	rêu
+ratios	tỷ lệ
+concord	sự hòa hợp
+graduated	đã tốt nghiệp
+endorsed	xác nhận
+ty	ty
+surprising	thật ngạc nhiên
+walnut	quả óc chó
+lance	cây thương
+ladder	thang
+italia	nước Ý
+unnecessary	không cần thiết
+dramatically	đáng kể
+liberia	Li-bê-ri-a
+sherman	sherman
+cork	nút bần
+maximize	tối đa hóa
+cj	cj
+hansen	Hansen
+senators	thượng nghị sĩ
+workout	tập thể dục
+mali	Mali
+yugoslavia	Nam Tư
+bleeding	sự chảy máu
+characterization	đặc tính
+colon	Đại tràng
+likelihood	khả năng xảy ra
+lanes	làn đường
+purse	cái ví
+fundamentals	nguyên tắc cơ bản
+contamination	sự ô nhiễm
+mtv	mtv
+endangered	bị đe dọa
+compromise	thỏa hiệp
+masturbation	thủ dâm
+optimize	tối ưu hóa
+stating	nêu rõ
+dome	mái vòm
+caroline	caroline
+leu	le
+expiration	hết hạn
+namespace	không gian tên
+align	căn chỉnh
+peripheral	ngoại vi
+bless	ban phước
+engaging	hấp dẫn
+negotiation	đàm phán
+crest	mào
+opponents	đối thủ
+triumph	chiến thắng
+nominated	được đề cử
+confidentiality	bảo mật
+electoral	bầu cử
+changelog	nhật ký thay đổi
+welding	hàn
+orgasm	cực khoái
+deferred	hoãn lại
+alternatively	cách khác
+heel	gót chân
+alloy	hợp kim
+condos	căn hộ
+plots	mảnh đất
+polished	đánh bóng
+yang	dương
+gently	dịu dàng
+greensboro	Greensboro
+tulsa	tulsa
+locking	khóa
+casey	Casey
+controversial	gây tranh cãi
+draws	hòa
+fridge	tủ lạnh
+blanket	cái chăn
+bloom	hoa
+qc	qc
+simpsons	simpsons
+lou	lou
+elliott	Elliott
+recovered	đã phục hồi
+fraser	Fraser
+justify	biện minh
+upgrading	nâng cấp
+blades	lưỡi dao
+pgp	pgp
+loops	vòng lặp
+surge	dâng trào
+frontpage	trang đầu
+trauma	tổn thương
+aw	ôi
+tahoe	tahoe
+advert	Quảng cáo
+possess	sở hữu
+demanding	đòi hỏi khắt khe
+defensive	phòng ngự
+sip	một hớp
+flashers	đèn nháy
+subaru	subaru
+forbidden	cấm
+tf	tf
+vanilla	vanilla
+programmers	lập trình viên
+pj	pj
+monitored	theo dõi
+installations	cài đặt
+deutschland	nước Đức
+picnic	đi chơi picnic
+souls	linh hồn
+arrivals	lượt đến
+spank	đánh đòn
+cw	cw
+practitioner	người hành nghề
+motivated	có động lực
+wr	wr
+dumb	câm
+smithsonian	smithsonian
+hollow	rỗng
+vault	kho tiền
+securely	một cách an toàn
+examining	kiểm tra
+fioricet	tia lửa
+groove	rãnh
+revelation	sự mặc khải
+rg	R G
+pursuit	theo đuổi
+delegation	phái đoàn
+wires	Dây điện
+bl	bl
+dictionaries	từ điển
+mails	thư
+backing	ủng hộ
+greenhouse	nhà kính
+sleeps	ngủ
+vc	vc
+blake	blake
+transparency	minh bạch
+dee	dee
+travis	travis
+wx	wx
+endless	bất tận
+figured	hình dung
+orbit	quỹ đạo
+currencies	tiền tệ
+niger	niger
+bacon	thịt xông khói
+survivors	người sống sót
+positioning	định vị
+heater	lò sưởi
+colony	thuộc địa
+cannon	pháo
+circus	rạp xiếc
+promoted	thăng chức
+forbes	forbes
+mae	mae
+moldova	Moldova
+mel	mel
+descending	giảm dần
+paxil	paxil
+spine	xương sống
+trout	cá hồi
+enclosed	gửi kèm
+feat	kỳ công
+temporarily	một cách tạm thời
+ntsc	ntsc
+cooked	nấu chín
+thriller	giật gân
+transmit	chuyển giao
+apnic	apnic
+fatty	béo
+gerald	gerald
+pressed	ép
+frequencies	tần số
+scanned	đã quét
+reflections	sự phản xạ
+hunger	nạn đói
+mariah	Mariah
+sic	sic
+municipality	đô thị
+usps	usps
+joyce	niềm vui
+detective	thám tử
+surgeon	bác sĩ phẫu thuật
+cement	xi măng
+experiencing	trải nghiệm
+fireplace	lò sưởi
+endorsement	sự chứng thực
+bg	bg
+planners	người lập kế hoạch
+disputes	tranh chấp
+textiles	tài liệu
+missile	hỏa tiễn
+intranet	mạng nội bộ
+closes	đóng cửa
+seq	thứ tự
+psychiatry	tâm thần học
+persistent	kiên trì
+deborah	deborah
+conf	conf
+marco	Marco
+assists	hỗ trợ
+summaries	tóm tắt
+glow	ánh sáng
+gabriel	Gabriel
+auditor	kiểm toán viên
+wma	mẹ
+aquarium	bể nuôi cá
+violin	đàn vi ô lông
+prophet	nhà tiên tri
+cir	vòng tròn
+bracket	dấu ngoặc
+looksmart	nhìn thông minh
+isaac	isaac
+oxide	oxit
+oaks	cây sồi
+magnificent	tráng lệ
+erik	erik
+colleague	đồng nghiệp
+naples	giấc ngủ ngắn
+promptly	kịp thời
+modems	modem
+adaptation	sự thích ứng
+hu	hu
+harmful	có hại
+paintball	súng sơn
+prozac	prozac
+sexually	tình dục
+enclosure	bao vây
+acm	acm
+dividend	cổ tức
+newark	Newark
+kw	kw
+paso	paso
+glucose	đường glucoza
+phantom	ma
+norm	chuẩn mực
+playback	phát lại
+supervisors	người giám sát
+westminster	westminster
+turtle	con rùa
+ips	ips
+distances	khoảng cách
+absorption	sự hấp thụ
+treasures	Châu báu
+dsc	dsc
+warned	cảnh báo
+neural	thần kinh
+ware	đồ
+fossil	hóa thạch
+mia	Mia
+hometown	quê hương
+badly	tệ
+transcripts	bảng điểm
+apollo	xin lỗi
+wan	wan
+disappointed	thất vọng
+persian	người Ba Tư
+continually	liên tục
+communist	cộng sản
+collectible	sưu tầm được
+handmade	làm bằng tay
+greene	cây xanh
+entrepreneurs	doanh nhân
+robots	robot
+grenada	Grenada
+creations	sáng tạo
+jade	ngọc bích
+scoop	muỗng, xúc
+acquisitions	mua lại
+foul	Hôi
+keno	keno
+gtk	gtk
+earning	kiếm tiền
+mailman	người đưa thư
+sanyo	sanyo
+nested	lồng vào nhau
+biodiversity	sự đa dạng sinh học
+excitement	sự phấn khích
+somalia	somali
+movers	máy động lực
+verbal	bằng lời nói
+blink	chớp mắt
+presently	hiện tại
+seas	biển
+carlo	carlo
+workflow	quy trình làm việc
+mysterious	bí ẩn
+novelty	sự mới lạ
+bryant	Bryant
+tiles	gạch ngói
+voyuer	kẻ rình mò
+librarian	thủ thư
+subsidiaries	công ty con
+switched	chuyển đổi
+stockholm	X-tốc-khôm
+tamil	tamil
+garmin	garmin
+ru	ru
+pose	tư thế
+fuzzy	mờ
+indonesian	người Indonesia
+grams	gam
+therapist	nhà trị liệu
+richards	Richards
+mrna	thưa ngài
+budgets	ngân sách
+toolkit	bộ công cụ
+promising	đầy hứa hẹn
+relaxation	thư giãn
+goat	con dê
+render	kết xuất
+carmen	carmen
+ira	Iraq
+sen	sen
+thereafter	sau đó
+hardwood	cây phong
+erotica	khiêu dâm
+temporal	thời gian
+sail	chèo
+forge	làm giả
+commissioners	ủy viên
+dense	ngu độn
+dts	dts
+brave	can đảm
+forwarding	chuyển tiếp
+qt	qt
+awful	tồi tệ
+nightmare	cơn ác mộng
+airplane	Máy bay
+reductions	sự giảm bớt
+southampton	Southampton
+istanbul	istanbul
+impose	áp đặt
+organisms	sinh vật
+sega	sega
+telescope	kính thiên văn
+viewers	những người xem
+asbestos	amiăng
+portsmouth	portmouth
+cdna	cdna
+meyer	meyer
+enters	đi vào
+pod	vỏ
+savage	độc ác
+advancement	thăng tiến
+wu	wu
+harassment	quấy rối
+willow	cây liễu
+resumes	sơ yếu lý lịch
+bolt	chớp
+gage	máy đo
+throwing	ném
+existed	tồn tại
+whore	con điếm
+generators	máy phát điện
+lu	lu
+wagon	toa xe
+barbie	búp bê barbie
+dat	dat
+favour	ủng hộ
+soa	soa
+knock	cú đánh
+urge	thúc giục
+smtp	smtp
+generates	tạo ra
+potatoes	Những quả khoai tây
+thorough	kỹ lưỡng
+replication	nhân rộng
+inexpensive	không tốn kém
+kurt	Kurt
+receptors	thụ thể
+peers	đồng nghiệp
+roland	roland
+optimum	tối ưu
+neon	đèn neon
+interventions	sự can thiệp
+quilt	may chăn
+huntington	Huntington
+creature	sinh vật
+ours	của chúng tôi
+mounts	gắn kết
+syracuse	cây siracuse
+internship	kỳ thực tập
+lone	cô đơn
+refresh	làm cho khỏe lại
+aluminium	nhôm
+snowboard	ván trượt tuyết
+beastality	thú tính
+webcast	truyền hình trực tuyến
+michel	michel
+evanescence	sự phù du
+subtle	tế nhị
+coordinated	phối hợp
+notre	Notre
+shipments	lô hàng
+maldives	maldives
+stripes	sọc
+firmware	phần sụn
+antarctica	Nam Cực
+cope	đối phó
+shepherd	chăn cừu
+lm	ừm
+canberra	canberra
+cradle	cái nôi
+chancellor	thủ tướng
+mambo	mambo
+lime	chanh xanh
+kirk	Kirk
+flour	bột mì
+controversy	tranh cãi
+legendary	huyền thoại
+bool	bool
+sympathy	sự đồng cảm
+choir	hợp xướng
+avoiding	tránh
+beautifully	đẹp đẽ
+blond	tóc vàng
+expects	mong đợi
+cho	cho
+jumping	nhảy
+fabrics	vải
+antibodies	kháng thể
+polymer	polyme
+hygiene	vệ sinh
+wit	mưu mẹo
+poultry	gia cầm
+virtue	Đức hạnh
+burst	nổ
+examinations	kỳ thi
+surgeons	bác sĩ phẫu thuật
+bouquet	bó hoa
+immunology	miễn dịch học
+promotes	thúc đẩy
+mandate	thi hành
+wiley	wiley
+departmental	phòng ban
+bbs	bbs
+spas	spa
+ind	ind
+corpus	tử thi
+johnston	Johnston
+terminology	thuật ngữ
+gentleman	quý ông
+fibre	chất xơ
+reproduce	tái sản xuất
+convicted	bị kết án
+shades	sắc thái
+jets	máy bay phản lực
+indices	chỉ số
+roommates	bạn cùng phòng
+adware	phần mềm quảng cáo
+qui	quy
+intl	quốc tế
+threatening	đe dọa
+spokesman	người phát ngôn
+zoloft	zoloft
+activists	nhà hoạt động
+frankfurt	Frankfurt
+prisoner	Tù nhân
+daisy	hoa cúc
+halifax	Halifax
+encourages	khuyến khích
+ultram	cực độ
+cursor	con trỏ
+assembled	đã lắp ráp
+earliest	sớm nhất
+donated	tặng
+stuffed	nhồi
+restructuring	tái cơ cấu
+insects	côn trùng
+terminals	thiết bị đầu cuối
+crude	thô
+morrison	Morrison
+maiden	thiếu nữ
+simulations	mô phỏng
+cz	cz
+sufficiently	đủ
+examines	kiểm tra
+viking	tên ông vua
+myrtle	cây sim
+bored	chán
+cleanup	dọn dẹp
+yarn	sợi
+knit	Đan
+conditional	có điều kiện
+mug	cốc
+crossword	ô chữ
+bother	làm phiền
+budapest	budapest
+conceptual	khái niệm
+knitting	đan lát
+attacked	bị tấn công
+hl	hl
+bhutan	bhutan
+liechtenstein	liechtenstein
+mating	giao phối
+compute	tính toán
+redhead	tóc đỏ
+arrives	đến
+translator	người phiên dịch
+automobiles	ô tô
+tractor	máy kéo
+allah	thánh Allah
+continent	lục địa
+ob	được
+unwrap	mở gói
+fares	giá vé
+longitude	kinh độ
+resist	kháng cự
+challenged	bị thách thức
+telecharger	máy sạc điện thoại
+hoped	hy vọng
+pike	cá chó
+safer	an toàn hơn
+insertion	chèn
+instrumentation	thiết bị đo đạc
+ids	id
+hugo	ôm
+wagner	người đánh cược
+constraint	hạn chế
+groundwater	nước ngầm
+touched	chạm vào
+strengthening	tăng cường
+cologne	nước hoa
+gzip	gzip
+wishing	ước gì
+ranger	nhân viên kiểm lâm
+smallest	nhỏ nhất
+insulation	vật liệu cách nhiệt
+newman	người mới
+marsh	đầm lầy
+ricky	ricky
+ctrl	Điều khiển
+scared	sợ hãi
+theta	theta
+infringement	sự vi phạm
+bent	uốn cong
+laos	Nước Lào
+subjective	chủ quan
+monsters	quái vật
+asylum	tị nạn
+lightbox	hộp đèn
+robbie	tên cướp
+stake	cổ phần
+cocktail	cocktail
+outlets	cửa hàng
+swaziland	Swaziland
+varieties	Đẳng cấp
+arbor	cây thông
+mediawiki	wiki truyền thông
+configurations	cấu hình
+poison	chất độc

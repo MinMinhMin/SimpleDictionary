@@ -18,7 +18,6 @@ public class CreateSuggestionItem {
 			String word = Line[0].trim();
 			String meanings = Line[1].trim();
 
-			// Load ContextMenu from FXML
 			ContextMenu contextMenu = loadContextMenu(word, searchBar);
 
 			Label wordLabel = new Label(word);
@@ -31,10 +30,8 @@ public class CreateSuggestionItem {
 			suggestionItem.setOnMouseEntered(event -> suggestionItem.setStyle("-fx-background-color: #fce3e3;-fx-border-width: 3;-fx-border-color: rgb(18, 19, 20)"));
 			suggestionItem.setOnMouseExited(event -> suggestionItem.setStyle("-fx-background-color: transparent;"));
 
-			// Handle mouse click event
 			suggestionItem.setOnMouseClicked(event -> {
 				if (event.getButton() == MouseButton.SECONDARY) {
-					// Set the selected word before showing the context menu
 					((ContextMenuController) contextMenu.getUserData()).setSelectedWord(word);
 					contextMenu.show(suggestionItem, event.getScreenX(), event.getScreenY());
 				} else if (event.getButton() == MouseButton.PRIMARY) {
