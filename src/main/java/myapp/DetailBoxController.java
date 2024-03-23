@@ -1,17 +1,12 @@
 package myapp;
 
-import javafx.animation.FadeTransition;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-import javafx.util.Duration;
 
 import java.util.List;
 
@@ -21,7 +16,7 @@ public class DetailBoxController {
     List<API.Phonetic>phonetics;
 	private Stage stage;
 
-	private String word;
+	private static String word;
 
 	public String getWord() {
 		return word;
@@ -37,8 +32,7 @@ public class DetailBoxController {
 
 	public void setWord(String word) {
 		this.word = word;
-		FileUtil.cache();
-		FileUtil.AddtoFIle("data/cache.txt",word);
+		if(word == null){return;}
 		updateUI();
 	}
 
@@ -88,7 +82,7 @@ public class DetailBoxController {
 
 	@FXML
 	public void close() {
-
+		setWord(null);
 		stage.close();
 	}
 	@FXML
