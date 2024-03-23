@@ -2,7 +2,10 @@ package myapp;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.ContextMenu;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseButton;
 import javafx.scene.layout.VBox;
 
 import java.util.Optional;
@@ -14,6 +17,8 @@ public class MainController {
     @FXML
     private VBox suggestionBox;
     private AutoComplete.Trie trie;
+    @FXML
+    private Button gamebutton;
 
     @FXML
     private void initialize() {
@@ -56,11 +61,23 @@ public class MainController {
         String word = searchBar.getText();
         System.out.println(word);
         if(word == ""){word = "b";}
-        DeleteWord.deleteWord(word,trie);
+        DeleteWord.deleteWord(word);
         trie.remove(word);
         SugesstionUpdate.sugesstionUpdate(searchBar.getText(),trie,suggestionBox,searchBar);
     }
-
+    ContextMenu gameMenu = GameMenuController.loadGameMenu();
+    @FXML
+    private void GameClicked() {
+        gamebutton.setOnMouseClicked(event -> {
+            if (event.getButton() == MouseButton.PRIMARY) {
+                if (gameMenu != null) {
+                    gameMenu.hide();
+                }
+                gameMenu = GameMenuController.loadGameMenu();
+                gameMenu.show(gamebutton, event.getScreenX(), event.getScreenY());
+            }
+        });
+    }
 
 
 }

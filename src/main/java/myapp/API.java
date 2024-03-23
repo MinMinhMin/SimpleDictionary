@@ -201,16 +201,12 @@ public class API implements Serializable{
                 content.append(line);
             }
 
-            // Provided JSON data
             String jsonData = content.toString();
 
-            // Create a Gson instance
             Gson gson = new Gson();
 
-            // Parse the JSON data into an array of API objects
             API[] definitions = gson.fromJson(jsonData, API[].class);
 
-            // Return the first element of the array (assuming there's only one result)
             if (definitions.length > 0) {
                 return definitions[0];
             }

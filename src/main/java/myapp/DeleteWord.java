@@ -8,10 +8,8 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class DeleteWord {
-	public static void deleteWord(String word,AutoComplete.Trie trie) {
+	public static void deleteWord(String word) {
 		try {
-			if (word.isEmpty() || !trie.contains(word)){return;}
-
 			Path path = Path.of("data/List.txt");
 			List<String> lines = Files.readAllLines(path, StandardCharsets.UTF_8);
 			lines.removeIf(line -> line.equals(word));

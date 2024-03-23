@@ -46,7 +46,11 @@ public class DetailBoxController {
 		List<API.Phonetic> phonetics = API.fetchPhonetics(api,word);
 
 		addLabel("Word: " + word);
-
+		addLabel("Phonetics:");
+		for (API.Phonetic phonetic : phonetics) {
+			addLabel(" -IPA: " + (phonetic.getText() != null ? phonetic.getText() : "N/A"));
+			addHyperLink(phonetic.getAudio());
+		}
 		addLabel("Meanings:");
 		for (API.Meaning meaning : meanings) {
 			addLabel(" -Part of Speech: " + meaning.getPartOfSpeech());
@@ -54,12 +58,6 @@ public class DetailBoxController {
 				addLabel("   +Definition: " + definition.getDefinition());
 				addLabel("   +Example: " + (definition.getExample() != null ? definition.getExample() : "N/A"));
 			}
-		}
-
-		addLabel("Phonetics:");
-		for (API.Phonetic phonetic : phonetics) {
-			addLabel(" -IPA: " + (phonetic.getText() != null ? phonetic.getText() : "N/A"));
-			addHyperLink(phonetic.getAudio());
 		}
 	}
 
@@ -72,14 +70,14 @@ public class DetailBoxController {
 
 		if(text.length()!=0) {
 			Button audio = new Button();
-			audio.getStylesheets().add(DetailBoxController.class.getResource("Button.css").toExternalForm());
+			audio.getStylesheets().add(DetailBoxController.class.getResource("Styling.css").toExternalForm());
 			audio.getStyleClass().add("audioButton");
 			final Media sound = new Media(text);
 			final MediaPlayer mediaPlayer = new MediaPlayer(sound);
 			audio.setOnAction(
-					e -> {mediaPlayer.seek(mediaPlayer.getStartTime());mediaPlayer.play();}
+					e -> {mediaPlayer.seek(mediaPlayer.getStartTime());mediaPlayer.play();
+						System.out.println(text);}
 			);
-
 			infoVBox.getChildren().add(audio);
 		}
 		else{addLabel(" Audio: N/A");}
