@@ -18,7 +18,7 @@ public class CreateSuggestionItem {
 			String word = Line[0].trim();
 			String meanings = Line[1].trim();
 
-			ContextMenu contextMenu = loadContextMenu(word, searchBar);
+			ContextMenu contextMenu = loadContextMenu();
 
 			Label wordLabel = new Label(word);
 			wordLabel.getStyleClass().add("suggestion-label");
@@ -46,7 +46,7 @@ public class CreateSuggestionItem {
 		return suggestionItem;
 	}
 
-	private static ContextMenu loadContextMenu(String word, TextField searchBar) {
+	private static ContextMenu loadContextMenu() {
 		try {
 			FXMLLoader loader = new FXMLLoader(CreateSuggestionItem.class.getResource("ContextMenu.fxml"));
 			ContextMenu contextMenu = loader.load();

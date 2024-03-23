@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
+import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -53,8 +54,13 @@ public class ContextMenuController {
 		DetailBoxStage.setTitle("Word Detail");
 		DetailBoxStage.initModality(Modality.APPLICATION_MODAL);
 		ProgressBar progressBar = new ProgressBar();
+		progressBar.getStylesheets().add(ContextMenuController.class.getResource("Styling.css").toExternalForm());
+		progressBar.getStyleClass().add("progress-bar");
+		Text loadingText = new Text("Loading.....");
+		loadingText.setStyle("-fx-font-weight:900");
 		StackPane loadingPane = new StackPane();
 		loadingPane.getChildren().add(progressBar);
+		loadingPane.getChildren().add(loadingText);
 		loadingPane.setStyle("-fx-border-color: rgb(7, 17, 17);-fx-border-width: 10;");
 		Scene loadingscene = new Scene(loadingPane,385,500);
 		DetailBoxStage.setX(115);
@@ -64,10 +70,11 @@ public class ContextMenuController {
 		DetailBoxStage.setScene(loadingscene);
 		DetailBoxStage.show();
 		//Loading....
-		Task<Scene> rederTask = new Task<Scene>() {
+		Task<Scene> rederTask = new Task<>() {
 			@Override
 			protected Scene call() throws Exception {
 				detailBoxController.setWord(selectedWord);
+				Thread.sleep(3000);
 				Scene scene;
 				scene = new Scene(layout, 385, 500);
 				return scene;

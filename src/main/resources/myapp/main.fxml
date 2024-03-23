@@ -12,13 +12,15 @@
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="myapp.MainController"
-            style="-fx-background-color: rgba(0, 0, 0, 0.4);-fx-border-width: 10;-fx-border-color: rgb(7, 17, 17); ">
+            style="-fx-border-width: 8;-fx-border-color: rgb(7, 17, 17); ">
 
+    <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="1150.0" layoutY="565.0" prefHeight="150" prefWidth="150" onAction="#GameClicked" />
     <children>
+
         <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="150.0" >
             <VBox spacing="20" alignment="CENTER">
                 <Label text="VOCABULARY SEARCH" style="-fx-font-size: 40;-fx-font-weight:900;"/>
-                <VBox style="-fx-border-width: 10; -fx-border-color: rgb(18, 19, 20); -fx-border-radius: 50;">
+                <VBox style="-fx-border-width: 8; -fx-border-color: rgb(18, 19, 20); -fx-border-radius: 50;">
                     <TextField fx:id="searchBar" prefWidth="400" prefHeight="40" style="-fx-font-size: 30;-fx-font-weight:900; -fx-background-radius: 50;" />
                 </VBox>
                 <ScrollPane VBox.vgrow="ALWAYS" style="-fx-border-width: 8; -fx-border-color: rgb(18, 19, 20); -fx-min-height: 25; -fx-max-height: 400;">
@@ -26,9 +28,9 @@
                     </VBox>
                 </ScrollPane>
             </VBox>
-            <VBox spacing="20" alignment="CENTER_LEFT" style="-fx-padding: 100 0 0 0">
-                <Button style="-fx-border-width: 8; -fx-border-color: #121314; -fx-font-size: 20;-fx-font-weight:900 " text="Add Vocabulary" onAction="#AddClicked" />
-                <Button style="-fx-border-width: 8; -fx-border-color: #121314; -fx-font-size: 20;-fx-font-weight:900 " text="Delete" onAction="#DeleteClicked" />
+            <VBox spacing="10" alignment="CENTER_LEFT" style="-fx-padding: 100 0 0 0">
+                <Button  stylesheets="@Styling.css" styleClass="addButton" onAction="#AddClicked" />
+                <Button stylesheets="@Styling.css" styleClass="deleteButton" onAction="#DeleteClicked" />
             </VBox>
         </HBox>
     </children>
