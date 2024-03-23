@@ -1326,3 +1326,6 @@ yourself	bản thân bạn
 yellow	màu vàng
 zero	số không
 zone	vùng
+Pressent	Hiện tại
+Present	Hiện tại
+present	Hiện tại
