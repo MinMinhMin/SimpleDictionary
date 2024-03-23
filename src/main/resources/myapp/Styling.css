@@ -1,0 +1,205 @@
+.normalButton {}
+.normalButton:hover{
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+.audioButton {
+
+    -fx-background-color: #fa0000;
+    -fx-border-width: 2;
+    -fx-border-color: rgb(7, 17, 17);
+    -fx-shape: "M26.894,3.013c-0.551,0-1.097,0.153-1.579,0.444c-0.046,0.027-0.09,0.059-0.13,0.093L11.634,15.013H1c-0.553,0-1,0.447-1,1 v19c0,0.553,0.447,1,1,1h10.61l13.543,12.436c0.05,0.046,0.104,0.086,0.161,0.12c0.482,0.291,1.028,0.444,1.579,0.444 c1.713,0,3.106-1.416,3.106-3.156V6.169C30,4.429,28.606,3.013,26.894,3.013z M13,34.013c0,0.553-0.447,1-1,1s-1-0.447-1-1v-4 c0-0.553,0.447-1,1-1s1,0.447,1,1V34.013z M13,21.013c0,0.553-0.447,1-1,1s-1-0.447-1-1v-4c0-0.553,0.447-1,1-1s1,0.447,1,1V21.013 z";
+
+
+}
+
+.audioButton:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+
+}
+
+.gameButton {
+    -fx-border-width: 5;
+    -fx-border-color: rgb(7, 17, 17);
+    -fx-shape: "M23.226 2.361c-0.8-0.375-1.556-0.729-2.245-1.075-1.765-0.884-3.364-1.313-4.89-1.313-3.072 0-5.197 1.772-6.53 3.105l-6.464 6.471c-3.459 3.463-4.011 6.988-1.79 11.431 0.345 0.69 0.699 1.448 1.074 2.251 2.022 4.325 4.112 8.796 7.533 8.796 0.096 0 0.191-0.003 0.288-0.011 3.53-0.276 4.532-4.822 5.416-8.831 0.14-0.635 0.274-1.244 0.41-1.79 0.238-0.944 0.705-1.53 1.986-2.814l0.176-0.177 0.108-0.108 0.285-0.284c1.284-1.284 1.87-1.751 2.816-1.989 0.541-0.136 1.148-0.27 1.782-0.409 4.007-0.884 8.55-1.886 8.825-5.423 0.278-3.588-4.327-5.745-8.781-7.83zM29.952 10.010c-0.195 2.493-5.775 3.229-9.097 4.062-1.469 0.371-2.363 1.149-3.712 2.498-0.094 0.094-0.189 0.188-0.284 0.283s-0.189 0.191-0.283 0.284c-1.349 1.351-2.125 2.244-2.495 3.715-0.834 3.325-1.568 8.912-4.058 9.107-0.045 0.003-0.090 0.005-0.135 0.005-2.642 0-4.865-6.008-6.826-9.927-1.992-3.985-1.139-6.569 1.417-9.128 0.49-0.491 1.101-1.101 1.848-1.849 0.763-0.764 1.671-1.673 2.747-2.75 0.747-0.748 1.357-1.357 1.848-1.849 1.588-1.589 3.186-2.52 5.122-2.52 1.181 0 2.489 0.345 3.996 1.102 3.983 1.997 10.122 4.265 9.912 6.968zM14.962 10.977h2v-2h-2v2zM14.962 7.977h2v-2h-2v2zM17.962 7.977h2v-2h-2v2zM17.962 10.977h2v-2h-2v2zM10.309 16.982l0.761-0.761c0.375-0.375 0.375-0.983 0-1.358s-0.982-0.375-1.357 0l-0.761 0.761-0.761-0.761c-0.375-0.375-0.982-0.375-1.357 0s-0.375 0.983 0 1.358l0.761 0.761-0.761 0.761c-0.375 0.375-0.375 0.983 0 1.357s0.983 0.375 1.357 0l0.761-0.761 0.783 0.783c0.375 0.375 0.982 0.375 1.357 0s0.375-0.983 0-1.358z";
+}
+
+.gameButton:hover {
+
+    -fx-scale-x: 0.9;
+    -fx-scale-y: 0.9;
+}
+
+.closeButton {
+    -fx-border-color: #121314;
+    -fx-background-color: #121314;
+    -fx-shape: "M7.498 17.1a7.128 7.128 0 0 1-.98-.068 7.455 7.455 0 0 1-1.795-.483 7.26 7.26 0 0 1-3.028-2.332A7.188 7.188 0 0 1 .73 12.52a7.304 7.304 0 0 1 .972-7.128 7.221 7.221 0 0 1 1.387-1.385 1.03 1.03 0 0 1 1.247 1.638 5.176 5.176 0 0 0-.993.989 5.313 5.313 0 0 0-.678 1.181 5.23 5.23 0 0 0-.348 1.292 5.22 5.22 0 0 0 .326 2.653 5.139 5.139 0 0 0 .69 1.212 5.205 5.205 0 0 0 .992.996 5.257 5.257 0 0 0 1.178.677 5.37 5.37 0 0 0 1.297.35 5.075 5.075 0 0 0 1.332.008 5.406 5.406 0 0 0 1.32-.343 5.289 5.289 0 0 0 2.211-1.682 5.18 5.18 0 0 0 1.02-2.465 5.2 5.2 0 0 0 .01-1.336 5.315 5.315 0 0 0-.343-1.318 5.195 5.195 0 0 0-.695-1.222 5.134 5.134 0 0 0-.987-.989 1.03 1.03 0 1 1 1.24-1.643 7.186 7.186 0 0 1 1.384 1.386 7.259 7.259 0 0 1 .97 1.706 7.413 7.413 0 0 1 .473 1.827 7.296 7.296 0 0 1-4.522 7.65 7.476 7.476 0 0 1-1.825.471 7.203 7.203 0 0 1-.89.056zM7.5 9.613a1.03 1.03 0 0 1-1.03-1.029V2.522a1.03 1.03 0 0 1 2.06 0v6.062a1.03 1.03 0 0 1-1.03 1.03z";
+}
+
+.closeButton:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.resizeUpButton {
+    -fx-border-color: rgb(7, 17, 17);
+    -fx-background-color: rgb(18, 19, 20);
+    -fx-shape: "M1.986,12.6L6.586,8L8,9.414L3.414,14L5.986,14L5.986,16L1.986,16L-0.014,16L-0.014,10L1.986,10L1.986,12.6ZM12.586,2L10.014,2L10.014,0L16.014,0L16.014,6L14.014,6L14.014,3.4L9.414,8L8,6.586L12.586,2Z";
+}
+
+.resizeUpButton:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.resizeDownButton {
+    -fx-border-color: rgb(7, 17, 17);
+    -fx-background-color: rgb(18, 19, 20);
+    -fx-shape: "M2,8L8,8L8,14L6,14L6,11.4L1.4,16L-0.014,14.586L4.572,10L2,10L2,8ZM8,2L10,2L10,4.6L14.6,0L16.014,1.414L11.428,6L14,6L14,8L8,8L8,2Z";
+}
+
+.resizeDownButton:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.addButton {
+    -fx-shape: "M12 22.75C6.07 22.75 1.25 17.93 1.25 12C1.25 6.07 6.07 1.25 12 1.25C17.93 1.25 22.75 6.07 22.75 12C22.75 17.93 17.93 22.75 12 22.75ZM12 2.75C6.9 2.75 2.75 6.9 2.75 12C2.75 17.1 6.9 21.25 12 21.25C17.1 21.25 21.25 17.1 21.25 12C21.25 6.9 17.1 2.75 12 2.75Z M16 12.75H8C7.59 12.75 7.25 12.41 7.25 12C7.25 11.59 7.59 11.25 8 11.25H16C16.41 11.25 16.75 11.59 16.75 12C16.75 12.41 16.41 12.75 16 12.75Z M12 16.75C11.59 16.75 11.25 16.41 11.25 16V8C11.25 7.59 11.59 7.25 12 7.25C12.41 7.25 12.75 7.59 12.75 8V16C12.75 16.41 12.41 16.75 12 16.75Z"; /* Other button styles */
+    -fx-border-color: rgb(18, 19, 20);
+    -fx-pref-height: 80;
+    -fx-pref-width: 80;
+    -fx-background-color: rgb(18, 19, 20);
+}
+
+.addButton:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.deleteButton {
+    -fx-shape: "M 12 22.75 C 6.07 22.75 1.25 17.93 1.25 12 C 1.25 6.07 6.07 1.25 12 1.25 C 17.93 1.25 22.75 6.07 22.75 12 C 22.75 17.93 17.93 22.75 12 22.75 Z M 12 2.75 C 6.9 2.75 2.75 6.9 2.75 12 C 2.75 17.1 6.9 21.25 12 21.25 C 17.1 21.25 21.25 17.1 21.25 12 C 21.25 6.9 17.1 2.75 12 2.75 Z M 16 12.75 H 8 C 7.59 12.75 7.25 12.41 7.25 12 C 7.25 11.59 7.59 11.25 8 11.25 H 16 C 16.41 11.25 16.75 11.59 16.75 12 C 16.75 12.41 16.41 12.75 16 12.75 Z M 12 16.75 V 16 Z"; /* Other button styles */
+    -fx-border-color: rgb(18, 19, 20);
+    -fx-background-color: rgb(18, 19, 20);
+    -fx-pref-height: 80;
+    -fx-pref-width: 80;
+
+}
+
+.deleteButton:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.progress-bar {
+    -fx-border-width: 5;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-border-color: rgb(7, 17, 17);
+    -fx-pref-width: 300px;
+    -fx-pref-height: 30px;
+
+}
+
+.progress-bar .track {
+    -fx-background-radius: 50;
+}
+
+.progress-bar .bar {
+    -fx-background-radius: 50;
+    -fx-background-color: linear-gradient(to left, rgba(0, 0, 0, 0.72), whitesmoke);
+}
+
+.scroll-bar:vertical .track {
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-background-color: black;
+}
+
+.scroll-bar:horizontal .track {
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-background-color: black;
+
+}
+
+.scroll-bar:horizontal .thumb {
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.scroll-bar:vertical .thumb:hover {
+
+    -fx-scale-x: 1.3;
+
+}
+
+.scroll-bar:horizontal .thumb:hover {
+    -fx-scale-y: 1.3;
+
+
+}
+
+.scroll-bar:vertical *.increment-button,
+.scroll-bar:vertical *.decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+
+}
+
+.scroll-bar:horizontal *.increment-button,
+.scroll-bar:horizontal *.decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+
+}
+
+.scroll-bar:vertical *.increment-arrow,
+.scroll-bar:vertical *.decrement-arrow {
+    -fx-border-color: black;
+    -fx-background-color: black;
+}
+
+.scroll-bar:horizontal *.increment-arrow,
+.scroll-bar:horizontal *.decrement-arrow {
+    -fx-border-color: black;
+    -fx-background-color: black;
+}
+
+.scroll-pane .corner {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+
+.shutDownButton {
+    -fx-shape: "M20.034,2.357v3.824c3.482,1.798,5.869,5.427,5.869,9.619c0,5.98-4.848,10.83-10.828,10.83 c-5.982,0-10.832-4.85-10.832-10.83c0-3.844,2.012-7.215,5.029-9.136V2.689C4.245,4.918,0.731,9.945,0.731,15.801 c0,7.921,6.42,14.342,14.34,14.342c7.924,0,14.342-6.421,14.342-14.342C29.412,9.624,25.501,4.379,20.034,2.357z M14.795,17.652c1.576,0,1.736-0.931,1.736-2.076V2.08c0-1.148-0.16-2.08-1.736-2.08 c-1.57,0-1.732,0.932-1.732,2.08v13.496C13.062,16.722,13.225,17.652,14.795,17.652z"; /* Other button styles */
+    -fx-border-color: rgb(18, 19, 20);
+    -fx-background-color: rgb(18, 19, 20);
+    -fx-pref-height: 80;
+    -fx-pref-width: 80;
+
+}
+
+.shutDownButton:hover, .closeButton:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+    -fx-background-color: rgb(160, 30, 30);
+    -fx-border-color: rgb(160, 30, 30);
+}
