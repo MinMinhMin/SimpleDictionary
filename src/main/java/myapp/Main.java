@@ -11,9 +11,12 @@ import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
 public class Main extends Application {
+
     double xOffset, yOffset;
 
+
     @Override
+
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("main.fxml"));
         Parent root = loader.load();
@@ -34,7 +37,7 @@ public class Main extends Application {
         primaryStage.centerOnScreen();
         primaryStage.setResizable(false);
         primaryStage.initStyle(StageStyle.TRANSPARENT);
-        FadeTransition ft = new FadeTransition(Duration.millis(2600), root);
+        FadeTransition ft = new FadeTransition(Duration.millis(1000), root);
         ft.setFromValue(0.0);
         ft.setToValue(1.0);
         ft.play();
@@ -43,6 +46,7 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         MainController mainController = loader.getController();
         ContextMenuController.setPrimaryStage(primaryStage);
+        TranslateBoxController.setPrimaryStage(primaryStage);
         mainController.setStage(primaryStage);
         primaryStage.show();
     }
@@ -52,4 +56,5 @@ public class Main extends Application {
 
         launch(args);
     }
+
 }
