@@ -6,10 +6,10 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
+import javafx.util.Pair;
 
 import java.net.URL;
-import java.util.List;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class GameBox1Controller implements Initializable {
 	private Stage stage;
@@ -23,9 +23,13 @@ public class GameBox1Controller implements Initializable {
 	@FXML
 	private GridPane wordSearchGridPane;
 
-	private List<String> wordsToFind;
+	private Set<String> wordsToFind;
 
-	private Button[][] buttons;
+    public void setWordsToFind(Set<String> wordsToFind) {
+        this.wordsToFind = wordsToFind;
+    }
+
+    private Button[][] buttons;
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -48,8 +52,24 @@ public class GameBox1Controller implements Initializable {
 
 	private void populateWords() {
 
+        CrossBoard crossBoard=new CrossBoard();
+        Set<String>answerString=new LinkedHashSet<>();
+        answerString.add("hello");
+        answerString.add("beautiful");
+        answerString.add("bye");
+        answerString.add("gadget");
 
+        setWordsToFind(answerString);
 
+        for (String answer:answerString){
+            crossBoard.addWord(answer);
+        }
+        for (int row = 0; row < 10; row++) {
+            for (int col = 0; col < 8; col++) {
+                buttons[row][col].setText(String.valueOf(crossBoard.board[row][col]));
+            }
 
 	}
+
+}
 }
