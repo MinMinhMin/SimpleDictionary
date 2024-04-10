@@ -18,9 +18,6 @@ import java.io.IOException;
 
 public class TranslateBoxController {
 
-	public static void setPrimaryStage(Stage primaryStage) {
-		TranslateBoxController.primaryStage = primaryStage;
-	}
 
 	public static Stage primaryStage;
 
@@ -69,8 +66,6 @@ public class TranslateBoxController {
 			TranslateStage.setY(primaryStage.getY() + offsetY);
 		}
 	}
-	public static void stageClose(){
-		TranslateStage.close();
-	}
+
 
 }

@@ -53,7 +53,7 @@ public class GoogleApi {
             return Json(translated_text.toString());
         }catch (Exception e){
 
-            System.out.println("Connection error!");
+            System.out.println("Connection timeout");
 
         }
         return null;
