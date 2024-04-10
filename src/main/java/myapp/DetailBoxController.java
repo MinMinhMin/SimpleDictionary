@@ -12,8 +12,6 @@ import java.util.List;
 
 public class DetailBoxController {
 
-    List<API.Meaning>meanings;
-    List<API.Phonetic>phonetics;
 	private Stage stage;
 
 	private static String word;

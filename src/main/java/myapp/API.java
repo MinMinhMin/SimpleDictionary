@@ -211,6 +211,10 @@ public class API implements Serializable{
                 return definitions[0];
             }
 
+        } catch (IOException e) {
+            // Print this when there is a problem with the connection
+            System.out.println("Unable to connect to the URL");
+            return null;
         } catch (Exception e) {
             e.printStackTrace();
         }

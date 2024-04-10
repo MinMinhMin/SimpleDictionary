@@ -4,7 +4,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
 
-<ContextMenu fx:id="gameMenu" xmlns="http://javafx.com/javafx"
+<ContextMenu  xmlns="http://javafx.com/javafx"
   xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.GameMenuController" style="-fx-border-width: 5; -fx-border-color: rgb(18, 19, 20);-fx-border-radius: 10;-fx-background-radius: 10">
 
   <items>

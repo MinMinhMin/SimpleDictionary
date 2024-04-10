@@ -49,9 +49,6 @@ public class ContextMenuController {
 
 	}
 
-	public static Stage getDetailBoxStage() {
-		return DetailBoxStage;
-	}
 
 	private  static Stage DetailBoxStage;
 

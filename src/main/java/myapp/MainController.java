@@ -2,7 +2,9 @@ package myapp;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ContextMenu;
@@ -15,6 +17,8 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+import java.io.IOException;
+
 public class MainController {
 	@FXML
 	public TextField searchBar;
@@ -25,10 +29,8 @@ public class MainController {
 	private AutoComplete.Trie trie;
 	@FXML
 	private Button gamebutton;
+	public final String ALOT_WORDS ="data/List.txt" ;
 
-	public Stage getStage() {
-		return stage;
-	}
 
 	public void setStage(Stage stage) {
 		this.stage = stage;
@@ -36,7 +38,7 @@ public class MainController {
 
 	@FXML
 	private void initialize() {
-		trie = AutoComplete.buildTrieFromFile("data/List.txt");
+		trie = AutoComplete.buildTrieFromFile(ALOT_WORDS);
 		searchBar.textProperty().addListener((observable, oV, nV) -> {
 			if (nV.isEmpty()) {
 				suggestionBox.getChildren().clear();
@@ -76,7 +78,7 @@ public class MainController {
 		setButton.setOnAction(event -> {
 			String mean = meaning.getText();
 			String line = english + "\t" + mean;
-			FileUtil.AddtoFIle("data/List.txt", line);
+			FileUtil.AddtoFIle(ALOT_WORDS, line);
 			trie.insert(english, mean);
 			SugesstionUpdate.sugesstionUpdate(searchBar.getText(), trie, suggestionBox, searchBar);
 			addWordStage.close();
@@ -127,15 +129,25 @@ public class MainController {
 
 	@FXML
 	private void ShutDownStage(ActionEvent event) {
-		if (ContextMenuController.getDetailBoxStage() != null) {
-			ContextMenuController.getDetailBoxStage().close();
-		}
+
 		this.stage.close();
 
 	}
 	@FXML
 	private void MinimizeStage(ActionEvent event){
       this.stage.setIconified(true);
+	}
+
+	@FXML
+	private void TranslateClicked(ActionEvent event) throws IOException {
+		if(TranslateBoxController.TranslateStage != null){TranslateBoxController.TranslateStage.close();TranslateBoxController.TranslateStage = null;}
+		else{
+			FXMLLoader loader = new FXMLLoader(TranslateBoxController.class.getResource("Translate.fxml"));
+			Parent layout = loader.load();
+			TranslateBoxController translateBoxController = loader.getController();
+			translateBoxController.showTranslateStage(layout);
+		}
+
 	}
 
 }

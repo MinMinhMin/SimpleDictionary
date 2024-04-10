@@ -13,8 +13,9 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="myapp.MainController"
             style="-fx-border-width: 10;-fx-border-color: rgb(7, 17, 17); -fx-background-color: white; -fx-border-radius: 40; -fx-background-radius: 50">
-    <Button fx:id="shutdownButton" stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="1250.0" layoutY="30" onAction="#ShutDownStage"/>
-    <Button fx:id="minimizedButton" stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="1130.0" layoutY="30" onAction="#MinimizeStage"/>
+    <Button  stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="1250.0" layoutY="30" onAction="#ShutDownStage"/>
+    <Button  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="1130.0" layoutY="30" onAction="#MinimizeStage"/>
+    <Button  stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="30" onAction="#TranslateClicked"/>
     <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="1150.0" layoutY="565.0" prefHeight="150" prefWidth="150" onAction="#GameClicked" />
     <children>
 
