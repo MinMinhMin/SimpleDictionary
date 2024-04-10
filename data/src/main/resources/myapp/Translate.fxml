@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<HBox spacing="10" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="myapp.TranslateBoxController">
+    <ScrollPane  stylesheets="@Styling.css" styleClass="scroll-bar" prefWidth="600.0"  vbarPolicy="NEVER" hbarPolicy="NEVER" style="-fx-border-width: 6; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10; -fx-background-color: transparent ">
+        <HBox  >
+            <TextArea prefHeight="118" prefWidth="600.0" fx:id="InputBox" wrapText="true" style="-fx-padding: 0 5 0 128;-fx-font-size: 15; -fx-font-weight: 900"/>
+        </HBox>
+    </ScrollPane>
+
+    <ScrollPane  stylesheets="@Styling.css"  prefWidth="600.0"  vbarPolicy="NEVER" hbarPolicy="NEVER" style="-fx-border-width: 6; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10; -fx-background-color: transparent ">
+        <HBox  >
+            <TextArea prefHeight="118" prefWidth="600.0" fx:id="TranslateBox" wrapText="true" style="-fx-padding: 0 128 0 0;-fx-font-size: 15; -fx-font-weight: 900" editable="false"/>
+        </HBox>
+    </ScrollPane>
+</HBox>
