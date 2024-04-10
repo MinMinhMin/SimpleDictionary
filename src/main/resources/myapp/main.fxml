@@ -13,15 +13,14 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="myapp.MainController"
             style="-fx-border-width: 10;-fx-border-color: rgb(7, 17, 17); -fx-background-color: white; -fx-border-radius: 40; -fx-background-radius: 50">
-    <Button  stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="1250.0" layoutY="30" onAction="#ShutDownStage"/>
-    <Button  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="1130.0" layoutY="30" onAction="#MinimizeStage"/>
+    <Button  stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="20.0" layoutY="688.0" onAction="#ShutDownStage"/>
+    <Button  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="100" layoutY="688.0" onAction="#MinimizeStage"/>
     <Button  stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="30" onAction="#TranslateClicked"/>
-    <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="1150.0" layoutY="565.0" prefHeight="150" prefWidth="150" onAction="#GameClicked" />
+    <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="180" layoutY="688" prefHeight="60" prefWidth="60" onAction="#GameClicked" />
     <children>
 
-        <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="150.0" style="" >
+        <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="160.0" style="" >
             <VBox spacing="20" alignment="CENTER">
-                <Label text="VOCABULARY SEARCH" style="-fx-font-size: 40;-fx-font-weight:900;"/>
                 <VBox  style="-fx-border-width: 8; -fx-border-color: rgb(18, 19, 20); -fx-border-radius: 50;">
                     <TextField fx:id="searchBar" prefWidth="400" prefHeight="40" style="-fx-font-size: 30;-fx-font-weight:900; -fx-background-radius: 50;" />
                 </VBox>

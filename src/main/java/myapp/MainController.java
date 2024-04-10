@@ -51,14 +51,6 @@ public class MainController {
 	@FXML
 	private void AddClicked() {
 		String english = searchBar.getText();
-        /*StringBuilder sb = new StringBuilder(english);
-
-        int i = 0;
-        while (i + 30 < sb.length() && (i = sb.lastIndexOf(" ", i + 30)) != -1) {
-            sb.replace(i, i + 1, "\n");
-        }
-
-        System.out.println(sb.toString());*/
 		Stage addWordStage = new Stage();
 		Label label = new Label('"' + english + '"' + "means:");
 		label.setStyle("-fx-font-weight: 900;");

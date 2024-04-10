@@ -1,17 +1,13 @@
 package myapp;
 
-import java.io.InterruptedIOException;
 
 import javafx.animation.FadeTransition;
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.SimpleDoubleProperty;
 import javafx.concurrent.Task;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.layout.StackPane;
-import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -25,9 +21,6 @@ public class ContextMenuController {
 
 	private String selectedWord;
 
-	public static void setPrimaryStage(Stage primaryStage) {
-		ContextMenuController.primaryStage = primaryStage;
-	}
 
 	public static Stage primaryStage;
 
@@ -119,7 +112,7 @@ public class ContextMenuController {
 	private void adjustDetailBoxPosition() {
 		if (DetailBoxStage != null && primaryStage != null) {
 			double offsetX = -1335;
-			double offsetY = 230;
+			double offsetY = 165;
 			DetailBoxStage.setX(primaryStage.getX() + primaryStage.getWidth() + offsetX);
 			DetailBoxStage.setY(primaryStage.getY() + offsetY);
 		}
