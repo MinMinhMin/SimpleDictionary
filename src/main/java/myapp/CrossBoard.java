@@ -102,4 +102,21 @@ public class CrossBoard {
         }
 
     }
+    public static String getHint(String word){
+
+        StringBuilder hint=new StringBuilder(word);
+        int cnt=0;
+        while(cnt!=(word.length())/2){
+
+            int index=(int)(word.length()*Math.random());
+            if(hint.charAt(index)=='_')continue;
+            hint.setCharAt(index,'_');
+            cnt++;
+
+        }
+        return hint.toString();
+
+
+
+    }
 }

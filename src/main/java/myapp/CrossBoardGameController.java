@@ -27,10 +27,16 @@ public class CrossBoardGameController implements Initializable {
 	private Text choosenWord;
 	@FXML
 	private Button refresh;
-	private Set<String> wordsToFind;
+	private List<String> wordsToFind;
+    private Map<String,String>hint=new HashMap<>();
+    public void setWordsToFind() {
+        this.wordsToFind = MainController.words.get_3_random_words();
+        this.wordsSet=new HashSet<>(this.wordsToFind);
+        for (String word:this.wordsToFind){
 
-    public void setWordsToFind(Set<String> wordsToFind) {
-        this.wordsToFind = wordsToFind;
+            this.hint.put(word,CrossBoard.getHint(word));
+
+        }
     }
 
 
@@ -39,10 +45,11 @@ public class CrossBoardGameController implements Initializable {
 	private int lastRow = -1, lastCol = -1;
 	private boolean isRow = true;
 	private StringBuilder selectedText = new StringBuilder();
-	private Set<String> wordsSet = new HashSet<>(Arrays.asList("hello", "beautiful", "bye", "gadget"));
+	private Set<String> wordsSet = new HashSet<>();
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle) {
+        setWordsToFind();
 		buttons = new ToggleButton[10][8];
 
 		for (int row = 0; row < 10; row++) {
@@ -168,16 +175,10 @@ public class CrossBoardGameController implements Initializable {
 	private void populateWords() {
 
         CrossBoard crossBoard=new CrossBoard();
-        Set<String>answerString=new LinkedHashSet<>();
-        answerString.add("hello");
-        answerString.add("beautiful");
-        answerString.add("bye");
-        answerString.add("gadget");
 
-        setWordsToFind(answerString);
-
-        for (String answer:answerString){
+        for (String answer:wordsToFind){
             crossBoard.addWord(answer);
+            System.out.println(answer+" "+this.hint.get(answer));
         }
         for (int row = 0; row < 10; row++) {
             for (int col = 0; col < 8; col++) {

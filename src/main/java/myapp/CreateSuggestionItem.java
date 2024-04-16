@@ -12,19 +12,16 @@ public class CreateSuggestionItem {
 	public static HBox createSuggestionItem(String suggestion, TextField searchBar) {
 		HBox suggestionItem = new HBox();
 		suggestionItem.getStyleClass().add("suggestion-item");
-
-		String[] Line = suggestion.split(" - ");
-		if (Line.length == 2) {
-			String word = Line[0].trim();
-			String meanings = Line[1].trim();
+        String meanings = Words.meaning.get(suggestion);
+        StringBuilder stringBuilder=new StringBuilder();
+        stringBuilder.append(suggestion);
+        stringBuilder.append(": ");
+        stringBuilder.append(meanings);
 
 			ContextMenu contextMenu = loadContextMenu();
 
-			Label wordLabel = new Label(word);
-			wordLabel.getStyleClass().add("suggestion-label");
-
-			Label lb = new Label(": " + meanings);
-			suggestionItem.getChildren().addAll(wordLabel, lb);
+			Label wordLabel = new Label(stringBuilder.toString());
+			suggestionItem.getChildren().addAll(wordLabel);
 
 			// Add hover effect
 			suggestionItem.setOnMouseEntered(event -> suggestionItem.setStyle("-fx-background-color: #fce3e3;-fx-border-width: 3;-fx-border-color: rgb(18, 19, 20)"));
@@ -32,16 +29,16 @@ public class CreateSuggestionItem {
 
 			suggestionItem.setOnMouseClicked(event -> {
 				if (event.getButton() == MouseButton.SECONDARY) {
-					((ContextMenuController) contextMenu.getUserData()).setSelectedWord(word);
+					((ContextMenuController) contextMenu.getUserData()).setSelectedWord(suggestion);
 					contextMenu.show(suggestionItem, event.getScreenX(), event.getScreenY());
 				} else if (event.getButton() == MouseButton.PRIMARY) {
-					searchBar.setText(word);
+					searchBar.setText(suggestion);
 				}
 			});
 
 			suggestionItem.setMinWidth(Region.USE_PREF_SIZE);
 			suggestionItem.setMaxWidth(Region.USE_PREF_SIZE);
-		}
+
 
 		return suggestionItem;
 	}

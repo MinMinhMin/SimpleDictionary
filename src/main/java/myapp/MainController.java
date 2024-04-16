@@ -18,6 +18,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 import java.io.IOException;
+import java.util.List;
 
 public class MainController {
 	@FXML
@@ -26,7 +27,9 @@ public class MainController {
 	private Stage stage;
 	@FXML
 	private VBox suggestionBox;
-	private AutoComplete.Trie trie;
+
+    public static Words words;
+
 	@FXML
 	private Button gamebutton;
 	public final String ALOT_WORDS ="data/List.txt" ;
@@ -38,12 +41,21 @@ public class MainController {
 
 	@FXML
 	private void initialize() {
-		trie = AutoComplete.buildTrieFromFile(ALOT_WORDS);
+		words =new Words();
+        List<String>list=words.get_3_random_words();
+        if(list!=null) {
+            for (String s : list) {
+
+
+                System.out.println(s);
+
+            }
+        }
 		searchBar.textProperty().addListener((observable, oV, nV) -> {
 			if (nV.isEmpty()) {
 				suggestionBox.getChildren().clear();
 			} else {
-				SugesstionUpdate.sugesstionUpdate(nV, trie, suggestionBox, searchBar);
+				SugesstionUpdate.sugesstionUpdate(nV, words, suggestionBox, searchBar);
 			}
 		});
 	}
@@ -69,10 +81,8 @@ public class MainController {
 		closeButton.getStyleClass().add("normalButton");
 		setButton.setOnAction(event -> {
 			String mean = meaning.getText();
-			String line = english + "\t" + mean;
-			FileUtil.AddtoFIle(ALOT_WORDS, line);
-			trie.insert(english, mean);
-			SugesstionUpdate.sugesstionUpdate(searchBar.getText(), trie, suggestionBox, searchBar);
+            words.add_word(english,mean);
+			SugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar);
 			addWordStage.close();
 		});
 		closeButton.setStyle("-fx-font-weight: 900;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black;-fx-background-color: white");
@@ -101,9 +111,8 @@ public class MainController {
 		if (word == "") {
 			word = "b";
 		}
-		DeleteWord.deleteWord(word);
-		trie.remove(word);
-		SugesstionUpdate.sugesstionUpdate(searchBar.getText(), trie, suggestionBox, searchBar);
+        words.delete_word(word);
+		SugesstionUpdate.sugesstionUpdate(searchBar.getText(),words, suggestionBox, searchBar);
 	}
 
 	@FXML

@@ -5,8 +5,10 @@ module com.front {
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
 	requires com.google.gson;
+    requires java.sql;
+    requires org.xerial.sqlitejdbc;
 
-	opens myapp to com.google.gson, javafx.fxml;
+    opens myapp to com.google.gson, javafx.fxml;
 
 	exports myapp;
 }
