@@ -9,6 +9,7 @@
 <?import javafx.scene.control.Button?>
 
 
+<?import javafx.scene.control.ToggleButton?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="myapp.MainController"
@@ -17,9 +18,14 @@
     <Button  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="100" layoutY="688.0" onAction="#MinimizeStage"/>
     <Button  stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="30" onAction="#TranslateClicked"/>
     <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="180" layoutY="688" prefHeight="60" prefWidth="60" onAction="#GameClicked" />
+    <HBox style="-fx-border-width: 6; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10; -fx-background-color: transparent " prefWidth="220" prefHeight="127" layoutX="1120" layoutY="25">
+        <Button translateY="80" translateX="50" stylesheets="@Styling.css" styleClass="previousSongButton" prefHeight="27" prefWidth="27"/>
+        <ToggleButton translateY="80" translateX="77" stylesheets="@Styling.css" styleClass="playSongButton" prefHeight="25" prefWidth="25"/>
+        <Button translateY="80" translateX="100" stylesheets="@Styling.css" styleClass="nextSongButton" prefHeight="27" prefWidth="27"/>
+    </HBox>
     <children>
 
-        <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="160.0" style="" >
+        <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="160.0"  >
             <VBox spacing="20" alignment="CENTER">
                 <VBox  style="-fx-border-width: 8; -fx-border-color: rgb(18, 19, 20); -fx-border-radius: 50;">
                     <TextField fx:id="searchBar" prefWidth="400" prefHeight="40" style="-fx-font-size: 30;-fx-font-weight:900; -fx-background-radius: 50;" />

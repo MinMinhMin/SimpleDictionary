@@ -8,7 +8,7 @@
   xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.GameMenuController" style="-fx-border-width: 5; -fx-border-color: rgb(18, 19, 20);-fx-border-radius: 10;-fx-background-radius: 10">
 
   <items>
-    <MenuItem text="Game 1" onAction="#handleGame1" style="-fx-font-size: 18;"/>
+    <MenuItem text="Cross Board" onAction="#handleCrossBoard" style="-fx-font-size: 18;"/>
     <MenuItem text="Game 2" onAction="#handleGame2" style="-fx-font-size: 18"/>
     <SeparatorMenuItem/>
   </items>
