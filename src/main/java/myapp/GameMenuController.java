@@ -1,11 +1,9 @@
 package myapp;
 
 import java.io.IOException;
-import java.util.Objects;
 
 import javafx.animation.FadeTransition;
 import javafx.concurrent.Task;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -35,9 +33,9 @@ public class GameMenuController {
 
   public static Stage primaryStage;
 
-  public void handleGame1() throws IOException {
+  public void handleCrossBoard() throws IOException {
     System.out.println("Game1");
-    showGame1Box();
+    showCrossBoardGameBox();
 
   }
 
@@ -46,10 +44,10 @@ public class GameMenuController {
 
   }
   private  static Stage Game1BoxStage;
-  public void showGame1Box() throws IOException {
-    FXMLLoader loader = new FXMLLoader(getClass().getResource("Game1Box.fxml"));
+  public void showCrossBoardGameBox() throws IOException {
+    FXMLLoader loader = new FXMLLoader(getClass().getResource("CrossBoardGameBox.fxml"));
     Parent layout = loader.load();
-    GameBox1Controller gameBox1Controller = loader.getController();
+    CrossBoardGameController crossBoardGameController = loader.getController();
     if (Game1BoxStage != null) {
       Game1BoxStage.close();
     }
@@ -70,7 +68,7 @@ public class GameMenuController {
     Game1BoxStage.setResizable(false);
     Game1BoxStage.initStyle(StageStyle.TRANSPARENT);
     Game1BoxStage.setScene(loadingscene);
-    gameBox1Controller.setStage(Game1BoxStage);
+    crossBoardGameController.setStage(Game1BoxStage);
 
 
     primaryStage.xProperty().addListener((observable, oldValue, newValue) -> {
