@@ -1,10 +1,7 @@
 package myapp;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Words {
 
@@ -52,26 +49,25 @@ public class Words {
 
     }
 
-    public List<String>auto_complete(String prefix){
+    public List<String>auto_complete(String prefix) {
 
         try {
-            List<String>all_words_with_prefix=new ArrayList<>();
-
-            String sql="SELECT * FROM words WHERE word_name LIKE ?";
-            PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
-            statement.setString(1,prefix+"%");
-            ResultSet resultSet=statement.executeQuery();
-            while (resultSet.next()){
-                all_words_with_prefix.add(resultSet.getString(2));
+            List<String> allWordsWithPrefix = new ArrayList<>();
+            String sql = "SELECT word_name FROM words WHERE word_name LIKE ? LIMIT 100";
+            try (PreparedStatement statement = this.sqlite_connection.prepareStatement(sql)) {
+                statement.setString(1, prefix + "%");
+                try (ResultSet resultSet = statement.executeQuery()) {
+                    while (resultSet.next()) {
+                        allWordsWithPrefix.add(resultSet.getString(1));
+                    }
+                }
             }
-            statement.close();
-            return all_words_with_prefix;
-
-
-        }catch (Exception e){
-            System.out.println("Some thing happen!");
+            return allWordsWithPrefix;
+        } catch (Exception e) {
+            System.out.println("Something happened!");
+            e.printStackTrace(); // Print the exception for debugging purposes
+            return Collections.emptyList(); // Return an empty list instead of null
         }
-        return null;
     }
     public void add_word(String word,String meaning){
 
