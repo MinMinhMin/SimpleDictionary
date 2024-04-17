@@ -1,26 +1,31 @@
 package myapp;
 
+import javafx.animation.ScaleTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.ContextMenu;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.VBox;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.util.Duration;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 public class MainController {
+	@FXML
+	private ToggleButton play;
 	@FXML
 	public TextField searchBar;
 	ContextMenu gameMenu = GameMenuController.loadGameMenu();
@@ -31,9 +36,28 @@ public class MainController {
     public static Words words;
 
 	@FXML
-	private Button gamebutton;
-	public final String ALOT_WORDS ="data/List.txt" ;
-
+	private Button gamebutton,shutdown,minimize,translate,add,delete,previous,next;
+	@FXML
+	private Slider volumeslider;
+	private List<String> songs = Arrays.asList(
+			"music/Runaway-Rim_cover-Dios.mp3",
+			"music/The World is still Beautiful.mp3",
+			"music/Tokyo Ghoul - Glassy Sky [東京喰種 -トーキョーグール-].mp3",
+			"music/Ichika Nito - Away (Official Music Video).mp3",
+			"music/Forever.mp3"
+	);
+	private List<String> songnames = Arrays.asList(
+			"Runaway",
+			"TWisBeautiful",
+			"Glassy Sky",
+			"Away",
+			"Forever"
+	);
+	private int currentSongIndex = 0;
+	@FXML
+	private Label nameOfSong ;
+	private Media media = new Media(new File(songs.get(currentSongIndex)).toURI().toString());
+	private MediaPlayer mediaPlayer = new MediaPlayer(media);
 
 	public void setStage(Stage stage) {
 		this.stage = stage;
@@ -41,16 +65,9 @@ public class MainController {
 
 	@FXML
 	private void initialize() {
+		nameOfSong.setText(songnames.get(currentSongIndex));
+		audioPLayer();
 		words =new Words();
-        List<String>list=words.get_3_random_words();
-        if(list!=null) {
-            for (String s : list) {
-
-
-                System.out.println(s);
-
-            }
-        }
 		searchBar.textProperty().addListener((observable, oV, nV) -> {
 			if (nV.isEmpty()) {
 				suggestionBox.getChildren().clear();
@@ -58,6 +75,9 @@ public class MainController {
 				SugesstionUpdate.sugesstionUpdate(nV, words, suggestionBox, searchBar);
 			}
 		});
+		applyHover();
+
+
 	}
 
 	@FXML
@@ -71,12 +91,14 @@ public class MainController {
 		TextField meaning = new TextField();
 		meaning.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black");
 		Button setButton = new Button("Set");
+		applyScaleTransition(setButton);
 		setButton.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
 		setButton.getStyleClass().add("normalButton");
 		setButton.setMaxWidth(Double.MAX_VALUE);
 		setButton.setAlignment(Pos.CENTER);
 		setButton.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black");
 		Button closeButton = new Button("Close");
+		applyScaleTransition(closeButton);
 		closeButton.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
 		closeButton.getStyleClass().add("normalButton");
 		setButton.setOnAction(event -> {
@@ -126,6 +148,7 @@ public class MainController {
 				gameMenu.show(gamebutton, event.getScreenX(), event.getScreenY());
 			}
 		});
+
 	}
 
 	@FXML
@@ -150,5 +173,98 @@ public class MainController {
 		}
 
 	}
+	private void applyHover(){
+		applyScaleTransition(gamebutton);
+		applyScaleTransition(shutdown);
+		applyScaleTransition(minimize);
+		applyScaleTransition(translate);
+		applyScaleTransition(add);
+		applyScaleTransition(delete);
+		applyScaleTransitionForToggleButton(play);
+		applyScaleTransition(previous);
+		applyScaleTransition(next);
+	}
+	public static void applyScaleTransition(Button button) {
+		ScaleTransition stGrow = new ScaleTransition(Duration.millis(200), button);
+		stGrow.setToX(0.9);
+		stGrow.setToY(0.9);
+
+		ScaleTransition stShrink = new ScaleTransition(Duration.millis(200), button);
+		stShrink.setToX(1);
+		stShrink.setToY(1);
+
+		button.setOnMouseEntered(e -> {
+			stGrow.playFromStart();
+		});
+
+		button.setOnMouseExited(e -> {
+			stShrink.playFromStart();
+		});
+	}
+	public static void applyScaleTransitionForToggleButton(ToggleButton button) {
+		ScaleTransition stGrow = new ScaleTransition(Duration.millis(200), button);
+		stGrow.setToX(0.9);
+		stGrow.setToY(0.9);
+
+		ScaleTransition stShrink = new ScaleTransition(Duration.millis(200), button);
+		stShrink.setToX(1);
+		stShrink.setToY(1);
+
+		button.setOnMouseEntered(e -> {
+			stGrow.playFromStart();
+		});
+
+		button.setOnMouseExited(e -> {
+			stShrink.playFromStart();
+		});
+	}
+	//audio player
+	public void audioPLayer(){
+		volumeslider.setMin(0);
+		volumeslider.setMax(100);
+		volumeslider.setValue(mediaPlayer.getVolume() * 100);
+		volumeslider.valueProperty().addListener((observable, oldValue, newValue) -> {
+			mediaPlayer.setVolume(newValue.doubleValue() / 100);
+		});
+		play.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
+		play.getStyleClass().add("playSongButton");
+		play.setOnAction(event -> {
+			if(play.isSelected()){
+				mediaPlayer.play();
+				play.getStyleClass().remove("playSongButton");
+				play.getStyleClass().add("pauseSongButton");
+			}else {
+				mediaPlayer.pause();
+				play.getStyleClass().remove("pauseSongButton");
+				play.getStyleClass().add("playSongButton");
+			}
+		});
+		next.setOnAction(event -> {
+			currentSongIndex = (currentSongIndex + 1) % songs.size();
+			nameOfSong.setText(songnames.get(currentSongIndex));
+			mediaPlayer.stop();
+			mediaPlayer = new MediaPlayer(new Media(new File(songs.get(currentSongIndex)).toURI().toString()));
+			mediaPlayer.play();
+			if (!play.isSelected()) {
+				play.setSelected(true);
+				play.getStyleClass().remove("playSongButton");
+				play.getStyleClass().add("pauseSongButton");
+			}
+		});
+
+		previous.setOnAction(event -> {
+			currentSongIndex = (currentSongIndex - 1 + songs.size()) % songs.size();
+			nameOfSong.setText(songnames.get(currentSongIndex));
+			mediaPlayer.stop();
+			mediaPlayer = new MediaPlayer(new Media(new File(songs.get(currentSongIndex)).toURI().toString()));
+			mediaPlayer.play();
+			if (!play.isSelected()) {
+				play.setSelected(true);
+				play.getStyleClass().remove("playSongButton");
+				play.getStyleClass().add("pauseSongButton");
+			}
+		});
+	}
+
 
 }

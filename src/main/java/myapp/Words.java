@@ -116,13 +116,13 @@ public class Words {
 
 
     }
-    public List<String>get_3_random_words(){
+    public List<String>get_4_random_words(){
 
         try {
 
             List<String>randomWords=new ArrayList<>();
 
-            String sql = "SELECT * FROM words WHERE LENGTH(CAST(word_name AS TEXT)) <= ? ORDER BY RANDOM() LIMIT 3";
+            String sql = "SELECT * FROM words WHERE LENGTH(CAST(word_name AS TEXT)) <= ? ORDER BY RANDOM() LIMIT 4";
             PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
             statement.setInt(1,8);
             ResultSet resultSet=statement.executeQuery();

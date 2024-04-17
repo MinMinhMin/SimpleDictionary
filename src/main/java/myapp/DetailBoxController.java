@@ -22,6 +22,8 @@ public class DetailBoxController {
 
 	@FXML
 	private VBox infoVBox;
+	@FXML
+	public Button close,resizedown,resizeup;
 
 
 	public void setStage(Stage stage) {
@@ -29,6 +31,9 @@ public class DetailBoxController {
 	}
 
 	public void setWord(String word) {
+		MainController.applyScaleTransition(close);
+		MainController.applyScaleTransition(resizedown);
+		MainController.applyScaleTransition(resizeup);
 		this.word = word;
 		if(word == null){return;}
 		updateUI();

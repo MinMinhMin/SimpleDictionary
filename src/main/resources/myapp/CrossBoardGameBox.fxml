@@ -10,8 +10,18 @@
             fx:controller="myapp.CrossBoardGameController"
             prefHeight="400.0" prefWidth="600.0" style="-fx-border-width: 8; -fx-border-color: rgb(7, 17, 17); -fx-background-radius: 30; -fx-border-radius:  20">
     <Button fx:id="refresh" stylesheets="@Styling.css" styleClass="refreshButton" onAction="#refreshStage" AnchorPane.topAnchor="10" AnchorPane.rightAnchor="10" prefHeight="27" prefWidth="27"/>
-    <Button stylesheets="@Styling.css" styleClass="closeButton" onAction="#close" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefHeight="27" prefWidth="27"/>
+    <Button fx:id="close" stylesheets="@Styling.css" styleClass="closeButton" onAction="#close" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefHeight="27" prefWidth="27"/>
     <Label text="Current: " AnchorPane.topAnchor="10" AnchorPane.leftAnchor="90" style="-fx-font-size: 15; -fx-font-weight: 900"/>
+    <Text fx:id="win" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="260" style="-fx-font-size: 20; -fx-font-weight: 900"/>
     <Text fx:id="choosenWord" AnchorPane.leftAnchor="150" AnchorPane.topAnchor="10" style="-fx-font-size: 15; -fx-font-weight: 900"/>
+    <Label text="Point:" AnchorPane.topAnchor="30" AnchorPane.leftAnchor="90" style="-fx-font-size: 15; -fx-font-weight: 900;"/>
+    <Text fx:id="point" text="0" AnchorPane.leftAnchor="135" AnchorPane.topAnchor="30" style="-fx-font-size: 15; -fx-font-weight: 900"/>
     <GridPane fx:id="wordSearchGridPane" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0" AnchorPane.bottomAnchor="50.0"/>
+    <HBox AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="20" spacing="25">
+        <Text fx:id="word1"  style="-fx-font-weight: 900;-fx-font-size: 16"/>
+        <Text fx:id="word2"  style="-fx-font-weight: 900;-fx-font-size: 16"/>
+        <Text fx:id="word3"  style="-fx-font-weight: 900;-fx-font-size: 16"/>
+        <Text fx:id="word4"  style="-fx-font-weight: 900;-fx-font-size: 16"/>
+
+    </HBox>
 </AnchorPane>

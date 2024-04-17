@@ -10,19 +10,23 @@
 
 
 <?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.Slider?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="myapp.MainController"
             style="-fx-border-width: 10;-fx-border-color: rgb(7, 17, 17); -fx-background-color: white; -fx-border-radius: 40; -fx-background-radius: 50">
-    <Button  stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="20.0" layoutY="688.0" onAction="#ShutDownStage"/>
-    <Button  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="100" layoutY="688.0" onAction="#MinimizeStage"/>
-    <Button  stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="30" onAction="#TranslateClicked"/>
+
+    <Button  fx:id="shutdown" stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="20.0" layoutY="688.0" onAction="#ShutDownStage"/>
+    <Button fx:id="minimize"  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="100" layoutY="688.0" onAction="#MinimizeStage"/>
+    <Button fx:id="translate" stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="30" onAction="#TranslateClicked"/>
     <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="180" layoutY="688" prefHeight="60" prefWidth="60" onAction="#GameClicked" />
     <HBox style="-fx-border-width: 6; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10; -fx-background-color: transparent " prefWidth="220" prefHeight="127" layoutX="1120" layoutY="25">
-        <Button translateY="80" translateX="50" stylesheets="@Styling.css" styleClass="previousSongButton" prefHeight="27" prefWidth="27"/>
-        <ToggleButton translateY="80" translateX="77" stylesheets="@Styling.css" styleClass="playSongButton" prefHeight="25" prefWidth="25"/>
-        <Button translateY="80" translateX="100" stylesheets="@Styling.css" styleClass="nextSongButton" prefHeight="27" prefWidth="27"/>
+        <Button fx:id="previous" translateY="80" translateX="55" stylesheets="@Styling.css" styleClass="previousSongButton" prefHeight="27" prefWidth="27"/>
+        <ToggleButton fx:id="play" translateY="80" translateX="80"  prefHeight="23" prefWidth="25" />
+        <Button fx:id="next" translateY="80" translateX="105" stylesheets="@Styling.css" styleClass="nextSongButton" prefHeight="27" prefWidth="27"/>
+        <Slider fx:id="volumeslider" translateY="7" translateX="-68"  orientation="VERTICAL" stylesheets="@Styling.css" styleClass="slider" minHeight="100" maxHeight="100" prefHeight="100"/>
     </HBox>
+    <Label fx:id="nameOfSong" style="-fx-font-size: 16;-fx-font-weight: 900" layoutX="1210" layoutY="45" />
     <children>
 
         <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="160.0"  >
@@ -36,8 +40,8 @@
                 </ScrollPane>
             </VBox>
             <VBox spacing="10" alignment="CENTER_LEFT" style="-fx-padding: 100 0 0 0">
-                <Button  stylesheets="@Styling.css" styleClass="addButton" onAction="#AddClicked" />
-                <Button stylesheets="@Styling.css" styleClass="deleteButton" onAction="#DeleteClicked" />
+                <Button  fx:id="add" stylesheets="@Styling.css" styleClass="addButton" onAction="#AddClicked" />
+                <Button fx:id="delete" stylesheets="@Styling.css" styleClass="deleteButton" onAction="#DeleteClicked" />
             </VBox>
         </HBox>
     </children>
