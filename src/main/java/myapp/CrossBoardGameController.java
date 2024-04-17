@@ -23,18 +23,28 @@ public class CrossBoardGameController implements Initializable {
 	}
 	@FXML
 	private GridPane wordSearchGridPane;
-    @FXML
-	private Text choosenWord;
+
 	@FXML
-	private Button refresh;
+	private Button refresh,close;
 	private List<String> wordsToFind;
     private Map<String,String>hint=new HashMap<>();
+	private Map<String,Text> textMap = new HashMap<>();
+	@FXML
+	private Text word1,word2,word3,word4,point,choosenWord,win;
     public void setWordsToFind() {
-        this.wordsToFind = MainController.words.get_3_random_words();
+        this.wordsToFind = MainController.words.get_4_random_words();
         this.wordsSet=new HashSet<>(this.wordsToFind);
+		int index = 1;
         for (String word:this.wordsToFind){
 
+
             this.hint.put(word,CrossBoard.getHint(word));
+			if(index == 1){textMap.put(word,word1); word1.setText(this.hint.get(word));}
+			if(index == 2){textMap.put(word,word2); word2.setText(this.hint.get(word));}
+			if(index == 3){textMap.put(word,word3); word3.setText(this.hint.get(word));}
+			if(index == 4){textMap.put(word,word4); word4.setText(this.hint.get(word));}
+
+					index++;
 
         }
     }
@@ -46,9 +56,12 @@ public class CrossBoardGameController implements Initializable {
 	private boolean isRow = true;
 	private StringBuilder selectedText = new StringBuilder();
 	private Set<String> wordsSet = new HashSet<>();
+	private int Point = 0;
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle) {
+		MainController.applyScaleTransition(close);
+		MainController.applyScaleTransition(refresh);
         setWordsToFind();
 		buttons = new ToggleButton[10][8];
 
@@ -115,8 +128,13 @@ public class CrossBoardGameController implements Initializable {
 								b.setSelected(false);
 								wordSearchGridPane.getChildren().remove(b);
 							}
+							textMap.get(selectedText.toString()).setText("✔");
+							Point+=100;
+							point.setText(String.valueOf(Point));
+							wordsSet.remove(selectedText);
 							selectedButtons.clear();
 							selectedText.setLength(0);
+							if(Point == 400){win.setText("WIN");}
 						}
 						choosenWord.setText(selectedText.toString());
 						System.out.println("press: " + finalRow + ", " + finalCol + ", isRow: " + isRow + ", text: " + selectedText.toString());
@@ -154,8 +172,12 @@ public class CrossBoardGameController implements Initializable {
 								b.setSelected(false);
 								wordSearchGridPane.getChildren().remove(b);
 							}
+							textMap.get(selectedText.toString()).setText("✔");
+							Point+=100;
+							point.setText(String.valueOf(Point));
 							selectedButtons.clear();
 							selectedText.setLength(0);
+							if(Point == 400){win.setText("WIN");}
 						}
 
 						choosenWord.setText(selectedText.toString());

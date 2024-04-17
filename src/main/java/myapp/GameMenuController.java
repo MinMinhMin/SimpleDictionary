@@ -86,7 +86,7 @@ public class GameMenuController {
       @Override
       protected Scene call() throws Exception {
 
-        Thread.sleep(1000);
+        Thread.sleep(600);
         Scene scene;
         FadeTransition ft = new FadeTransition(Duration.millis(1300), layout);
         ft.setFromValue(0.0);

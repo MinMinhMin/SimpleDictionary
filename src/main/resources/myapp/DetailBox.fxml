@@ -9,9 +9,9 @@
             style="-fx-border-width: 8; -fx-border-color: rgb(7, 17, 17); -fx-background-radius: 30; -fx-border-radius:  20" >
 
     <Text text="Word Detail" style="-fx-font-size: 20; -fx-font-weight: 900 " AnchorPane.topAnchor="10" AnchorPane.leftAnchor="155"/>
-    <Button stylesheets="@Styling.css" styleClass="closeButton" onAction="#close" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefHeight="27" prefWidth="27"/>
-    <Button stylesheets="@Styling.css" styleClass="resizeUpButton" onAction="#resizeUP" AnchorPane.topAnchor="10" AnchorPane.rightAnchor="10" prefHeight="27" prefWidth="27"/>
-    <Button stylesheets="@Styling.css" styleClass="resizeDownButton" onAction="#resizeDOWN" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="90" prefHeight="27" prefWidth="27"/>
+    <Button fx:id="close" stylesheets="@Styling.css" styleClass="closeButton" onAction="#close" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefHeight="27" prefWidth="27"/>
+    <Button fx:id="resizeup" stylesheets="@Styling.css" styleClass="resizeUpButton" onAction="#resizeUP" AnchorPane.topAnchor="10" AnchorPane.rightAnchor="10" prefHeight="27" prefWidth="27"/>
+    <Button fx:id="resizedown" stylesheets="@Styling.css" styleClass="resizeDownButton" onAction="#resizeDOWN" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="90" prefHeight="27" prefWidth="27"/>
 
     <ScrollPane  stylesheets="@Styling.css" styleClass="scroll-bar" fitToWidth="true" fitToHeight="true" hbarPolicy="AS_NEEDED" vbarPolicy="AS_NEEDED"
                 AnchorPane.topAnchor="50" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="1" AnchorPane.bottomAnchor="10">
