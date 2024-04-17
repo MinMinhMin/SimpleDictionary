@@ -40,24 +40,45 @@ public class DetailBoxController {
 	}
 
 	public void updateUI() {
-        API api=API.fetchWordDetails(word);
-		List<API.Meaning> meanings = API.fetchMeanings(api,word);
-		List<API.Phonetic> phonetics = API.fetchPhonetics(api,word);
 
-		addLabel("Word: " + word);
-		addLabel("Phonetics:");
-		for (API.Phonetic phonetic : phonetics) {
-			addLabel(" -IPA: " + (phonetic.getText() != null ? phonetic.getText() : "N/A"));
-			addHyperLink(phonetic.getAudio());
-		}
-		addLabel("Meanings:");
-		for (API.Meaning meaning : meanings) {
-			addLabel(" -Part of Speech: " + meaning.getPartOfSpeech());
-			for (API.Definition definition : meaning.getDefinitions()) {
-				addLabel("   +Definition: " + definition.getDefinition());
-				addLabel("   +Example: " + (definition.getExample() != null ? definition.getExample() : "N/A"));
-			}
-		}
+
+        WordDetails wordDetails=new WordDetails(word);
+        for(WordDetails.Homonyms homonyms:wordDetails.allWord_details){
+            addLabel("Nghĩa "+homonyms.getHomonyms()+"(Homonyms "+homonyms.getHomonyms()+"): ");
+            addLabel("  .Phonetic");
+            for(WordDetails.Phonetic phonetic:homonyms.getAllPhonetic()){
+
+                addLabel(" -Kiểu:   "+(phonetic.getType() != null ? phonetic.getType() : "N/A"));
+                addLabel(" -IPA:   "+(phonetic.getIPA() != null ? phonetic.getIPA() : "N/A"));
+                addHyperLink((phonetic.getLink() != null ? phonetic.getLink() : "N/A"));
+
+            }
+            addLabel("");
+            addLabel("  .Grammar");
+            for (WordDetails.PoS poS:homonyms.getAllPoS()){
+
+                addLabel("-    Loại từ: "+poS.getpOs());
+                for (WordDetails.Pair pair:poS.getPairs()){
+
+                    if(pair.getDefiniton()==null){
+                        break;
+                    }
+                    addLabel(" +      Định nghĩa: "+pair.getDefiniton());
+                    addLabel(" +      Ví dụ: "+(pair.getExample() != null ? pair.getExample() : "N/A"));
+
+                }
+
+            }
+            addLabel("");
+            addLabel("");
+
+
+        }
+        if(!wordDetails.check){
+            addLabel("Look like this words didn't add to the database :3");
+        }
+
+
 	}
 
 	private void addLabel(String text) {
