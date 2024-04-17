@@ -30,10 +30,10 @@
     <children>
 
         <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="160.0"  >
-            <VBox spacing="20" alignment="CENTER">
+            <VBox spacing="20" alignment="CENTER" style="-fx-pref-width: 440">
                 <VBox  style="-fx-border-width: 8; -fx-border-color: rgb(18, 19, 20); -fx-border-radius: 50;">
                     <TextField fx:id="searchBar" prefWidth="400" prefHeight="40" style="-fx-font-size: 30;-fx-font-weight:900; -fx-background-radius: 50;" />
-                </VBox>
+                </VBox >
                 <ScrollPane hbarPolicy="AS_NEEDED" vbarPolicy="AS_NEEDED" stylesheets="@Styling.css" styleClass="scroll-bar" VBox.vgrow="ALWAYS" style="-fx-border-width: 8; -fx-border-color: rgb(18, 19, 20); -fx-min-height: 25; -fx-max-height: 400;">
                     <VBox fx:id="suggestionBox" style="-fx-font-size: 25; -fx-background-color: white;-fx-font-weight: 900;">
                     </VBox>

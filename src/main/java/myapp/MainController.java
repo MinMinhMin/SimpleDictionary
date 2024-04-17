@@ -28,7 +28,7 @@ public class MainController {
 	private ToggleButton play;
 	@FXML
 	public TextField searchBar;
-	ContextMenu gameMenu = GameMenuController.loadGameMenu();
+	public ContextMenu gameMenu = GameMenuController.loadGameMenu();
 	private Stage stage;
 	@FXML
 	private VBox suggestionBox;
@@ -53,11 +53,8 @@ public class MainController {
 			"Away",
 			"Forever"
 	);
-	private int currentSongIndex = 0;
 	@FXML
 	private Label nameOfSong ;
-	private Media media = new Media(new File(songs.get(currentSongIndex)).toURI().toString());
-	private MediaPlayer mediaPlayer = new MediaPlayer(media);
 
 	public void setStage(Stage stage) {
 		this.stage = stage;
@@ -65,7 +62,6 @@ public class MainController {
 
 	@FXML
 	private void initialize() {
-		nameOfSong.setText(songnames.get(currentSongIndex));
 		audioPLayer();
 		words =new Words();
 		searchBar.textProperty().addListener((observable, oV, nV) -> {
@@ -220,50 +216,14 @@ public class MainController {
 	}
 	//audio player
 	public void audioPLayer(){
-		volumeslider.setMin(0);
-		volumeslider.setMax(100);
-		volumeslider.setValue(mediaPlayer.getVolume() * 100);
-		volumeslider.valueProperty().addListener((observable, oldValue, newValue) -> {
-			mediaPlayer.setVolume(newValue.doubleValue() / 100);
-		});
-		play.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
-		play.getStyleClass().add("playSongButton");
-		play.setOnAction(event -> {
-			if(play.isSelected()){
-				mediaPlayer.play();
-				play.getStyleClass().remove("playSongButton");
-				play.getStyleClass().add("pauseSongButton");
-			}else {
-				mediaPlayer.pause();
-				play.getStyleClass().remove("pauseSongButton");
-				play.getStyleClass().add("playSongButton");
-			}
-		});
-		next.setOnAction(event -> {
-			currentSongIndex = (currentSongIndex + 1) % songs.size();
-			nameOfSong.setText(songnames.get(currentSongIndex));
-			mediaPlayer.stop();
-			mediaPlayer = new MediaPlayer(new Media(new File(songs.get(currentSongIndex)).toURI().toString()));
-			mediaPlayer.play();
-			if (!play.isSelected()) {
-				play.setSelected(true);
-				play.getStyleClass().remove("playSongButton");
-				play.getStyleClass().add("pauseSongButton");
-			}
-		});
+		MusicPlayer musicPlayer = new MusicPlayer(play,next,previous,volumeslider,songs,songnames,nameOfSong);
+		musicPlayer.setup();
+		play = musicPlayer.getPlay();
+		next=musicPlayer.getNext();
+		previous = musicPlayer.getPrevious();
+		volumeslider =  musicPlayer.getVolumeslider();
+		nameOfSong = musicPlayer.getNameOfSong();
 
-		previous.setOnAction(event -> {
-			currentSongIndex = (currentSongIndex - 1 + songs.size()) % songs.size();
-			nameOfSong.setText(songnames.get(currentSongIndex));
-			mediaPlayer.stop();
-			mediaPlayer = new MediaPlayer(new Media(new File(songs.get(currentSongIndex)).toURI().toString()));
-			mediaPlayer.play();
-			if (!play.isSelected()) {
-				play.setSelected(true);
-				play.getStyleClass().remove("playSongButton");
-				play.getStyleClass().add("pauseSongButton");
-			}
-		});
 	}
 
 
