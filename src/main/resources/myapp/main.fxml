@@ -11,25 +11,33 @@
 
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.control.Slider?>
+<?import javafx.scene.shape.Line?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="myapp.MainController"
             style="-fx-border-width: 10;-fx-border-color: rgb(7, 17, 17); -fx-background-color: white; -fx-border-radius: 40; -fx-background-radius: 50">
 
-    <Button  fx:id="shutdown" stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="20.0" layoutY="688.0" onAction="#ShutDownStage"/>
-    <Button fx:id="minimize"  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="100" layoutY="688.0" onAction="#MinimizeStage"/>
-    <Button fx:id="translate" stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="30" onAction="#TranslateClicked"/>
-    <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="180" layoutY="688" prefHeight="60" prefWidth="60" onAction="#GameClicked" />
-    <HBox style="-fx-border-width: 6; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10; -fx-background-color: transparent " prefWidth="220" prefHeight="127" layoutX="1120" layoutY="25">
-        <Button fx:id="previous" translateY="80" translateX="55" stylesheets="@Styling.css" styleClass="previousSongButton" prefHeight="27" prefWidth="27"/>
-        <ToggleButton fx:id="play" translateY="80" translateX="80"  prefHeight="23" prefWidth="25" />
-        <Button fx:id="next" translateY="80" translateX="105" stylesheets="@Styling.css" styleClass="nextSongButton" prefHeight="27" prefWidth="27"/>
-        <Slider fx:id="volumeslider" translateY="7" translateX="-68"  orientation="VERTICAL" stylesheets="@Styling.css" styleClass="slider" minHeight="100" maxHeight="100" prefHeight="100"/>
-    </HBox>
-    <Label fx:id="nameOfSong" style="-fx-font-size: 16;-fx-font-weight: 900" layoutX="1210" layoutY="45" />
+    <Label text="Dictionary app" layoutX="580" layoutY="17" style="-fx-font-size: 24; -fx-font-weight: 900"/>
+    <Button  fx:id="shutdown" stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="20.0" layoutY="720.0" onAction="#ShutDownStage"/>
+    <Button fx:id="minimize"  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="100" layoutY="720.0" onAction="#MinimizeStage"/>
+    <Button fx:id="translate" stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="62" onAction="#TranslateClicked"/>
+    <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="180" layoutY="720" prefHeight="60" prefWidth="60" onAction="#GameClicked" />
+    <VBox fx:id="MusicBox" prefWidth="220" prefHeight="156" layoutX="1120" layoutY="27">
+        <Label fx:id="nameOfSong" style="-fx-font-size: 16;-fx-font-weight: 900" translateY="40" translateX="95" />
+        <HBox >
+            <ToggleButton fx:id="hide" text="▶" prefHeight="65" prefWidth="27" translateY="33" style="-fx-font-weight: 900; -fx-background-color: white;-fx-border-color: black;-fx-border-width: 3"/>
+            <HBox  style="-fx-border-width: 3; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10; -fx-background-color: transparent " prefWidth="220" prefHeight="156" >
+                <Button fx:id="previous" translateY="80" translateX="45" stylesheets="@Styling.css" styleClass="previousSongButton" prefHeight="27" prefWidth="27"/>
+                <ToggleButton fx:id="play" translateY="80" translateX="70"  prefHeight="23" prefWidth="25" />
+                <Button fx:id="next" translateY="80" translateX="95" stylesheets="@Styling.css" styleClass="nextSongButton" prefHeight="27" prefWidth="27"/>
+                <Slider fx:id="volumeslider" translateY="7" translateX="-68"  orientation="VERTICAL" stylesheets="@Styling.css" styleClass="slider" minHeight="100" maxHeight="100" prefHeight="100"/>
+            </HBox>
+        </HBox>
+    </VBox>
+
     <children>
 
-        <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="160.0"  >
+        <HBox spacing="20" alignment="CENTER" layoutX="430.0" layoutY="192.0"  >
             <VBox spacing="20" alignment="CENTER" style="-fx-pref-width: 440">
                 <VBox  style="-fx-border-width: 8; -fx-border-color: rgb(18, 19, 20); -fx-border-radius: 50;">
                     <TextField fx:id="searchBar" prefWidth="400" prefHeight="40" style="-fx-font-size: 30;-fx-font-weight:900; -fx-background-radius: 50;" />

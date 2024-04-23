@@ -33,10 +33,6 @@ public class Main extends Application {
         });
 
         primaryStage.setTitle("Search App");
-        primaryStage.setMinWidth(1360);
-        primaryStage.setMinHeight(768);
-        primaryStage.setMaxWidth(1360);
-        primaryStage.setMaxHeight(768);
         primaryStage.centerOnScreen();
         primaryStage.setResizable(false);
         primaryStage.initStyle(StageStyle.TRANSPARENT);
@@ -44,7 +40,7 @@ public class Main extends Application {
         ft.setFromValue(0.0);
         ft.setToValue(1.0);
         ft.play();
-        Scene scene = new Scene(root, 1360, 768);
+        Scene scene = new Scene(root, 1360, 800);
         scene.setFill(Color.TRANSPARENT);
         primaryStage.setScene(scene);
         MainController mainController = loader.getController();

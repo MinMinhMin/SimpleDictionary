@@ -105,7 +105,7 @@ public class GameMenuController {
   private void adjustGame1BoxPosition() {
     if (Game1BoxStage != null && primaryStage != null) {
       double offsetX = -380;
-      double offsetY = 165;
+      double offsetY = 197;
       Game1BoxStage.setX(primaryStage.getX() + primaryStage.getWidth() + offsetX);
       Game1BoxStage.setY(primaryStage.getY() + offsetY);
     }

@@ -1,6 +1,7 @@
 package myapp;
 
 import javafx.animation.ScaleTransition;
+import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -9,6 +10,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseButton;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Modality;
@@ -27,7 +29,9 @@ import java.util.List;
 
 public class MainController {
 	@FXML
-	private ToggleButton play;
+	private VBox MusicBox;
+	@FXML
+	private ToggleButton play,hide;
 	@FXML
 	public TextField searchBar;
 	public ContextMenu gameMenu = GameMenuController.loadGameMenu();
@@ -179,6 +183,7 @@ public class MainController {
 		applyScaleTransition(add);
 		applyScaleTransition(delete);
 		applyScaleTransitionForToggleButton(play);
+		applyScaleTransitionForToggleButton(hide);
 		applyScaleTransition(previous);
 		applyScaleTransition(next);
 	}
@@ -226,8 +231,43 @@ public class MainController {
 		previous = musicPlayer.getPrevious();
 		volumeslider =  musicPlayer.getVolumeslider();
 		nameOfSong = musicPlayer.getNameOfSong();
+		hide.setOnAction(event -> {
+			if(hide.isSelected()){
+				play.setVisible(false);
+				next.setVisible(false);
+				previous.setVisible(false);
+				volumeslider.setVisible(false);
+				nameOfSong.setVisible(false);
+				hide.setText("◀");
+				toggleMusicBoxVisibility();
+			}else {
+				hide.setText("▶");
+				toggleMusicBoxVisibility();
+				play.setVisible(true);
+				next.setVisible(true);
+				previous.setVisible(true);
+				volumeslider.setVisible(true);
+				nameOfSong.setVisible(true);
+
+			}
+		});
 
 	}
+	private boolean isHidden = false; // Initial state
+
+	private void toggleMusicBoxVisibility() {
+		TranslateTransition slideTransition = new TranslateTransition(Duration.millis(250), MusicBox);
+
+		if (isHidden) {
+			slideTransition.setToX(0);
+		} else {
+			slideTransition.setToX(MusicBox.getWidth()-30);
+		}
+
+		slideTransition.play();
+		isHidden = !isHidden;
+	}
+
 
 
 }
