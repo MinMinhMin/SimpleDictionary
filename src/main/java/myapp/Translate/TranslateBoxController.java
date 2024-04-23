@@ -53,7 +53,7 @@ public class TranslateBoxController {
 	private void adjustTranslateStagePosition() {
 		if (TranslateStage != null && primaryStage != null) {
 			double offsetX = -1240;
-			double offsetY = 22;
+			double offsetY = 54;
 			TranslateStage.setX(primaryStage.getX() + primaryStage.getWidth() + offsetX);
 			TranslateStage.setY(primaryStage.getY() + offsetY);
 		}

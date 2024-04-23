@@ -113,7 +113,7 @@ public class ContextMenuController {
 	private void adjustDetailBoxPosition() {
 		if (DetailBoxStage != null && primaryStage != null) {
 			double offsetX = -1335;
-			double offsetY = 165;
+			double offsetY = 197;
 			DetailBoxStage.setX(primaryStage.getX() + primaryStage.getWidth() + offsetX);
 			DetailBoxStage.setY(primaryStage.getY() + offsetY);
 		}
