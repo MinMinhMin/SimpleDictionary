@@ -9,6 +9,8 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import myapp.MainController;
 
+import java.sql.SQLException;
+
 public class DetailBoxController {
 
 	private Stage stage;
@@ -29,14 +31,14 @@ public class DetailBoxController {
 		this.stage = stage;
 	}
 
-	public void setWord(String word) {
+	public void setWord(String word) throws SQLException {
 		MainController.applyScaleTransition(close);
 		this.word = word;
 		if(word == null){return;}
 		updateUI();
 	}
 
-	public void updateUI() {
+	public void updateUI() throws SQLException {
 
 
         WordDetails wordDetails=new WordDetails(word);
@@ -75,7 +77,6 @@ public class DetailBoxController {
             addLabel("Look like this words didn't add to the database :3");
         }
 
-
 	}
 
 	private void addLabel(String text) {
@@ -104,7 +105,7 @@ public class DetailBoxController {
 	}
 
 	@FXML
-	public void close() {
+	public void close() throws SQLException {
 		setWord(null);
 		stage.close();
 	}
