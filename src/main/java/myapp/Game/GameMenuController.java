@@ -1,11 +1,9 @@
-package myapp;
+package myapp.Game;
 
 import java.io.IOException;
-import java.util.Objects;
 
 import javafx.animation.FadeTransition;
 import javafx.concurrent.Task;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -17,12 +15,14 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
+import myapp.SuggestionBox.ContextMenuController;
+import myapp.Game.CrossBoard.CrossBoardGameController;
 
 
 public class GameMenuController {
-  static ContextMenu loadGameMenu() {
+  public static ContextMenu loadGameMenu() {
     try {
-      FXMLLoader loader = new FXMLLoader(GameMenuController.class.getResource("GameMenu.fxml"));
+      FXMLLoader loader = new FXMLLoader(GameMenuController.class.getResource("/myapp/GameMenu.fxml"));
       ContextMenu gameMenu = loader.load();
       GameMenuController controller = loader.getController();
       gameMenu.setUserData(controller);
@@ -35,9 +35,9 @@ public class GameMenuController {
 
   public static Stage primaryStage;
 
-  public void handleGame1() throws IOException {
+  public void handleCrossBoard() throws IOException {
     System.out.println("Game1");
-    showGame1Box();
+    showCrossBoardGameBox();
 
   }
 
@@ -46,10 +46,10 @@ public class GameMenuController {
 
   }
   private  static Stage Game1BoxStage;
-  public void showGame1Box() throws IOException {
-    FXMLLoader loader = new FXMLLoader(getClass().getResource("Game1Box.fxml"));
+  public void showCrossBoardGameBox() throws IOException {
+    FXMLLoader loader = new FXMLLoader(getClass().getResource("/myapp/CrossBoardGameBox.fxml"));
     Parent layout = loader.load();
-    GameBox1Controller gameBox1Controller = loader.getController();
+    CrossBoardGameController crossBoardGameController = loader.getController();
     if (Game1BoxStage != null) {
       Game1BoxStage.close();
     }
@@ -58,7 +58,7 @@ public class GameMenuController {
     Game1BoxStage.setTitle("Word Detail");
     Game1BoxStage.initModality(Modality.NONE);
     ProgressBar progressBar = new ProgressBar();
-    progressBar.getStylesheets().add(ContextMenuController.class.getResource("Styling.css").toExternalForm());
+    progressBar.getStylesheets().add(ContextMenuController.class.getResource("/myapp/Styling.css").toExternalForm());
     progressBar.getStyleClass().add("progress-bar");
     Text loadingText = new Text("Loading.....");
     loadingText.setStyle("-fx-font-weight:900");
@@ -70,7 +70,7 @@ public class GameMenuController {
     Game1BoxStage.setResizable(false);
     Game1BoxStage.initStyle(StageStyle.TRANSPARENT);
     Game1BoxStage.setScene(loadingscene);
-    gameBox1Controller.setStage(Game1BoxStage);
+    crossBoardGameController.setStage(Game1BoxStage);
 
 
     primaryStage.xProperty().addListener((observable, oldValue, newValue) -> {
@@ -88,7 +88,7 @@ public class GameMenuController {
       @Override
       protected Scene call() throws Exception {
 
-        Thread.sleep(1000);
+        Thread.sleep(600);
         Scene scene;
         FadeTransition ft = new FadeTransition(Duration.millis(1300), layout);
         ft.setFromValue(0.0);

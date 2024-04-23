@@ -1,4 +1,4 @@
-package myapp;
+package myapp.Game.CrossBoard;
 
 import javafx.util.Pair;
 

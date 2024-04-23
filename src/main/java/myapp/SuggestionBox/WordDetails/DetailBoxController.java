@@ -1,4 +1,4 @@
-package myapp;
+package myapp.SuggestionBox.WordDetails;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -7,8 +7,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-
-import java.util.List;
+import myapp.MainController;
 
 public class DetailBoxController {
 
@@ -23,7 +22,7 @@ public class DetailBoxController {
 	@FXML
 	private VBox infoVBox;
 	@FXML
-	public Button close,resizedown,resizeup;
+	public Button close;
 
 
 	public void setStage(Stage stage) {
@@ -32,8 +31,6 @@ public class DetailBoxController {
 
 	public void setWord(String word) {
 		MainController.applyScaleTransition(close);
-		MainController.applyScaleTransition(resizedown);
-		MainController.applyScaleTransition(resizeup);
 		this.word = word;
 		if(word == null){return;}
 		updateUI();
@@ -48,8 +45,8 @@ public class DetailBoxController {
             addLabel("  .Phonetic");
             for(WordDetails.Phonetic phonetic:homonyms.getAllPhonetic()){
 
-                addLabel(" -Kiểu:   "+(phonetic.getType() != null ? phonetic.getType() : "N/A"));
-                addLabel(" -IPA:   "+(phonetic.getIPA() != null ? phonetic.getIPA() : "N/A"));
+                addLabel("  -Kiểu:  "+(phonetic.getType() != null ? phonetic.getType() : "N/A"));
+                addLabel("  -IPA:  "+(phonetic.getIPA() != null ? phonetic.getIPA() : "N/A"));
                 addHyperLink((phonetic.getLink() != null ? phonetic.getLink() : "N/A"));
 
             }
@@ -63,8 +60,8 @@ public class DetailBoxController {
                     if(pair.getDefiniton()==null){
                         break;
                     }
-                    addLabel(" +      Định nghĩa: "+pair.getDefiniton());
-                    addLabel(" +      Ví dụ: "+(pair.getExample() != null ? pair.getExample() : "N/A"));
+                    addLabel("    +   Định nghĩa: "+pair.getDefiniton());
+                    addLabel("    +   Ví dụ: "+(pair.getExample() != null ? pair.getExample() : "N/A"));
 
                 }
 
@@ -83,7 +80,8 @@ public class DetailBoxController {
 
 	private void addLabel(String text) {
 		Text label = new Text(text);
-		label.setStyle("-fx-font-weight: 900");
+		label.setStyle("-fx-font-weight: 900;-fx-font-size: 15");
+		label.setWrappingWidth(330);
 
 		infoVBox.getChildren().add(label);
 	}
@@ -91,7 +89,8 @@ public class DetailBoxController {
 
 		if(text.length()!=0) {
 			Button audio = new Button();
-			audio.getStylesheets().add(DetailBoxController.class.getResource("Styling.css").toExternalForm());
+			MainController.applyScaleTransition(audio);
+			audio.getStylesheets().add(DetailBoxController.class.getResource("/myapp/Styling.css").toExternalForm());
 			audio.getStyleClass().add("audioButton");
 			final Media sound = new Media(text);
 			final MediaPlayer mediaPlayer = new MediaPlayer(sound);
@@ -109,8 +108,5 @@ public class DetailBoxController {
 		setWord(null);
 		stage.close();
 	}
-	@FXML
-	public void resizeUP(){stage.setHeight(500);stage.setWidth(1275);}
-	@FXML
-	public void resizeDOWN(){stage.setHeight(500);stage.setWidth(385);}
+
 }

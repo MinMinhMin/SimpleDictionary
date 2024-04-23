@@ -1,4 +1,4 @@
-package myapp;
+package myapp.Music;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -6,6 +6,7 @@ import javafx.scene.control.Slider;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import myapp.MainController;
 
 import java.io.File;
 import java.util.List;

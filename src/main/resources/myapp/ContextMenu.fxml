@@ -5,7 +5,7 @@
 <?import javafx.scene.control.SeparatorMenuItem?>
 
 <ContextMenu fx:id="contextMenu" xmlns="http://javafx.com/javafx"
-             xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.ContextMenuController" style="-fx-border-width: 5; -fx-border-color: rgb(18, 19, 20) ;-fx-border-radius: 20;-fx-background-radius: 20">
+             xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.SuggestionBox.ContextMenuController" style="-fx-border-width: 5; -fx-border-color: rgb(18, 19, 20) ;-fx-border-radius: 20;-fx-background-radius: 20">
 
     <items>
         <MenuItem text="Word Detail" onAction="#handleDetail" style="-fx-font-size: 18"/>

@@ -10,15 +10,17 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
+import myapp.Game.GameMenuController;
+import myapp.Music.MusicPlayer;
+import myapp.SuggestionBox.SugesstionUpdate;
+import myapp.SuggestionBox.Words;
+import myapp.Translate.TranslateBoxController;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -162,7 +164,7 @@ public class MainController {
 	private void TranslateClicked(ActionEvent event) throws IOException {
 		if(TranslateBoxController.TranslateStage != null){TranslateBoxController.TranslateStage.close();TranslateBoxController.TranslateStage = null;}
 		else{
-			FXMLLoader loader = new FXMLLoader(TranslateBoxController.class.getResource("Translate.fxml"));
+			FXMLLoader loader = new FXMLLoader(TranslateBoxController.class.getResource("/myapp/Translate.fxml"));
 			Parent layout = loader.load();
 			TranslateBoxController translateBoxController = loader.getController();
 			translateBoxController.showTranslateStage(layout);
@@ -181,6 +183,7 @@ public class MainController {
 		applyScaleTransition(next);
 	}
 	public static void applyScaleTransition(Button button) {
+
 		ScaleTransition stGrow = new ScaleTransition(Duration.millis(200), button);
 		stGrow.setToX(0.9);
 		stGrow.setToY(0.9);
