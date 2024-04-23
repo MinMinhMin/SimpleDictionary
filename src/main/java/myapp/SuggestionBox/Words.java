@@ -1,12 +1,15 @@
 package myapp.SuggestionBox;
 
+import myapp.API;
+import myapp.SuggestionBox.WordDetails.WordDetails;
+
 import java.sql.*;
 import java.util.*;
 
 public class Words {
 
     private int word_capacity;
-    public static Map<String,String>meaning=new HashMap<>();
+    public static Map<String,List<String>>meaning=new HashMap<>();
     private Connection sqlite_connection=null;
 
     public Connection getSqlite_connection() {
@@ -22,13 +25,16 @@ public class Words {
             Class.forName("org.sqlite.JDBC");
             Connection connection= DriverManager.getConnection("jdbc:sqlite:wordsApi.db");
             this.sqlite_connection=connection;
-
+            WordDetails.sqlite_connection=connection;
             String sql="SELECT* FROM words";
             PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
             ResultSet resultSet=statement.executeQuery();
             while (resultSet.next()){
 
-                meaning.put(resultSet.getString(2), resultSet.getString(3));
+                if(!meaning.containsKey(resultSet.getString(2))){
+                    meaning.put(resultSet.getString(2),new ArrayList<>());
+                }
+                meaning.get(resultSet.getString(2)).add(resultSet.getString(3));
 
             }
             this.word_capacity=meaning.size();
@@ -73,17 +79,22 @@ public class Words {
 
         try {
 
-            if(Words.meaning.containsKey(word)){
-                return;
-            }
             String sql="INSERT INTO words VALUES(?,?,?)";
             PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
             statement.setInt(1,this.word_capacity+1);
             statement.setString(2,word);
             statement.setString(3,meaning);
             statement.executeUpdate();
-            Words.meaning.put(word,meaning);
+            if(!Words.meaning.containsKey(word)){
+
+                Words.meaning.put(word,new ArrayList<>());
+            }
+            if (!Words.meaning.get(word).contains(meaning)){
+                Words.meaning.get(word).add(meaning);
+
+            }
             this.word_capacity++;
+            API.addWord(word);
             statement.close();
 
 
@@ -93,22 +104,35 @@ public class Words {
         }
 
     }
-    public void delete_word(String word){
+    public void delete_word(String content){
+
+        String[] word=content.split(":");
+        if(word.length!=2){
+            System.out.println("Something wrong!");
+            return;
+        }
+        for(int i=0;i<word.length;i++){
+
+            word[i]=word[i].trim();
+
+        }
 
         try {
 
-            String sql="DELETE FROM words WHERE word_name= ?";
+            String sql="DELETE FROM words WHERE word_name= ? AND vie_meaning= ?";
             PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
-            statement.setString(1,word);
+            statement.setString(1,word[0]);
+            statement.setString(2,word[1]);
             statement.executeUpdate();
             statement.close();
-            meaning.remove(word);
+            meaning.get(word[0]).remove(word[1]);
             return;
 
         }catch (Exception e){
             System.out.println("Some thing happen!");
         }
-        meaning.remove(word);
+        meaning.get(word[0]).remove(word[1]);
+
 
 
     }

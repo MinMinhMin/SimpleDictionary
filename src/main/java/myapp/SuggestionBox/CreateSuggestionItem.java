@@ -9,14 +9,13 @@ import javafx.scene.layout.Region;
 import java.io.IOException;
 
 public class CreateSuggestionItem {
-	public static HBox createSuggestionItem(String suggestion, TextField searchBar) {
-		HBox suggestionItem = new HBox();
+	public static HBox createSuggestionItem(String suggestion, String meaning, TextField searchBar) {
+        HBox suggestionItem = new HBox();
 		suggestionItem.getStyleClass().add("suggestion-item");
-        String meanings = Words.meaning.get(suggestion);
         StringBuilder stringBuilder=new StringBuilder();
         stringBuilder.append(suggestion);
         stringBuilder.append(": ");
-        stringBuilder.append(meanings);
+        stringBuilder.append(meaning);
 
 			ContextMenu contextMenu = loadContextMenu();
 
@@ -32,7 +31,7 @@ public class CreateSuggestionItem {
 					((ContextMenuController) contextMenu.getUserData()).setSelectedWord(suggestion);
 					contextMenu.show(suggestionItem, event.getScreenX(), event.getScreenY());
 				} else if (event.getButton() == MouseButton.PRIMARY) {
-					searchBar.setText(suggestion);
+					searchBar.setText(suggestion+": "+meaning);
 				}
 			});
 

@@ -11,11 +11,8 @@ public class WordDetails {
 
     public boolean check=true;
     private String word;
-    private Connection sqlite_connection=null;
+    public static Connection sqlite_connection=null;
 
-    public Connection getSqlite_connection() {
-        return sqlite_connection;
-    }
 
 
     public List<Homonyms>allWord_details=new ArrayList<>();
@@ -137,25 +134,45 @@ public class WordDetails {
         public void setExample(String example) {
             this.example = example;
         }
-        Pair(String definiton,String example){
+        public Pair(String definiton, String example){
 
             setExample(example);
             setDefiniton(definiton);
 
         }
     }
+public WordDetails() throws ClassNotFoundException {
 
+    if(sqlite_connection==null){
+            try {
+                Class.forName("org.sqlite.JDBC");
+                Connection connection= DriverManager.getConnection("jdbc:sqlite:wordsApi.db");
+                sqlite_connection=connection;
+
+
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+
+
+
+
+}
 
 public WordDetails(String word){
 
     try {
+        if(sqlite_connection==null){
+            Class.forName("org.sqlite.JDBC");
+            Connection connection= DriverManager.getConnection("jdbc:sqlite:wordsApi.db");
+            sqlite_connection=connection;
+        }
 
-        Class.forName("org.sqlite.JDBC");
-        Connection connection= DriverManager.getConnection("jdbc:sqlite:wordsApi.db");
-        this.sqlite_connection=connection;
+
 
         String sql="SELECT MAX(Homonyms) FROM word_details WHERE word_name= ?";
-        PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
+        PreparedStatement statement=sqlite_connection.prepareStatement(sql);
         statement.setString(1,word);
         ResultSet resultSet=statement.executeQuery();
         int value = 0;
@@ -167,11 +184,11 @@ public WordDetails(String word){
 
             String sql1="SELECT* FROM word_details WHERE word_name = ? AND Homonyms = ?";
             String sql2="SELECT* FROM audio WHERE word_name = ? AND Homonyms = ?";
-            PreparedStatement statement1=this.sqlite_connection.prepareStatement(sql1);
+            PreparedStatement statement1=sqlite_connection.prepareStatement(sql1);
             statement1.setString(1,word);
             statement1.setString(2,String.valueOf(i));
             ResultSet resultSet1=statement1.executeQuery();
-            PreparedStatement statement2=this.sqlite_connection.prepareStatement(sql2);
+            PreparedStatement statement2=sqlite_connection.prepareStatement(sql2);
             statement2.setString(1,word);
             statement2.setString(2,String.valueOf(i));
             Homonyms homonyms=new Homonyms();
@@ -202,27 +219,6 @@ public WordDetails(String word){
 
             }
             homonyms.setAllPhonetic(list_phonetic);
-
-            for (Phonetic phonetic:homonyms.allPhonetic){
-
-
-
-
-            }
-
-            for (PoS poS: homonyms.allPoS){
-
-
-                for (Pair pair:poS.pairs){
-
-                    if(pair.getDefiniton()==null){
-                        break;
-                    }
-
-
-                }
-
-            }
 
             allWord_details.add(homonyms);
             statement1.close();
