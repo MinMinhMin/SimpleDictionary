@@ -9,6 +9,9 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
+import myapp.Game.GameMenuController;
+import myapp.SuggestionBox.ContextMenuController;
+import myapp.Translate.TranslateBoxController;
 
 public class Main extends Application {
 

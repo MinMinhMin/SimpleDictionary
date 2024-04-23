@@ -1,4 +1,4 @@
-package myapp;
+package myapp.SuggestionBox.WordDetails;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

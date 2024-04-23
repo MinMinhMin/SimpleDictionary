@@ -1,4 +1,4 @@
-package myapp;
+package myapp.SuggestionBox;
 
 import java.sql.*;
 import java.util.*;
@@ -16,7 +16,7 @@ public class Words {
     public void setSqlite_connection(Connection sqlite_connection) {
         this.sqlite_connection = sqlite_connection;
     }
-    Words(){
+    public Words(){
         try {
 
             Class.forName("org.sqlite.JDBC");

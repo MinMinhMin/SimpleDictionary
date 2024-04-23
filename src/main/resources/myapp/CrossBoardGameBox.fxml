@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Text?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="myapp.CrossBoardGameController"
+            fx:controller="myapp.Game.CrossBoard.CrossBoardGameController"
             prefHeight="400.0" prefWidth="600.0" style="-fx-border-width: 8; -fx-border-color: rgb(7, 17, 17); -fx-background-radius: 30; -fx-border-radius:  20">
     <Button fx:id="refresh" stylesheets="@Styling.css" styleClass="refreshButton" onAction="#refreshStage" AnchorPane.topAnchor="10" AnchorPane.rightAnchor="10" prefHeight="27" prefWidth="27"/>
     <Button fx:id="close" stylesheets="@Styling.css" styleClass="closeButton" onAction="#close" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefHeight="27" prefWidth="27"/>

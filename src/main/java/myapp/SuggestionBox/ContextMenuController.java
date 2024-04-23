@@ -1,4 +1,4 @@
-package myapp;
+package myapp.SuggestionBox;
 
 
 import javafx.animation.FadeTransition;
@@ -13,6 +13,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
+import myapp.SuggestionBox.WordDetails.DetailBoxController;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -50,7 +51,7 @@ public class ContextMenuController {
 	}
 
 	public void showDetailBox(String word) throws IOException{
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("DetailBox.fxml"));
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/myapp/DetailBox.fxml"));
 		Parent layout = loader.load();
 		DetailBoxController detailBoxController = loader.getController();
 		if(Objects.equals(word, detailBoxController.getWord())) {
@@ -64,7 +65,7 @@ public class ContextMenuController {
 		DetailBoxStage.setTitle("Word Detail");
 		DetailBoxStage.initModality(Modality.NONE);
 		ProgressBar progressBar = new ProgressBar();
-		progressBar.getStylesheets().add(ContextMenuController.class.getResource("Styling.css").toExternalForm());
+		progressBar.getStylesheets().add(ContextMenuController.class.getResource("/myapp/Styling.css").toExternalForm());
 		progressBar.getStyleClass().add("progress-bar");
 		Text loadingText = new Text("Loading.....");
 		loadingText.setStyle("-fx-font-weight:900");

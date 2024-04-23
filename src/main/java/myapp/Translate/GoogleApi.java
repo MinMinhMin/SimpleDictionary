@@ -1,4 +1,4 @@
-package myapp;
+package myapp.Translate;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;

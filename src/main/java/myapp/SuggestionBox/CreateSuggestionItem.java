@@ -1,4 +1,4 @@
-package myapp;
+package myapp.SuggestionBox;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
@@ -45,7 +45,7 @@ public class CreateSuggestionItem {
 
 	private static ContextMenu loadContextMenu() {
 		try {
-			FXMLLoader loader = new FXMLLoader(CreateSuggestionItem.class.getResource("ContextMenu.fxml"));
+			FXMLLoader loader = new FXMLLoader(CreateSuggestionItem.class.getResource("/myapp/ContextMenu.fxml"));
 			ContextMenu contextMenu = loader.load();
 			ContextMenuController controller = loader.getController();
 			contextMenu.setUserData(controller);
