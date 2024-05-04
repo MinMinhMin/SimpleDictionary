@@ -22,7 +22,7 @@ public class SugesstionUpdate {
 	public  void sugesstionUpdate(String prefix, Words words, VBox suggestionBox, TextField searchBar,String modified) {
 		prefix = prefix.toLowerCase();
         //List<String> suggestions = words.auto_complete(prefix,"favorite");
-        List<String> suggestions = words.auto_complete(prefix,modified);
+        List<String> suggestions = Words.auto_complete(prefix,modified);
         Set<String>set=new LinkedHashSet<>(suggestions);
         List<String>new_suggestions=new ArrayList<>(set);
 		suggestionBox.getChildren().clear();

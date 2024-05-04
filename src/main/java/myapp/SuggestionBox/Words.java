@@ -5,6 +5,7 @@ import myapp.SuggestionBox.WordDetails.API;
 import myapp.Main;
 import myapp.MainController;
 import myapp.SuggestionBox.WordDetails.WordDetails;
+import myapp.SuggestionBox.WordDetails.Word_Information;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -220,7 +221,7 @@ public class Words {
         return sqlite_connection;
     }
 
-    public List<String> auto_complete(String prefix,String mode) {
+    public static List<String> auto_complete(String prefix,String mode) {
 
         if(mode=="favorite"){
             try {
@@ -347,6 +348,65 @@ public class Words {
         return null;
 
 
+
+    }
+
+    public static String[] getQuestionSet_meaning(char letter){
+
+        String prefix= String.valueOf(letter);
+        List<String>auto_complete_list=auto_complete(prefix,"normal");
+        Set<String>set=new HashSet<>();
+        List<String>words=new ArrayList<>();
+        for(String s:auto_complete_list){
+
+            int old_size=set.size();
+            set.add(Words.meaning.get(s).get((int)(Math.random()*Words.meaning.get(s).size())));
+            if(set.size()!=old_size){
+
+                WordDetails wordDetails=new WordDetails(s);
+                Boolean check=false;
+                for (WordDetails.Homonyms homonyms:WordDetails.allWord_details){
+
+                    for (Word_Information.Phonetic phonetic: homonyms.getAllPhonetic()){
+
+                        if(phonetic.getLink()!=null&&!phonetic.getLink().contains("https://d1qx7pbj0dvboc.cloudfront.net/")){
+
+
+                            check =true;
+
+                        }
+
+                    }
+
+                }
+                if (check){
+
+                    words.add(s);
+
+                }
+
+            }
+
+        }
+        List<String>answer_list=new ArrayList<>();
+
+        int max_idx= words.size()-3;
+        String[] words_arr= new String[words.size()];
+        words.toArray(words_arr);
+        int random_idx=(int)(Math.random()*max_idx);
+        if (words.size()<4){
+            return null;
+        }
+        for(int i=random_idx;i<random_idx+4;i++){
+
+            answer_list.add(words.get(i));
+
+        }
+
+        String[] answer=new String[answer_list.size()];
+        answer_list.toArray(answer);
+
+        return answer;
 
 
 

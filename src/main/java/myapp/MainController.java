@@ -25,6 +25,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
 import myapp.Game.GameMenuController;
+import myapp.Game.WordMeaning.WordMeaning;
 import myapp.Music.MusicPlayer;
 import myapp.SuggestionBox.ContextMenuController;
 import myapp.SuggestionBox.SugesstionUpdate;
@@ -134,6 +135,42 @@ public class MainController {
 	@FXML
 	private void initialize() {
 		Platform.runLater(()->{
+            WordMeaning wordMeaning1 =new WordMeaning("no_audio");
+            System.out.println(wordMeaning1.getQuestion());
+            String[] choices1=wordMeaning1.getChoices();
+            Boolean[] answers=wordMeaning1.getAnswers();
+            for (String s:choices1){
+
+                System.out.println(s);
+
+            }
+            for(Boolean b:answers){
+
+                System.out.println(b);
+
+            }
+
+            System.out.println("//////////////////////////////////");
+
+            WordMeaning wordMeaning2 =new WordMeaning("audio");
+            System.out.println(wordMeaning2.getQuestion());
+            String[] choices2=wordMeaning2.getChoices();
+            Boolean[] answers2=wordMeaning2.getAnswers();
+
+            System.out.println(wordMeaning2.getAudio_link_answer());
+            for (String s:choices2){
+
+                System.out.println(s);
+
+            }
+
+            for (Boolean b:answers2){
+
+                System.out.println(b);
+
+            }
+
+
 			mouse.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
 			MainStage.addEventFilter(MouseEvent.MOUSE_RELEASED, event -> {
 				if (event.getButton() == MouseButton.PRIMARY){

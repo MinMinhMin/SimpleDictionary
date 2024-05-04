@@ -8,12 +8,15 @@ import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import myapp.Game.WordMeaning.WordMeaning;
 
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main extends Application {
+
+
 
 	public static MainController mainController;
 	double xOffset, yOffset;
