@@ -39,7 +39,6 @@ public class Main extends Application {
 		URL url = getClass().getResource("dictionary.png");
 		Image image = new Image(url.toString());
 		primaryStage.getIcons().add(image);
-
 		primaryStage.setTitle("Simple Dictionary");
 		primaryStage.centerOnScreen();
 		primaryStage.setResizable(false);
@@ -51,8 +50,18 @@ public class Main extends Application {
 		Main.mainController = mainController;
 		mainController.setMainStage(primaryStage);
 		mainController.logShow();
+		List<Image> images = new ArrayList<>();
+		 URL picurl = getClass().getResource("Screenshot (234).png");
+		 Image picimage = new Image(picurl.toString());
+		images.add(picimage);
+		picurl = getClass().getResource("Screenshot (227).png");
+		picimage = new Image(picurl.toString());
+		images.add(picimage);
 
+		PicturePlayer picturePlayer = new PicturePlayer(images);
+		picturePlayer.setMainStage(primaryStage);
 		primaryStage.show();
+		picturePlayer.showStage();
 	}
 
 }

@@ -3,8 +3,8 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.scene.text.Text?>
-<ContextMenu fx:id="settingMenu" xmlns="http://javafx.com/javafx"
-             xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.SettingMenuController" style="-fx-border-width: 5; -fx-border-color: rgb(18, 19, 20) ;-fx-border-radius: 10;-fx-background-radius: 10">
+<ContextMenu styleClass="context-menu-2" fx:id="settingMenu" xmlns="http://javafx.com/javafx"
+             xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.SettingMenuController" style="-fx-border-width: 4; -fx-border-color: rgb(18, 19, 20) ;-fx-border-radius: 10;-fx-background-radius: 10">
 
     <items>
         <CustomMenuItem>
@@ -23,6 +23,16 @@
                     <children>
                         <Text text="Translate: " style="-fx-font-size: 18;-fx-font-weight: 900" />
                         <ToggleButton fx:id="ChangeTranslateButton" prefHeight="30" prefWidth="50"  />
+                    </children>
+                </HBox>
+            </content>
+        </CustomMenuItem>
+        <CustomMenuItem>
+            <content>
+                <HBox >
+                    <children>
+                        <Text text="Search modify: " style="-fx-font-size: 18;-fx-font-weight: 900" />
+                        <Button fx:id="ChangeModify" text="normal" prefHeight="25" prefWidth="80" style="-fx-border-radius: 20;-fx-background-radius: 20;-fx-border-width: 3;-fx-border-color: black;-fx-background-color: white;-fx-font-size: 14;-fx-font-weight: 900 "   />
 
                     </children>
                 </HBox>

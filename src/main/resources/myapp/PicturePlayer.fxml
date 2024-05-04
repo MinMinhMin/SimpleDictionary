@@ -6,12 +6,36 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="myapp.PicturePlayer"
-            prefHeight="400.0" prefWidth="600.0">
-    <VBox fx:id="PictureBox" style="-fx-border-width: 8;-fx-border-color: black;-fx-background-color: transparent"/>
-    <Button fx:id="next" text="next"/>
-    <Button fx:id="previous" text="previous"/>
+<?import javafx.scene.shape.Circle?>
+<HBox spacing="30" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: transparent" prefHeight="530.0" prefWidth="1040" >
+    <StackPane >
+        <Circle fx:id="circle1" radius="40" stroke="black" strokeWidth="2.5" fill="aliceblue" />
+        <Button fx:id="previous" stylesheets="@Styling.css" styleClass="backWard" />
+    </StackPane>
 
-</AnchorPane>
+    <VBox spacing="10"
+          prefHeight="530.0" prefWidth="800.0" style="-fx-border-width: 8;-fx-border-color: black;-fx-background-color: white;-fx-border-radius: 20;-fx-background-radius: 23">
+        <VBox fx:id="PictureBox" prefHeight="436" prefWidth="800.0" style="-fx-border-width: 5;-fx-border-color: black;-fx-background-color: transparent;-fx-border-radius: 10;-fx-background-radius: 10"/>
+        <HBox spacing="20" style="-fx-background-color: white" >
+            <Label fx:id="Counter" translateX="350"  style="-fx-font-size: 26;-fx-font-weight: 900"/>
+
+        </HBox>
+
+
+    </VBox>
+    <VBox>
+        <StackPane >
+            <Circle fx:id="circle3" radius="40" stroke="black" strokeWidth="2.5" fill="aliceblue" />
+            <Button fx:id="close"  stylesheets="@Styling.css" styleClass="closePictureStage" />
+        </StackPane>
+        <StackPane translateY="132">
+            <Circle fx:id="circle2" radius="40" stroke="black" strokeWidth="2.5" fill="aliceblue" />
+            <Button fx:id="next"  stylesheets="@Styling.css" styleClass="forWard" />
+        </StackPane>
+    </VBox>
+
+
+
+
+</HBox>

@@ -67,7 +67,11 @@ public class CrossBoardGameController implements Initializable {
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle) {
-		ScaleTransition scaleTransition = new ScaleTransitionForButton(new Button[]{close,refresh});
+		ScaleTransition scaleTransition = new ScaleTransitionForButton(
+				new Button[]{close,refresh},
+				new String[]{"Close","Restart"},
+				new String[]{"",""}
+		);
 		scaleTransition.applyScaleTransition();
 
         setWordsToFind();
