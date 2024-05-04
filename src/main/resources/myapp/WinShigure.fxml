@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<Pane fx:id="MainPane" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="myapp.Game.WordMeaning.WinShigure"
+      prefHeight="400.0" prefWidth="600.0" style="
+            -fx-border-width: 5; -fx-border-color: rgb(0,0,0); -fx-background-radius: 30;
+             -fx-border-radius:  20;-fx-background-color: rgb(255,255,255)">
+    <Button fx:id="refresh" stylesheets="@Styling.css" onAction="#refreshStage" translateY="16" translateX="320" styleClass="refreshButton"   prefHeight="27" prefWidth="27" />
+    <Button fx:id="close" stylesheets="@Styling.css" onAction="#close" translateX="13" translateY="16" styleClass="closeButton"   prefHeight="27" prefWidth="27" />
+    <Pane fx:id="Uibeam" translateX="30" translateY="100" />
+    <Pane fx:id="Youdie" translateX="30" translateY="300"/>
+    <Pane  translateX="100" translateY="63" rotate="45" >
+        <Text fx:id="You" text="You-->"  fill="crimson" visible="false"/>
+    </Pane>
+    <Pane fx:id="Pepe" translateX="5" translateY="255"/>
+    <Pane fx:id="Meme" translateX="55" translateY="5" style="-fx-border-width: 2;-fx-border-color: black"/>
+    <Text fx:id="YouWin" text="You Win!" fill="crimson" translateX="125" translateY="250" visible="false"/>
+</Pane>

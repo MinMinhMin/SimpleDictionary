@@ -13,6 +13,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
@@ -25,7 +26,6 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
 import myapp.Game.GameMenuController;
-import myapp.Game.WordMeaning.WordMeaning;
 import myapp.Music.MusicPlayer;
 import myapp.SuggestionBox.ContextMenuController;
 import myapp.SuggestionBox.SugesstionUpdate;
@@ -34,7 +34,9 @@ import myapp.Transition.ScaleTransition;
 import myapp.Transition.ScaleTransitionForButton;
 import myapp.Transition.ScaleTransitionForToggleButton;
 import myapp.Translate.TranslateBoxController;
+
 import java.io.IOException;
+import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -43,33 +45,40 @@ import java.util.List;
 
 public class MainController {
 
-	private   Stage MainStage;
+	public SugesstionUpdate sugesstionUpdate;
+	@FXML
+	public TextField searchBar;
+	@FXML
+	public Button mouse;
+	public boolean isInternetConnected;
+	public int currentTutorialPage = 0;
+	Main main = new Main();
+	protected Stage MainStage;
+	protected List<Stage> ownedStages = new ArrayList<>();
+	private String SuggestionModified = "normal";
+	private Stage addWordStage;
+	private Words words;
 
-	public Stage getMainStage() {
-		return MainStage;
-	}
+	//Log box
+	public Stage LogStage;
+	@FXML
+	private ToggleButton  logButton;
+	private LogController log;
+	//
 
-	public void setMainStage(Stage mainStage) {
-		MainStage = mainStage;
-	}
-	private String modified = "normal";
+	@FXML
+	private Text LeftClick, RightClick;
+	@FXML
+	private VBox suggestionBox;
+	@FXML
+	private HBox PopUpBox;
+	@FXML
+	private Label Date, Time;
 
-	public Stage getAddWordStage() {
-		return addWordStage;
-	}
-	private   Stage addWordStage;
-	private   Words words;
+	@FXML
+	private Button Github, gamebutton, shutdown, minimize, translate, add, delete, Internet, settingButton, TutorialButton;
 
-	public Words getWords() {
-		return words;
-	}
-
-	private   LogController log;
-
-	public LogController getLog() {
-		return log;
-	}
-
+	//Nhạc
 	private final List<String> songs = Arrays.asList(
 			"music/Ichika Nito - Away (Official Music Video).mp3",
 			"music/The World is still Beautiful.mp3",
@@ -80,12 +89,52 @@ public class MainController {
 			"TWisBeautiful",
 			"Forever"
 	);
-	public SugesstionUpdate sugesstionUpdate;
 	@FXML
-	public TextField searchBar;
+	private VBox MusicBox;
+	@FXML
+	private ToggleButton  hide;
+	@FXML
+	private ToggleButton play;
+	@FXML
+	private Button previous, next;
+	@FXML
+	private Slider volumeslider;
+	@FXML
+	private Label nameOfSong;
+	private boolean isMusicBoxHidden = false;
+	//
+
 	public GameMenuController gameMenuController = new GameMenuController();
-	@FXML
-	private Text LeftClick,RightClick;
+	private ContextMenu gameMenu = gameMenuController.loadGameMenu();
+	private final SettingMenuController settingMenuController = new SettingMenuController();
+	public ContextMenu settingMenu = settingMenuController.loadSettingMenu();
+
+	private final List<Image> TutorialImages = new ArrayList<>();
+
+	public Stage getMainStage() {
+		return MainStage;
+	}
+	public List<Stage> getOwnedStages() {
+		return ownedStages;
+	}
+	public void addOwnedStage(Stage stage) {
+		ownedStages.add(stage);
+	}
+	public void setMainStage(Stage mainStage) {
+		MainStage = mainStage;
+	}
+
+	public Stage getAddWordStage() {
+		return addWordStage;
+	}
+
+	public Words getWords() {
+		return words;
+	}
+
+	public LogController getLog() {
+		return log;
+	}
 
 	public void setLeftClick(String leftClicktext) {
 		LeftClick.setText(leftClicktext);
@@ -95,28 +144,6 @@ public class MainController {
 		RightClick.setText(rightClicktext);
 	}
 
-	public Stage LogStage;
-	@FXML
-	private VBox MusicBox;
-	@FXML
-	private ToggleButton play, hide, logButton;
-	@FXML
-	private VBox suggestionBox;
-	@FXML
-	private HBox PopUpBox;
-	@FXML
-	private Label Date, Time;
-	@FXML
-	public Button mouse;
-	@FXML
-	private Button gamebutton, shutdown, minimize, translate, add, delete, previous, next,Internet,settingButton;
-	@FXML
-	private Slider volumeslider;
-	@FXML
-	private Label nameOfSong;
-	private boolean isHidden = false;
-	public  boolean isInternetConnected;
-
 	public Label getDate() {
 		return Date;
 	}
@@ -125,55 +152,29 @@ public class MainController {
 		return Time;
 	}
 
-	public void setModified(String modified) {
-		this.modified = modified;
+	public String getSuggestionModified() {
+		return this.SuggestionModified;
 	}
-	public  String getModified() {
-		return this.modified;
+
+	public void setSuggestionModified(String suggestionModified) {
+		this.SuggestionModified = suggestionModified;
 	}
 
 	@FXML
 	private void initialize() {
-		Platform.runLater(()->{
-            WordMeaning wordMeaning1 =new WordMeaning("no_audio");
-            System.out.println(wordMeaning1.getQuestion());
-            String[] choices1=wordMeaning1.getChoices();
-            Boolean[] answers=wordMeaning1.getAnswers();
-            for (String s:choices1){
+		Platform.runLater(() -> {
+			//Load ảnh tutorial
+			for (int index = 0; index <= 15; index++) {
+				URL picurl = getClass().getResource("Tutorial/Tutorial" + (index) + ".png");
+				Image test = new Image(picurl.toString());
+				TutorialImages.add(test);
+			}
+			//
 
-                System.out.println(s);
-
-            }
-            for(Boolean b:answers){
-
-                System.out.println(b);
-
-            }
-
-            System.out.println("//////////////////////////////////");
-
-            WordMeaning wordMeaning2 =new WordMeaning("audio");
-            System.out.println(wordMeaning2.getQuestion());
-            String[] choices2=wordMeaning2.getChoices();
-            Boolean[] answers2=wordMeaning2.getAnswers();
-
-            System.out.println(wordMeaning2.getAudio_link_answer());
-            for (String s:choices2){
-
-                System.out.println(s);
-
-            }
-
-            for (Boolean b:answers2){
-
-                System.out.println(b);
-
-            }
-
-
+			//Thao tác chuột
 			mouse.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
 			MainStage.addEventFilter(MouseEvent.MOUSE_RELEASED, event -> {
-				if (event.getButton() == MouseButton.PRIMARY){
+				if (event.getButton() == MouseButton.PRIMARY) {
 					mouse.getStyleClass().remove("mouse-left-click");
 					mouse.getStyleClass().add("mouse");
 				}
@@ -184,7 +185,7 @@ public class MainController {
 
 			});
 			MainStage.addEventFilter(MouseEvent.MOUSE_PRESSED, event -> {
-				if (event.getButton() == MouseButton.PRIMARY){
+				if (event.getButton() == MouseButton.PRIMARY) {
 					mouse.getStyleClass().remove("mouse");
 					mouse.getStyleClass().add("mouse-left-click");
 				}
@@ -195,30 +196,33 @@ public class MainController {
 
 			});
 		});
+		//
+
 		sugesstionUpdate = new SugesstionUpdate(suggestionBox);
 		DateandTime();
 		audioPLayer();
 		words = new Words();
+		//update suggestionBox theo dữ liệu nhập từ bàn phím
 		searchBar.textProperty().addListener((observable, oV, nV) -> {
 			if (nV.isEmpty()) {
 				suggestionBox.getChildren().clear();
 			} else {
-				sugesstionUpdate.sugesstionUpdate(nV, words, suggestionBox, searchBar,modified);
+				sugesstionUpdate.sugesstionUpdate(nV, words, suggestionBox, searchBar, SuggestionModified);
 				suggestionBox = sugesstionUpdate.getSuggestionBox();
 			}
 		});
-		applyHover();
+		//
+
+		applyHover();//áp dụng hiệu ứng hover cho các nút của stage chính
 		Internetcheck();
-		volumeslider.setOnMouseEntered(e->{
-			setLeftClick("Change music volume");
-		});
-		volumeslider.setOnMouseExited(e->{
-			setLeftClick("");
-		});
+
+
 
 
 	}
-	public void Internetcheck(){
+
+	//Kiểm tra mạng...
+	public void Internetcheck() {
 		Internet.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
 		if (InternetConnectionService.isInternetConnected()) {
 			Internet.getStyleClass().remove("NoInternet");
@@ -230,11 +234,14 @@ public class MainController {
 			isInternetConnected = false;
 		}
 	}
+	//
 
+    //Khởi động Stage của nút thêm từ khi ấn
 	@FXML
-	private void AddClicked() throws IOException {
+	private void AddClicked() {
 		addWordStage = new Stage();
 		addWordStage.initOwner(MainStage);
+
 		String english = searchBar.getText();
 		Label label = new Label('"' + english + '"' + "means:");
 		label.setStyle("-fx-font-weight: 900;");
@@ -251,8 +258,8 @@ public class MainController {
 		Button closeButton = new Button("Close");
 		ScaleTransitionForButton scaleTransitionForButton = new ScaleTransitionForButton(
 				new Button[]{setButton, closeButton},
-				new String[]{"Save word","Close"},
-				new String[]{"",""}
+				new String[]{"Save word", "Close"},
+				new String[]{"", ""}
 
 		);
 		scaleTransitionForButton.applyScaleTransition();
@@ -274,15 +281,15 @@ public class MainController {
 			Task<Scene> rederTask = new Task<>() {
 				@Override
 				protected Scene call() throws Exception {
-					Words.add_word(english, mean,true);
+					Words.add_word(english, mean, true);
 
 					return null;
 				}
 			};
-			sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar,modified);
+			sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar, SuggestionModified);
 			rederTask.setOnSucceeded(event2 -> {
 				addWordStage.close();
-				POPUP("Add word success!",true);
+				POPUP("Add word success!", true);
 			});
 			new Thread(rederTask).start();
 
@@ -307,6 +314,7 @@ public class MainController {
 
 	}
 
+	//Xóa từ trong data (từ + nghĩa)
 	@FXML
 	private void DeleteClicked(ActionEvent event) {
 		String word = searchBar.getText();
@@ -315,13 +323,13 @@ public class MainController {
 			return;
 		}
 
-		Words.delete_word(word,true);
+		Words.delete_word(word, true);
 
-		sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar,modified);
+		sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar, SuggestionModified);
 		searchBar.setText("");
 	}
-	private  ContextMenu gameMenu = gameMenuController.loadGameMenu();
 
+	//Ấn game
 	@FXML
 	private void GameClicked() {
 		gamebutton.setOnMouseClicked(event -> {
@@ -335,27 +343,24 @@ public class MainController {
 		});
 
 	}
-	private SettingMenuController settingMenuController= new SettingMenuController();
-	public ContextMenu settingMenu = settingMenuController.loadSettingMenu();
+
+	//Ấn setting
 	@FXML
-	private void SettingClicked(){
+	private void SettingClicked() {
 		settingButton.setOnMouseClicked(event -> {
 			if (event.getButton() == MouseButton.PRIMARY) {
 				if (settingMenu != null) {
 					settingMenu.hide();
 				}
 				settingMenu = settingMenuController.loadSettingMenu();
-				settingMenu.show(settingButton, event.getScreenX(), event.getScreenY()-100);
+				settingMenu.show(settingButton, event.getScreenX(), event.getScreenY() - 100);
 			}
 		});
 	}
 
 	@FXML
 	private void ShutDownStage(ActionEvent event) {
-
-
 		MainStage.close();
-
 	}
 
 	@FXML
@@ -363,6 +368,7 @@ public class MainController {
 		MainStage.setIconified(true);
 	}
 
+	//Ấn dịch
 	@FXML
 	private void TranslateClicked(ActionEvent event) throws IOException {
 		if (TranslateBoxController.TranslateStage != null) {
@@ -377,21 +383,23 @@ public class MainController {
 
 	}
 
+	//Áp dụng hiệu ứng hover cho từng nút của stage chính
 	private void applyHover() {
 		ScaleTransition scaleTransition = new ScaleTransitionForButton(
-				new Button[]{gamebutton, settingButton, shutdown, minimize, translate, add, delete, previous, next},
-				new String[]{"Choose game","Setting menu","Close app","Minimize app","Translation box","Add chosen word","Delete chosen word","Previous song","Next song"},
-				new String[]{"","","","","","","","",""}
+				new Button[]{gamebutton, settingButton, shutdown, minimize, translate, add, delete, previous, next, TutorialButton, Github},
+				new String[]{"Choose game", "Setting menu", "Close app", "Minimize app", "Translation box", "Add chosen word", "Delete chosen word", "Previous song", "Next song", "Instruction", "Github links "},
+				new String[]{"", "", "", "", "", "", "", "", "", "", ""}
 		);
 		scaleTransition.applyScaleTransition();
 		scaleTransition = new ScaleTransitionForToggleButton(
-				new ToggleButton[]{play,hide,logButton},
-				new String[]{"Play song","Hide/Unhide music","Hide/Unhide LogBox"},
-				new String[]{"","",""}
+				new ToggleButton[]{play, hide, logButton},
+				new String[]{"Play song", "Hide/Unhide music", "Hide/Unhide LogBox"},
+				new String[]{"", "", ""}
 		);
 		scaleTransition.applyScaleTransition();
 	}
 
+    //Cập nhật ngày tháng
 	public void DateandTime() {
 		AnimationTimer timer = new AnimationTimer() {
 			@Override
@@ -404,8 +412,14 @@ public class MainController {
 		timer.start();
 	}
 
-	//audio player
+	//Audio player
 	public void audioPLayer() {
+		volumeslider.setOnMouseEntered(e -> {
+			setLeftClick("Change music volume");
+		});
+		volumeslider.setOnMouseExited(e -> {
+			setLeftClick("");
+		});
 		MusicPlayer musicPlayer = new MusicPlayer(play, next, previous, volumeslider, songs, songnames, nameOfSong);
 		musicPlayer.setup();
 		play = musicPlayer.getPlay();
@@ -437,29 +451,35 @@ public class MainController {
 
 	}
 
+	//Ẩn/hiện nhạc
 	private void toggleMusicBoxVisibility() {
 		TranslateTransition slideTransition = new TranslateTransition(Duration.millis(250), MusicBox);
 		slideTransition.setInterpolator(Interpolator.EASE_OUT);
 
-		if (isHidden) {
+		if (isMusicBoxHidden) {
 			slideTransition.setToX(0);
 		} else {
 			slideTransition.setToX(MusicBox.getWidth() - 30);
 		}
 
 		slideTransition.play();
-		isHidden = !isHidden;
+		isMusicBoxHidden = !isMusicBoxHidden;
 	}
-	public void POPUP(String popUpString,Boolean isSuccess){
+
+	//Hiện PopUp
+	public void POPUP(String popUpString, Boolean isSuccess) {
 		PopUpBox.setVisible(false);
 		PopUpBox.getChildren().clear();
 		String popUpColor;
-		if(isSuccess){popUpColor = "#7aea7a";}
-		else{popUpColor = "rgb(190,36,36)";}
+		if (isSuccess) {
+			popUpColor = "#7aea7a";
+		} else {
+			popUpColor = "rgb(190,36,36)";
+		}
 		Text label = new Text(popUpString);
 		label.setStyle("-fx-font-weight: 900;-fx-font-size: 15");
 		PopUpBox.getChildren().add(label);
-		PopUpBox.setStyle("-fx-border-width: 3; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10;-fx-background-radius: 10; -fx-background-color:"+popUpColor + ";");
+		PopUpBox.setStyle("-fx-border-width: 3; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10;-fx-background-radius: 10; -fx-background-color:" + popUpColor + ";");
 		PopUpBox.setVisible(true);
 		FadeTransition ft = new FadeTransition(Duration.seconds(3.0), PopUpBox);
 		ft.setFromValue(1.0);
@@ -474,11 +494,13 @@ public class MainController {
 		ft.play();
 	}
 
+	//Ẩn hiện log box - nhật ký
 	public void logShow() throws IOException {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("LogBox.fxml"));
 		Parent layout = loader.load();
 		LogStage = new Stage();
 		LogStage.initOwner(MainStage);
+		ownedStages.add(MainStage);
 		LogStage.initModality(Modality.NONE);
 		Scene scene = new Scene(layout, 440, 505);
 		scene.setFill(Color.TRANSPARENT);
@@ -512,12 +534,28 @@ public class MainController {
 		});
 
 	}
-
 	private void adjustLogBoxPosition(double offsetX, double offsetY) {
 		if (LogStage != null && MainStage != null) {
 			LogStage.setX(MainStage.getX() + MainStage.getWidth() + offsetX);
 			LogStage.setY(MainStage.getY() + offsetY);
 		}
 	}
+
+	//Ấn nút hướng dẫn
+	@FXML
+	private void tutorialClicked() {
+		PicturePlayer picturePlayer = new PicturePlayer(TutorialImages);
+		picturePlayer.setMainStage(MainStage);
+		picturePlayer.setOwnedStages(getOwnedStages());
+		picturePlayer.showStage();
+
+	}
+
+	//Ấn nút GitHub
+	@FXML
+	private void GitHubClicked() {
+		main.openLinksInBrowser();
+	}
+
 
 }

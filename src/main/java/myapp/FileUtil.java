@@ -15,15 +15,15 @@ public class FileUtil {
 		}
 	}
 
-	public static List<String> getlist(String filename){
+	public static List<String> getlist(String filename) {
 
-		List<String>list=new ArrayList<>();
+		List<String> list = new ArrayList<>();
 
-		try{
-			FileReader fileReader=new FileReader(filename);
-			BufferedReader bufferedReader=new BufferedReader(fileReader);
-			String line="";
-			while ((line=bufferedReader.readLine())!=null){
+		try {
+			FileReader fileReader = new FileReader(filename);
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			String line = "";
+			while ((line = bufferedReader.readLine()) != null) {
 
 				list.add(line);
 			}
@@ -31,7 +31,7 @@ public class FileUtil {
 			fileReader.close();
 			return list;
 
-		}catch (Exception e){
+		} catch (Exception e) {
 
 			e.printStackTrace();
 			return null;
@@ -40,31 +40,32 @@ public class FileUtil {
 	}
 
 
-    public static void cache() {
-        try {
-            PrintWriter writer = new PrintWriter("data/cache.txt");
-            writer.close();
+	public static void cache() {
+		try {
+			PrintWriter writer = new PrintWriter("data/cache.txt");
+			writer.close();
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-    }
-    public static String getCache() {
-        try {
-            FileReader fileReader = new FileReader("data/cache.txt");
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
-            String cache = bufferedReader.readLine();
-            fileReader.close();
-            bufferedReader.close();
-            return cache;
+	}
+
+	public static String getCache() {
+		try {
+			FileReader fileReader = new FileReader("data/cache.txt");
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			String cache = bufferedReader.readLine();
+			fileReader.close();
+			bufferedReader.close();
+			return cache;
 
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;
 
-    }
+	}
 
 }

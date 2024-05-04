@@ -4,8 +4,6 @@ package myapp;
 import javafx.animation.ScaleTransition;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
@@ -20,10 +18,11 @@ public class LogController {
 	public Scene scene;
 	@FXML
 	private VBox LogVBox;
+
 	@FXML
 	private void initialize() {
 		List<String> logList = FileUtil.getlist("data/Log.txt");
-		for(String logString:logList){
+		for (String logString : logList) {
 			Text label = new Text(logString);
 			label.setStyle("-fx-font-weight: 900;-fx-font-size: 15");
 			label.setWrappingWidth(420);
@@ -32,6 +31,7 @@ public class LogController {
 
 
 	}
+
 	public void setLogStage(Stage logStage) {
 		LogStage = logStage;
 	}
@@ -40,6 +40,7 @@ public class LogController {
 		this.scene = scene;
 	}
 
+	//Hiệu ứng tắt mở của nhật ký
 	public void animateStage(String operate) {
 		Region root = (Region) scene.getRoot();
 
@@ -55,8 +56,9 @@ public class LogController {
 		st.play();
 	}
 
+	//Cập nhật nhật ký
 	public void Update(String updateString) {
-		FileUtil.AddtoFIle(LogTxt,updateString);
+		FileUtil.AddtoFIle(LogTxt, updateString);
 		Text label = new Text(updateString);
 		label.setStyle("-fx-font-weight: 900;-fx-font-size: 15");
 		label.setWrappingWidth(420);

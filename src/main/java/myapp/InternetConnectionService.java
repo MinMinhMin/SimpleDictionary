@@ -7,7 +7,8 @@ import java.net.URLConnection;
 public class InternetConnectionService {
 
 
-	public static boolean isInternetConnected(){
+	//Kiểm tra mạng
+	public static boolean isInternetConnected() {
 		try {
 			final URL url = new URL("http://www.google.com");
 			final URLConnection conn = url.openConnection();

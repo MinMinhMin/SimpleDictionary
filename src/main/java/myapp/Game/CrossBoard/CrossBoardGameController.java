@@ -1,80 +1,139 @@
 package myapp.Game.CrossBoard;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ToggleButton;
+import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 import myapp.Game.GameMenuController;
 import myapp.Main;
-import myapp.MainController;
+import myapp.PicturePlayer;
 import myapp.SuggestionBox.Words;
 import myapp.Transition.ScaleTransition;
 import myapp.Transition.ScaleTransitionForButton;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.*;
 
 public class CrossBoardGameController implements Initializable {
+	final private MediaPlayer Correct = new MediaPlayer(new Media(new File("src/main/java/myapp/Game/CrossBoard/Correct.mp3").toURI().toString()));
+	final private MediaPlayer Clicksound = new MediaPlayer(new Media(new File("src/main/java/myapp/Game/CrossBoard/CLick2.mp3").toURI().toString()));
+	final private MediaPlayer DeClicksound = new MediaPlayer(new Media(new File("src/main/java/myapp/Game/CrossBoard/CLick.mp3").toURI().toString()));
 	private Stage stage;
+	@FXML
+	private GridPane wordSearchGridPane;
+	@FXML
+	private Button refresh, close, tutorial;
+	private List<String> wordsToFind;
+	private final Map<String, String> hint = new HashMap<>();
+	private final Map<String, Text> textMap = new HashMap<>();
+	@FXML
+	private Text word1, word2, word3, word4, point, choosenWord, Time;
+	private final Words words = Main.mainController.getWords();
+	private ToggleButton[][] buttons;
+	private final List<ToggleButton> selectedButtons = new ArrayList<>();
+	private int lastRow = -1, lastCol = -1;
+	private boolean isRow = true;
+	private final StringBuilder selectedText = new StringBuilder();
+	private Set<String> wordsSet = new HashSet<>();
+	private int Point = 0, finalPoint = 0;
+	private int timeSeconds = 150;
+
 	public void setStage(Stage stage) {
 		this.stage = stage;
 	}
+
 	@FXML
 	public void close() {
 		stage.close();
 	}
-	@FXML
-	private GridPane wordSearchGridPane;
 
-	@FXML
-	private Button refresh,close;
-	private List<String> wordsToFind;
-    private Map<String,String>hint=new HashMap<>();
-	private Map<String,Text> textMap = new HashMap<>();
-	@FXML
-	private Text word1,word2,word3,word4,point,choosenWord,win;
-	private Words words = Main.mainController.getWords();
-    public void setWordsToFind() {
-        this.wordsToFind = words.get_4_random_words();
-        this.wordsSet=new HashSet<>(this.wordsToFind);
+	public void setWordsToFind() {
+		this.wordsToFind = words.get_4_random_words();
+		this.wordsSet = new HashSet<>(this.wordsToFind);
 		int index = 1;
-        for (String word:this.wordsToFind){
+		for (String word : this.wordsToFind) {
 
 
-            this.hint.put(word,CrossBoard.getHint(word));
-			if(index == 1){textMap.put(word,word1); word1.setText(this.hint.get(word));}
-			if(index == 2){textMap.put(word,word2); word2.setText(this.hint.get(word));}
-			if(index == 3){textMap.put(word,word3); word3.setText(this.hint.get(word));}
-			if(index == 4){textMap.put(word,word4); word4.setText(this.hint.get(word));}
+			this.hint.put(word, CrossBoard.getHint(word));
+			if (index == 1) {
+				textMap.put(word, word1);
+				word1.setText(this.hint.get(word));
+			}
+			if (index == 2) {
+				textMap.put(word, word2);
+				word2.setText(this.hint.get(word));
+			}
+			if (index == 3) {
+				textMap.put(word, word3);
+				word3.setText(this.hint.get(word));
+			}
+			if (index == 4) {
+				textMap.put(word, word4);
+				word4.setText(this.hint.get(word));
+			}
 
-					index++;
+			index++;
 
-        }
-    }
-
-
-	private ToggleButton[][] buttons;
-	private List<ToggleButton> selectedButtons = new ArrayList<>();
-	private int lastRow = -1, lastCol = -1;
-	private boolean isRow = true;
-	private StringBuilder selectedText = new StringBuilder();
-	private Set<String> wordsSet = new HashSet<>();
-	private int Point = 0;
+		}
+	}
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle) {
+		Clicksound.setOnEndOfMedia(() -> {
+			Clicksound.seek(Duration.ZERO);
+			Clicksound.stop();
+		});
+		DeClicksound.setOnEndOfMedia(() -> {
+			DeClicksound.seek(Duration.ZERO);
+			DeClicksound.stop();
+		});
+		Correct.setOnEndOfMedia(() -> {
+			Correct.seek(Duration.ZERO);
+			Correct.stop();
+		});
+		Time.setText(String.valueOf(timeSeconds));
+		Timeline timeline = new Timeline();
+		timeline.setCycleCount(Timeline.INDEFINITE);
+		timeline.getKeyFrames().add(new KeyFrame(Duration.seconds(1), event -> {
+			timeSeconds--;
+			Time.setText(Integer.toString(timeSeconds));
+			if (timeSeconds <= 0) {
+				FXMLLoader loader = new FXMLLoader(getClass().getResource("/myapp/WinCrossBoard.fxml"));
+				try {
+					Parent layout = loader.load();
+					Scene scene = new Scene(layout, 360, 500);
+					Win.Point = finalPoint;
+					stage.setScene(scene);
+
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+				}
+				timeline.stop();
+			}
+		}));
+		timeline.playFromStart();
 		ScaleTransition scaleTransition = new ScaleTransitionForButton(
-				new Button[]{close,refresh},
-				new String[]{"Close","Restart"},
-				new String[]{"",""}
+				new Button[]{close, refresh, tutorial},
+				new String[]{"Close", "Restart", "how to play"},
+				new String[]{"", "", ""}
 		);
 		scaleTransition.applyScaleTransition();
 
-        setWordsToFind();
+		setWordsToFind();
 		buttons = new ToggleButton[10][8];
 
 		for (int row = 0; row < 10; row++) {
@@ -85,6 +144,7 @@ public class CrossBoardGameController implements Initializable {
 				button.setStyle("-fx-border-width: 2;-fx-font-weight: 900;-fx-font-size: 15;-fx-border-color: black");
 				button.setOnAction(event -> {
 					if (button.isSelected()) {
+						Clicksound.play();
 						if (selectedButtons.isEmpty()) {
 							button.setStyle("-fx-border-width: 2;-fx-font-weight: 900;-fx-font-size: 15;-fx-border-color: red;");
 							selectedButtons.add(button);
@@ -141,16 +201,21 @@ public class CrossBoardGameController implements Initializable {
 								wordSearchGridPane.getChildren().remove(b);
 							}
 							textMap.get(selectedText.toString()).setText("✔");
-							Point+=100;
-							point.setText(String.valueOf(Point));
+							Correct.play();
+							Point += 100;
+							finalPoint += Point + Integer.valueOf(Time.getText());
+							point.setText((String.valueOf(finalPoint)));
 							wordsSet.remove(selectedText);
 							selectedButtons.clear();
 							selectedText.setLength(0);
-							if(Point == 400){win.setText("WIN");}
+							if (Point == 400) {
+								timeSeconds = 1;
+							}
 						}
 						choosenWord.setText(selectedText.toString());
 						System.out.println("press: " + finalRow + ", " + finalCol + ", isRow: " + isRow + ", text: " + selectedText.toString());
 					} else {
+						DeClicksound.play();
 						button.setStyle("-fx-border-width: 2;-fx-font-weight: 900;-fx-font-size: 15;-fx-border-color: black;");
 						selectedButtons.remove(button);
 						if (!selectedButtons.isEmpty()) {
@@ -185,11 +250,16 @@ public class CrossBoardGameController implements Initializable {
 								wordSearchGridPane.getChildren().remove(b);
 							}
 							textMap.get(selectedText.toString()).setText("✔");
-							Point+=100;
-							point.setText(String.valueOf(Point));
+							Correct.play();
+							Point += 100;
+							finalPoint += Point + Integer.valueOf(Time.getText());
+							point.setText((String.valueOf(finalPoint)));
 							selectedButtons.clear();
 							selectedText.setLength(0);
-							if(Point == 400){win.setText("WIN");}
+							if (Point == 400) {
+								timeSeconds = 1;
+
+							}
 						}
 
 						choosenWord.setText(selectedText.toString());
@@ -208,26 +278,40 @@ public class CrossBoardGameController implements Initializable {
 
 	private void populateWords() {
 
-        CrossBoard crossBoard=new CrossBoard();
 
-        for (String answer:wordsToFind){
-            crossBoard.addWord(answer);
-            System.out.println(answer+" "+this.hint.get(answer));
-        }
-        for (int row = 0; row < 10; row++) {
-            for (int col = 0; col < 8; col++) {
-                buttons[row][col].setText(String.valueOf(crossBoard.board[row][col]));
-            }
+		CrossBoard crossBoard = new CrossBoard();
+
+		for (String answer : wordsToFind) {
+			crossBoard.addWord(answer);
+			System.out.println(answer + " " + this.hint.get(answer));
+		}
+		for (int row = 0; row < 10; row++) {
+			for (int col = 0; col < 8; col++) {
+				buttons[row][col].setText(String.valueOf(crossBoard.board[row][col]));
+			}
+
+		}
 
 	}
 
-}
-     @FXML
-     private void refreshStage() throws IOException {
+	@FXML
+	private void refreshStage() throws IOException {
 		stage.close();
 		GameMenuController gameMenuController = new GameMenuController();
 		gameMenuController.showCrossBoardGameBox();
-	 }
+	}
+
+	@FXML
+	private void tutorialClicked() {
+		List<Image> images = new ArrayList<>();
+		URL picurl = getClass().getResource("/myapp/Game/CrossBoard_tutorial.png");
+		Image image = new Image(picurl.toString());
+		images.add(image);
+		PicturePlayer picturePlayer = new PicturePlayer(images);
+		picturePlayer.setMainStage(Main.mainController.getMainStage());
+		picturePlayer.setOwnedStages(Main.mainController.getOwnedStages());
+		picturePlayer.showStage();
+	}
 
 }
 

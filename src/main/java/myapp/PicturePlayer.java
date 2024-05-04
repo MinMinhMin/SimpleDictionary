@@ -15,70 +15,85 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import javafx.stage.StageStyle;
-import javafx.util.Duration;
 import myapp.Transition.ScaleTransition;
 import myapp.Transition.ScaleTransitionForButton;
 
-public class PicturePlayer  {
-	protected Stage mainStage;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class PicturePlayer {
+	protected Stage mainStage = new Stage();
+	protected List<Stage> ownedStages = new ArrayList<>();
 	protected List<Image> images;
-	private Stage picturePlayerStage;
-	private int currentPictureIndex =0;
+	private final Stage picturePlayerStage;
+	private int currentPictureIndex = 0;
 	@FXML
 	private VBox PictureBox;
 	@FXML
-	private Button next,previous,close;
+	private Button next, previous, close;
 	@FXML
 	private Label Counter;
 	@FXML
-	private Circle circle1,circle2;
-	@FXML
-	public void initialize(){
-		Counter.setText("["+(currentPictureIndex+1)+"/"+images.size()+"]");
-		next.setOnAction(event -> {
-			if(currentPictureIndex+1 ==images.size()){return;}
-			currentPictureIndex = (currentPictureIndex + 1) % images.size();
-			PictureBox.getChildren().clear();
-			PictureBox.getChildren().add(imageViews.get(currentPictureIndex));
-			Counter.setText("["+(currentPictureIndex+1)+"/"+images.size()+"]");
-		});
-		previous.setOnAction(event -> {
-			if(currentPictureIndex+1 ==1){return;}
-			currentPictureIndex = (currentPictureIndex -1 +images.size()) % images.size();
-			PictureBox.getChildren().clear();
-			PictureBox.getChildren().add(imageViews.get(currentPictureIndex));
-			Counter.setText("["+(currentPictureIndex+1)+"/"+images.size()+"]");
-		});
-		close.setOnAction(event -> {
-			Scene scene = mainStage.getScene();
-			Parent root = (Parent) scene.getRoot();
-			picturePlayerStage.close();
-			root.setEffect(null);
+	private Circle circle1, circle2;
+	private final List<ImageView> imageViews = new ArrayList<>();
 
-		});
-		ScaleTransition scaleTransition = new ScaleTransitionForButton(
-				new Button[]{next,previous,close},
-				new String[]{"","",""},
-				new String[]{"","",""}
-		);
-		scaleTransition.applyScaleTransition();
-
-
-
-	}
-	public PicturePlayer(List<Image> images)  {
+	public PicturePlayer(List<Image> images) {
 		picturePlayerStage = new Stage();
 		this.images = images;
 
 	}
-	public void setMainStage(Stage MainStage){
+
+	@FXML
+	public void initialize() {
+		Counter.setText("[" + (currentPictureIndex + 1) + "/" + images.size() + "]");
+		next.setOnAction(event -> {
+			Main.mainController.currentTutorialPage = currentPictureIndex;
+			if (currentPictureIndex + 1 == images.size()) {
+				return;
+			}
+			currentPictureIndex = (currentPictureIndex + 1) % images.size();
+			PictureBox.getChildren().clear();
+			PictureBox.getChildren().add(imageViews.get(currentPictureIndex));
+			Counter.setText("[" + (currentPictureIndex + 1) + "/" + images.size() + "]");
+		});
+		previous.setOnAction(event -> {
+			if (currentPictureIndex + 1 == 1) {
+				return;
+			}
+			currentPictureIndex = (currentPictureIndex - 1 + images.size()) % images.size();
+			PictureBox.getChildren().clear();
+			PictureBox.getChildren().add(imageViews.get(currentPictureIndex));
+			Counter.setText("[" + (currentPictureIndex + 1) + "/" + images.size() + "]");
+		});
+		close.setOnAction(event -> {
+			for(Stage stage:ownedStages){
+				Scene OScene = stage.getScene();
+				Parent ORoot = OScene.getRoot();
+				ORoot.setEffect(null);
+			}
+			Scene scene = mainStage.getScene();
+			Parent root = scene.getRoot();
+			picturePlayerStage.close();
+			root.setEffect(null);
+
+
+		});
+		ScaleTransition scaleTransition = new ScaleTransitionForButton(
+				new Button[]{next, previous, close},
+				new String[]{"", "", ""},
+				new String[]{"", "", ""}
+		);
+		scaleTransition.applyScaleTransition();
+
+
+	}
+
+	public void setMainStage(Stage MainStage) {
 		this.mainStage = MainStage;
 		Scene scene = mainStage.getScene();
-		Parent root = (Parent) scene.getRoot();
+		Parent root = scene.getRoot();
 		ColorAdjust adj = new ColorAdjust(0, -0.9, -0.5, 0);
 		GaussianBlur blur = new GaussianBlur(20);
 		adj.setInput(blur);
@@ -95,7 +110,19 @@ public class PicturePlayer  {
 		});
 		adjustpicturePlayerStagePosition();
 	}
-	private void adjustpicturePlayerStagePosition(){
+	public void setOwnedStages(List<Stage> OwnedStages){
+		this.ownedStages = OwnedStages;
+		for(Stage stage:ownedStages){
+			Scene scene = stage.getScene();
+			Parent root = scene.getRoot();
+			ColorAdjust adj = new ColorAdjust(0, -0.9, -0.5, 0);
+			GaussianBlur blur = new GaussianBlur(20);
+			adj.setInput(blur);
+			root.setEffect(adj);
+		}
+	}
+
+	private void adjustpicturePlayerStagePosition() {
 		if (picturePlayerStage != null && mainStage != null) {
 			double offsetX = -1206;
 			double offsetY = 130;
@@ -104,8 +131,6 @@ public class PicturePlayer  {
 		}
 	}
 
-	private List<ImageView> imageViews =new ArrayList<>();
-
 	public void showStage() {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("PicturePlayer.fxml"));
@@ -113,7 +138,7 @@ public class PicturePlayer  {
 			Parent layout = loader.load();
 			Scene scene = new Scene(layout, 1040, 530);
 			scene.setFill(Color.TRANSPARENT);
-			for(Image image:images){
+			for (Image image : images) {
 				ImageView imageview = new ImageView(image);
 				imageViews.add(imageview);
 				imageview.setFitWidth(780);

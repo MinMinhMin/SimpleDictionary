@@ -13,8 +13,28 @@ import java.util.List;
 
 public class MusicPlayer {
 	private ToggleButton play;
-	private Button previous,next;
+	private Button previous, next;
 	private Slider volumeslider;
+	private final List<String> songs;
+	private final List<String> songnames;
+	private int currentSongIndex = 0;
+	private Label nameOfSong;
+	private final Media media;
+	private MediaPlayer mediaPlayer;
+
+	public MusicPlayer(ToggleButton play, Button next, Button previous, Slider volumeslider, List<String> songs, List<String> songnames, Label nameOfSong) {
+		this.play = play;
+		this.next = next;
+		this.previous = previous;
+		this.volumeslider = volumeslider;
+		this.songs = songs;
+		this.songnames = songnames;
+		media = new Media(new File(songs.get(currentSongIndex)).toURI().toString());
+		mediaPlayer = new MediaPlayer(media);
+		this.nameOfSong = nameOfSong;
+		this.nameOfSong.setText(songnames.get(currentSongIndex));
+
+	}
 
 	public ToggleButton getPlay() {
 		return play;
@@ -56,31 +76,11 @@ public class MusicPlayer {
 		this.nameOfSong = nameOfSong;
 	}
 
-	private List<String> songs;
-	private List<String> songnames;
-	private int currentSongIndex = 0;
-	private Label nameOfSong ;
-	private Media media ;
-	private MediaPlayer mediaPlayer ;
-
-	public MusicPlayer(ToggleButton play,Button next,Button previous, Slider volumeslider,List<String> songs, List<String> songnames,Label nameOfSong){
-		this.play = play;
-		this.next = next;
-		this.previous = previous;
-		this.volumeslider = volumeslider;
-		this.songs = songs;
-		this.songnames = songnames;
-		media = new Media(new File(songs.get(currentSongIndex)).toURI().toString());
-		mediaPlayer = new MediaPlayer(media);
-		this.nameOfSong = nameOfSong;
-		this.nameOfSong.setText(songnames.get(currentSongIndex));
-
-	}
-	private void setEnd(){
+	private void setEnd() {
 		this.mediaPlayer.setOnEndOfMedia(() -> next.fire());
 	}
 
-	public void setup(){
+	public void setup() {
 		setEnd();
 		volumeslider.setMin(0);
 		volumeslider.setMax(100);
@@ -91,11 +91,11 @@ public class MusicPlayer {
 		play.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
 		play.getStyleClass().add("playSongButton");
 		play.setOnAction(event -> {
-			if(play.isSelected()){
+			if (play.isSelected()) {
 				this.mediaPlayer.play();
 				play.getStyleClass().remove("playSongButton");
 				play.getStyleClass().add("pauseSongButton");
-			}else {
+			} else {
 				this.mediaPlayer.pause();
 				play.getStyleClass().remove("pauseSongButton");
 				play.getStyleClass().add("playSongButton");

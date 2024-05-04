@@ -24,9 +24,11 @@
     <Button fx:id="minimize"  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="80" layoutY="740.0" onAction="#MinimizeStage"/>
     <Button fx:id="translate" stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="117" onAction="#TranslateClicked"/>
     <Button fx:id="Internet"   layoutY="736.0" layoutX="1140"/>
+    <Button fx:id="Github" stylesheets="@Styling.css" styleClass="github" layoutX="1080" layoutY="736" prefWidth="40" prefHeight="40" onAction="#GitHubClicked"/>
     <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="140" layoutY="740" prefHeight="40" prefWidth="40" onAction="#GameClicked" />
     <ToggleButton fx:id="logButton" text="▼" prefWidth="55" prefHeight="27" style="-fx-font-weight: 900; -fx-background-color: white;-fx-border-color: black;-fx-border-width: 3" layoutY="750" layoutX="650"/>
     <Button fx:id="settingButton" stylesheets="@Styling.css" styleClass="Setting" layoutX="200" layoutY="740" onAction="#SettingClicked"/>
+    <Button fx:id="TutorialButton" stylesheets="@Styling.css" styleClass="tutorial" layoutX="260" layoutY="740" prefHeight="40" prefWidth="40" onAction="#tutorialClicked" />
     <HBox fx:id="PopUpBox"  layoutX="35" layoutY="12" prefWidth="500" prefHeight="38" alignment="CENTER"  visible="false">
 
     </HBox>

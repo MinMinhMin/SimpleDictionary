@@ -15,6 +15,8 @@ module com.front {
 	opens myapp.Game to com.google.gson, javafx.fxml;
 	exports myapp.Game.CrossBoard;
 	opens myapp.Game.CrossBoard to com.google.gson, javafx.fxml;
+	exports myapp.Game.WordMeaning;
+	opens myapp.Game.WordMeaning to javafx.fxml;
 	exports myapp.SuggestionBox;
 	opens myapp.SuggestionBox to com.google.gson, javafx.fxml;
 	exports myapp.SuggestionBox.WordDetails;
