@@ -17,12 +17,19 @@
             fx:controller="myapp.MainController"
             style="-fx-border-width: 10;-fx-border-color: rgb(7, 17, 17); -fx-background-color: white; -fx-border-radius: 40; -fx-background-radius: 50">
 
-    <Label text="Dictionary app" layoutX="580" layoutY="17" style="-fx-font-size: 24; -fx-font-weight: 900"/>
+    <Label text="Dictionary app" layoutX="570" layoutY="17" style="-fx-font-size: 24; -fx-font-weight: 900"/>
+    <Label fx:id="Date" text="Date" layoutX="1185" layoutY="717" style="-fx-font-size: 24; -fx-font-weight: 900"/>
+    <Label fx:id="Time" text="Time" layoutX="1200" layoutY="742" style="-fx-font-size: 24; -fx-font-weight: 900"/>
     <Button  fx:id="shutdown" stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="20.0" layoutY="720.0" onAction="#ShutDownStage"/>
     <Button fx:id="minimize"  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="100" layoutY="720.0" onAction="#MinimizeStage"/>
     <Button fx:id="translate" stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="62" onAction="#TranslateClicked"/>
+    <Button fx:id="Internet"   layoutY="715.0" layoutX="1100"/>
     <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="180" layoutY="720" prefHeight="60" prefWidth="60" onAction="#GameClicked" />
     <ToggleButton fx:id="logButton" text="▼" prefWidth="65" prefHeight="27" style="-fx-font-weight: 900; -fx-background-color: white;-fx-border-color: black;-fx-border-width: 3" layoutY="754" layoutX="620"/>
+    <Button fx:id="settingButton" stylesheets="@Styling.css" styleClass="Setting" layoutX="250" layoutY="720" onAction="#SettingClicked"/>
+    <HBox fx:id="PopUpBox"  layoutX="52" layoutY="12" prefWidth="500" prefHeight="38" alignment="CENTER"  visible="false">
+
+    </HBox>
     <VBox fx:id="MusicBox" prefWidth="220" prefHeight="156" layoutX="1120" layoutY="27" >
         <Label fx:id="nameOfSong" style="-fx-font-size: 16;-fx-font-weight: 900" translateY="40" translateX="95" />
         <HBox >

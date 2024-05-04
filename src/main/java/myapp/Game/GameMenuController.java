@@ -44,7 +44,7 @@ public class GameMenuController {
     System.out.println("Game2");
 
   }
-  private  Stage Game1BoxStage;
+  private static Stage Game1BoxStage;
   public void showCrossBoardGameBox() throws IOException {
     FXMLLoader loader = new FXMLLoader(getClass().getResource("/myapp/CrossBoardGameBox.fxml"));
     Parent layout = loader.load();
@@ -86,9 +86,9 @@ public class GameMenuController {
       @Override
       protected Scene call() throws Exception {
 
-        Thread.sleep(600);
+        Thread.sleep(500);
         Scene scene;
-        FadeTransition ft = new FadeTransition(Duration.millis(1300), layout);
+        FadeTransition ft = new FadeTransition(Duration.millis(1100), layout);
         ft.setFromValue(0.0);
         ft.setToValue(1.0);
         ft.play();

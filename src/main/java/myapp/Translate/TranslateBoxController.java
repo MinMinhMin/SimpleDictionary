@@ -10,9 +10,7 @@ import javafx.stage.StageStyle;
 import myapp.MainController;
 
 public class TranslateBoxController {
-
-
-
+	public static String TranslateString ="vi";
 
 	public static Stage TranslateStage;
 	@FXML
@@ -21,7 +19,7 @@ public class TranslateBoxController {
 	private TextArea InputBox;
 	public void initialize() {
 		InputBox.textProperty().addListener((observable, oldValue, newValue) -> {
-			String translateString = GoogleApi.translate(newValue,"vi");
+			String translateString = GoogleApi.translate(newValue,TranslateString);
 			TranslateBox.setText(translateString);
 			if(TranslateBox.getText()!=null){
 			TranslateBox.positionCaret(TranslateBox.getText().length());}

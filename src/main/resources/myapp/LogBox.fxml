@@ -14,21 +14,6 @@
     <ScrollPane  stylesheets="@Styling.css" styleClass="scroll-bar" fitToWidth="true" fitToHeight="true" hbarPolicy="AS_NEEDED" vbarPolicy="AS_NEEDED"
                  AnchorPane.topAnchor="50" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.bottomAnchor="10">
         <VBox fx:id="LogVBox" prefWidth="370" alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 10;-fx-border-width: 3; -fx-border-color: rgb(7, 17, 17); ">
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-            <Label text="AAAAAAAAAAA" style="-fx-font-size: 20; -fx-font-weight: 900 " />
-
-
 
 
         </VBox>
