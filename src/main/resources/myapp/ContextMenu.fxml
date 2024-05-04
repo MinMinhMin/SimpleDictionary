@@ -9,6 +9,7 @@
 
     <items>
         <MenuItem text="Word Detail" onAction="#handleDetail" style="-fx-font-size: 18"/>
+        <MenuItem text="Update" onAction="#handleUpdate" style="-fx-font-size: 18"/>
         <MenuItem text="Add to game library" onAction="#handleAddGame" style="-fx-font-size: 18"/>
         <SeparatorMenuItem/>
     </items>

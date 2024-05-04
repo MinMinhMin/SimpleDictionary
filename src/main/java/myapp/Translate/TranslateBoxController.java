@@ -7,11 +7,11 @@ import javafx.scene.control.*;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import myapp.MainController;
 
 public class TranslateBoxController {
 
 
-	public static Stage primaryStage;
 
 
 	public static Stage TranslateStage;
@@ -31,18 +31,18 @@ public class TranslateBoxController {
 	public void showTranslateStage(Parent layout)  {
 
 		TranslateStage = new Stage();
-		TranslateStage.initOwner(primaryStage);
+		TranslateStage.initOwner(MainController.MainStage);
 		TranslateStage.initModality(Modality.NONE);
 		TranslateStage.setResizable(false);
 		TranslateStage.initStyle(StageStyle.TRANSPARENT);
 		Scene scene = new Scene(layout, 990, 130);
 
 		TranslateStage.setScene(scene);
-		primaryStage.xProperty().addListener((observable, oldValue, newValue) -> {
+		MainController.MainStage.xProperty().addListener((observable, oldValue, newValue) -> {
 			adjustTranslateStagePosition();
 		});
 
-		primaryStage.yProperty().addListener((observable, oldValue, newValue) -> {
+		MainController.MainStage.yProperty().addListener((observable, oldValue, newValue) -> {
 			adjustTranslateStagePosition();
 		});
 
@@ -51,11 +51,11 @@ public class TranslateBoxController {
 
 	}
 	private void adjustTranslateStagePosition() {
-		if (TranslateStage != null && primaryStage != null) {
+		if (TranslateStage != null && MainController.MainStage != null) {
 			double offsetX = -1240;
 			double offsetY = 54;
-			TranslateStage.setX(primaryStage.getX() + primaryStage.getWidth() + offsetX);
-			TranslateStage.setY(primaryStage.getY() + offsetY);
+			TranslateStage.setX(MainController.MainStage.getX() + MainController.MainStage.getWidth() + offsetX);
+			TranslateStage.setY(MainController.MainStage.getY() + offsetY);
 		}
 	}
 

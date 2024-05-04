@@ -28,7 +28,7 @@ public class CreateSuggestionItem {
 
 			suggestionItem.setOnMouseClicked(event -> {
 				if (event.getButton() == MouseButton.SECONDARY) {
-					((ContextMenuController) contextMenu.getUserData()).setSelectedWord(suggestion);
+					((ContextMenuController) contextMenu.getUserData()).setSelectedWord(suggestion,meaning);
 					contextMenu.show(suggestionItem, event.getScreenX(), event.getScreenY());
 				} else if (event.getButton() == MouseButton.PRIMARY) {
 					searchBar.setText(suggestion+": "+meaning);

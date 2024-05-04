@@ -1,8 +1,4 @@
-.normalButton {}
-.normalButton:hover{
-    -fx-scale-y: 0.9;
-    -fx-scale-x: 0.9;
-}
+
 .audioButton {
 
     -fx-background-color: #fa0000;

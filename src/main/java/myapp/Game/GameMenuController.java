@@ -15,6 +15,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
+import myapp.MainController;
 import myapp.SuggestionBox.ContextMenuController;
 import myapp.Game.CrossBoard.CrossBoardGameController;
 
@@ -33,8 +34,6 @@ public class GameMenuController {
     }
   }
 
-  public static Stage primaryStage;
-
   public void handleCrossBoard() throws IOException {
     System.out.println("Game1");
     showCrossBoardGameBox();
@@ -45,7 +44,7 @@ public class GameMenuController {
     System.out.println("Game2");
 
   }
-  private  static Stage Game1BoxStage;
+  private  Stage Game1BoxStage;
   public void showCrossBoardGameBox() throws IOException {
     FXMLLoader loader = new FXMLLoader(getClass().getResource("/myapp/CrossBoardGameBox.fxml"));
     Parent layout = loader.load();
@@ -54,8 +53,7 @@ public class GameMenuController {
       Game1BoxStage.close();
     }
     Game1BoxStage = new Stage();
-    Game1BoxStage.initOwner(primaryStage);
-    Game1BoxStage.setTitle("Word Detail");
+    Game1BoxStage.initOwner(MainController.MainStage);
     Game1BoxStage.initModality(Modality.NONE);
     ProgressBar progressBar = new ProgressBar();
     progressBar.getStylesheets().add(ContextMenuController.class.getResource("/myapp/Styling.css").toExternalForm());
@@ -73,11 +71,11 @@ public class GameMenuController {
     crossBoardGameController.setStage(Game1BoxStage);
 
 
-    primaryStage.xProperty().addListener((observable, oldValue, newValue) -> {
+    MainController.MainStage.xProperty().addListener((observable, oldValue, newValue) -> {
       adjustGame1BoxPosition();
     });
 
-    primaryStage.yProperty().addListener((observable, oldValue, newValue) -> {
+    MainController.MainStage.yProperty().addListener((observable, oldValue, newValue) -> {
       adjustGame1BoxPosition();
     });
 
@@ -103,11 +101,11 @@ public class GameMenuController {
 
   }
   private void adjustGame1BoxPosition() {
-    if (Game1BoxStage != null && primaryStage != null) {
+    if (Game1BoxStage != null && MainController.MainStage != null) {
       double offsetX = -380;
       double offsetY = 197;
-      Game1BoxStage.setX(primaryStage.getX() + primaryStage.getWidth() + offsetX);
-      Game1BoxStage.setY(primaryStage.getY() + offsetY);
+      Game1BoxStage.setX(MainController.MainStage.getX() + MainController.MainStage.getWidth() + offsetX);
+      Game1BoxStage.setY(MainController.MainStage.getY() + offsetY);
     }
   }
 

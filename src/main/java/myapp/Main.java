@@ -44,11 +44,9 @@ public class Main extends Application {
         scene.setFill(Color.TRANSPARENT);
         primaryStage.setScene(scene);
         MainController mainController = loader.getController();
-        ContextMenuController.primaryStage = primaryStage;
-        TranslateBoxController.primaryStage = primaryStage;
-        GameMenuController.primaryStage = primaryStage;
-        mainController.setStage(primaryStage);
+        MainController.MainStage = primaryStage;
         primaryStage.show();
+        mainController.setLog();
     }
 
 
