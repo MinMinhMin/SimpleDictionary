@@ -216,10 +216,18 @@ public class API{
 
         //connect to online dictionary
         try {
+            String sqlite="SELECT * FROM word_details WHERE word_name= ?";
+            PreparedStatement preparedstatement=WordDetails.sqlite_connection.prepareStatement(sqlite);
+            preparedstatement.setString(1,word);
+            ResultSet resultSet=preparedstatement.executeQuery();
+            if(resultSet.next()){
+                preparedstatement.close();
+                return;
+            }
+
+
             URL dict_url=new URL("https://api.dictionaryapi.dev/api/v2/entries/en/"+word);
             URLConnection urlConnection=dict_url.openConnection();
-            urlConnection.setConnectTimeout(200);
-            urlConnection.setReadTimeout(200);
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
             String line,content="";
             while ((line = bufferedReader.readLine()) != null)
@@ -236,14 +244,7 @@ public class API{
             int i=1;
             WordDetails wordDetails=new WordDetails();
 
-            String sqlite="SELECT * FROM word_details WHERE word_name= ?";
-            PreparedStatement preparedstatement=WordDetails.sqlite_connection.prepareStatement(sqlite);
-            preparedstatement.setString(1,word);
-            ResultSet resultSet=preparedstatement.executeQuery();
-            if(resultSet.next()){
-                preparedstatement.close();
-                return;
-            }
+
 
             for (API definition : definitions) {
 
