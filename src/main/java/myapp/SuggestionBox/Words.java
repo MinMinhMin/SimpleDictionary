@@ -1,6 +1,6 @@
 package myapp.SuggestionBox;
 
-import myapp.API;
+import myapp.SuggestionBox.WordDetails.API;
 import myapp.Main;
 import myapp.MainController;
 import myapp.SuggestionBox.WordDetails.WordDetails;
