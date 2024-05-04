@@ -103,8 +103,6 @@ public class WordDetails implements Word_Information {
                     phonetic.setIPA(null);
                     phonetic.setLink("https://d1qx7pbj0dvboc.cloudfront.net/"+word+".mp3");
                     list_phonetic.add(phonetic);
-                    System.out.println(phonetic.getLink());
-                    System.out.println("1");
 
                 }
                 homonyms.setAllPhonetic(list_phonetic);
