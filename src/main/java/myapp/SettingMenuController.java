@@ -1,6 +1,7 @@
 package myapp;
 
 import javafx.animation.RotateTransition;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
@@ -17,7 +18,7 @@ import java.io.IOException;
 
 public class SettingMenuController {
 	@FXML
-	private Button reloadInternet;
+	private Button reloadInternet,ChangeModify;
 	@FXML
 	private ToggleButton ChangeTranslateButton;
 	@FXML
@@ -56,9 +57,17 @@ public class SettingMenuController {
 			removeStyle = "vietnam";
 			addStyle = "english";
 		}
-		ScaleTransition scaleTransition = new ScaleTransitionForButton(new Button[]{reloadInternet});
+		ScaleTransition scaleTransition = new ScaleTransitionForButton(
+				new Button[]{reloadInternet,ChangeModify},
+				new String[]{"Reload Internet","Change filter"},
+				new String[]{"",""}
+		);
 		scaleTransition.applyScaleTransition();
-		scaleTransition = new ScaleTransitionForToggleButton(new ToggleButton[]{ChangeTranslateButton});
+		scaleTransition = new ScaleTransitionForToggleButton(
+				new ToggleButton[]{ChangeTranslateButton},
+				new String[]{"Translate change"},
+				new String[]{""}
+		);
 		scaleTransition.applyScaleTransition();
 		ChangeTranslateButton.setOnAction(event -> {
 			if(ChangeTranslateButton.isSelected()){
@@ -71,6 +80,20 @@ public class SettingMenuController {
 				ChangeTranslateButton.getStyleClass().add(removeStyle);
 			}
 		});
+		Platform.runLater(()->{
+			ChangeModify.setText(Main.mainController.getModified());
+		});
+		ChangeModify.setOnAction(e->{
+			String currentModify = Main.mainController.getModified();
+			String nextModify;
+			if(currentModify == "normal"){nextModify = "favorite";}
+			else{nextModify = "normal";}
+			ChangeModify.setText(nextModify);
+			Main.mainController.setModified(nextModify);
+			Main.mainController.POPUP("Search modified to show "+nextModify+" words!",true);
+
+		});
+
 	}
 
 	public  ContextMenu loadSettingMenu() {

@@ -7,6 +7,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
+import myapp.Main;
 
 import java.io.IOException;
 
@@ -24,9 +25,15 @@ public class CreateSuggestionItem {
 		suggestionItem.getChildren().addAll(wordLabel);
 		// Add hover effect
 		suggestionItem.setOnMouseEntered(event -> {
-			suggestionItem.setStyle("-fx-background-color: #fce3e3;-fx-border-width: 3;-fx-border-color: rgb(18, 19, 20)");
+			Main.mainController.setLeftClick(suggestion);
+			Main.mainController.setRightClick("More word options");
+			suggestionItem.setStyle("-fx-background-color: rgba(0, 0, 0, 0.38);-fx-border-width: 3;-fx-border-color: rgb(18, 19, 20)");
 		});
-		suggestionItem.setOnMouseExited(event -> suggestionItem.setStyle("-fx-background-color: transparent;"));
+		suggestionItem.setOnMouseExited(event -> {
+			Main.mainController.setLeftClick("");
+			Main.mainController.setRightClick("");
+			suggestionItem.setStyle("-fx-background-color: transparent;")	;
+		});
 
 		suggestionItem.setOnMouseClicked(event -> {
 			if (event.getButton() == MouseButton.SECONDARY) {

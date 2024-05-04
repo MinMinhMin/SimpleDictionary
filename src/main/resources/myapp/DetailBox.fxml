@@ -6,7 +6,7 @@
 
 <?import javafx.scene.text.Text?>
 <AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.SuggestionBox.WordDetails.DetailBoxController"
-            style="-fx-border-width: 8; -fx-border-color: rgb(7, 17, 17); -fx-background-radius: 30; -fx-border-radius:  20" >
+            style="-fx-border-width: 5; -fx-border-color: rgb(7, 17, 17); -fx-background-radius: 30; -fx-border-radius:  20" >
 
     <Text text="Word Detail" style="-fx-font-size: 20; -fx-font-weight: 900 " AnchorPane.topAnchor="10" AnchorPane.leftAnchor="155"/>
     <Button fx:id="close" stylesheets="@Styling.css" styleClass="closeButton" onAction="#close" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" prefHeight="27" prefWidth="27"/>

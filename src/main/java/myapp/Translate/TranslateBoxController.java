@@ -4,6 +4,8 @@ import javafx.fxml.FXML;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.input.MouseButton;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -46,13 +48,37 @@ public class TranslateBoxController {
 		});
 
 		adjustTranslateStagePosition();
+		Button mouse = Main.mainController.mouse;
+		mouse.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
+		TranslateStage.addEventFilter(MouseEvent.MOUSE_RELEASED, event -> {
+			if (event.getButton() == MouseButton.PRIMARY){
+				mouse.getStyleClass().remove("mouse-left-click");
+				mouse.getStyleClass().add("mouse");
+			}
+			if (event.getButton() == MouseButton.SECONDARY) {
+				mouse.getStyleClass().remove("mouse-right-click");
+				mouse.getStyleClass().add("mouse");
+			}
+
+		});
+		TranslateStage.addEventFilter(MouseEvent.MOUSE_PRESSED, event -> {
+			if (event.getButton() == MouseButton.PRIMARY){
+				mouse.getStyleClass().remove("mouse");
+				mouse.getStyleClass().add("mouse-left-click");
+			}
+			if (event.getButton() == MouseButton.SECONDARY) {
+				mouse.getStyleClass().remove("mouse");
+				mouse.getStyleClass().add("mouse-right-click");
+			}
+
+		});
         TranslateStage.show();
 
 	}
 	private void adjustTranslateStagePosition() {
 		if (TranslateStage != null && Main.mainController.getMainStage() != null) {
-			double offsetX = -1240;
-			double offsetY = 54;
+			double offsetX = -1260;
+			double offsetY = 84;
 			TranslateStage.setX(Main.mainController.getMainStage().getX() + Main.mainController.getMainStage().getWidth() + offsetX);
 			TranslateStage.setY(Main.mainController.getMainStage().getY() + offsetY);
 		}

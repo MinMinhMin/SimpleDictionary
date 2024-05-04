@@ -2,7 +2,9 @@ package myapp;
 
 import javafx.animation.AnimationTimer;
 import javafx.animation.FadeTransition;
+import javafx.animation.Interpolator;
 import javafx.animation.TranslateTransition;
+import javafx.application.Platform;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -11,8 +13,8 @@ import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
 import javafx.scene.input.MouseButton;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
@@ -31,9 +33,7 @@ import myapp.Transition.ScaleTransition;
 import myapp.Transition.ScaleTransitionForButton;
 import myapp.Transition.ScaleTransitionForToggleButton;
 import myapp.Translate.TranslateBoxController;
-
 import java.io.IOException;
-import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -50,9 +50,8 @@ public class MainController {
 
 	public void setMainStage(Stage mainStage) {
 		MainStage = mainStage;
-		//MainStage.getIcons().add(new Image(MainController.class.getResourceAsStream("data/dictionary.png")));
-
 	}
+	private String modified = "normal";
 
 	public Stage getAddWordStage() {
 		return addWordStage;
@@ -71,19 +70,30 @@ public class MainController {
 	}
 
 	private final List<String> songs = Arrays.asList(
-			"music/The World is still Beautiful.mp3",
 			"music/Ichika Nito - Away (Official Music Video).mp3",
+			"music/The World is still Beautiful.mp3",
 			"music/Forever.mp3"
 	);
 	private final List<String> songnames = Arrays.asList(
-			"TWisBeautiful",
 			"Away",
+			"TWisBeautiful",
 			"Forever"
 	);
-	private SugesstionUpdate sugesstionUpdate;
+	public SugesstionUpdate sugesstionUpdate;
 	@FXML
 	public TextField searchBar;
 	public GameMenuController gameMenuController = new GameMenuController();
+	@FXML
+	private Text LeftClick,RightClick;
+
+	public void setLeftClick(String leftClicktext) {
+		LeftClick.setText(leftClicktext);
+	}
+
+	public void setRightClick(String rightClicktext) {
+		RightClick.setText(rightClicktext);
+	}
+
 	public Stage LogStage;
 	@FXML
 	private VBox MusicBox;
@@ -95,6 +105,8 @@ public class MainController {
 	private HBox PopUpBox;
 	@FXML
 	private Label Date, Time;
+	@FXML
+	public Button mouse;
 	@FXML
 	private Button gamebutton, shutdown, minimize, translate, add, delete, previous, next,Internet,settingButton;
 	@FXML
@@ -112,8 +124,40 @@ public class MainController {
 		return Time;
 	}
 
+	public void setModified(String modified) {
+		this.modified = modified;
+	}
+	public  String getModified() {
+		return this.modified;
+	}
+
 	@FXML
 	private void initialize() {
+		Platform.runLater(()->{
+			mouse.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
+			MainStage.addEventFilter(MouseEvent.MOUSE_RELEASED, event -> {
+				if (event.getButton() == MouseButton.PRIMARY){
+					mouse.getStyleClass().remove("mouse-left-click");
+					mouse.getStyleClass().add("mouse");
+				}
+				if (event.getButton() == MouseButton.SECONDARY) {
+					mouse.getStyleClass().remove("mouse-right-click");
+					mouse.getStyleClass().add("mouse");
+				}
+
+			});
+			MainStage.addEventFilter(MouseEvent.MOUSE_PRESSED, event -> {
+				if (event.getButton() == MouseButton.PRIMARY){
+					mouse.getStyleClass().remove("mouse");
+					mouse.getStyleClass().add("mouse-left-click");
+				}
+				if (event.getButton() == MouseButton.SECONDARY) {
+					mouse.getStyleClass().remove("mouse");
+					mouse.getStyleClass().add("mouse-right-click");
+				}
+
+			});
+		});
 		sugesstionUpdate = new SugesstionUpdate(suggestionBox);
 		DateandTime();
 		audioPLayer();
@@ -122,12 +166,18 @@ public class MainController {
 			if (nV.isEmpty()) {
 				suggestionBox.getChildren().clear();
 			} else {
-				sugesstionUpdate.sugesstionUpdate(nV, words, suggestionBox, searchBar);
+				sugesstionUpdate.sugesstionUpdate(nV, words, suggestionBox, searchBar,modified);
 				suggestionBox = sugesstionUpdate.getSuggestionBox();
 			}
 		});
 		applyHover();
 		Internetcheck();
+		volumeslider.setOnMouseEntered(e->{
+			setLeftClick("Change music volume");
+		});
+		volumeslider.setOnMouseExited(e->{
+			setLeftClick("");
+		});
 
 
 	}
@@ -154,15 +204,20 @@ public class MainController {
 		label.setMaxWidth(Double.MAX_VALUE);
 		label.setAlignment(Pos.CENTER);
 		TextField meaning = new TextField();
-		meaning.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black");
+		meaning.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 3;-fx-border-color: black");
 		Button setButton = new Button("Set");
 		setButton.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
 		setButton.getStyleClass().add("normalButton");
 		setButton.setMaxWidth(Double.MAX_VALUE);
 		setButton.setAlignment(Pos.CENTER);
-		setButton.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black");
+		setButton.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 3;-fx-border-color: black");
 		Button closeButton = new Button("Close");
-		ScaleTransitionForButton scaleTransitionForButton = new ScaleTransitionForButton(new Button[]{setButton,closeButton});
+		ScaleTransitionForButton scaleTransitionForButton = new ScaleTransitionForButton(
+				new Button[]{setButton, closeButton},
+				new String[]{"Save word","Close"},
+				new String[]{"",""}
+
+		);
 		scaleTransitionForButton.applyScaleTransition();
 
 		setButton.setOnAction(event -> {
@@ -176,7 +231,7 @@ public class MainController {
 			StackPane loadingPane = new StackPane();
 			loadingPane.getChildren().add(progressBar);
 			loadingPane.getChildren().add(loadingText);
-			loadingPane.setStyle("-fx-border-color: rgb(7, 17, 17);-fx-border-width: 10;-fx-background-radius: 30; -fx-border-radius:  20");
+			loadingPane.setStyle("-fx-border-color: rgb(7, 17, 17);-fx-border-width: 4;-fx-background-radius: 30; -fx-border-radius:  20");
 			Scene loadingscene = new Scene(loadingPane, 200, 180);
 			addWordStage.setScene(loadingscene);
 			Task<Scene> rederTask = new Task<>() {
@@ -187,7 +242,7 @@ public class MainController {
 					return null;
 				}
 			};
-			sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar);
+			sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar,modified);
 			rederTask.setOnSucceeded(event2 -> {
 				addWordStage.close();
 				POPUP("Add word success!",true);
@@ -195,29 +250,24 @@ public class MainController {
 			new Thread(rederTask).start();
 
 		});
-		closeButton.setStyle("-fx-font-weight: 900;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black;-fx-background-color: white");
+		closeButton.setStyle("-fx-font-weight: 900;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 3;-fx-border-color: black;-fx-background-color: white");
 		closeButton.setOnAction(event -> {
 			addWordStage.close();
 		});
 		VBox vbox = new VBox(10);
 		vbox.getChildren().addAll(closeButton, label, meaning, setButton);
 		vbox.setSpacing(10);
-		vbox.setStyle("-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 6;-fx-border-color: black");
+		vbox.setStyle("-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black");
 		Scene scene = new Scene(vbox, 200, 180);
 		scene.setFill(Color.TRANSPARENT);
 		addWordStage.initStyle(StageStyle.TRANSPARENT);
 		addWordStage.setX(1080);
-		addWordStage.setY(250);
+		addWordStage.setY(280);
 		addWordStage.setResizable(false);
 		addWordStage.setScene(scene);
 		addWordStage.initModality(Modality.APPLICATION_MODAL);
 		addWordStage.show();
-		/*List<Image> images = new ArrayList<>();
-		URL url = getClass().getResource("dictionary.png");
-		Image image = new Image(url.toString());
-		images.add(image);
-		PicturePlayer picturePlayer = new PicturePlayer(images);
-		picturePlayer.showStage();*/
+
 	}
 
 	@FXML
@@ -230,7 +280,7 @@ public class MainController {
 
 		Words.delete_word(word,true);
 
-		sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar);
+		sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar,modified);
 		searchBar.setText("");
 	}
 	private  ContextMenu gameMenu = gameMenuController.loadGameMenu();
@@ -266,6 +316,7 @@ public class MainController {
 	@FXML
 	private void ShutDownStage(ActionEvent event) {
 
+
 		MainStage.close();
 
 	}
@@ -290,9 +341,17 @@ public class MainController {
 	}
 
 	private void applyHover() {
-		ScaleTransition scaleTransition = new ScaleTransitionForButton(new Button[]{gamebutton, settingButton, shutdown, minimize, translate, add, delete, previous, next});
+		ScaleTransition scaleTransition = new ScaleTransitionForButton(
+				new Button[]{gamebutton, settingButton, shutdown, minimize, translate, add, delete, previous, next},
+				new String[]{"Choose game","Setting menu","Close app","Minimize app","Translation box","Add chosen word","Delete chosen word","Previous song","Next song"},
+				new String[]{"","","","","","","","",""}
+		);
 		scaleTransition.applyScaleTransition();
-		scaleTransition = new ScaleTransitionForToggleButton(new ToggleButton[]{play,hide,logButton});
+		scaleTransition = new ScaleTransitionForToggleButton(
+				new ToggleButton[]{play,hide,logButton},
+				new String[]{"Play song","Hide/Unhide music","Hide/Unhide LogBox"},
+				new String[]{"","",""}
+		);
 		scaleTransition.applyScaleTransition();
 	}
 
@@ -338,10 +397,12 @@ public class MainController {
 			}
 		});
 
+
 	}
 
 	private void toggleMusicBoxVisibility() {
 		TranslateTransition slideTransition = new TranslateTransition(Duration.millis(250), MusicBox);
+		slideTransition.setInterpolator(Interpolator.EASE_OUT);
 
 		if (isHidden) {
 			slideTransition.setToX(0);
@@ -353,7 +414,7 @@ public class MainController {
 		isHidden = !isHidden;
 	}
 	public void POPUP(String popUpString,Boolean isSuccess){
-		if(PopUpBox.isVisible()){PopUpBox.setVisible(false);}
+		PopUpBox.setVisible(false);
 		PopUpBox.getChildren().clear();
 		String popUpColor;
 		if(isSuccess){popUpColor = "#7aea7a";}
@@ -363,11 +424,9 @@ public class MainController {
 		PopUpBox.getChildren().add(label);
 		PopUpBox.setStyle("-fx-border-width: 3; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10;-fx-background-radius: 10; -fx-background-color:"+popUpColor + ";");
 		PopUpBox.setVisible(true);
-		FadeTransition ft = new FadeTransition(Duration.seconds(1.5), PopUpBox);
+		FadeTransition ft = new FadeTransition(Duration.seconds(3.0), PopUpBox);
 		ft.setFromValue(1.0);
 		ft.setToValue(0.0);
-
-		ft.setDelay(Duration.seconds(1.5));
 
 		ft.setOnFinished(e -> {
 			PopUpBox.setVisible(false);
@@ -384,20 +443,20 @@ public class MainController {
 		LogStage = new Stage();
 		LogStage.initOwner(MainStage);
 		LogStage.initModality(Modality.NONE);
-		Scene scene = new Scene(layout, 440, 555);
+		Scene scene = new Scene(layout, 440, 505);
 		scene.setFill(Color.TRANSPARENT);
 		LogStage.setScene(scene);
 		LogStage.setResizable(false);
 		LogStage.initStyle(StageStyle.TRANSPARENT);
 		MainStage.xProperty().addListener((observable, oldValue, newValue) -> {
-			adjustLogBoxPosition(-930, 190);
+			adjustLogBoxPosition(-905, 225);
 		});
 
 		MainStage.yProperty().addListener((observable, oldValue, newValue) -> {
-			adjustLogBoxPosition(-930, 190);
+			adjustLogBoxPosition(-905, 225);
 		});
 
-		adjustLogBoxPosition(-930, 190);
+		adjustLogBoxPosition(-905, 225);
 		LogController logController = loader.getController();
 		log = logController;
 		logController.setLogStage(LogStage);
@@ -423,6 +482,5 @@ public class MainController {
 			LogStage.setY(MainStage.getY() + offsetY);
 		}
 	}
-
 
 }

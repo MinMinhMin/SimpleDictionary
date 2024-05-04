@@ -4,41 +4,14 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
 
-<?import javafx.scene.control.CustomMenuItem?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.text.Text?>
-<?import javafx.scene.control.Button?>
-<ContextMenu fx:id="contextMenu" xmlns="http://javafx.com/javafx"
-             xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.SuggestionBox.ContextMenuController" style="-fx-border-width: 5; -fx-border-color: rgb(18, 19, 20) ;-fx-border-radius: 20;-fx-background-radius: 20">
+<ContextMenu styleClass="context-menu-1" fx:id="contextMenu" xmlns="http://javafx.com/javafx"
+             xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.SuggestionBox.ContextMenuController" style="-fx-border-width: 4; -fx-border-color: rgb(18, 19, 20) ;-fx-border-radius: 20;-fx-background-radius: 20">
+
 
     <items>
-        <CustomMenuItem onAction="#handleDetail">
-            <content>
-                <HBox spacing="20">
-                    <children>
-                        <Text text="Word Detail"  style="-fx-font-size: 18"/>
-                    </children>
-                </HBox>
-            </content>
-        </CustomMenuItem>
-        <CustomMenuItem onAction="#handleUpdate">
-            <content>
-                <HBox spacing="20">
-                    <children>
-                        <Text text="Update"  style="-fx-font-size: 18"/>
-                    </children>
-                </HBox>
-            </content>
-        </CustomMenuItem>
-        <CustomMenuItem onAction="#handleFavoriteWord">
-            <content>
-                <HBox spacing="20">
-                    <children>
-                        <Text text="Add to favorite"  style="-fx-font-size: 18"/>
-                    </children>
-                </HBox>
-            </content>
-        </CustomMenuItem>
+        <MenuItem fx:id="wordDetail" onAction="#handleDetail" text="     Word Detail"  style="-fx-font-size: 18"  />
+        <MenuItem fx:id="update" onAction="#handleUpdate" text="     Update"  style="-fx-font-size: 18"  />
+        <MenuItem fx:id="modify" onAction="#handleFavoriteWord" text="     Add to favorite"  style="-fx-font-size: 18"  />
         <SeparatorMenuItem/>
     </items>
 </ContextMenu>

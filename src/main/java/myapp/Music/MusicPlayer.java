@@ -76,8 +76,12 @@ public class MusicPlayer {
 		this.nameOfSong.setText(songnames.get(currentSongIndex));
 
 	}
+	private void setEnd(){
+		this.mediaPlayer.setOnEndOfMedia(() -> next.fire());
+	}
 
 	public void setup(){
+		setEnd();
 		volumeslider.setMin(0);
 		volumeslider.setMax(100);
 		volumeslider.setValue(mediaPlayer.getVolume() * 100);
@@ -88,11 +92,11 @@ public class MusicPlayer {
 		play.getStyleClass().add("playSongButton");
 		play.setOnAction(event -> {
 			if(play.isSelected()){
-				mediaPlayer.play();
+				this.mediaPlayer.play();
 				play.getStyleClass().remove("playSongButton");
 				play.getStyleClass().add("pauseSongButton");
 			}else {
-				mediaPlayer.pause();
+				this.mediaPlayer.pause();
 				play.getStyleClass().remove("pauseSongButton");
 				play.getStyleClass().add("playSongButton");
 			}
@@ -100,9 +104,10 @@ public class MusicPlayer {
 		next.setOnAction(event -> {
 			currentSongIndex = (currentSongIndex + 1) % songs.size();
 			nameOfSong.setText(songnames.get(currentSongIndex));
-			mediaPlayer.stop();
-			mediaPlayer = new MediaPlayer(new Media(new File(songs.get(currentSongIndex)).toURI().toString()));
-			mediaPlayer.play();
+			this.mediaPlayer.stop();
+			this.mediaPlayer = new MediaPlayer(new Media(new File(songs.get(currentSongIndex)).toURI().toString()));
+			setEnd();
+			this.mediaPlayer.play();
 			if (!play.isSelected()) {
 				play.setSelected(true);
 				play.getStyleClass().remove("playSongButton");
@@ -113,8 +118,8 @@ public class MusicPlayer {
 		previous.setOnAction(event -> {
 			currentSongIndex = (currentSongIndex - 1 + songs.size()) % songs.size();
 			nameOfSong.setText(songnames.get(currentSongIndex));
-			mediaPlayer.stop();
-			mediaPlayer = new MediaPlayer(new Media(new File(songs.get(currentSongIndex)).toURI().toString()));
+			this.mediaPlayer.stop();
+			this.mediaPlayer = new MediaPlayer(new Media(new File(songs.get(currentSongIndex)).toURI().toString()));
 			mediaPlayer.play();
 			if (!play.isSelected()) {
 				play.setSelected(true);

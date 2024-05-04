@@ -7,8 +7,11 @@ import javafx.concurrent.Task;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.ProgressBar;
+import javafx.scene.input.MouseButton;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
@@ -65,7 +68,7 @@ public class GameMenuController {
     StackPane loadingPane = new StackPane();
     loadingPane.getChildren().add(progressBar);
     loadingPane.getChildren().add(loadingText);
-    loadingPane.setStyle("-fx-border-color: rgb(7, 17, 17);-fx-border-width: 10;-fx-background-radius: 30; -fx-border-radius:  20");
+    loadingPane.setStyle("-fx-border-color: rgb(7, 17, 17);-fx-border-width: 5;-fx-background-radius: 30; -fx-border-radius:  20");
     Scene loadingscene = new Scene(loadingPane,360,500);
     Game1BoxStage.setResizable(false);
     Game1BoxStage.initStyle(StageStyle.TRANSPARENT);
@@ -82,6 +85,30 @@ public class GameMenuController {
     });
 
     adjustGame1BoxPosition();
+    Button mouse = Main.mainController.mouse;
+    mouse.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
+    Game1BoxStage.addEventFilter(MouseEvent.MOUSE_RELEASED, event -> {
+      if (event.getButton() == MouseButton.PRIMARY){
+        mouse.getStyleClass().remove("mouse-left-click");
+        mouse.getStyleClass().add("mouse");
+      }
+      if (event.getButton() == MouseButton.SECONDARY) {
+        mouse.getStyleClass().remove("mouse-right-click");
+        mouse.getStyleClass().add("mouse");
+      }
+
+    });
+    Game1BoxStage.addEventFilter(MouseEvent.MOUSE_PRESSED, event -> {
+      if (event.getButton() == MouseButton.PRIMARY){
+        mouse.getStyleClass().remove("mouse");
+        mouse.getStyleClass().add("mouse-left-click");
+      }
+      if (event.getButton() == MouseButton.SECONDARY) {
+        mouse.getStyleClass().remove("mouse");
+        mouse.getStyleClass().add("mouse-right-click");
+      }
+
+    });
 
     Game1BoxStage.show();
     Task<Scene> rederTask = new Task<>() {
@@ -105,7 +132,7 @@ public class GameMenuController {
   private void adjustGame1BoxPosition() {
     if (Game1BoxStage != null && Main.mainController.getMainStage() != null) {
       double offsetX = -380;
-      double offsetY = 197;
+      double offsetY = 227;
       Game1BoxStage.setX(Main.mainController.getMainStage().getX() + Main.mainController.getMainStage().getWidth() + offsetX);
       Game1BoxStage.setY(Main.mainController.getMainStage().getY() + offsetY);
     }
