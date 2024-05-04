@@ -17,7 +17,7 @@
             fx:controller="myapp.MainController"
             style="-fx-border-width: 10;-fx-border-color: rgb(7, 17, 17); -fx-background-color: white; -fx-border-radius: 40; -fx-background-radius: 50">
 
-    <Label text="Dictionary app" layoutX="570" layoutY="17" style="-fx-font-size: 24; -fx-font-weight: 900"/>
+    <Label text=" Simple Dictionary " layoutX="570" layoutY="17" style="-fx-font-size: 24; -fx-font-weight: 900"/>
     <Label fx:id="Date" text="Date" layoutX="1185" layoutY="717" style="-fx-font-size: 24; -fx-font-weight: 900"/>
     <Label fx:id="Time" text="Time" layoutX="1200" layoutY="742" style="-fx-font-size: 24; -fx-font-weight: 900"/>
     <Button  fx:id="shutdown" stylesheets="@Styling.css" styleClass="shutDownButton" layoutX="20.0" layoutY="720.0" onAction="#ShutDownStage"/>

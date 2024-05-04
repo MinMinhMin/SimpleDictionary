@@ -30,11 +30,11 @@
                 </HBox>
             </content>
         </CustomMenuItem>
-        <CustomMenuItem onAction="#handleAddGame">
+        <CustomMenuItem onAction="#handleFavoriteWord">
             <content>
                 <HBox spacing="20">
                     <children>
-                        <Text text="Add to game library"  style="-fx-font-size: 18"/>
+                        <Text text="Add to favorite"  style="-fx-font-size: 18"/>
                     </children>
                 </HBox>
             </content>

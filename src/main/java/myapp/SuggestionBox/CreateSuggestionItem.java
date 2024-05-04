@@ -22,9 +22,10 @@ public class CreateSuggestionItem {
 
 		Label wordLabel = new Label(stringBuilder);
 		suggestionItem.getChildren().addAll(wordLabel);
-
 		// Add hover effect
-		suggestionItem.setOnMouseEntered(event -> suggestionItem.setStyle("-fx-background-color: #fce3e3;-fx-border-width: 3;-fx-border-color: rgb(18, 19, 20)"));
+		suggestionItem.setOnMouseEntered(event -> {
+			suggestionItem.setStyle("-fx-background-color: #fce3e3;-fx-border-width: 3;-fx-border-color: rgb(18, 19, 20)");
+		});
 		suggestionItem.setOnMouseExited(event -> suggestionItem.setStyle("-fx-background-color: transparent;"));
 
 		suggestionItem.setOnMouseClicked(event -> {

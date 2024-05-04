@@ -1,6 +1,8 @@
 package myapp;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FileUtil {
 
@@ -12,6 +14,32 @@ public class FileUtil {
 			e.printStackTrace();
 		}
 	}
+
+	public static List<String> getlist(String filename){
+
+		List<String>list=new ArrayList<>();
+
+		try{
+			FileReader fileReader=new FileReader(filename);
+			BufferedReader bufferedReader=new BufferedReader(fileReader);
+			String line="";
+			while ((line=bufferedReader.readLine())!=null){
+
+				list.add(line);
+			}
+			bufferedReader.close();
+			fileReader.close();
+			return list;
+
+		}catch (Exception e){
+
+			e.printStackTrace();
+			return null;
+		}
+
+	}
+
+
     public static void cache() {
         try {
             PrintWriter writer = new PrintWriter("data/cache.txt");

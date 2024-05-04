@@ -54,7 +54,7 @@ public class GoogleApi {
             connection.disconnect();
             return Json(translated_text.toString());
         }catch (Exception e){
-            if(!MainController.isInternetConnected){
+            if(!Main.mainController.isInternetConnected){
                 Main.mainController.POPUP("No internet connection",false);
             }
             System.out.println("Empty box or no internet connection");

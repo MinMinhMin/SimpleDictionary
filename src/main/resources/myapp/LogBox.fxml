@@ -11,11 +11,11 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="myapp.LogController"
             prefHeight="440.0" prefWidth="600.0" style="-fx-border-width: 8; -fx-border-color: rgb(7, 17, 17); -fx-background-radius: 30; -fx-border-radius:  20;">
+    <Text text="Log table:" style="-fx-font-size: 20; -fx-font-weight: 900 " AnchorPane.topAnchor="10" AnchorPane.leftAnchor="155"/>
     <ScrollPane  stylesheets="@Styling.css" styleClass="scroll-bar" fitToWidth="true" fitToHeight="true" hbarPolicy="AS_NEEDED" vbarPolicy="AS_NEEDED"
                  AnchorPane.topAnchor="50" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.bottomAnchor="10">
+
         <VBox fx:id="LogVBox" prefWidth="370" alignment="CENTER_LEFT" spacing="10" style="-fx-padding: 10;-fx-border-width: 3; -fx-border-color: rgb(7, 17, 17); ">
-
-
         </VBox>
     </ScrollPane>
 

@@ -1,5 +1,6 @@
 package myapp.SuggestionBox;
 
+import myapp.LogController;
 import myapp.SuggestionBox.WordDetails.API;
 import myapp.Main;
 import myapp.MainController;
@@ -106,7 +107,8 @@ public class Words {
 			statement.close();
 			meaning.get(word[0]).remove(word[1]);
 			if(called){Main.mainController.POPUP("Deleted success",true);}
-			MainController.log.Update(Main.mainController.getDate().getText() + " " + Main.mainController.getTime().getText() + " ( " + "Delete " + word[0] + ": " + word[1] + ")");
+
+			Main.mainController.getLog().Update(Main.mainController.getDate().getText() + " " + Main.mainController.getTime().getText() + " ( " + "Delete " + word[0] + ": " + word[1] + ")");
 
 			return;
 

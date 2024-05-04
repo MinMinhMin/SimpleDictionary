@@ -2,7 +2,6 @@ package myapp;
 
 import javafx.animation.AnimationTimer;
 import javafx.animation.FadeTransition;
-import javafx.animation.ScaleTransition;
 import javafx.animation.TranslateTransition;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
@@ -12,6 +11,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
@@ -23,25 +23,53 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
 import myapp.Game.GameMenuController;
-import myapp.Game.Word_Fixing.Word_Fixing;
 import myapp.Music.MusicPlayer;
 import myapp.SuggestionBox.ContextMenuController;
 import myapp.SuggestionBox.SugesstionUpdate;
 import myapp.SuggestionBox.Words;
+import myapp.Transition.ScaleTransition;
+import myapp.Transition.ScaleTransitionForButton;
+import myapp.Transition.ScaleTransitionForToggleButton;
 import myapp.Translate.TranslateBoxController;
 
 import java.io.IOException;
+import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class MainController {
 
-	public static Stage MainStage;
-	public static Stage addWordStage;
-	public static Words words;
-	public static LogController log;
+	private   Stage MainStage;
+
+	public Stage getMainStage() {
+		return MainStage;
+	}
+
+	public void setMainStage(Stage mainStage) {
+		MainStage = mainStage;
+		//MainStage.getIcons().add(new Image(MainController.class.getResourceAsStream("data/dictionary.png")));
+
+	}
+
+	public Stage getAddWordStage() {
+		return addWordStage;
+	}
+	private   Stage addWordStage;
+	private   Words words;
+
+	public Words getWords() {
+		return words;
+	}
+
+	private   LogController log;
+
+	public LogController getLog() {
+		return log;
+	}
+
 	private final List<String> songs = Arrays.asList(
 			"music/The World is still Beautiful.mp3",
 			"music/Ichika Nito - Away (Official Music Video).mp3",
@@ -52,9 +80,10 @@ public class MainController {
 			"Away",
 			"Forever"
 	);
+	private SugesstionUpdate sugesstionUpdate;
 	@FXML
 	public TextField searchBar;
-	public ContextMenu gameMenu = GameMenuController.loadGameMenu();
+	public GameMenuController gameMenuController = new GameMenuController();
 	public Stage LogStage;
 	@FXML
 	private VBox MusicBox;
@@ -73,43 +102,7 @@ public class MainController {
 	@FXML
 	private Label nameOfSong;
 	private boolean isHidden = false;
-	public static boolean isInternetConnected;
-	public static void applyScaleTransition(Button button) {
-
-		ScaleTransition stGrow = new ScaleTransition(Duration.millis(200), button);
-		stGrow.setToX(0.9);
-		stGrow.setToY(0.9);
-
-		ScaleTransition stShrink = new ScaleTransition(Duration.millis(200), button);
-		stShrink.setToX(1);
-		stShrink.setToY(1);
-
-		button.setOnMouseEntered(e -> {
-			stGrow.playFromStart();
-		});
-
-		button.setOnMouseExited(e -> {
-			stShrink.playFromStart();
-		});
-	}
-
-	public static void applyScaleTransitionForToggleButton(ToggleButton button) {
-		ScaleTransition stGrow = new ScaleTransition(Duration.millis(200), button);
-		stGrow.setToX(0.9);
-		stGrow.setToY(0.9);
-
-		ScaleTransition stShrink = new ScaleTransition(Duration.millis(200), button);
-		stShrink.setToX(1);
-		stShrink.setToY(1);
-
-		button.setOnMouseEntered(e -> {
-			stGrow.playFromStart();
-		});
-
-		button.setOnMouseExited(e -> {
-			stShrink.playFromStart();
-		});
-	}
+	public  boolean isInternetConnected;
 
 	public Label getDate() {
 		return Date;
@@ -121,20 +114,21 @@ public class MainController {
 
 	@FXML
 	private void initialize() {
+		sugesstionUpdate = new SugesstionUpdate(suggestionBox);
 		DateandTime();
 		audioPLayer();
 		words = new Words();
-        //Word_Fixing wordFixing=new Word_Fixing("hard");
-        //System.out.println(wordFixing.word+"-"+wordFixing.guessing_word);
 		searchBar.textProperty().addListener((observable, oV, nV) -> {
 			if (nV.isEmpty()) {
 				suggestionBox.getChildren().clear();
 			} else {
-				SugesstionUpdate.sugesstionUpdate(nV, words, suggestionBox, searchBar);
+				sugesstionUpdate.sugesstionUpdate(nV, words, suggestionBox, searchBar);
+				suggestionBox = sugesstionUpdate.getSuggestionBox();
 			}
 		});
 		applyHover();
 		Internetcheck();
+
 
 	}
 	public void Internetcheck(){
@@ -151,9 +145,9 @@ public class MainController {
 	}
 
 	@FXML
-	private void AddClicked() {
+	private void AddClicked() throws IOException {
 		addWordStage = new Stage();
-		addWordStage.initOwner(MainController.MainStage);
+		addWordStage.initOwner(MainStage);
 		String english = searchBar.getText();
 		Label label = new Label('"' + english + '"' + "means:");
 		label.setStyle("-fx-font-weight: 900;");
@@ -162,14 +156,14 @@ public class MainController {
 		TextField meaning = new TextField();
 		meaning.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black");
 		Button setButton = new Button("Set");
-		applyScaleTransition(setButton);
 		setButton.getStylesheets().add(MainController.class.getResource("Styling.css").toExternalForm());
 		setButton.getStyleClass().add("normalButton");
 		setButton.setMaxWidth(Double.MAX_VALUE);
 		setButton.setAlignment(Pos.CENTER);
 		setButton.setStyle("-fx-font-weight: 900;-fx-background-color: white;-fx-background-radius: 40;-fx-border-radius: 20;-fx-border-width: 4;-fx-border-color: black");
 		Button closeButton = new Button("Close");
-		applyScaleTransition(closeButton);
+		ScaleTransitionForButton scaleTransitionForButton = new ScaleTransitionForButton(new Button[]{setButton,closeButton});
+		scaleTransitionForButton.applyScaleTransition();
 
 		setButton.setOnAction(event -> {
 			String mean = meaning.getText();
@@ -193,7 +187,7 @@ public class MainController {
 					return null;
 				}
 			};
-			SugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar);
+			sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar);
 			rederTask.setOnSucceeded(event2 -> {
 				addWordStage.close();
 				POPUP("Add word success!",true);
@@ -218,6 +212,12 @@ public class MainController {
 		addWordStage.setScene(scene);
 		addWordStage.initModality(Modality.APPLICATION_MODAL);
 		addWordStage.show();
+		/*List<Image> images = new ArrayList<>();
+		URL url = getClass().getResource("dictionary.png");
+		Image image = new Image(url.toString());
+		images.add(image);
+		PicturePlayer picturePlayer = new PicturePlayer(images);
+		picturePlayer.showStage();*/
 	}
 
 	@FXML
@@ -230,9 +230,10 @@ public class MainController {
 
 		Words.delete_word(word,true);
 
-		SugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar);
+		sugesstionUpdate.sugesstionUpdate(searchBar.getText(), words, suggestionBox, searchBar);
 		searchBar.setText("");
 	}
+	private  ContextMenu gameMenu = gameMenuController.loadGameMenu();
 
 	@FXML
 	private void GameClicked() {
@@ -241,13 +242,14 @@ public class MainController {
 				if (gameMenu != null) {
 					gameMenu.hide();
 				}
-				gameMenu = GameMenuController.loadGameMenu();
+				gameMenu = gameMenuController.loadGameMenu();
 				gameMenu.show(gamebutton, event.getScreenX(), event.getScreenY());
 			}
 		});
 
 	}
-	public ContextMenu settingMenu = SettingMenuController.loadSettingMenu();
+	private SettingMenuController settingMenuController= new SettingMenuController();
+	public ContextMenu settingMenu = settingMenuController.loadSettingMenu();
 	@FXML
 	private void SettingClicked(){
 		settingButton.setOnMouseClicked(event -> {
@@ -255,7 +257,7 @@ public class MainController {
 				if (settingMenu != null) {
 					settingMenu.hide();
 				}
-				settingMenu = SettingMenuController.loadSettingMenu();
+				settingMenu = settingMenuController.loadSettingMenu();
 				settingMenu.show(settingButton, event.getScreenX(), event.getScreenY()-100);
 			}
 		});
@@ -288,18 +290,10 @@ public class MainController {
 	}
 
 	private void applyHover() {
-		applyScaleTransition(gamebutton);
-		applyScaleTransition(settingButton);
-		applyScaleTransition(shutdown);
-		applyScaleTransition(minimize);
-		applyScaleTransition(translate);
-		applyScaleTransition(add);
-		applyScaleTransition(delete);
-		applyScaleTransitionForToggleButton(play);
-		applyScaleTransitionForToggleButton(hide);
-		applyScaleTransition(previous);
-		applyScaleTransition(next);
-		applyScaleTransitionForToggleButton(logButton);
+		ScaleTransition scaleTransition = new ScaleTransitionForButton(new Button[]{gamebutton, settingButton, shutdown, minimize, translate, add, delete, previous, next});
+		scaleTransition.applyScaleTransition();
+		scaleTransition = new ScaleTransitionForToggleButton(new ToggleButton[]{play,hide,logButton});
+		scaleTransition.applyScaleTransition();
 	}
 
 	public void DateandTime() {
@@ -388,18 +382,18 @@ public class MainController {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("LogBox.fxml"));
 		Parent layout = loader.load();
 		LogStage = new Stage();
-		LogStage.initOwner(MainController.MainStage);
+		LogStage.initOwner(MainStage);
 		LogStage.initModality(Modality.NONE);
 		Scene scene = new Scene(layout, 440, 555);
 		scene.setFill(Color.TRANSPARENT);
 		LogStage.setScene(scene);
 		LogStage.setResizable(false);
 		LogStage.initStyle(StageStyle.TRANSPARENT);
-		MainController.MainStage.xProperty().addListener((observable, oldValue, newValue) -> {
+		MainStage.xProperty().addListener((observable, oldValue, newValue) -> {
 			adjustLogBoxPosition(-930, 190);
 		});
 
-		MainController.MainStage.yProperty().addListener((observable, oldValue, newValue) -> {
+		MainStage.yProperty().addListener((observable, oldValue, newValue) -> {
 			adjustLogBoxPosition(-930, 190);
 		});
 
@@ -424,9 +418,9 @@ public class MainController {
 	}
 
 	private void adjustLogBoxPosition(double offsetX, double offsetY) {
-		if (LogStage != null && MainController.MainStage != null) {
-			LogStage.setX(MainController.MainStage.getX() + MainController.MainStage.getWidth() + offsetX);
-			LogStage.setY(MainController.MainStage.getY() + offsetY);
+		if (LogStage != null && MainStage != null) {
+			LogStage.setX(MainStage.getX() + MainStage.getWidth() + offsetX);
+			LogStage.setY(MainStage.getY() + offsetY);
 		}
 	}
 
