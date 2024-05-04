@@ -22,7 +22,8 @@
     <Button fx:id="minimize"  stylesheets="@Styling.css" styleClass="minimizeButton" layoutX="100" layoutY="720.0" onAction="#MinimizeStage"/>
     <Button fx:id="translate" stylesheets="@Styling.css" styleClass="translateButton" layoutX="30" layoutY="62" onAction="#TranslateClicked"/>
     <Button fx:id="gamebutton" stylesheets="@Styling.css" styleClass="gameButton" layoutX="180" layoutY="720" prefHeight="60" prefWidth="60" onAction="#GameClicked" />
-    <VBox fx:id="MusicBox" prefWidth="220" prefHeight="156" layoutX="1120" layoutY="27">
+    <ToggleButton fx:id="logButton" text="▼" prefWidth="65" prefHeight="27" style="-fx-font-weight: 900; -fx-background-color: white;-fx-border-color: black;-fx-border-width: 3" layoutY="754" layoutX="620"/>
+    <VBox fx:id="MusicBox" prefWidth="220" prefHeight="156" layoutX="1120" layoutY="27" >
         <Label fx:id="nameOfSong" style="-fx-font-size: 16;-fx-font-weight: 900" translateY="40" translateX="95" />
         <HBox >
             <ToggleButton fx:id="hide" text="▶" prefHeight="65" prefWidth="27" translateY="33" style="-fx-font-weight: 900; -fx-background-color: white;-fx-border-color: black;-fx-border-width: 3"/>
@@ -43,7 +44,7 @@
                     <TextField fx:id="searchBar" prefWidth="400" prefHeight="40" style="-fx-font-size: 30;-fx-font-weight:900; -fx-background-radius: 50;" />
                 </VBox >
                 <ScrollPane hbarPolicy="AS_NEEDED" vbarPolicy="AS_NEEDED" stylesheets="@Styling.css" styleClass="scroll-bar" VBox.vgrow="ALWAYS" style="-fx-border-width: 8; -fx-border-color: rgb(18, 19, 20); -fx-min-height: 25; -fx-max-height: 400;">
-                    <VBox fx:id="suggestionBox" style="-fx-font-size: 25; -fx-background-color: white;-fx-font-weight: 900;">
+                    <VBox fx:id="suggestionBox" style="-fx-font-size: 25; -fx-background-color: transparent;-fx-font-weight: 900;">
                     </VBox>
                 </ScrollPane>
             </VBox>
