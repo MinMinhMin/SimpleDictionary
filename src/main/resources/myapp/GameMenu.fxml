@@ -7,8 +7,8 @@
 <ContextMenu styleClass="context-menu-1" xmlns="http://javafx.com/javafx"
              xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.Game.GameMenuController" style="-fx-border-width: 4; -fx-border-color: rgb(18, 19, 20);-fx-border-radius: 10;-fx-background-radius: 10">
   <items>
+    <MenuItem onAction="#handleWordMeaning" text="     Shigure-chan" style="-fx-font-size: 18;-fx-font-weight: 900"  />
     <MenuItem onAction="#handleCrossBoard" text="     Cross Board" style="-fx-font-size: 18;-fx-font-weight: 900"  />
-    <MenuItem onAction="#handleGame2" text="     Game 2"  style="-fx-font-size: 18;-fx-font-weight: 900"  />
     <SeparatorMenuItem/>
   </items>
 </ContextMenu>

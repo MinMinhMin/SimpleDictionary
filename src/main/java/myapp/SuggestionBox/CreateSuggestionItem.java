@@ -12,6 +12,7 @@ import myapp.Main;
 import java.io.IOException;
 
 public class CreateSuggestionItem {
+
 	public static HBox createSuggestionItem(String suggestion, String meaning, TextField searchBar) {
 		HBox suggestionItem = new HBox();
 		suggestionItem.getStyleClass().add("suggestion-item");
@@ -32,7 +33,7 @@ public class CreateSuggestionItem {
 		suggestionItem.setOnMouseExited(event -> {
 			Main.mainController.setLeftClick("");
 			Main.mainController.setRightClick("");
-			suggestionItem.setStyle("-fx-background-color: transparent;")	;
+			suggestionItem.setStyle("-fx-background-color: transparent;");
 		});
 
 		suggestionItem.setOnMouseClicked(event -> {

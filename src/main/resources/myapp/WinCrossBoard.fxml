@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+<Pane  xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="myapp.Game.CrossBoard.Win"
+      prefHeight="400.0" prefWidth="600.0" style="
+            -fx-border-width: 5; -fx-border-color: rgb(7, 17, 17); -fx-background-radius: 30; -fx-border-radius:  20;-fx-background-color: white">
+    <Pane fx:id="winBox" translateX="80" translateY="230"/>
+    <Circle radius="7" stroke="black" strokeWidth="3" fill="white" translateX="220" translateY="240"/>
+    <VBox translateX="60" translateY="90" style="-fx-background-color: white;-fx-border-color: black;-fx-border-width: 3;-fx-background-radius: 30; -fx-border-radius:  20; " prefHeight="140" prefWidth="260" />
+    <Label text="Your score:" style="-fx-font-weight: 900; -fx-font-size: 20" translateY="130" translateX="80"/>
+    <Text fx:id="point" style="-fx-font-weight: 900; -fx-font-size: 24;" fill="crimson" translateY="154" translateX="190"/>
+    <Button  fx:id="refresh"  stylesheets="@Styling.css" styleClass="refreshButton" onAction="#refreshStage"  translateY="14" translateX="63" prefHeight="27" prefWidth="27"/>
+    <Button fx:id="close" stylesheets="@Styling.css" styleClass="closeButton"   translateY="14" onAction="#close" prefHeight="27"  translateX="13" prefWidth="27"/>
+
+
+</Pane>

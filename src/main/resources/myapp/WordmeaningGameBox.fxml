@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Line?>
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="myapp.Game.WordMeaning.WordMeaningController"
+      prefHeight="400.0" prefWidth="600.0"
+      style="-fx-border-width: 5; -fx-border-color: rgb(7, 17, 17); -fx-background-radius: 30; -fx-border-radius:  20;-fx-background-color: white">
+    <Button fx:id="refresh" stylesheets="@Styling.css" onAction="#refreshStage" translateY="16" translateX="320" styleClass="refreshButton"   prefHeight="27" prefWidth="27"/>
+    <Button fx:id="close" stylesheets="@Styling.css" onAction="#close" translateX="13" translateY="16" styleClass="closeButton"   prefHeight="27" prefWidth="27"/>
+    <Button fx:id="tutorial" stylesheets="@Styling.css" onAction="#tutorialClicked" translateX="13" translateY="116" styleClass="tutorial"   prefHeight="30" prefWidth="30"/>
+    <Text fx:id="ShigureAtkPoint" text="ATK point: 2" style="-fx-font-size: 13" fill="darkcyan" translateX="230" translateY="140"/>
+    <Text fx:id ="GM"  style="-fx-font-size: 13" fill="crimson" translateX="215" translateY="170"/>
+    <Text fx:id="Name" text="Shigure-chan" translateX="42" translateY="37" style="-fx-font-size: 13" fill="darkcyan"/>
+    <Pane translateX="80" translateY="120">
+        <Line fill="black" strokeWidth="2" />
+    </Pane>
+    <Text fx:id="YourHP" text="Your HP" style="-fx-font-size: 13" fill="darkgreen" translateX="30" translateY="450" />
+    <Text fx:id="YourAtk" text="ATK point: 1" style="-fx-font-size: 13" fill="darkgreen" translateX="30" translateY="470"/>
+    <Pane fx:id="BLOW" translateX="130" translateY="420">
+        <Pane fx:id="health"  style="-fx-background-color: transparent"/>
+    </Pane>
+    <Pane fx:id="ShigureHealth" translateX="150" translateY="6"/>
+    <Pane fx:id="Next" translateX="260" translateY="160" visible="false" style="-fx-background-color: transparent">
+        <Text fx:id="nextText" text="Next Wave" style="-fx-font-size: 12" translateY="60"/>
+    </Pane>
+    <Pane fx:id="SlashAttack" translateX="60" translateY="80">
+        <Pane fx:id="Boss" style="-fx-background-color: transparent"/>
+    </Pane>
+    <Pane fx:id="QuestionGif" translateX="80" translateY="60"/>
+    <Text fx:id="Question" text="Question" translateX=" 15" translateY="265" style="-fx-font-size: 15"/>
+    <Pane  translateY="300" translateX="120" >
+        <Pane fx:id="Clickme1" translateX="-70" translateY="-26"/>
+        <Text fx:id="MarkAnswer1" text="Choose ->" style="-fx-font-size: 15;-fx-font-weight: 900" translateX="-100" fill="crimson" visible="false"/>
+        <Text fx:id="Answer1" text="answer1"  style="-fx-font-size: 12"/>
+    </Pane>
+    <Pane  translateY="335" translateX="120" >
+        <Pane fx:id="Clickme2" translateX="-70" translateY="-26"/>
+        <Text fx:id="MarkAnswer2" text="Choose ->" style="-fx-font-size: 15;-fx-font-weight: 900" translateX="-100" fill="crimson" visible="false"/>
+        <Text fx:id="Answer2" text="answer2"  style="-fx-font-size: 12"/>
+    </Pane>
+    <Pane  translateY="370" translateX="120" >
+        <Pane fx:id="Clickme3" translateX="-70" translateY="-26"/>
+        <Text fx:id="MarkAnswer3" text="Choose ->" style="-fx-font-size: 15;-fx-font-weight: 900" translateX="-100" fill="crimson" visible="false"/>
+        <Text fx:id="Answer3" text="answer3"  style="-fx-font-size: 12"/>
+    </Pane>
+    <Pane  translateY="405" translateX="120" >
+        <Pane fx:id="Clickme4" translateX="-70" translateY="-26"/>
+        <Text fx:id="MarkAnswer4" text="Choose ->" style="-fx-font-size: 15;-fx-font-weight: 900" translateX="-100" fill="crimson" visible="false"/>
+        <Text fx:id="Answer4" text="answer4"  style="-fx-font-size: 12"/>
+    </Pane>
+    <Pane fx:id="Speaker" translateX="15" translateY="163" visible="false">
+        <Text fx:id="speakerText" text="Audio question" style="-fx-font-size: 10" translateY="55"/>
+    </Pane>
+    <Pane translateX="15" translateY="85">
+        <Text fx:id="WaveCount" text="[1/10]" style="-fx-font-size: 17" />
+        <Text fx:id="Wave" text="Wave" style="-fx-font-size: 13;-fx-font-weight: 900" translateX="5" translateY="18" />
+    </Pane>
+
+
+
+</Pane>

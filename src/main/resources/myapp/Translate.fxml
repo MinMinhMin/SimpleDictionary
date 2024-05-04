@@ -5,7 +5,7 @@
 
 <HBox spacing="10" xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="myapp.Translate.TranslateBoxController">
+      fx:controller="myapp.Translate.TranslateBoxController" style="-fx-background-radius: 20;-fx-background-color: transparent">
     <ScrollPane  stylesheets="@Styling.css" styleClass="scroll-bar" prefWidth="600.0"  vbarPolicy="NEVER" hbarPolicy="NEVER" style="-fx-border-width: 5; -fx-border-color:rgb(7, 17, 17);-fx-border-radius: 10; -fx-background-color: transparent ">
         <HBox  >
             <TextArea prefHeight="118" prefWidth="600.0" fx:id="InputBox" wrapText="true" style="-fx-padding: 0 128 0 0;-fx-font-size: 15; -fx-font-weight: 900"/>
