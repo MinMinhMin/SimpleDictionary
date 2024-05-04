@@ -59,6 +59,9 @@ public class ContextMenuController {
 		}
 		if(option == "FavoriteWord"){
            //do your work bitch! (selectedWord,mean)
+            Words.add_to_favourite(selectedWord,mean);
+
+
 		}
 
 	}

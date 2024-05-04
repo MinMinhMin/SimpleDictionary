@@ -8,10 +8,7 @@ import myapp.SuggestionBox.WordDetails.WordDetails;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
 import java.util.*;
 
 public class Words {
@@ -58,7 +55,7 @@ public class Words {
 
 		try {
 
-			String sql = "INSERT INTO words VALUES(?,?,?)";
+			String sql = "INSERT INTO words VALUES(?,?,?,?)";
 			PreparedStatement statement = sqlite_connection.prepareStatement(sql);
 			statement.setInt(1, word_capacity + 1);
 			statement.setString(2, word);
@@ -82,6 +79,50 @@ public class Words {
 		}
 
 	}
+
+    public static  void add_to_favourite(String word,String meaning){
+
+        try{
+
+            String sql="UPDATE words SET FAVORITE= ? WHERE word_name = ? AND vie_meaning = ?";
+            PreparedStatement preparedStatement=sqlite_connection.prepareStatement(sql);
+            preparedStatement.setInt(1,1);
+            preparedStatement.setString(2,word);
+            preparedStatement.setString(3,meaning);
+            preparedStatement.executeUpdate();
+
+
+        }catch (Exception e){
+
+            e.printStackTrace();
+
+        }
+
+
+
+    }
+
+    public static  void add_to_unfavourite(String word,String meaning){
+
+        try{
+
+            String sql="UPDATE words SET FAVORITE= ? WHERE word_name = ? AND vie_meaning = ?";
+            PreparedStatement preparedStatement=sqlite_connection.prepareStatement(sql);
+            preparedStatement.setNull(1, Types.INTEGER);
+            preparedStatement.setString(2,word);
+            preparedStatement.setString(3,meaning);
+            preparedStatement.executeUpdate();
+
+
+        }catch (Exception e){
+
+            e.printStackTrace();
+
+        }
+
+
+
+    }
 
 	public static void delete_word(String content,boolean called) {
 
