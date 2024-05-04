@@ -8,7 +8,11 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import myapp.Game.GameMenuController;
+import myapp.Main;
 import myapp.MainController;
+import myapp.SuggestionBox.Words;
+import myapp.Transition.ScaleTransition;
+import myapp.Transition.ScaleTransitionForButton;
 
 import java.io.IOException;
 import java.net.URL;
@@ -33,8 +37,9 @@ public class CrossBoardGameController implements Initializable {
 	private Map<String,Text> textMap = new HashMap<>();
 	@FXML
 	private Text word1,word2,word3,word4,point,choosenWord,win;
+	private Words words = Main.mainController.getWords();
     public void setWordsToFind() {
-        this.wordsToFind = MainController.words.get_4_random_words();
+        this.wordsToFind = words.get_4_random_words();
         this.wordsSet=new HashSet<>(this.wordsToFind);
 		int index = 1;
         for (String word:this.wordsToFind){
@@ -62,8 +67,9 @@ public class CrossBoardGameController implements Initializable {
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle) {
-		MainController.applyScaleTransition(close);
-		MainController.applyScaleTransition(refresh);
+		ScaleTransition scaleTransition = new ScaleTransitionForButton(new Button[]{close,refresh});
+		scaleTransition.applyScaleTransition();
+
         setWordsToFind();
 		buttons = new ToggleButton[10][8];
 

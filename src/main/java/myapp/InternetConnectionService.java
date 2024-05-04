@@ -11,6 +11,8 @@ public class InternetConnectionService {
 		try {
 			final URL url = new URL("http://www.google.com");
 			final URLConnection conn = url.openConnection();
+			conn.setConnectTimeout(200);
+			conn.setReadTimeout(200);
 			conn.connect();
 			return true;
 		} catch (Exception e) {

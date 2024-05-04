@@ -8,6 +8,9 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.transform.Rotate;
 import javafx.util.Duration;
 import myapp.SuggestionBox.CreateSuggestionItem;
+import myapp.Transition.ScaleTransition;
+import myapp.Transition.ScaleTransitionForButton;
+import myapp.Transition.ScaleTransitionForToggleButton;
 import myapp.Translate.TranslateBoxController;
 
 import java.io.IOException;
@@ -35,6 +38,7 @@ public class SettingMenuController {
 
 		rotateTransition.setAxis(Rotate.Z_AXIS);
 		reloadInternet.setOnAction(event -> {
+			System.out.println("reload");
 			Main.mainController.Internetcheck();
              rotateTransition.play();
 		});
@@ -52,9 +56,10 @@ public class SettingMenuController {
 			removeStyle = "vietnam";
 			addStyle = "english";
 		}
-
-		MainController.applyScaleTransition(reloadInternet);
-		MainController.applyScaleTransitionForToggleButton(ChangeTranslateButton);
+		ScaleTransition scaleTransition = new ScaleTransitionForButton(new Button[]{reloadInternet});
+		scaleTransition.applyScaleTransition();
+		scaleTransition = new ScaleTransitionForToggleButton(new ToggleButton[]{ChangeTranslateButton});
+		scaleTransition.applyScaleTransition();
 		ChangeTranslateButton.setOnAction(event -> {
 			if(ChangeTranslateButton.isSelected()){
 				TranslateBoxController.TranslateString = language;
@@ -68,7 +73,7 @@ public class SettingMenuController {
 		});
 	}
 
-	public static ContextMenu loadSettingMenu() {
+	public  ContextMenu loadSettingMenu() {
 		try {
 			FXMLLoader loader = new FXMLLoader(SettingMenuController.class.getResource("SettingMenu.fxml"));
 			ContextMenu settingMenu = loader.load();

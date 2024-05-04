@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="myapp.PicturePlayer"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox fx:id="PictureBox" style="-fx-border-width: 8;-fx-border-color: black;-fx-background-color: transparent"/>
+    <Button fx:id="next" text="next"/>
+    <Button fx:id="previous" text="previous"/>
+
+</AnchorPane>

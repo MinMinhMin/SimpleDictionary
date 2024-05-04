@@ -218,6 +218,8 @@ public class API{
         try {
             URL dict_url=new URL("https://api.dictionaryapi.dev/api/v2/entries/en/"+word);
             URLConnection urlConnection=dict_url.openConnection();
+            urlConnection.setConnectTimeout(200);
+            urlConnection.setReadTimeout(200);
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
             String line,content="";
             while ((line = bufferedReader.readLine()) != null)

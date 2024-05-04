@@ -7,7 +7,8 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
-import myapp.MainController;
+import myapp.Transition.ScaleTransition;
+import myapp.Transition.ScaleTransitionForButton;
 
 import java.sql.SQLException;
 
@@ -15,7 +16,7 @@ public class DetailBoxController {
 
 	private Stage stage;
 
-	private static String word;
+	private String word;
 
 	public String getWord() {
 		return word;
@@ -32,7 +33,8 @@ public class DetailBoxController {
 	}
 
 	public void setWord(String word) throws SQLException {
-		MainController.applyScaleTransition(close);
+		ScaleTransition scaleTransition = new ScaleTransitionForButton(new Button[]{close});
+		scaleTransition.applyScaleTransition();
 		this.word = word;
 		if(word == null){return;}
 		updateUI();
@@ -90,7 +92,8 @@ public class DetailBoxController {
 
 		if(text.length()!=0) {
 			Button audio = new Button();
-			MainController.applyScaleTransition(audio);
+			ScaleTransition scaleTransition = new ScaleTransitionForButton(new Button[]{audio});
+			scaleTransition.applyScaleTransition();
 			audio.getStylesheets().add(DetailBoxController.class.getResource("/myapp/Styling.css").toExternalForm());
 			audio.getStyleClass().add("audioButton");
 			final Media sound = new Media(text);
