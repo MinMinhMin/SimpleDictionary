@@ -26,7 +26,6 @@ all	tất cả
 have	có
 new	mới
 more	hơn
-an	MỘT
 was	đã từng là
 we	chúng tôi
 will	sẽ
@@ -78,7 +77,6 @@ get	lấy
 pm	buổi chiều
 view	xem
 online	trực tuyến
-c	c
 first	Đầu tiên
 am	là
 been	là
@@ -86,7 +84,6 @@ would	sẽ
 how	Làm sao
 were	đã từng
 me	Tôi
-s	S
 services	dịch vụ
 some	một số
 these	những cái này
@@ -94,7 +91,6 @@ click	nhấp chuột
 its	của nó
 like	giống
 service	dịch vụ
-x	x
 than	hơn
 find	tìm thấy
 price	giá
@@ -114,13 +110,11 @@ into	vào trong
 email	e-mail
 two	hai
 health	sức khỏe
-n	N
 world	thế giới
 re	nốt Rê
 next	Kế tiếp
 used	đã sử dụng
 go	đi
-b	b
 work	công việc
 last	cuối cùng
 most	hầu hết
@@ -136,7 +130,6 @@ system	hệ thống
 post	bưu kiện
 her	cô ấy
 city	thành phố
-t	t
 add	thêm vào
 policy	chính sách
 number	con số
@@ -154,7 +147,6 @@ jan	tháng một
 good	Tốt
 video	băng hình
 well	Tốt
-d	d
 where	Ở đâu
 info	thông tin
 rights	quyền
@@ -163,7 +155,6 @@ books	sách
 high	cao
 school	trường học
 through	bởi vì
-m	tôi
 each	mỗi
 links	liên kết
 she	cô ấy
@@ -175,7 +166,6 @@ privacy	sự riêng tư
 book	sách
 items	mặt hàng
 company	công ty
-r	r
 read	đọc
 group	nhóm
 sex	tình dục
@@ -183,7 +173,6 @@ need	nhu cầu
 many	nhiều
 user	người dùng
 said	nói
-de	de
 does	làm
 set	bộ
 under	dưới
@@ -202,14 +191,12 @@ games	Trò chơi
 way	đường
 days	ngày
 management	sự quản lý
-p	P
 part	phần
 could	có thể
 great	Tuyệt
 united	thống nhất
 hotel	khách sạn
 real	thực tế
-f	f
 item	mục
 international	quốc tế
 center	trung tâm
@@ -259,13 +246,10 @@ subject	chủ thể
 between	giữa
 forum	diễn đàn
 family	gia đình
-l	tôi
 long	dài
 based	dựa trên
-w	w
 code	mã số
 show	trình diễn
-o	ồ
 even	thậm chí
 black	đen
 check	kiểm tra
@@ -287,7 +271,6 @@ case	trường hợp
 project	dự án
 same	như nhau
 pages	trang
-uk	Vương quốc Anh
 version	phiên bản
 section	phần
 own	sở hữu
@@ -297,7 +280,6 @@ house	căn nhà
 related	có liên quan
 security	bảo vệ
 both	cả hai
-g	g
 county	quận
 american	Người Mỹ
 photo	hình chụp
@@ -316,7 +298,6 @@ place	địa điểm
 end	kết thúc
 following	tiếp theo
 download	Tải xuống
-h	h
 him	anh ta
 without	không có
 per	mỗi
@@ -355,7 +336,6 @@ during	trong lúc
 usa	Hoa Kỳ
 return	trở lại
 students	sinh viên
-v	v
 shopping	mua sắm
 account	tài khoản
 times	lần
@@ -368,7 +348,6 @@ form	hình thức
 events	sự kiện
 love	yêu
 old	cũ
-john	John
 main	chủ yếu
 call	gọi
 hours	giờ
@@ -377,8 +356,6 @@ department	phòng
 title	tiêu đề
 description	Sự miêu tả
 non	không
-k	k
-y	y
 insurance	bảo hiểm
 another	khác
 why	Tại sao
@@ -408,25 +385,22 @@ include	bao gồm
 college	trường cao đẳng
 value	giá trị
 article	bài báo
-york	York
 man	người đàn ông
 card	Thẻ
 jobs	việc làm
 provide	cung cấp
-j	j
 food	đồ ăn
 source	nguồn
 author	tác giả
 different	khác biệt
 press	nhấn
-u	bạn
+you	bạn
 learn	học hỏi
 sale	doanh thu
 around	xung quanh
 print	in
 course	khóa học
 job	công việc
-canada	Canada
 process	quá trình
 teen	thiếu niên
 room	phòng
@@ -489,13 +463,11 @@ cost	trị giá
 movie	bộ phim
 forums	diễn đàn
 march	bước đều
-la	la
 september	tháng 9
 better	tốt hơn
 say	nói
 questions	câu hỏi
 july	tháng bảy
-yahoo	Yahoo
 going	đang đi
 medical	thuộc về y học
 test	Bài kiểm tra
@@ -509,7 +481,6 @@ application	ứng dụng
 cart	xe đẩy
 staff	nhân viên
 articles	bài viết
-san	san
 feedback	nhận xét
 again	lại
 play	chơi
@@ -555,7 +526,6 @@ give	đưa cho
 memory	ký ức
 performance	hiệu suất
 social	xã hội
-q	q
 august	tháng tám
 quote	trích dẫn
 language	ngôn ngữ
@@ -575,7 +545,6 @@ few	một vài
 east	phía đông
 paper	giấy
 single	đơn
-ii	ii
 age	tuổi
 activities	các hoạt động
 club	câu lạc bộ
@@ -583,7 +552,6 @@ example	ví dụ
 girls	cô gái
 additional	thêm vào
 password	mật khẩu
-z	z
 latest	muộn nhất
 something	thứ gì đó
 road	đường
@@ -591,10 +559,8 @@ gift	quà
 question	câu hỏi
 changes	thay đổi
 night	đêm
-ca	ca
 hard	cứng
-texas	Texas
-oct	tháng mười
+october	tháng mười
 pay	chi trả
 four	bốn
 poker	bài bạc
@@ -616,7 +582,7 @@ nov	tháng mười một
 offer	lời đề nghị
 blue	màu xanh da trời
 groups	các nhóm
-al	tất cả
+all	tất cả
 easy	dễ
 given	được cho
 files	các tập tin
@@ -644,17 +610,13 @@ hand	tay
 sun	mặt trời
 cards	thẻ
 problems	các vấn đề
-london	London
-washington	Washington
 meeting	cuộc họp
-rss	rss
 become	trở nên
 interest	quan tâm
 id	nhận dạng
 child	đứa trẻ
 keep	giữ
 enter	đi vào
-california	California
 porn	khiêu dâm
 share	chia sẻ
 similar	tương tự
@@ -679,7 +641,7 @@ put	đặt
 computers	máy tính
 journal	tạp chí
 reports	báo cáo
-co	đồng
+copper	đồng
 try	thử
 welcome	Chào mừng
 central	trung tâm
@@ -726,7 +688,6 @@ association	sự kết hợp
 able	có thể
 having	đang có
 provides	cung cấp
-david	david
 fun	vui vẻ
 already	đã
 green	màu xanh lá
@@ -768,7 +729,7 @@ database	cơ sở dữ liệu
 says	nói
 official	chính thức
 weather	thời tiết
-mar	tháng ba
+march	tháng ba
 land	đất
 average	trung bình
 done	xong
@@ -780,11 +741,9 @@ region	vùng đất
 island	hòn đảo
 record	ghi
 direct	trực tiếp
-microsoft	microsoft
 conference	hội nghị
 environment	môi trường
 records	Hồ sơ
-st	st
 district	huyện
 calendar	lịch
 costs	chi phí
@@ -794,7 +753,7 @@ front	đằng trước
 statement	tuyên bố
 update	cập nhật
 parts	các bộ phận
-aug	tháng tám
+august	tháng tám
 ever	bao giờ
 downloads	lượt tải xuống
 early	sớm
@@ -810,7 +769,7 @@ word	từ
 works	làm
 material	vật liệu
 bill	hóa đơn
-apr	tháng tư
+april	tháng tư
 written	bằng văn bản
 talk	nói chuyện
 federal	liên bang
@@ -858,7 +817,6 @@ tech	công nghệ
 meet	gặp
 far	xa
 economic	thuộc kinh tế
-en	vi
 player	người chơi
 projects	dự án
 lyrics	lời bài hát
@@ -879,10 +837,9 @@ deals	giao dịch
 various	nhiều
 words	từ
 linux	linux
-jul	tháng bảy
+july	tháng bảy
 production	sản xuất
 commercial	thuộc về thương mại
-james	James
 weight	cân nặng
 town	thị trấn
 heart	trái tim
@@ -897,7 +854,7 @@ knowledge	kiến thức
 magazine	tạp chí
 error	lỗi
 camera	Máy ảnh
-jun	tháng sáu
+june	tháng sáu
 girl	con gái
 currently	Hiện nay
 construction	sự thi công
@@ -922,19 +879,16 @@ taken	lấy
 sort	loại
 listings	danh sách
 models	mô hình
-michael	Michael
 known	được biết đến
 half	một nửa
 cases	các trường hợp
 step	bước chân
 engineering	kỹ thuật
-florida	Florida
 simple	đơn giản
 quick	nhanh
 none	không có
 wireless	không dây
 license	giấy phép
-paul	Paul
 friday	Thứ sáu
 lake	hồ
 whole	trọn
@@ -945,7 +899,6 @@ basic	nền tảng
 sony	sony
 shows	trình diễn
 corporate	công ty
-google	Google
 church	nhà thờ
 method	phương pháp
 purchase	mua
@@ -966,7 +919,6 @@ among	giữa
 death	cái chết
 writing	viết
 speed	tốc độ
-html	html
 countries	Quốc gia
 loss	sự mất mát
 face	khuôn mặt
@@ -1060,7 +1012,6 @@ season	mùa
 apply	áp dụng
 someone	người nào đó
 held	cầm
-ny	này
 anything	bất cứ điều gì
 printer	máy in
 condition	tình trạng
@@ -1069,7 +1020,6 @@ believe	tin tưởng
 organization	tổ chức
 effect	tác dụng
 asked	yêu cầu
-eur	eur
 mind	tâm trí
 sunday	chủ nhật
 selection	lựa chọn
@@ -1097,7 +1047,7 @@ came	đã đến
 supply	cung cấp
 nothing	Không có gì
 certain	chắc chắn
-usr	sử dụng
+use	sử dụng
 executive	điều hành
 running	đang chạy
 lower	thấp hơn
@@ -1105,14 +1055,11 @@ necessary	cần thiết
 union	liên hiệp
 jewelry	trang sức
 according	theo
-dc	dc
 clothing	quần áo
-mon	Thứ hai
-com	com
+monday	Thứ hai
 particular	cụ thể
 fine	khỏe
 names	tên
-robert	Robert
 homepage	trang chủ
 hour	giờ
 gas	khí ga
@@ -1173,12 +1120,11 @@ band	ban nhạc
 flash	tốc biến
 ms	bệnh đa xơ cứng
 lead	chỉ huy
-george	George
 choice	sự lựa chọn
 went	đi
 starting	bắt đầu
 registration	sự đăng ký
-fri	thứ sáu
+friday	thứ sáu
 thursday	thứ năm
 courses	các khóa học
 consumer	người tiêu dùng
@@ -1209,7 +1155,6 @@ super	siêu
 male	nam giới
 matter	vấn đề
 custom	phong tục
-virginia	Virginia
 almost	hầu hết
 took	lấy đi
 located	xác định vị trí
@@ -1234,11 +1179,9 @@ idea	ý tưởng
 rooms	phòng
 female	nữ giới
 responsible	chịu trách nhiệm
-inc	inc
 communications	thông tin liên lạc
 win	thắng
 associated	có liên quan
-thomas	thomas
 primary	sơ đẳng
 cancer	bệnh ung thư
 numbers	con số
@@ -1261,7 +1204,6 @@ comes	đến
 police	cảnh sát
 everyone	mọi người
 independent	độc lập
-ip	ip
 approach	tiếp cận
 cameras	máy ảnh
 brown	màu nâu
@@ -1273,7 +1215,6 @@ medicine	thuốc
 deal	thỏa thuận
 hold	giữ
 ratings	xếp hạng
-chicago	Chicago
 forms	các hình thức
 glass	thủy tinh
 happy	vui mừng
@@ -1294,7 +1235,7 @@ animal	động vật
 sources	nguồn
 mexico	Mexico
 population	dân số
-pa	bố
+papa	bố
 regular	thường xuyên
 secure	chắc chắn
 navigation	dẫn đường
@@ -1306,7 +1247,6 @@ evidence	chứng cớ
 station	ga tàu
 christian	người theo đạo thiên chúa
 round	tròn
-paypal	paypal
 favorite	yêu thích
 understand	hiểu
 option	lựa chọn
@@ -1314,7 +1254,6 @@ master	bậc thầy
 valley	thung lũng
 recently	gần đây
 probably	có lẽ
-thu	thu
 rentals	tiền thuê nhà
 sea	biển
 built	được xây dựng
@@ -1331,14 +1270,12 @@ anti	chống
 networks	mạng lưới
 earth	trái đất
 parents	cha mẹ
-nokia	nokia
 impact	sự va chạm
 transfer	chuyển khoản
 introduction	giới thiệu
 kitchen	phòng bếp
 strong	mạnh
 tel	điện thoại
-carolina	Carolina
 wedding	lễ cưới
 properties	của cải
 hospital	bệnh viện
@@ -1348,7 +1285,6 @@ ship	tàu thủy
 accommodation	chỗ ở
 owners	những chủ sở hữu
 disease	bệnh
-tx	tx
 excellent	xuất sắc
 paid	trả
 italy	Nước Ý
@@ -1360,20 +1296,16 @@ classic	cổ điển
 basis	nền tảng
 command	yêu cầu
 cities	các thành phố
-william	William
 express	thể hiện
 anal	hậu môn
 award	phần thưởng
 distance	khoảng cách
 tree	cây
-peter	Peter
 assessment	đánh giá
 ensure	đảm bảo
 thus	do đó
 wall	tường
-ie	I E
 involved	có liên quan
-el	el
 extra	thêm
 especially	đặc biệt
 interface	giao diện
@@ -1384,13 +1316,12 @@ rated	đánh giá
 guides	hướng dẫn
 success	thành công
 maximum	tối đa
-ma	mẹ
+mama	mẹ
 operation	hoạt động
 existing	hiện có
 quite	khá
 selected	đã chọn
 boy	con trai
-amazon	amazon
 patients	người bệnh
 restaurants	nhà hàng
 beautiful	xinh đẹp
@@ -1416,11 +1347,8 @@ est	ước tính
 son	Con trai
 providing	cung cấp
 rule	luật lệ
-mac	mac
 housing	nhà ở
 takes	nhận
-iii	iii
-gmt	gmt
 bring	mang đến
 catalog	mục lục
 searches	tìm kiếm
@@ -1430,7 +1358,6 @@ mother	mẹ
 authority	thẩm quyền
 considered	được xem xét
 told	nói
-xml	xml
 traffic	giao thông
 programme	chương trình
 joined	đã tham gia
@@ -1459,15 +1386,11 @@ enterprise	doanh nghiệp
 ships	tàu thuyền
 entire	toàn bộ
 educational	giáo dục
-md	md
 leading	dẫn đầu
 metal	kim loại
 positive	tích cực
-fl	fl
 fitness	sự thích hợp
-chinese	người Trung Quốc
 opinion	ý kiến
-mb	mb
 asia	Châu Á
 football	bóng đá
 abstract	trừu tượng
@@ -1506,11 +1429,8 @@ assistance	hỗ trợ
 completed	hoàn thành
 skin	da
 graphics	đồ họa
-indian	người Ấn Độ
 prev	trước
 ads	Quảng cáo
-mary	mary
-il	Il
 expected	hy vọng
 ring	nhẫn
 grade	cấp
@@ -1524,7 +1444,6 @@ mailing	gửi thư
 vehicle	phương tiện giao thông
 longer	lâu hơn
 consider	coi như
-int	int
 northern	Phương bắc
 behind	phía sau
 panel	bảng điều khiển
@@ -1548,7 +1467,6 @@ plant	thực vật
 reported	đã báo cáo
 hit	đánh
 transportation	vận tải
-mm	mm
 pool	hồ bơi
 mini	nhỏ
 politics	chính trị
@@ -1573,7 +1491,6 @@ goods	Các mặt hàng
 recommended	khuyến khích
 born	sinh ra
 unless	Trừ khi
-richard	Richard
 detailed	chi tiết
 japanese	tiếng Nhật
 race	loài
@@ -1587,11 +1504,9 @@ maintenance	BẢO TRÌ
 ability	khả năng
 maybe	Có lẽ
 functions	chức năng
-ed	ed
 moving	di chuyển
 brands	nhãn hiệu
 places	địa điểm
-php	php
 pretty	đẹp
 trademarks	nhãn hiệu
 phentermine	thuốc phentermin
@@ -1619,7 +1534,6 @@ throughout	khắp
 sets	bộ
 dance	nhảy
 wood	gỗ
-msn	msn
 itself	chính nó
 defined	được xác định
 papers	giấy tờ
@@ -1633,13 +1547,11 @@ device	thiết bị
 established	thành lập
 answers	câu trả lời
 rent	thuê
-las	las
 remote	xa
 dark	tối tăm
 programming	lập trình
 external	bên ngoài
 apple	quả táo
-le	le
 regarding	về
 instructions	hướng dẫn
 min	phút
@@ -1654,8 +1566,6 @@ visual	thị giác
 host	chủ nhà
 variety	đa dạng
 teachers	giáo viên
-isbn	isbn
-martin	Martin
 manual	thủ công
 block	khối
 subjects	đối tượng
@@ -1673,12 +1583,9 @@ beginning	sự khởi đầu
 hands	bàn tay
 associates	cộng sự
 finally	Cuối cùng
-az	az
 updates	cập nhật
 desktop	máy tính để bàn
 classes	các lớp học
-paris	Paris
-ohio	Ohio
 gets	được
 sector	lĩnh vực
 capacity	dung tích
@@ -1700,25 +1607,20 @@ respect	sự tôn trọng
 unknown	không xác định
 specified	được chỉ định
 restaurant	nhà hàng
-mike	Mike
 trip	chuyến đi
-pst	pst
 worth	đáng giá
-mi	tôi
+me	tôi
 procedures	thủ tục
 poor	nghèo
 teacher	giáo viên
-xxx	xxx
 eyes	mắt
 relationship	mối quan hệ
 workers	công nhân
 farm	nông trại
 fucking	chết tiệt
-georgia	bang Georgia
 peace	hòa bình
 traditional	truyền thống
 campus	khuôn viên đại học
-tom	tom
 showing	hiển thị
 creative	sáng tạo
 coast	bờ biển
@@ -1768,10 +1670,9 @@ literature	văn học
 respective	tương ứng
 parent	cha mẹ
 spanish	người Tây Ban Nha
-michigan	Michigan
 columbia	Colombia
 setting	cài đặt
-dr	bác sĩ
+doctor	bác sĩ
 scale	tỉ lệ
 stand	đứng
 economy	kinh tế
@@ -1790,19 +1691,16 @@ australian	người Úc
 employee	người lao động
 chief	người đứng đầu
 gives	cho
-kb	kb
 bottom	đáy
 magazines	tạp chí thời sự
 packages	gói
 detail	chi tiết
-francisco	francisco
 laws	pháp luật
 changed	đã thay đổi
 pet	thú cưng
 heard	đã nghe
 begin	bắt đầu
 individuals	cá nhân
-colorado	Colorado
 royal	hoàng gia
 clean	lau dọn
 switch	công tắc
@@ -1825,12 +1723,10 @@ vol	tập
 installation	cài đặt
 described	mô tả
 demand	yêu cầu
-pp	trang
+page	trang
 suite	Thượng hạng
-vegas	vegas
-na	không có
+nah	không có
 square	quảng trường
-chris	chris
 attention	chú ý
 advance	nâng cao
 skip	nhảy
@@ -1838,12 +1734,10 @@ diet	ăn kiêng
 army	quân đội
 auction	bán đấu giá
 gear	bánh răng
-lee	Lee
 os	hệ điều hành
 difference	sự khác biệt
 allowed	cho phép
 correct	Chính xác
-charles	Charles
 nation	Quốc gia
 selling	bán
 lots	rất nhiều
@@ -1852,7 +1746,6 @@ sheet	tờ giấy
 firm	vững chãi
 seven	bảy
 older	lớn hơn
-illinois	bang Illinois
 regulations	quy định
 elements	yếu tố
 species	giống loài
@@ -1910,7 +1803,7 @@ lives	cuộc sống
 currency	tiền tệ
 leather	da thú
 determine	quyết tâm
-milf	SỮA.
+milf	SỮA
 temperature	nhiệt độ
 palm	lòng bàn tay
 announcements	thông báo
@@ -1918,7 +1811,6 @@ patient	kiên nhẫn
 actual	thật sự
 historical	lịch sử
 stone	cục đá
-bob	bob
 commerce	thương mại
 ringtones	nhạc chuông
 perhaps	có lẽ
@@ -1934,42 +1826,32 @@ amateur	nghiệp dư
 ex	bán tại
 met	gặp
 pain	nỗi đau
-xbox	xbox
 particularly	cụ thể
 factors	các nhân tố
 coffee	cà phê
-www	www
 settings	cài đặt
 cum	kiêm
 buyer	người mua
 cultural	thuộc văn hóa
-steve	Steve
 easily	một cách dễ dàng
 oral	miệng
-ford	ford
 poster	áp phích
 edge	bờ rìa
 functional	chức năng
 root	nguồn gốc
-au	au
-fi	fi
 closed	đóng cửa
 holidays	ngày lễ
 ice	đá
 pink	hồng
-zealand	Zealand
 balance	THĂNG BẰNG
 monitoring	giám sát
 graduate	tốt nghiệp
 replies	câu trả lời
 shot	bắn
-nc	nc
-architecture	ngành kiến ​​​​trúc
+architecture	ngành kiến trúc
 initial	ban đầu
 label	nhãn
 thinking	Suy nghĩ
-scott	Scott
-llc	llc
 sec	giây
 recommend	gợi ý
 canon	kinh điển
@@ -1992,10 +1874,8 @@ phase	giai đoạn
 fields	lĩnh vực
 bag	cái túi
 fantasy	tưởng tượng
-po	po
 letters	bức thư
 motor	động cơ
-va	va
 professor	giáo sư
 context	bối cảnh
 install	cài đặt
@@ -2009,10 +1889,6 @@ crime	tội phạm
 count	đếm
 breast	nhũ hoa
 techniques	kỹ thuật
-ibm	ibm
-rd	thứ
-johnson	johnson
-sc	sc
 quickly	nhanh
 dollars	USD
 websites	các trang web
@@ -2026,7 +1902,6 @@ heat	nhiệt
 wild	hoang dã
 measures	đo
 generation	thế hệ
-kansas	Kansas
 miss	cô
 chemical	hóa chất
 doctor	bác sĩ
@@ -2044,16 +1919,12 @@ mid	giữa
 guarantee	bảo đảm
 leader	lãnh đạo
 diamond	kim cương
-israel	Người israel
-se	se
 processes	quy trình
 soft	mềm mại
 servers	may chủ
 alone	một mình
 meetings	các cuộc họp
 seconds	giây
-jones	jones
-arizona	Arizona
 keyword	từ khóa
 interests	sở thích
 flight	chuyến bay
@@ -2075,7 +1946,6 @@ freedom	tự do
 argument	lý lẽ
 competition	cuộc thi
 creating	tạo ra
-jim	Jim
 drugs	thuốc
 joint	chung
 premium	phần thưởng
@@ -2084,11 +1954,9 @@ fresh	tươi
 characters	nhân vật
 attorney	luật sư
 upgrade	nâng cấp
-di	di
 factor	nhân tố
 growing	phát triển
 thousands	hàng ngàn
-km	km
 stream	suối
 apartments	căn hộ
 pick	nhặt
@@ -2104,22 +1972,16 @@ upper	phía trên
 administrative	hành chính
 serious	nghiêm trọng
 prime	xuất sắc
-samsung	SAMSUNG
 limit	giới hạn
 began	đã bắt đầu
-louis	Louis
 steps	bước
 errors	lỗi
 shops	cửa hàng
 bondage	sự trói buộc
-del	del
 efforts	nỗ lực
 informed	nắm được tin tức
-ga	ga
-ac	AC
 thoughts	suy nghĩ
 creek	Lạch nhỏ
-ft	ft
 worked	đã làm việc
 quantity	Số lượng
 urban	đô thị
@@ -2143,7 +2005,6 @@ tags	thẻ
 heavy	nặng
 covered	đề cập
 recovery	sự hồi phục
-joe	joe
 guys	các bạn
 integrated	tích hợp
 configuration	cấu hình
@@ -2169,28 +2030,21 @@ im	Tôi
 campaign	chiến dịch
 marine	hàng hải
 improvement	sự cải tiến
-vs	vs
 guitar	đàn ghi ta
 finding	Phát hiện
-pennsylvania	Pennsylvania
 examples	ví dụ
-ipod	ipod
 saying	nói
 spirit	tinh thần
-ar	ar
 claims	yêu sách
 porno	khiêu dâm
 challenge	thử thách
-motorola	motorola
 acceptance	chấp thuận
 strategies	chiến lược
-mo	mo
 seem	có vẻ
 affairs	chuyện
 touch	chạm
 intended	dự định
 towards	đối với
-sa	sa
 goals	bàn thắng
 hire	Thuê
 election	cuộc bầu cử
@@ -2206,9 +2060,7 @@ smart	thông minh
 talking	đang nói
 gave	đã đưa cho
 ones	những cái
-latin	Latin
 multimedia	đa phương tiện
-xp	xp
 tits	ngực
 avoid	tránh xa
 certified	được chứng nhận
@@ -2216,7 +2068,6 @@ manage	quản lý
 corner	góc
 rank	thứ hạng
 computing	tin học
-oregon	Oregon
 element	yếu tố
 birth	Sinh
 virus	vi-rút
@@ -2233,7 +2084,6 @@ racing	cuộc đua
 religious	tôn giáo
 facts	sự thật
 breakfast	bữa sáng
-kong	kong
 column	cột
 plants	thực vật
 faith	sự tin tưởng
@@ -2265,7 +2115,6 @@ damage	hư hại
 lab	phòng thí nghiệm
 reserve	dự trữ
 recipes	công thức nấu ăn
-cvs	cv
 gamma	gamma
 plastic	nhựa
 produce	sản xuất
@@ -2275,19 +2124,14 @@ truth	sự thật
 counter	quầy tính tiền
 failure	sự thất bại
 follows	theo sau
-eu	EU
 weekend	ngày cuối tuần
 dollar	đô la
 camp	trại
-ontario	Ontario
 automatically	tự động
-des	des
-minnesota	minnesota
 films	phim
 bridge	cầu
 native	tự nhiên
 fill	đổ đầy
-williams	Williams
 movement	sự chuyển động
 printing	in ấn
 baseball	bóng chày
@@ -2297,13 +2141,9 @@ draft	bản nháp
 chart	đồ thị
 played	chơi
 contacts	liên lạc
-cc	cc
-jesus	Chúa Giêsu
 readers	độc giả
 clubs	câu lạc bộ
 lcd	màn hình LCD
-wa	wa
-jackson	jackson
 equal	bình đẳng
 adventure	cuộc phiêu lưu
 matching	khớp
@@ -2315,8 +2155,6 @@ posters	áp phích
 institutions	thể chế
 assistant	trợ lý
 variable	Biến đổi
-ave	đại lộ
-dj	dj
 advertisement	quảng cáo
 expect	trông chờ
 parking	bãi đậu xe
@@ -2331,14 +2169,11 @@ gone	đi mất
 codes	mã
 kinds	các loại
 extension	sự mở rộng
-seattle	seattle
 statements	các câu lệnh
 golden	vàng
 completely	hoàn toàn
 teams	đội
 fort	pháo đài
-cm	cmt
-wi	Wi
 lighting	thắp sáng
 senate	Thượng nghị viện
 forces	lực lượng
@@ -2353,7 +2188,6 @@ applicable	áp dụng
 disc	đĩa
 returned	trả lại
 pattern	mẫu
-ct	ct
 hentai	hoạt
 boat	thuyền
 named	đặt tên
@@ -2366,9 +2200,7 @@ classical	cổ điển
 icon	biểu tượng
 warranty	sự bảo đảm
 dedicated	tận tụy
-indiana	Indiana
 direction	phương hướng
-harry	Harry
 basketball	bóng rổ
 objects	các đối tượng
 ends	kết thúc
@@ -2383,12 +2215,10 @@ criminal	tội phạm
 issued	cấp
 brain	não
 sexual	tình dục
-wisconsin	Wisconsin
 powerful	mạnh mẽ
 dream	mơ
 obtained	thu được
 false	SAI
-da	da
 cast	dàn diễn viên
 flower	hoa
 felt	cảm thấy
@@ -2404,16 +2234,13 @@ opinions	ý kiến
 promote	khuyến khích
 stated	đã nêu
 stats	số liệu thống kê
-hawaii	hawaii
 professionals	chuyên gia
 appears	xuất hiện
 carry	mang
 flag	lá cờ
 decided	quyết định
-nj	nj
 covers	bao gồm
-hr	giờ
-em	em
+hour	giờ
 advantage	lợi thế
 hello	Xin chào
 designs	thiết kế
@@ -2424,11 +2251,9 @@ newsletters	bản tin
 adults	người lớn
 clips	clip
 savings	tiết kiệm
-iv	iv
 graphic	đồ họa
 atom	nguyên tử
 payments	thanh toán
-rw	rw
 estimated	ước lượng
 binding	ràng buộc
 brief	ngắn gọn
@@ -2447,8 +2272,6 @@ void	trống rỗng
 dining	ăn uống
 alert	báo động
 integration	hội nhập
-atlanta	Atlanta
-dakota	dakota
 tag	nhãn
 interview	phỏng vấn
 mix	pha trộn
@@ -2456,7 +2279,6 @@ framework	khuôn khổ
 disk	đĩa
 installed	Cài đặt
 queen	nữ hoàng
-vhs	vhs
 credits	tín dụng
 clearly	rõ ràng
 fix	sửa chữa
@@ -2465,13 +2287,9 @@ sweet	ngọt
 desk	bàn làm việc
 criteria	tiêu chuẩn
 pubmed	đã xuất bản
-dave	dave
-massachusetts	Massachusetts
-diego	diego
 hong	hồng
 vice	hành vi xấu xa
 associate	kết hợp
-ne	ne
 truck	xe tải
 behavior	hành vi
 enlarge	phóng to
@@ -2504,7 +2322,6 @@ train	xe lửa
 exactly	chính xác
 dry	khô
 explore	khám phá
-maryland	maryland
 spa	spa
 concept	ý tưởng
 nearly	gần như
@@ -2522,7 +2339,6 @@ destination	điểm đến
 scotland	Scotland
 faster	nhanh hơn
 intelligence	Sự thông minh
-dallas	Dallas
 bought	mua
 con	lừa đảo
 ups	thăng cấp
@@ -2533,7 +2349,6 @@ specifications	thông số kỹ thuật
 broken	vỡ
 tripadvisor	cố vấn ba chuyến
 frank	thẳng thắn
-alaska	Alaska
 zoom	phóng
 blow	thổi
 battle	trận đánh
@@ -2547,9 +2362,7 @@ query	truy vấn
 clip	kẹp
 partnership	quan hệ đối tác
 editorial	biên tập
-nt	nt
 expression	sự biểu lộ
-es	es
 equity	công bằng
 provisions	điều khoản
 speech	lời nói
@@ -2577,38 +2390,27 @@ null	vô giá trị
 zero	số không
 speaker	loa
 filed	nộp
-gb	gb
-netherlands	nước Hà Lan
 obtain	đạt được
-bc	bc
 consulting	tư vấn
 recreation	giải trí
 offices	văn phòng
 designer	nhà thiết kế
 remain	duy trì
 managed	được quản lý
-pr	PR
 failed	thất bại
 marriage	kết hôn
 roll	cuộn
 korea	Hàn Quốc
 banks	ngân hàng
-fr	bạn
+friend	bạn
 participants	những người tham gia
 secret	bí mật
 bath	bồn tắm
-aa	aaa
-kelly	Kelly
 leads	dẫn
 negative	tiêu cực
-austin	Austin
 favorites	yêu thích
-toronto	toronto
 theater	nhà hát
 springs	lò xo
-missouri	Missouri
-andrew	Andrew
-var	var
 perform	trình diễn
 healthy	khỏe mạnh
 translation	dịch
@@ -2616,8 +2418,7 @@ estimates	ước tính
 font	nét chữ
 assets	tài sản
 injury	chấn thương
-mt	tấn
-joseph	Joseph
+ton	tấn
 ministry	Bộ
 drivers	trình điều khiển
 lawyer	luật sư
@@ -2626,7 +2427,6 @@ married	đã cưới
 protected	được bảo vệ
 proposal	đề xuất
 sharing	chia sẻ
-philadelphia	Philadelphia
 portal	cổng thông tin
 waiting	chờ
 birthday	sinh nhật
@@ -2635,7 +2435,6 @@ fail	thất bại
 gratis	miễn phí
 banking	ngân hàng
 officials	quan chức
-brian	Brian
 toward	theo hướng
 won	thắng
 slightly	nhẹ nhàng
@@ -2647,24 +2446,20 @@ shemale	chuyển giới
 legislation	pháp luật
 calling	đang gọi điện
 parameters	thông số
-jazz	nhạc jazz
 serving	phục vụ
 bags	túi
 profiles	hồ sơ
-miami	miami
 comics	truyện tranh
 matters	vấn đề
 houses	nhà ở
 doc	bác sĩ
 postal	Thuộc về bưu điện
 relationships	các mối quan hệ
-tennessee	Tennessee
 wear	mặc
 controls	điều khiển
 breaking	phá vỡ
 combined	kết hợp
 ultimate	tối thượng
-wales	xứ Wales
 representative	tiêu biểu
 frequency	Tính thường xuyên
 introduced	được giới thiệu
@@ -2682,12 +2477,9 @@ spent	đã tiêu
 performed	thực hiện
 extreme	vô cùng
 samples	mẫu
-davis	Davis
-daniel	Daniel
 bars	thanh
 reviewed	đã xem xét
 row	hàng ngang
-oz	oz
 forecast	dự báo
 removed	LOẠI BỎ
 helps	giúp
@@ -2701,7 +2493,6 @@ dual	hai
 rise	tăng lên
 usd	đô la Mỹ
 sleep	ngủ
-mg	mg
 bird	chim
 pharmacy	tiệm thuốc
 brazil	Brazil
@@ -2717,7 +2508,6 @@ writer	nhà văn
 chairman	Chủ tịch
 violence	bạo lực
 fans	người hâm mộ
-oklahoma	Oklahoma
 speakers	diễn giả
 drink	uống
 academy	học viện
@@ -2726,7 +2516,6 @@ gender	giới tính
 eat	ăn
 permanent	Vĩnh viễn
 agriculture	nông nghiệp
-dell	Dell
 cleaning	làm sạch
 constitutes	cấu thành
 portfolio	danh mục đầu tư
@@ -2757,7 +2546,6 @@ junior	nhỏ
 toll	số điện thoại
 les	tập tin
 cape	mũi
-ann	ann
 rings	Nhẫn
 meaning	nghĩa
 tip	mẹo
@@ -2765,7 +2553,6 @@ secondary	sơ trung
 wonderful	tuyệt vời
 mine	của tôi
 ladies	quý cô
-henry	Henry
 ticket	vé
 announced	công bố
 guess	đoán
@@ -2784,17 +2571,12 @@ automatic	tự động
 healthcare	chăm sóc sức khỏe
 viewing	đang xem
 maintained	duy trì
-ch	ch
 increasing	tăng dần
 majority	số đông
 connected	đã kết nối
-christ	Đấng Christ
-dan	đàn
 dogs	chó
-sd	sd
 directors	đạo diễn
 aspects	các khía cạnh
-austria	Áo
 ahead	phía trước
 moon	mặt trăng
 participation	sự tham gia
@@ -2806,24 +2588,21 @@ manner	thái độ
 matrix	ma trận
 containing	chứa đựng
 combination	sự kết hợp
-devel	phát triển
+develop	phát triển
 amendment	sửa đổi
 despite	cho dù
 strength	sức mạnh
 guaranteed	đảm bảo
-turkey	Thổ Nhĩ Kỳ
 libraries	thư viện
 proper	thích hợp
 distributed	phân phối
 degrees	độ
-singapore	Singapore
 enterprises	doanh nghiệp
 delta	đồng bằng
 fear	nỗi sợ
 seeking	đang tìm kiếm
 inches	inch
 phoenix	Phượng Hoàng
-rs	rs
 convention	quy ước
 shares	cổ phần
 principal	hiệu trưởng
@@ -2833,7 +2612,6 @@ voyeur	người thích xem hình ảnh liên quan đến tình dục
 comfort	an ủi
 colors	màu sắc
 wars	chiến tranh
-cisco	cisco
 ordering	đặt hàng
 kept	đã giữ
 alpha	alpha
@@ -2847,20 +2625,16 @@ bookmark	đánh dấu trang
 buildings	các tòa nhà
 specials	đặc biệt
 beat	tiết tấu
-disney	Disney
 household	hộ gia đình
 batteries	pin
-adobe	adobe
 smoking	hút thuốc
-bbc	bbc
 becomes	trở thành
 drives	ổ đĩa
 arms	cánh tay
-alabama	Alabama
 tea	trà
 improved	được cải thiện
 trees	cây
-avg	trung bình
+average	trung bình
 achieve	đạt được
 positions	chức vụ
 dress	đầm
@@ -2868,13 +2642,10 @@ subscription	đăng ký
 dealer	người buôn bán
 contemporary	đồng thời
 sky	bầu trời
-utah	utah
 nearby	gần đó
-rom	rom
 carried	mang theo
 happen	xảy ra
 exposure	phơi bày
-panasonic	panasonic
 hide	trốn
 permalink	liên kết cố định
 signature	chữ ký
@@ -2888,7 +2659,6 @@ caused	gây ra
 luxury	sang trọng
 babes	em yêu
 frames	khung
-viagra	viagra
 certainly	chắc chắn
 indeed	thực vậy
 newspaper	báo
@@ -2899,7 +2669,6 @@ printed	in
 slow	chậm
 removal	gỡ bỏ
 easier	dễ dàng hơn
-src	src
 liability	trách nhiệm pháp lý
 trademark	Nhãn hiệu
 hip	hông
@@ -2907,11 +2676,8 @@ printers	máy in
 faqs	câu hỏi thường gặp
 nine	chín
 adding	thêm
-kentucky	kentucky
 mostly	hầu hết
-eric	Eric
 spot	điểm
-taylor	taylor
 trackback	theo dõi lại
 prints	bản in
 spend	tiêu
@@ -2933,23 +2699,19 @@ conversion	chuyển đổi
 feeling	cảm giác
 hidden	ẩn giấu
 reasonable	hợp lý
-victoria	Victoria
 serial	nối tiếp
 relief	sự cứu tế
 revision	ôn tập
 broadband	băng thông rộng
 influence	ảnh hưởng
 ratio	tỉ lệ
-pda	pda
 importance	tầm quan trọng
 rain	cơn mưa
 onto	trên
-dsl	dsl
 planet	hành tinh
 webmaster	quản trị trang web
 copies	bản sao
 recipe	công thức
-zum	ừm
 permit	cho phép làm gì
 seeing	nhìn thấy
 proof	bằng chứng
@@ -2965,12 +2727,8 @@ hole	hố
 pets	vật nuôi
 ride	lái
 licensed	được cấp phép
-orlando	orlando
 specifically	đặc biệt
-tim	tim
 bureau	văn phòng
-maine	Maine
-sql	sql
 represent	đại diện
 conservation	bảo tồn
 pair	đôi
@@ -2986,36 +2744,29 @@ lawyers	luật sư
 sydney	Sydney
 stress	nhấn mạnh
 cream	kem
-ss	ss
 runs	chạy
 trends	xu hướng
 yeah	vâng
 discover	phát hiện
-sexo	tình dục
+sex	tình dục
 ap	ap
 patterns	hoa văn
 boxes	hộp
-louisiana	louisiana
 hills	Đồi
 javascript	javascript
 fourth	thứ tư
 nm	bước sóng
 advisor	cố vấn
-mn	tôi
 marketplace	thương trường
-nd	thứ
 evil	độc ác
 aware	nhận thức
-wilson	Wilson
 shape	hình dạng
 evolution	sự tiến hóa
-irish	người Ailen
 certificates	giấy chứng nhận
 objectives	mục tiêu
 stations	trạm
 suggested	đề xuất
 gps	gps
-op	op
 remains	còn lại
 acc	tài khoản
 greatest	vĩ đại nhất
@@ -3035,7 +2786,6 @@ mixed	Trộn
 census	điều tra dân số
 interracial	đa chủng tộc
 peak	đỉnh cao
-tn	tn
 competitive	cạnh tranh
 exist	hiện hữu
 wheel	bánh xe
@@ -3062,8 +2812,6 @@ forget	quên
 array	mảng
 discussed	thảo luận
 accurate	chính xác
-stephen	Stephen
-elizabeth	Elizabeth
 climate	khí hậu
 reservations	đặt chỗ
 pin	ghim
@@ -3081,10 +2829,8 @@ explain	giải thích
 smaller	nhỏ hơn
 newest	mới nhất
 establish	thành lập
-gnu	gnu
 happened	đã xảy ra
 expressed	bày tỏ
-jeff	jeff
 extent	phạm vi
 sharp	sắc
 lesbians	đồng tính nữ
@@ -3093,14 +2839,11 @@ lane	làn đường
 paragraph	đoạn văn
 kill	giết
 mathematics	toán học
-aol	ồ
 compensation	đền bù
-ce	ce
 export	xuất khẩu
 managers	người quản lý
 aircraft	phi cơ
 modules	mô-đun
-sweden	Thụy Điển
 conflict	xung đột
 conducted	tiến hành
 versions	phiên bản
@@ -3108,13 +2851,11 @@ employer	nhà tuyển dụng
 occur	xảy ra
 percentage	phần trăm
 knows	biết
-mississippi	Mississippi
 describe	mô tả
 concern	bận tâm
 backup	hỗ trợ
 requested	yêu cầu
 citizens	công dân
-connecticut	Connecticut
 heritage	di sản
 personals	cá nhân
 immediate	ngay tức khắc
@@ -3122,13 +2863,11 @@ holding	giữ
 trouble	rắc rối
 spread	lây lan
 coach	huấn luyện viên
-kevin	kevin
 agricultural	nông nghiệp
 expand	mở rộng
 supporting	hỗ trợ
 audience	khán giả
 assigned	giao
-jordan	jordan
 collections	bộ sưu tập
 ages	lứa tuổi
 participate	tham gia
@@ -3147,9 +2886,7 @@ dealers	đại lý
 searching	đang tìm kiếm
 sporting	thể thao
 helping	giúp đỡ
-perl	perl
 affected	ảnh hưởng
-lib	lib
 bike	xe đạp
 totally	Tổng cộng
 plate	đĩa
@@ -3160,10 +2897,7 @@ ab	bụng
 proceedings	thủ tục tố tụng
 favourite	yêu thích
 transmission	quá trình lây truyền
-anderson	Anderson
-utc	utc
 characteristics	đặc trưng
-der	der
 lose	thua
 organic	hữu cơ
 seek	tìm kiếm
@@ -3171,7 +2905,6 @@ experiences	kinh nghiệm
 albums	tập ảnh
 cheats	gian lận
 extremely	vô cùng
-verzeichnis	verzeichnis
 contracts	hợp đồng
 guests	khách
 hosted	được lưu trữ
@@ -3180,9 +2913,7 @@ concerning	liên quan đến
 developers	nhà phát triển
 equivalent	tương đương
 chemistry	hoá học
-tony	Tony
 neighborhood	hàng xóm
-nevada	Nevada
 kits	bộ dụng cụ
 thailand	nước Thái Lan
 variables	biến
@@ -3205,7 +2936,6 @@ responses	phản hồi
 atlantic	Đại Tây Dương
 wet	ướt
 circumstances	trường hợp
-edward	edward
 investor	nhà đầu tư
 identification	nhận biết
 ram	đập
@@ -3224,14 +2954,11 @@ sizes	kích cỡ
 plain	đơn giản
 exit	lối ra
 entered	đã nhập
-iran	Iran
 arm	cánh tay
 keys	phím
 launch	phóng
 wave	sóng
 checking	kiểm tra
-costa	bờ biển
-belgium	nước Bỉ
 printable	có thể in được
 holy	thánh thiện
 acts	hành vi
@@ -3253,20 +2980,15 @@ glossary	bảng chú giải
 fiscal	ngân sách
 celebrity	người nổi tiếng
 styles	phong cách
-denver	denver
-unix	unix
 filled	điền
 bond	liên kết
 channels	kênh truyền hình
-ericsson	ericsson
 appendix	ruột thừa
 notify	thông báo
-blues	nhạc blues
 chocolate	sô cô la
 pub	quán rượu
 portion	phần
 scope	phạm vi
-hampshire	Hampshire
 supplier	nhà cung cấp
 cables	cáp
 cotton	bông
@@ -3284,7 +3006,6 @@ representatives	đại diện
 starts	bắt đầu
 pregnancy	thai kỳ
 causes	nguyên nhân
-arkansas	Arkansas
 biography	tiểu sử
 leisure	thời gian rảnh rỗi
 attractions	điểm tham quan
@@ -3295,7 +3016,6 @@ explorer	nhà thám hiểm
 historic	mang tính lịch sử
 attached	đính kèm
 opened	đã mở
-tm	tm
 husband	chồng
 disabled	tàn tật
 authorized	được ủy quyền
@@ -3307,7 +3027,6 @@ retirement	sự nghỉ hưu
 scores	điểm số
 financing	tài chính
 efficiency	hiệu quả
-sp	sp
 comedy	hài kịch
 adopted	con nuôi
 efficient	có hiệu quả
@@ -3323,13 +3042,10 @@ edited	đã chỉnh sửa
 constant	không thay đổi
 visa	hộ chiếu
 mouth	miệng
-jewish	người Do Thái
 meter	mét
 linked	liên kết
-portland	Portland
 interviews	phỏng vấn
 concepts	các khái niệm
-nh	nh
 gun	súng
 reflect	phản ánh
 pure	nguyên chất
@@ -3346,18 +3062,14 @@ alerts	cảnh báo
 treated	được điều trị
 discovery	khám phá
 draw	vẽ tranh
-mysql	mysql
 classified	phân loại
 relating	liên quan
 assume	cho rằng
 confidence	sự tự tin
 alliance	liên minh
-fm	fm
 confirm	xác nhận
 warm	ấm
 neither	không
-lewis	Lewis
-howard	Howard
 offline	ngoại tuyến
 leaves	lá
 engineer	kỹ sư
@@ -3371,7 +3083,6 @@ converter	bộ chuyển đổi
 suck	hút
 organisation	tổ chức
 babe	em yêu
-checks	Séc
 reached	đạt
 becoming	trở thành
 blowjob	thổi kèn
@@ -3381,16 +3092,12 @@ indicated	chỉ ra
 sugar	đường
 crew	phi hành đoàn
 legs	chân
-sam	sam
 stick	dán
 securities	chứng khoán
-allen	Allen
-pdt	pdt
 relation	mối quan hệ
 enabled	đã bật
 genre	thể loại
 slide	cầu trượt
-montana	montana
 volunteer	tình nguyện viên
 tested	thử nghiệm
 rear	ở phía sau
@@ -3438,7 +3145,6 @@ cancel	Hủy bỏ
 limits	Hạn mức
 territory	lãnh thổ
 transaction	giao dịch
-manchester	manchester
 weapons	vũ khí
 paint	sơn
 delay	trì hoãn
@@ -3446,10 +3152,8 @@ pilot	phi công
 outlet	chỗ thoát
 contributions	đóng góp
 continuous	tiếp diễn
-db	db
 czech	Séc
 resulting	kết quả
-cambridge	Cambridge
 initiative	sáng kiến
 novel	cuốn tiểu thuyết
 pan	chảo
@@ -3458,23 +3162,17 @@ disability	khuyết tật
 increases	tăng
 ultra	cực kỳ
 winner	người chiến thắng
-idaho	idaho
 contractor	Nhà thầu
-ph	ph
 episode	tập phim
 examination	bài kiểm tra
 potter	thợ gốm
 dish	món ăn
 plays	vở kịch
 bulletin	bản tin
-ia	ia
 pt	điểm
 indicates	chỉ ra
 modify	biến đổi
-oxford	oxford
-adam	Adam
 truly	thực sự
-epinions	epinions
 painting	bức vẽ
 committed	tận tụy
 extensive	rộng rãi
@@ -3484,9 +3182,7 @@ candidate	ứng viên
 databases	cơ sở dữ liệu
 patent	bằng sáng chế
 slot	chỗ
-psp	psp
 outstanding	nổi bật
-ha	ha
 eating	Ăn
 perspective	luật xa gần
 planned	kế hoạch
@@ -3496,7 +3192,6 @@ messenger	tin nhắn
 mirror	gương
 tournament	giải đấu
 consideration	Sự xem xét
-ds	ds
 discounts	giảm giá
 sterling	đồng bảng Anh
 sessions	phiên
@@ -3507,30 +3202,21 @@ buyers	người mua
 journals	tạp chí
 gray	xám
 catalogue	mục lục
-ea	ea
-jennifer	jennifer
-antonio	antonio
 charged	tính phí
 broad	rộng lớn
-taiwan	Đài Loan
-und	và
+and	và
 chosen	đã chọn
 demo	thử nghiệm
 greece	Hy Lạp
-lg	lg
 swiss	người Thụy Sĩ
-sarah	sarah
-clark	Clark
 labour	nhân công
 hate	ghét
 terminal	phần cuối
 publishers	nhà xuất bản
 nights	đêm
 behalf	thay mặt
-caribbean	người Caribe
 liquid	chất lỏng
 rice	cơm
-nebraska	nebraska
 loop	vòng
 salary	lương
 reservation	sự đặt chỗ
@@ -3538,9 +3224,7 @@ foods	thực phẩm
 gourmet	người sành ăn
 guard	bảo vệ
 properly	đúng cách
-orleans	người dân orlean
 saving	tiết kiệm
-nfl	nfl
 remaining	còn lại
 empire	đế chế
 resume	bản tóm tắt
@@ -3549,15 +3233,11 @@ newly	mới
 raise	nâng lên
 prepare	chuẩn bị
 avatar	hình đại diện
-gary	Gary
 depending	tùy
 illegal	bất hợp pháp
 expansion	sự bành trướng
 vary	thay đổi
 hundreds	hàng trăm
-rome	la Mã
-arab	Ả rập
-lincoln	lincoln
 helped	đã giúp
 premier	thủ tướng
 tomorrow	Ngày mai
@@ -3572,11 +3252,10 @@ downtown	trung tâm thành phố
 keyboard	bàn phím
 contest	cuộc thi
 collected	đã thu thập
-nw	bây giờ
+now	bây giờ
 bands	ban nhạc
 boot	khởi động
 suitable	thích hợp
-ff	ff
 absolutely	tuyệt đối
 millions	hàng triệu
 lunch	bữa trưa
@@ -3584,7 +3263,6 @@ dildo	dương vật giả
 audit	kiểm toán
 push	xô
 chamber	buồng
-guinea	ghi-nê
 findings	phát hiện
 muscle	cơ bắp
 featuring	đặc trưng
@@ -3604,16 +3282,13 @@ chicken	thịt gà
 temporary	tạm thời
 attend	tham gia
 shower	vòi sen
-alan	Alan
 sending	gửi
-jason	Jason
 tonight	tối nay
 dear	Thân mến
 sufficient	hợp lý
 holdem	nắm giữ
 shell	vỏ bọc
 province	tỉnh
-catholic	Công giáo
 oak	cây sồi
 vat	thùng
 awareness	nhận thức
@@ -3629,11 +3304,7 @@ formula	công thức
 constitution	cấu tạo
 packaging	bao bì
 solar	mặt trời
-jose	Jose
 catch	nắm lấy
-jane	Jane
-pakistan	Pakistan
-ps	ps
 reliable	đáng tin cậy
 consultation	tư vấn
 northwest	Tây Bắc
@@ -3647,7 +3318,6 @@ classroom	lớp học
 tasks	nhiệm vụ
 democracy	nền dân chủ
 attacks	tấn công
-kim	kim
 wallpaper	hình nền
 merchandise	hàng hóa
 const	hằng số
@@ -3661,14 +3331,11 @@ visitor	khách thăm quan
 twin	sinh đôi
 forth	ra
 insert	chèn
-baltimore	baltimore
 gateway	cửa ngõ
-ky	kỷ
 dont	đừng
 alumni	cựu sinh viên
 drawing	vẽ
 candidates	ứng viên
-charlotte	charlotte
 ordered	ra lệnh
 biological	sinh học
 fighting	Chiến đấu
@@ -3678,43 +3345,33 @@ preferences	sở thích
 spy	gián điệp
 romance	lãng mạn
 instrument	dụng cụ
-bruce	Bruce
 split	tách ra
 themes	chủ đề
 powers	quyền hạn
 heaven	thiên đường
-br	anh
+brother	anh
 bits	chút ít
 pregnant	có thai
 twice	hai lần
 classification	phân loại
 focused	tập trung
-egypt	Ai Cập
 physician	bác sĩ
-hollywood	hollywood
 bargain	mặc cả
-wikipedia	wikipedia
 cellular	di động
-norway	Na Uy
-vermont	Vermont
 asking	hỏi
 blocks	khối
 normally	thông thường
-lo	ồ
 spiritual	tinh thần
 hunting	săn bắn
 diabetes	bệnh tiểu đường
 suit	bộ đồ
-ml	ml
 shift	sự thay đổi
-chip	Chip
 res	độ phân giải
 sit	ngồi
 bodies	thi thể
 photographs	bức ảnh
 cutting	cắt
 wow	Ồ
-simon	Simon
 writers	nhà văn
 marks	điểm
 flexible	linh hoạt
@@ -3728,7 +3385,6 @@ satisfaction	sự hài lòng
 represents	đại diện
 char	ký tự
 indexed	được lập chỉ mục
-pittsburgh	pittsburgh
 superior	thượng đẳng
 preferred	ưa thích
 saved	đã lưu
@@ -3750,35 +3406,28 @@ registry	sổ đăng ký
 crisis	khủng hoảng
 outlook	quan điểm
 massive	to lớn
-denmark	Đan mạch
 employed	có việc làm
 bright	sáng
 treat	đối xử
 header	tiêu đề
-cs	cs
 poverty	nghèo
 formed	hình thành
 piano	đàn piano
 echo	tiếng vọng
-que	que
 grid	lưới
 sheets	tờ
-patrick	Patrick
 experimental	thực nghiệm
-puerto	Puerto
 revolution	cuộc cách mạng
 consolidation	sự hợp nhất
 displays	hiển thị
 plasma	huyết tương
 allowing	cho phép
 earnings	thu nhập
-voip	voip
 mystery	bí ẩn
 landscape	phong cảnh
 dependent	sự phụ thuộc
 mechanical	cơ khí
 journey	hành trình
-delaware	Delaware
 bidding	đấu thầu
 consultants	nhà tư vấn
 risks	rủi ro
@@ -3786,13 +3435,11 @@ banner	ngọn cờ
 applicant	người xin việc
 charter	điều lệ
 fig	quả sung
-barbara	barbara
 cooperation	sự hợp tác
 counties	quận
 acquisition	sự mua lại
 ports	cổng
 implemented	thực hiện
-sf	sf
 directories	thư mục
 recognized	được công nhận
 dreams	những giấc mơ
@@ -3808,19 +3455,13 @@ rapid	nhanh
 pull	sự lôi kéo
 hairy	có lông
 diversity	đa dạng
-cleveland	cleveland
-ut	út
 reverse	đảo ngược
 deposit	tiền gửi
 seminar	hội thảo
 investments	đầu tư
-latina	latina
-nasa	nasa
 wheels	bánh xe
-sexcam	máy quay tình dục
 specify	chỉ định
 accessibility	khả năng tiếp cận
-dutch	tiếng Hà Lan
 sensitive	nhạy cảm
 templates	mẫu
 formats	định dạng
@@ -3830,31 +3471,23 @@ boots	bốt
 holds	nắm giữ
 router	bộ định tuyến
 concrete	bê tông
-si	tôi
 editing	chỉnh sửa
-poland	Ba Lan
 folder	thư mục
 womens	phụ nữ
-css	css
 completion	hoàn thành
 upload	tải lên
 pulse	xung
 universities	trường đại học
 technique	kỹ thuật
 contractors	nhà thầu
-milfhunter	thợ săn sữa
 voting	bỏ phiếu
 courts	tòa án
 notices	thông báo
 subscriptions	đăng ký
 calculate	tính toán
-mc	mc
-detroit	Detroit
-alexander	alexander
 broadcast	phát tin
 converted	chuyển đổi
 metro	tàu điện
-toshiba	toshiba
 anniversary	dịp kỉ niệm
 improvements	cải tiến
 strip	dải
@@ -3877,13 +3510,11 @@ exists	tồn tại
 arrangements	sắp xếp
 smooth	trơn tru
 conferences	hội nghị
-uniprotkb	uniprotkb
 beastiality	thú tính
 strike	đánh đập
 consumption	sự tiêu thụ
 birmingham	birmingham
 flashing	nhấp nháy
-lp	lp
 narrow	chật hẹp
 afternoon	buổi chiều
 threat	mối đe dọa
@@ -3899,11 +3530,9 @@ legislative	lập pháp
 researchers	Các nhà nghiên cứu
 vietnam	Việt Nam
 trailer	đoạn phim giới thiệu
-anne	Anne
 castle	lâu đài
 gardens	khu vườn
 missed	bỏ lỡ
-malaysia	Malaysia
 unsubscribe	hủy đăng ký
 antique	đồ cổ
 labels	nhãn
@@ -3922,11 +3551,9 @@ milfs	những bà vợ
 antiques	đồ cổ
 density	Tỉ trọng
 hundred	trăm
-ryan	Ryan
 operators	toán tử
 strange	lạ lùng
 sustainable	bền vững
-philippines	philippines
 statistical	thống kê
 beds	giường
 breasts	ngực
@@ -3936,7 +3563,6 @@ pcs	chiếc
 employers	người sử dụng lao động
 grey	xám
 parallel	song song
-honda	honda
 amended	sửa đổi
 operate	vận hành
 bills	hóa đơn
@@ -3945,12 +3571,10 @@ bathroom	phòng tắm
 stable	ổn định
 opera	opera
 definitions	các định nghĩa
-von	von
 doctors	nhiêu bác sĩ
 lesson	bài học
 cinema	rạp chiếu phim
 asset	tài sản
-ag	ag
 scan	quét
 elections	cuộc bầu cử
 drinking	uống rượu
@@ -3964,7 +3588,6 @@ generate	phát ra
 stainless	không gỉ
 newspapers	Báo
 hospitals	bệnh viện
-vi	vi
 deluxe	sang trọng
 humor	hài hước
 aged	già
@@ -3974,11 +3597,9 @@ lived	đã sống
 duration	khoảng thời gian
 bulk	số lượng lớn
 successfully	thành công
-indonesia	Indonesia
 pursuant	theo
 sci	khoa học
 fabric	vải vóc
-edt	EDT
 visits	thăm
 primarily	chủ yếu
 tight	chặt
@@ -3990,15 +3611,12 @@ recommendation	sự giới thiệu
 flying	bay
 recruitment	tuyển dụng
 sin	tội
-berlin	Béc-lin
 cute	dễ thương
 organized	được tổ chức
-ba	ba
 para	đoạn
 siemens	siemens
 adoption	nhận con nuôi
 improving	nâng cao
-cr	cr
 expensive	đắt
 meant	có nghĩa là
 capture	chiếm lấy
@@ -4006,7 +3624,7 @@ pounds	bảng
 buffalo	trâu
 organisations	tổ chức
 plane	máy bay
-pg	trang
+page	trang
 explained	giải thích
 seed	hạt giống
 programmes	chương trình
@@ -4014,7 +3632,6 @@ desire	sự mong muốn
 expertise	chuyên môn
 mechanism	cơ chế
 camping	cắm trại
-ee	ôi
 jewellery	đồ kim hoàn
 meets	gặp gỡ
 welfare	phúc lợi
@@ -4034,28 +3651,19 @@ massage	mát xa
 rubber	cao su
 conclusion	Phần kết luận
 closing	đóng cửa
-tampa	tampa
 thousand	nghìn
 meat	thịt
 legend	huyền thoại
 grace	duyên dáng
-susan	Susan
-ing	ing
-ks	ks
-adams	Adams
 python	trăn
 monster	quái vật
-alex	alex
-bang	bang
 villa	Biệt thự
 bone	xương
 columns	cột
 disorders	rối loạn
 bugs	lỗi
 collaboration	sự hợp tác
-hamilton	Hamilton
 detection	phát hiện
-ftp	ftp
 cookies	bánh quy
 inner	bên trong
 formation	sự hình thành
@@ -4068,12 +3676,9 @@ gate	cổng
 holder	người giữ
 proposals	đề xuất
 moderator	người điều hành
-sw	sw
 tutorials	hướng dẫn
 settlement	giải quyết
 portugal	Bồ Đào Nha
-lawrence	Lawrence
-roman	Roman
 duties	nhiệm vụ
 valuable	có giá trị lớn
 erotic	khiêu dâm
@@ -4090,12 +3695,10 @@ brings	mang lại
 heating	sưởi
 leg	chân
 neck	cổ
-hd	hd
 wing	cánh
 governments	chính phủ
 purchasing	thu mua
 scripts	kịch bản
-abc	abc
 stereo	âm thanh nổi
 appointed	bổ nhiệm
 taste	nếm
@@ -4121,8 +3724,6 @@ jacket	áo khoác
 determination	sự quyết tâm
 animation	hoạt hình
 oracle	lời tiên tri
-er	ờ
-matthew	matthew
 lease	cho thuê
 productions	sản phẩm
 aviation	hàng không
@@ -4132,7 +3733,6 @@ excess	thặng dư
 disaster	thảm họa
 console	bảng điều khiển
 commands	lệnh
-jr	jr
 telecommunications	viễn thông
 instructor	người hướng dẫn
 giant	người khổng lồ
@@ -4145,29 +3745,23 @@ approaches	cách tiếp cận
 biz	chuyện lớn
 alarm	báo thức
 voltage	Vôn
-anthony	Anthony
-nintendo	nintendo
 usual	thường
 loading	đang tải
 stamps	tem
 appeared	đã xuất hiện
-franklin	Franklin
 angle	góc
 rob	cướp
 vinyl	nhựa vinyl
 highlights	điểm nổi bật
 mining	khai thác mỏ
 designers	nhà thiết kế
-melbourne	melbourne
 ongoing	đang diễn ra
 worst	tồi tệ nhất
 imaging	hình ảnh
 betting	cá cược
 scientists	các nhà khoa học
 liberty	tự do
-wyoming	Wyoming
 blackjack	bài xì dách
-argentina	Argentina
 era	kỷ nguyên
 convert	chuyển thành
 possibility	khả năng
@@ -4178,23 +3772,18 @@ garage	ga-ra
 exciting	thú vị
 reliability	độ tin cậy
 thongs	quần lót
-gcc	gcc
 unfortunately	Không may
 respectively	tương ứng
 volunteers	tình nguyện viên
 attachment	tập tin đính kèm
 ringtone	Nhạc chuông
-finland	Phần Lan
-morgan	Morgan
 derived	nguồn gốc
 pleasure	vinh hạnh
 honor	tôn kính
-asp	asp
 oriented	định hướng
 eagle	chim ưng
 desktops	máy tính để bàn
 pants	quần dài
-columbus	columbus
 nurse	y tá
 prayer	người cầu nguyện
 appointment	cuộc hẹn
@@ -4232,10 +3821,8 @@ applies	áp dụng
 casinos	sòng bạc
 appearance	vẻ bề ngoài
 smoke	Khói
-apache	apache
 filters	bộ lọc
 incorporated	hợp nhất
-nv	nv
 craft	thủ công
 cake	bánh ngọt
 notebooks	sổ ghi chép
@@ -4247,38 +3834,28 @@ mad	điên rồ
 algorithm	thuật toán
 semi	một nửa
 coins	đồng xu
-andy	Andy
 gross	tổng
 strongly	mạnh mẽ
 cafe	quán cà phê
 valentine	lễ tình nhân
-hilton	hilton
-ken	ken
 proteins	chất đạm
 horror	kinh dị
-su	su
 exp	điểm kinh nghiệm
 familiar	thân thuộc
 capable	có khả năng
-douglas	douglas
-debian	debian
 till	cho đến khi
 involving	liên quan đến
 pen	cái bút
 investing	đầu tư
-christopher	Christopher
 admission	nhận vào
-epson	epson
 shoe	giày
 elected	bầu
 carrying	chở
 victory	chiến thắng
 sand	cát
-madison	Madison
 terrorism	khủng bố
 joy	vui sướng
 editions	ấn bản
-cpu	CPU
 mainly	chủ yếu
 ethnic	dân tộc
 ran	đã chạy
@@ -4296,9 +3873,7 @@ structural	cấu trúc
 municipal	thành phố
 describes	mô tả
 prize	phần thưởng
-sr	sr
 occurs	xảy ra
-jon	Jon
 absolute	tuyệt đối
 disabilities	khuyết tật
 consists	bao gồm
@@ -4309,7 +3884,6 @@ addressed	địa chỉ
 lies	dối trá
 pipe	đường ống
 soldiers	lính
-nr	nr
 guardian	người giám hộ
 lecture	bài học
 simulation	mô phỏng
@@ -4318,18 +3892,15 @@ initiatives	khả năng phán đoán
 ill	ốm
 concentration	sự tập trung
 classics	kinh điển
-lbs	pound
 lay	đặt nằm
 interpretation	diễn dịch
 horses	ngựa
 lol	cười
 dirty	bẩn thỉu
 deck	boong tàu
-wayne	Wayne
 donate	quyên tặng
 taught	dạy
 bankruptcy	phá sản
-mp	mp
 worker	công nhân
 optimization	tối ưu hóa
 alive	còn sống
@@ -4349,22 +3920,17 @@ exhibition	triển lãm
 prefer	thích hơn
 ridge	cây rơm
 cabinet	tủ
-modem	modem
-harris	Harris
-mph	mph
+modem modem
 bringing	đưa
 sick	đau ốm
 dose	liều lượng
 evaluate	đánh giá
-tiffany	Tiffany
 tropical	nhiệt đới
 collect	sưu tầm
 bet	cá cược
 composition	thành phần
-toyota	toyota
 streets	đường phố
 nationwide	toàn quốc
-vector	vectơ
 definitely	chắc chắn
 shaved	cạo
 turning	quay
@@ -4372,7 +3938,6 @@ buffer	đệm
 purple	màu tím
 existence	sự tồn tại
 commentary	bình luận
-larry	Larry
 limousines	xe limousine
 developments	sự phát triển
 def	chắc chắn
@@ -4383,12 +3948,10 @@ mutual	qua lại
 pipeline	đường ống
 necessarily	nhất thiết
 syntax	cú pháp
-li	lý
 attribute	thuộc tính
 prison	nhà tù
 skill	kỹ năng
 chairs	Nhiều cái ghế
-nl	nl
 everyday	Hằng ngày
 apparently	rõ ràng
 surrounding	xung quanh
@@ -4396,32 +3959,24 @@ mountains	núi
 moves	di chuyển
 popularity	phổ biến
 inquiry	cuộc điều tra
-ethernet	ethernet
 checked	đã kiểm tra
 exhibit	triển lãm
 throw	ném
 trend	xu hướng
-sierra	dãy núi Sierra
 visible	dễ thấy
 cats	những con mèo
 desert	sa mạc
 postposted	được đăng sau
-ya	ừ
 oldest	lâu đời nhất
-rhode	Rhodes
-nba	nba
 busty	ngực
 coordinator	điều phối viên
 obviously	rõ ràng
 mercury	thủy ngân
-steven	Steven
 handbook	sổ tay
-greg	Greg
 navigate	điều hướng
 worse	tệ hơn
 summit	đỉnh cao
 victims	nạn nhân
-epa	epa
 spaces	khoảng trống
 fundamental	cơ bản
 burning	đốt cháy
@@ -4430,20 +3985,13 @@ coupons	phiếu giảm giá
 somewhat	phần nào
 receiver	người nhận
 substantial	đáng kể
-tr	tr
 progressive	cấp tiến
-cialis	cialis
-bb	bb
 boats	thuyền
 glance	liếc nhìn
-scottish	người Scotland
 championship	chức vô địch
 arcade	giải trí
-richmond	Richmond
 sacramento	bí tích
 impossible	không thể nào
-ron	ron
-russell	russell
 tells	kể
 obvious	rõ ràng
 fiber	chất xơ
@@ -4462,18 +4010,14 @@ awarded	Trao giải thưởng
 testimonials	lời chứng thực
 trials	thử nghiệm
 tissue	mô
-nz	nz
 memorabilia	kỷ vật
-clinton	clinton
 masters	bậc thầy
 bonds	trái phiếu
 cartridge	hộp đạn
-alberta	Alberta
 explanation	giải trình
 folk	dân gian
 org	tổ chức
 commons	tài sản chung
-cincinnati	cincinnati
 subsection	tiểu mục
 fraud	gian lận
 electricity	điện
@@ -4487,7 +4031,6 @@ roger	roger
 aspect	diện mạo
 workplace	nơi làm việc
 awesome	tuyệt vời
-mexican	người Mexico
 confirmed	đã xác nhận
 counts	đếm
 priced	có giá
@@ -4503,14 +4046,11 @@ heights	độ cao
 shadow	bóng tối
 riding	cưỡi
 infection	sự nhiễm trùng
-firefox	firefox
-lisa	Lisa
 expense	chi phí
 grove	khu rừng
 eligibility	đủ điều kiện
 venture	mạo hiểm
 clinic	phòng khám
-korean	Hàn Quốc
 healing	đang lành lại
 princess	công chúa
 mall	trung tâm mua sắm
@@ -4525,13 +4065,11 @@ placement	vị trí
 observations	quan sát
 vbulletin	bản tin
 funded	được tài trợ
-thompson	thompson
 winners	người chiến thắng
 extend	mở rộng
 roads	đường
 subsequent	tiếp theo
 pat	vỗ về
-dublin	dublin
 rolling	lăn
 fell	rơi
 motorcycle	xe máy
@@ -4539,17 +4077,13 @@ yard	sân
 disclosure	tiết lộ
 establishment	thành lập
 memories	ký ức
-nelson	Nelson
-te	bạn
 arrived	tới nơi
 creates	tạo ra
 faces	khuôn mặt
 tourist	du khách
 cocks	gà trống
-av	av
 mayor	thị trưởng
 murder	giết người
-sean	Sean
 adequate	đủ
 senator	thượng nghị sĩ
 yield	năng suất
@@ -4563,7 +4097,6 @@ lodging	chỗ ở
 tion	sự
 dust	bụi
 hence	kể từ đây
-wiki	wiki
 entirely	toàn bộ
 replaced	thay thế
 radar	rađa
@@ -4585,12 +4118,9 @@ diary	Nhật ký
 seriously	nghiêm túc
 kings	các vị vua
 shooting	chụp
-kent	Kent
 adds	thêm vào
-nsw	nsw
 ear	tai
 flags	cờ
-pci	pci
 baker	thợ làm bánh
 launched	ra mắt
 elsewhere	nơi khác
@@ -4605,8 +4135,6 @@ ebony	gỗ mun
 tie	cà vạt
 ward	phường
 drawn	vẽ
-arthur	Arthur
-ian	Ian
 visited	đã đến thăm
 roof	mái nhà
 walker	khung tập đi
@@ -4615,7 +4143,6 @@ atmosphere	bầu không khí
 suggests	gợi ý
 kiss	hôn
 beast	quái thú
-ra	ra
 operated	vận hành
 experiment	cuộc thí nghiệm
 targets	mục tiêu
@@ -4624,44 +4151,30 @@ purchases	mua hàng
 dodge	né tránh
 counsel	lời khuyên
 federation	liên đoàn
-pizza	pizza
 invited	được mời
 yards	bãi
 assignment	phân công
 chemicals	hóa chất
-gordon	gordon
-mod	mod
 farmers	nông dân
-rc	rc
 queries	truy vấn
-bmw	xe BMW
 rush	cây bấc
-ukraine	Ukraina
 absence	vắng mặt
 nearest	gần nhất
 cluster	cụm
 vendors	nhà cung cấp
 mpeg	mpeg
 whereas	trong khi
-yoga	yoga
 serves	phục vụ
 woods	gỗ
 surprise	sự ngạc nhiên
 lamp	đèn
-rico	rico
 partial	một phần
 shoppers	người mua sắm
-phil	phil
 everybody	mọi người
 couples	cặp đôi
-nashville	Nashville
 ranking	xếp hạng
 jokes	truyện cười
-cst	cst
-http	http
 ceo	CEO
-simpson	simpson
-twiki	twiki
 sublime	tuyệt vời
 counseling	tư vấn
 palace	cung điện
@@ -4674,15 +4187,12 @@ verify	xác minh
 globe	khối cầu
 trusted	đáng tin cậy
 copper	đồng
-milwaukee	milwaukee
 rack	giá đỡ
 medication	thuốc
 warehouse	kho
 shareware	phần mềm chia sẻ
-ec	ec
 rep	trả lời
 dicke	cu
-kerry	kerry
 receipt	biên lai
 supposed	giả sử
 ordinary	bình thường
@@ -4715,12 +4225,10 @@ solo	đấu
 sentence	câu
 throat	họng
 ignore	phớt lờ
-maria	Maria
 uniform	đồng phục
 excellence	xuất sắc
 wealth	sự giàu có
 tall	cao
-rm	rm
 somewhere	một vài nơi
 vacuum	máy hút bụi
 dancing	khiêu vũ
@@ -4729,21 +4237,17 @@ recognize	nhận ra
 brass	thau
 writes	viết
 plaza	quảng trường
-pdas	pda
 outcomes	kết quả
 survival	sống sót
 quest	nhiệm vụ
 publish	công bố
-sri	sri
 screening	sàng lọc
 toe	ngón chân
 thumbnail	hình nhỏ
 trans	Dịch
-jonathan	jonathan
 whenever	bất cứ khi nào
 nova	tân tinh
 lifetime	cả đời
-api	API
 pioneer	người tiên phong
 booty	chiến lợi phẩm
 forgotten	bị lãng quên
@@ -4760,25 +4264,18 @@ telling	nói
 fairly	công bằng
 coastal	duyên hải
 config	cấu hình
-cf	cf
 charity	tổ chức từ thiện
 intelligent	thông minh
-edinburgh	edinburgh
-vt	vt
 excel	vượt trội
 modes	chế độ
 obligation	nghĩa vụ
-campbell	chuông campbell
 wake	thức dậy
 stupid	ngốc nghếch
 harbor	Hải cảng
-hungary	Hungary
 traveler	du khách
-urw	ồ
 segment	bộ phận
 realize	nhận ra
 regardless	bất kể
-lan	lan
 enemy	kẻ thù
 puzzle	câu đố
 rising	trỗi dậy
@@ -4799,7 +4296,6 @@ thick	dày
 trailers	xe kéo
 repeat	lặp lại
 syndrome	hội chứng
-philips	philips
 attendance	sự tham dự
 penalty	hình phạt
 drum	cái trống
@@ -4809,23 +4305,19 @@ nec	không cần
 iraqi	người Iraq
 builder	người xây dựng
 vista	tầm nhìn
-jessica	jessica
 chips	khoai tây chiên
 terry	vải bông
 flood	lụt
-foto	bức ảnh
+photo	bức ảnh
 ease	xoa dịu
 arguments	tranh luận
-amsterdam	amsterdam
 orgy	thác loạn
 arena	đấu trường
 adventures	cuộc phiêu lưu
 pupils	học sinh
 stewart	người quản lý
 announcement	thông báo
-tabs	tab
 outcome	kết quả
-xx	xx
 appreciate	đánh giá
 expanded	mở rộng
 casual	bình thường
@@ -4833,16 +4325,12 @@ grown	tăng
 polish	đánh bóng
 lovely	đáng yêu
 extras	tính năng bổ sung
-gm	gm
 centres	trung tâm
-jerry	jerry
 clause	điều khoản
 smile	nụ cười
 lands	vùng đất
-ri	ri
 troops	quân đội
 indoor	trong nhà
-bulgaria	Bungari
 armed	vũ trang
 broker	người môi giới
 charger	sạc
@@ -4852,23 +4340,17 @@ pine	cây thông
 cooling	làm mát
 tend	có khuynh hướng
 gulf	Vịnh
-rt	rt
 rick	đụn rơm
 trucks	xe tải
-cp	cp
 mechanisms	cơ chế
 divorce	ly hôn
-laura	laura
 shopper	người mua sắm
-tokyo	tokyo
 partly	từng phần
-nikon	Nikon
 customize	tùy chỉnh
 tradition	truyền thống
 candy	kẹo
 pills	thuốc
 tiger	con hổ
-donald	Donald
 folks	mọi người
 sensor	cảm biến
 exposed	để lộ ra
@@ -4882,13 +4364,10 @@ thai	người Thái
 emissions	khí thải
 physicians	bác sĩ
 loaded	nạp vào
-fred	Fred
 complaint	lời phàn nàn
 scenes	cảnh
 experiments	thí nghiệm
 balls	những quả bóng
-afghanistan	Afghanistan
-dd	đ
 boost	tăng
 spanking	đánh đòn
 scholarship	học bổng
@@ -4908,7 +4387,7 @@ keeps	giữ
 pound	pao
 locate	định vị
 camcorder	máy quay phim
-pl	làm ơn
+please	làm ơn
 trained	đào tạo
 burn	đốt cháy
 implementing	thực thi
@@ -4920,27 +4399,20 @@ tobacco	thuốc lá
 wooden	bằng gỗ
 motors	động cơ
 tough	khó
-roberts	Roberts
 incident	sự cố
 gonna	sẽ
 dynamics	động lực học
 lie	nói dối
-crm	crm
-rf	rf
 conversation	cuộc hội thoại
 decrease	giảm bớt
 cumshots	bắn tinh
 chest	ngực
 pension	lương hưu
-billy	Billy
 revenues	doanh thu
 emerging	mới nổi
 worship	tôn thờ
 bukkake	nhiều người
 capability	khả năng
-ak	ak
-fe	fe
-craig	Craig
 herself	chính cô ấy
 producing	sản xuất
 churches	nhà thờ
@@ -4952,20 +4424,13 @@ solve	gỡ rối
 shorts	quần short
 reproduction	sinh sản
 minority	thiểu số
-td	td
 diverse	phong phú
-amp	amp
 ingredients	thành phần
-sb	sb
-ah	Ah
-johnny	Johnny
 sole	Duy Nhất
 franchise	nhượng quyền thương mại
 recorder	máy ghi âm
 complaints	phàn nàn
 facing	đối mặt
-sm	sm
-nancy	Nancy
 promotions	khuyến mãi
 tones	âm
 passion	niềm đam mê
@@ -4978,18 +4443,14 @@ defence	phòng thủ
 patches	bản vá lỗi
 weak	yếu đuối
 refund	đền bù
-usc	usc
 towns	thị trấn
 environments	môi trường
 trembl	run rẩy
 divided	đã chia ra
-blvd	blvd
 reception	thu nhận
-amd	amd
 wise	khôn ngoan
 emails	email
 cyprus	Síp
-wv	wv
 odds	tỷ lệ cược
 correctly	chính xác
 insider	người trong cuộc
@@ -5001,12 +4462,10 @@ geography	địa lý
 appearing	xuất hiện
 integrity	chính trực
 worry	lo lắng
-ns	ns
 discrimination	phân biệt
 eve	đêm
 carter	người vận chuyển
 legacy	di sản
-marc	marc
 pleased	vừa lòng
 danger	sự nguy hiểm
 vitamin	vitamin
@@ -5028,7 +4487,6 @@ leaf	lá cây
 pad	tập giấy
 glory	vinh quang
 platforms	nền tảng
-ja	à
 bigger	to hơn
 billing	thanh toán
 diesel	dầu diesel
@@ -5037,35 +4495,24 @@ combine	kết hợp
 overnight	qua đêm
 geographic	Địa lý
 exceed	quá
-bs	bs
 rod	gậy
-saudi	người saudi
 fault	lỗi
 cuba	cuba
-hrs	giờ
+hours	giờ
 preliminary	sơ bộ
 districts	huyện
 introduce	giới thiệu
 silk	lụa
 promotional	khuyến mãi
-kate	Kate
-chevrolet	chevrolet
 babies	đứa trẻ
-bi	bi
-karen	Karen
 compiled	biên soạn
 romantic	lãng mạn
 revealed	tiết lộ
 specialists	chuyên gia
 generator	máy phát điện
-albert	albert
 examine	nghiên cứu
-jimmy	jimmy
-graham	graham
 suspension	đình chỉ
-bristol	bristol
 margaret	bơ thực vật
-compaq	compaq
 sad	buồn
 correction	điều chỉnh
 wolf	chó sói
@@ -5075,19 +4522,16 @@ communicate	giao tiếp
 rugby	bóng bầu dục
 supplement	phần bổ sung
 showtimes	lịch chiếu phim
-cal	cal
 portions	phần ăn
 infant	trẻ sơ sinh
 promoting	quảng bá
 sectors	lĩnh vực
-samuel	Samuel
 fluid	dịch
 grounds	căn cứ
 fits	phù hợp
 kick	đá
 regards	Trân trọng
 meal	bữa ăn
-ta	ta
 hurt	đau
 machinery	máy móc
 bandwidth	băng thông
@@ -5099,12 +4543,10 @@ pot	nồi
 dimension	kích thước
 wright	đúng
 img	hình ảnh
-barry	Barry
 proven	chứng minh
 schedules	lịch trình
 admissions	tuyển sinh
 cached	được lưu vào bộ nhớ đệm
-warren	Warren
 slip	trượt
 studied	đã học
 reviewer	người đánh giá
@@ -5115,7 +4557,6 @@ profits	lợi nhuận
 devil	ác quỷ
 grass	cỏ
 comply	tuân theo
-marie	marie
 florist	người bán hoa
 illustrated	minh họa
 cherry	quả anh đào
@@ -5124,7 +4565,6 @@ alternate	Luân phiên
 deutsch	tiếng Đức
 achievement	thành tích
 limitations	hạn chế
-kenya	Kenya
 webcam	webcam
 cuts	vết cắt
 funeral	tang lễ
@@ -5134,15 +4574,11 @@ enjoyed	rất thích
 automated	tự động
 chapters	chương
 pee	tiểu
-charlie	Charlie
-quebec	người quebec
 nipples	núm vú
 passenger	hành khách
 convenient	thuận lợi
-dennis	dennis
 mars	Sao Hoả
-francis	Francis
-tvs	tivi
+tv	tivi
 sized	có kích thước
 manga	truyện
 noticed	nhận thấy
@@ -5150,7 +4586,6 @@ socket	ổ cắm
 silent	im lặng
 literary	văn học
 egg	trứng
-mhz	mhz
 signals	tín hiệu
 caps	mũ lưỡi trai
 orientation	định hướng
@@ -5160,7 +4595,6 @@ childhood	thời thơ ấu
 swing	xích đu
 symbols	biểu tượng
 lat	vĩ độ
-meta	meta
 humans	con người
 analog	tương tự
 facial	mặt
@@ -5176,9 +4610,7 @@ mint	cây bạc hà
 packard	người đóng gói
 offset	bù lại
 payday	ngày trả lương
-philip	Philip
 elite	ưu tú
-gi	gi
 spin	quay
 holders	người nắm giữ
 believes	tin tưởng
@@ -5189,11 +4621,9 @@ jurisdiction	quyền hạn
 robot	người máy
 displaying	hiển thị
 witness	nhân chứng
-collins	Collin
 equipped	đã trang bị
 stages	giai đoạn
 encouraged	động viên
-sur	sur
 winds	gió
 powder	bột
 broadway	đường rộng
@@ -5203,23 +4633,20 @@ wash	rửa
 cartridges	hộp mực
 stones	đá
 entrance	cổng vào
-gnome	thần lùn
 roots	rễ
 declaration	tuyên ngôn
 losing	thua cuộc
 attempts	nỗ lực
 gadgets	dụng cụ
 noble	cao quý
-glasgow	Glasgow
 automation	tự động hóa
 impacts	tác động
 rev	vòng quay
-gospel	sách Phúc Âm
 advantages	thuận lợi
 shore	bờ biển
 loves	yêu
 induced	gây ra
-ll	sẽ
+will	sẽ
 knight	Hiệp sỹ
 preparing	chuẩn bị
 loose	lỏng lẻo
@@ -5228,32 +4655,22 @@ recipient	người nhận
 linking	liên kết
 extensions	tiện ích mở rộng
 appeals	kháng cáo
-cl	cl
 earned	kiếm được
 illness	sự ốm yếu
 islamic	Hồi giáo
 athletics	Thế vận hội
 southeast	Đông Nam
-ieee	ieee
-ho	ho
 alternatives	lựa chọn thay thế
 pending	chưa giải quyết
 parker	người đậu xe
 determining	xác định
-lebanon	lebanon
 corp	tập đoàn
 personalized	cá nhân hóa
-kennedy	kennedy
-gt	gt
-sh	sh
 conditioning	điều hòa
 teenage	thiếu niên
 soap	xà bông
-ae	ae
 triple	gấp ba
 cooper	thùng đựng đồ
-nyc	New York
-vincent	Vincent
 jam	mứt
 secured	bảo đảm
 unusual	bất thường
@@ -5287,7 +4704,6 @@ animated	hoạt hình
 horny	đam mê
 judicial	tư pháp
 rio	sông
-hs	hs
 adjustment	điều chỉnh
 hero	anh hùng
 integer	số nguyên
@@ -5298,9 +4714,7 @@ camcorders	máy quay phim
 engaged	đính hôn
 falling	rơi xuống
 basics	điều cơ bản
-montreal	Montréal
 carpet	thảm
-rv	rv
 struct	cấu trúc
 lenses	ống kính
 binary	nhị phân
@@ -5314,13 +4728,10 @@ pi	số Pi
 dropped	giảm
 enrollment	ghi danh
 duke	công tước
-walter	Walter
-ai	ai
 pace	nhịp độ
 besides	bên cạnh đó
 wage	tiền công
 producers	nhà sản xuất
-ot	ồ
 collector	người sưu tầm
 arc	vòng cung
 hosts	máy chủ
@@ -5334,19 +4745,15 @@ representing	đại diện
 observation	quan sát
 feels	cảm thấy
 torture	tra tấn
-carl	carl
 deleted	đã xóa
 coat	áo choàng
-mitchell	mitchell
 mrs	Bà
-rica	rica
 restoration	sự phục hồi
 convenience	sự tiện lợi
 returning	trở về
-ralph	ralph
 opposition	Sự đối lập
 container	thùng đựng hàng
-yr	năm
+year	năm
 defendant	bị cáo
 warner	cảnh báo
 confirmation	xác nhận
@@ -5361,36 +4768,25 @@ liver	gan
 peripherals	thiết bị ngoại vi
 liable	chịu trách nhiệm
 brochure	cuốn sách nhỏ
-morris	morris
 bestsellers	bán chạy nhất
-petition	đơn kiến ​​nghị
-eminem	eminem
+petition	đơn kiến nghị
 recall	nhớ lại
 antenna	ăng-ten
 picked	đã chọn
 assumed	giả định
 departure	sự khởi hành
-minneapolis	minneapolis
 belief	sự tin tưởng
 killing	giết chóc
-bikini	bikini
-memphis	memphis
 shoulder	vai
 decor	thiết kế nội thất
 lookup	tra cứu
 texts	văn bản
-harvard	đại học Harvard
 brokers	người môi giới
-roy	hoàng tử
 ion	ion
 diameter	đường kính
-ottawa	ottawa
 doll	BÚP BÊ
-ic	ic
 podcast	tệp âm thanh
-tit	tit
 seasons	các mùa
-peru	peru
 interactions	tương tác
 refine	lọc
 bidder	người đấu giá
@@ -5400,7 +4796,6 @@ herald	báo trước
 literacy	trình độ học vấn
 fails	thất bại
 aging	sự lão hóa
-nike	Nike
 intervention	sự can thiệp
 pissing	đi tiểu
 fed	đã nuôi
@@ -5409,8 +4804,6 @@ attraction	sự thu hút
 diving	lặn
 invite	mời
 modification	sửa đổi
-alice	Alice
-latinas	người latin
 suppose	giả định
 customized	tùy chỉnh
 reed	cây lau
@@ -5427,8 +4820,6 @@ dealtime	thời gian giao dịch
 ban	lệnh cấm
 temp	nhiệt độ
 intro	phần giới thiệu
-mercedes	Mercedes
-zus	zu
 assurance	sự đảm bảo
 fisting	đánh tay
 clerk	nhân viên văn phòng
@@ -5437,15 +4828,12 @@ vast	rộng lớn
 mills	nhà máy
 outline	đề cương
 amendments	sửa đổi
-tramadol	tramadol
-holland	Hà Lan
 receives	nhận được
 jeans	Quần jean
 metropolitan	đô thị
 compilation	biên soạn
 verification	xác minh
 fonts	phông chữ
-ent	ent
 odd	số lẻ
 wrap	bọc
 refers	ám chỉ
@@ -5453,14 +4841,10 @@ mood	tâm trạng
 favor	ủng hộ
 veterans	cựu chiến binh
 quiz	đố
-mx	mx
 sigma	sigma
-gr	gr
 attractive	hấp dẫn
-xhtml	xhtml
 occasion	dịp
 recordings	bản ghi âm
-jefferson	jefferson
 victim	nạn nhân
 demands	yêu cầu
 sleeping	đang ngủ
@@ -5484,10 +4868,8 @@ outsourcing	gia công phần mềm
 licence	giấy phép
 adjustable	có thể điều chỉnh
 allocation	phân bổ
-michelle	Michelle
 essay	tiểu luận
 discipline	kỷ luật
-amy	Amy
 demonstrated	chứng minh
 dialogue	hội thoại
 identifying	xác định
@@ -5495,20 +4877,16 @@ alphabetical	theo bảng chữ cái
 camps	trại
 declared	khai báo
 dispatched	phái đi
-aaron	Aaron
 handheld	cầm tay
 trace	dấu vết
 disposal	xử lý
 shut	đóng lại
 florists	người bán hoa
 packs	gói
-ge	ge
 installing	cài đặt
 switches	công tắc
 romania	Rumani
 voluntary	tình nguyện
-ncaa	ncaa
-thou	bạn
 consult	tham khảo ý kiến
 phd	Bằng tiến sĩ
 greatly	rất nhiều
@@ -5516,20 +4894,15 @@ blogging	viết blog
 mask	mặt nạ
 cycling	đạp xe
 midnight	nửa đêm
-ng	ng
 commonly	thông thường
 pe	Thể dục
 photographer	nhiếp ảnh gia
 inform	thông báo
-turkish	tiếng Thổ Nhĩ Kỳ
 coal	than đá
 cry	khóc
 messaging	nhắn tin
-pentium	pentium
 quantum	lượng tử
-murray	Murray
 intent	ý định
-tt	tt
 zoo	vườn bách thú
 largely	phần lớn
 pleasant	dễ thương
@@ -5567,13 +4940,10 @@ bibliography	thư mục
 pointer	con trỏ
 compatibility	khả năng tương thích
 stretch	kéo dài
-durham	Durham
 furthermore	hơn nữa
 permits	giấy phép
 cooperative	hợp tác xã
 muslim	Hồi
-xl	xl
-neil	Neil
 sleeve	tay áo
 netscape	cảnh quan mạng
 cleaner	sạch hơn
@@ -5584,23 +4954,17 @@ stroke	đột quỵ
 township	thị trấn
 rankings	bảng xếp hạng
 measuring	đo lường
-cad	cad
 hats	mũ
 robin	chim cổ đỏ
-robinson	robinson
-jacksonville	jacksonville
 strap	dây đeo
 headquarters	trụ sở chính
-sharon	Sharon
 crowd	đám đông
-tcp	tcp
 transfers	chuyển nhượng
 surf	lướt sóng
 olympic	thế vận hội
 transformation	sự biến đổi
 remained	vẫn
 attachments	tệp đính kèm
-dv	dv
 dir	thư mục
 entities	thực thể
 customs	phong tục
@@ -5608,25 +4972,19 @@ administrators	quản trị viên
 personality	nhân cách
 rainbow	cầu vồng
 hook	cái móc
-roulette	roulette
 decline	sự suy sụp
 gloves	găng tay
-israeli	người Israel
 medicare	thuốc men
 cord	dây
 skiing	trượt tuyết
 cloud	đám mây
 facilitate	tạo điều kiện
 subscriber	người đăng kí
-valve	van
 val	giá trị
-hewlett	hewlett
 explains	giải thích
 proceed	tiếp tục
-flickr	Flickr
 feelings	cảm xúc
 knife	dao
-jamaica	Jamaica
 priorities	ưu tiên
 shelf	cái kệ
 bookstore	hiệu sách
@@ -5637,7 +4995,6 @@ adopt	nhận nuôi
 denied	từ chối
 fotos	bức ảnh
 incredible	đáng kinh ngạc
-britney	britney
 freeware	phần mềm miễn phí
 fucked	chết tiệt
 donation	Quyên góp
@@ -5647,19 +5004,14 @@ deaths	cái chết
 rivers	sông
 commonwealth	liên bang
 pharmaceutical	dược phẩm
-manhattan	thành phố Manhattan
 tales	truyện cổ tích
-katrina	katrina
 workforce	lực lượng lao động
 islam	đạo Hồi
 nodes	điểm giao
-tu	bạn
-fy	fy
 thumbs	ngón tay cái
 seeds	hạt giống
 cited	trích dẫn
 lite	nhẹ nhàng
-ghz	ghz
 hub	trung tâm
 targeted	nhắm mục tiêu
 organizational	tổ chức
@@ -5668,8 +5020,6 @@ realized	nhận ra
 twelve	mười hai
 founder	người sáng lập
 decade	thập kỷ
-gamecube	gamecube
-rr	rr
 dispute	tranh luận
 portuguese	người Bồ Đào Nha
 tired	mệt
@@ -5680,12 +5030,10 @@ excerpt	đoạn trích
 eng	tiếng anh
 steam	hơi nước
 discharge	phóng điện
-ef	ef
 drinks	đồ uống
 ace	át chủ
 voices	tiếng nói
 acute	nhọn
-halloween	lễ hội halloween
 climbing	leo
 stood	đứng
 sing	hát
@@ -5693,7 +5041,6 @@ tons	tấn
 perfume	nước hoa
 carol	bài hát mừng
 honest	trung thực
-albany	người al-bany
 hazardous	nguy hiểm
 restore	khôi phục
 stack	cây rơm
@@ -5706,7 +5053,6 @@ resistant	kháng cự
 democrats	nhà dân chủ
 recycling	tái chế
 hang	treo
-gbp	gbp
 curve	đường cong
 creator	người sáng tạo
 amber	hổ phách
@@ -5720,14 +5066,10 @@ passage	đoạn văn
 transferred	chuyển nhượng
 trunk	Thân cây
 hiking	đi bộ đường dài
-lb	lb
 damn	chết tiệt
-pierre	Pierre
-jelsoft	jelsoft
 headset	tai nghe
 photograph	ảnh chụp
 oakland	vùng đất sồi
-colombia	Colombia
 waves	sóng
 camel	con lạc đà
 distributor	nhà phân phối
@@ -5738,10 +5080,6 @@ wrestling	đấu vật
 suicide	tự tử
 archived	đã lưu trữ
 photoshop	photoshop
-jp	jp
-chi	khí
-bt	bt
-arabia	Ả Rập
 gathering	thu thập
 projection	phép chiếu
 juice	nước ép
@@ -5754,23 +5092,17 @@ extract	trích xuất
 specialized	chuyên
 diagnostic	chẩn đoán
 panama	panama
-indianapolis	Indianapolis
-af	af
 payable	phải trả
 corporations	tập đoàn
 courtesy	lịch sự
 criticism	sự chỉ trích
 automobile	ô tô
 confidential	bảo mật
-rfc	rfc
 statutory	theo luật định
 accommodations	chỗ ở
-athens	Athens
 northeast	hướng đông bắc
 downloaded	đã tải xuống
 judges	ban giám khảo
-sl	sl
-seo	seo
 retired	đã nghỉ hưu
 isp	con ong
 remarks	nhận xét
@@ -5779,30 +5111,23 @@ decades	thập kỷ
 paintings	những bức tranh
 walked	đi bộ
 arising	phát sinh
-nissan	Nissan
 bracelet	vòng đeo tay
 ins	trong
 eggs	trứng
 juvenile	vị thành niên
 injection	mũi tiêm
-yorkshire	yorkshire
 populations	quần thể
 protective	bảo vệ
 afraid	sợ
 acoustic	âm học
 railway	đường sắt
-cassette	băng cassette
 initially	ban đầu
 indicator	chỉ báo
 pointed	nhọn
-hb	hb
-jpg	jpg
 causing	gây ra
 mistake	sai lầm
-norton	Norton
 locked	bị khóa
 eliminate	loại bỏ
-tc	tc
 fusion	dung hợp
 mineral	khoáng sản
 sunglasses	kính râm
@@ -5821,41 +5146,32 @@ planner	người lập kế hoạch
 croatia	Croatia
 flows	chảy
 stadium	sân vận động
-venezuela	Venezuela
 exploration	thăm dò
 mins	phút
 fewer	ít hơn
 sequences	trình tự
 coupon	phiếu mua hàng
 nurses	y tá
-ssl	ssl
 stem	thân cây
 proxy	Ủy quyền
 gangbang	tập thể
 astronomy	thiên văn học
-lanka	lanka
-opt	opt
-edwards	edwards
 drew	đã vẽ
 contests	cuộc thi
 flu	cúm
 translate	dịch
 announces	thông báo
-mlb	mlb
 costume	trang phục
 tagged	được gắn thẻ
-berkeley	Berkeley
 voted	đã bình chọn
 killer	sát thủ
 bikes	xe đạp
 gates	cổng
 adjusted	điều chỉnh
-rap	rap
 tune	điều chỉnh
 bishop	giám mục
 pulled	kéo
 corn	Ngô
-gp	gp
 shaped	có hình dạng
 compression	nén
 seasonal	theo mùa
@@ -5877,12 +5193,9 @@ trek	hành trình
 encoding	mã hóa
 litigation	kiện tụng
 submissions	bài nộp
-oem	oem
 heroes	anh hùng
 painted	Sơn
-lycos	lyco
-ir	tôi
-zdnet	zdnet
+i	tôi
 broadcasting	phát thanh truyền hình
 horizontal	nằm ngang
 artwork	tác phẩm nghệ thuật
@@ -5917,7 +5230,6 @@ bearing	Ổ đỡ trục
 spectacular	hùng vĩ
 coordination	phối hợp
 connector	kết nối
-brad	brad
 combo	kết hợp
 seniors	người lớn tuổi
 worlds	thế giới
@@ -5934,7 +5246,6 @@ subscribers	người đăng ký
 charm	quyến rũ
 lawn	bãi cỏ
 violent	hung bạo
-mitsubishi	mitsubishi
 underwear	đồ lót
 basin	lòng chảo
 soup	canh
@@ -5949,56 +5260,37 @@ drunk	say rượu
 considerable	đáng kể
 crimes	tội ác
 resolved	đã giải quyết
-mozilla	mozilla
-byte	byte
-toner	mực toner
 nose	mũi
 latex	mủ cao su
 branches	chi nhánh
 anymore	nữa không
-oclc	oclc
-delhi	Delhi
 holdings	cổ phần
 alien	người ngoài hành tinh
 locator	máy định vị
 selecting	lựa chọn
 processors	bộ vi xử lý
 pantyhose	quần tất
-plc	plc
 broke	phá sản
-nepal	nepal
-zimbabwe	zimbabwe
 difficulties	nỗi khó khăn
-juan	juan
 complexity	sự phức tạp
 msg	tin nhắn
 constantly	liên tục
 browsing	duyệt
 resolve	giải quyết
-barcelona	Barcelona
 presidential	tổng thống
 documentary	phim tài liệu
 cod	cá tuyết
 territories	lãnh thổ
-melissa	Melissa
-moscow	Mátxcơva
 thesis	luận án
 thru	xuyên qua
-jews	người Do Thái
-nylon	nylon
-palestinian	người Palestine
 discs	đĩa
 rocky	nhiều đá
 bargains	món hời
 frequent	thường xuyên
 trim	cắt tỉa
-nigeria	nigeria
 ceiling	trần nhà
 pixels	điểm ảnh
 ensuring	đảm bảo
-hispanic	người Tây Ban Nha
-cv	cv
-cb	cb
 legislature	cơ quan lập pháp
 hospitality	lòng hiếu khách
 gen	thế hệ
@@ -6010,14 +5302,12 @@ fleet	hạm đội
 untitled	không có tiêu đề
 bunch	bó
 totals	tổng số
-marriott	marriott
 singing	ca hát
 theoretical	lý thuyết
 afford	đủ khả năng
 exercises	bài tập
 starring	đóng vai chính
 referral	giới thiệu
-nhl	nhl
 surveillance	giám sát
 optimal	tối ưu
 quit	từ bỏ
@@ -6032,10 +5322,6 @@ brilliant	xuất sắc
 turner	người quay vòng
 sucking	mút
 cents	xu
-reuters	reuters
-ti	tôi
-fc	fc
-gel	gel
 todd	trẻ mới biết đi
 spoken	nói
 omega	omega
@@ -6043,7 +5329,6 @@ evaluated	đánh giá
 stayed	đã ở lại
 civic	công dân
 assignments	bài tập
-fw	ôi
 manuals	hướng dẫn sử dụng
 doug	bột
 sees	nhìn
@@ -6053,30 +5338,22 @@ saver	tiết kiệm
 thereof	của nó
 grill	nướng
 households	hộ gia đình
-gs	gs
 redeem	chuộc lại
-rogers	roger
 grain	ngũ cốc
-aaa	aaa
 authentic	thật
 regime	chế độ
 wanna	muốn
 wishes	mong muốn
 bull	bò đực
-montgomery	Montgomery
 architectural	kiến trúc
-louisville	Louisville
 depend	phụ thuộc
 differ	khác nhau
-macintosh	macintosh
 movements	sự di chuyển
 ranging	khác nhau
-monica	Monica
 repairs	sửa chữa
 breath	hơi thở
 amenities	tiện nghi
 virtually	hầu như
-cole	cole
 mart	siêu thị
 candle	nến
 hanging	treo
@@ -6084,10 +5361,8 @@ colored	màu sắc rực rỡ
 authorization	ủy quyền
 tale	câu chuyện
 verified	đã xác minh
-lynn	lynn
 formerly	trước kia
 projector	máy chiếu
-bp	bp
 situated	nằm
 comparative	so sánh
 std	tiêu chuẩn
@@ -6097,7 +5372,6 @@ loving	thương
 strictly	nghiêm ngặt
 routing	lộ trình
 docs	tài liệu
-stanley	Stanley
 psychological	tâm lý
 surprised	ngạc nhiên
 retailer	người bán lẻ
@@ -6105,52 +5379,39 @@ vitamins	vitamin
 elegant	thanh lịch
 gains	lợi ích
 renewal	sự đổi mới
-vid	video
 genealogy	phả hệ
 opposed	phản đối
 deemed	coi là
 scoring	ghi điểm
 expenditure	chi phí
 panties	quần lót
-brooklyn	brooklyn
-liverpool	ganpool
 sisters	chị em gái
 critics	nhà phê bình
 connectivity	kết nối
 spots	điểm
-oo	ồ
+oh	ồ
 algorithms	thuật toán
 hacker	Tin tặc
-madrid	Madrid
 similarly	tương tự
 margin	lề
 coin	đồng tiền
-bbw	béo
 solely	cô độc
 fake	giả mạo
 salon	thẩm mỹ viện
 collaborative	hợp tác
-norman	Norman
-fda	fda
 excluding	loại trừ
 turbo	bộ tăng áp
 headed	đứng đầu
 voters	cử tri
 cure	sự chữa bệnh
-madonna	madonna
 commander	chỉ huy
 arch	vòm
-ni	ni
-murphy	Murphy
 thinks	nghĩ
 thats	đó là
 suggestion	gợi ý
-hdtv	hdtv
 soldier	lính
-phillips	Phillips
 asin	ngu xuẩn
 aimed	nhằm vào
-justin	Justin
 bomb	bom
 harm	làm hại
 interval	khoảng thời gian
@@ -6160,7 +5421,6 @@ tricks	thủ thuật
 reset	cài lại
 brush	chải
 investigate	khảo sát
-thy	của mày
 expansys	mở rộng
 panels	tấm
 repeated	lặp đi lặp lại
@@ -6169,49 +5429,35 @@ connecting	Đang kết nối
 spare	dự phòng
 logistics	hậu cần
 deer	con nai
-kodak	kodak
 tongue	lưỡi
-bowling	bowling
-tri	tri
-danish	người Đan Mạch
-pal	bạn
 monkey	con khỉ
 proportion	tỷ lệ
 filename	tên tập tin
 skirt	váy ngắn
-florence	Florence
 invest	đầu tư
 honey	Mật ong
-um	ừm
 analyses	phân tích
 drawings	bản vẽ
 significance	ý nghĩa
 scenario	kịch bản
-ye	ừ
-fs	fs
 lovers	những người yêu nhau
 atomic	nguyên tử
 approx	khoảng
 symposium	hội nghị chuyên đề
-arabic	tiếng Ả Rập
 gauge	máy đo
 essentials	những thứ thiết yếu
 junction	giao lộ
 protecting	bảo vệ
-nn	nn
 faced	phải đối mặt
 mat	chiếu
-rachel	rachel
 solving	giải quyết
 transmitted	truyền đi
 weekends	nhưng ngay cuối tuần
 screenshots	ảnh chụp màn hình
 produces	sản xuất
 oven	lò vi sóng
-ted	Ted
 intensive	căng
 chains	dây chuyền
-kingston	kingston
 sixth	thứ sáu
 engage	đính hôn
 deviant	lệch lạc
@@ -6239,7 +5485,6 @@ crucial	chủ yếu
 syndication	sự phân phối
 gym	phòng thể dục
 celebration	lễ ăn mừng
-kde	kde
 adjacent	liền kề
 filtering	lọc
 tuition	học phí
@@ -6248,10 +5493,8 @@ exotic	kỳ lạ
 viewer	người xem
 signup	đăng ký
 threats	các mối đe dọa
-luxembourg	luxembourg
 puzzles	câu đố
 reaching	đạt
-vb	vb
 damaged	Bị hư hại
 cams	máy quay
 receptor	thụ thể
@@ -6263,14 +5506,12 @@ destroy	hủy hoại
 citation	trích dẫn
 pitch	sân bóng đá
 autos	ô tô
-yo	yo
 premises	cơ sở
 perry	quả lê
 proved	đã chứng minh
 offensive	phản cảm
 imperial	thành nội
 dozen	tá
-benjamin	benjamin
 deployment	triển khai
 teeth	răng
 cloth	vải
@@ -6279,16 +5520,13 @@ colleagues	đồng nghiệp
 stamp	con tem
 lotus	hoa sen
 salmon	cá hồi
-olympus	olympus
 separated	ly thân
 proc	quá trình
 cargo	hàng hóa
 tan	rám nắng
 directive	chỉ thị
 fx	ngoại hối
-salem	salem
 mate	bạn
-dl	dl
 starter	món khai vị
 upgrades	nâng cấp
 likes	thích
@@ -6305,39 +5543,29 @@ isle	hòn đảo
 stylish	sành điệu
 slim	mảnh khảnh
 maple	cây phong
-luke	Luke
 grocery	cửa hàng tạp hóa
 offshore	ngoài khơi
 governing	quản lý
 retailers	nhà bán lẻ
 depot	kho chứa
-kenneth	kenneth
 comp	máy tính
 alt	thay thế
 pie	bánh
 blend	trộn
-harrison	Harrison
-ls	ls
-julie	Julie
 occasionally	thỉnh thoảng
-cbs	cbs
 attending	tham dự
 emission	khí thải
-pete	pete
 spec	thông số kỹ thuật
 finest	tốt nhất
 realty	thực tế
-janet	Janet
 bow	cây cung
 penn	đồng xu
 recruiting	tuyển dụng
 apparent	rõ ràng
 instructional	giảng dạy
-phpbb	phpbb
 autumn	mùa thu
 traveling	đi du lịch
 probe	thăm dò
-midi	midi
 permissions	quyền
 biotechnology	công nghệ sinh học
 toilet	phòng vệ sinh
@@ -6347,14 +5575,11 @@ routes	tuyến đường
 packed	đóng gói
 excited	hào hứng
 outreach	tiếp cận cộng đồng
-helen	Helen
 mounting	gắn
 recover	hồi phục
 tied	bị ràng buộc
-lopez	lopez
 balanced	cân bằng
 prescribed	quy định
-catherine	Catherine
 timely	hợp thời
 talked	nói chuyện
 upskirts	vén váy
@@ -6375,7 +5600,6 @@ peeing	đi tiểu
 occasions	dịp
 brooks	dòng suối
 equations	phương trình
-newton	newton
 oils	dầu
 sept	tháng chín
 exceptional	đặc biệt
@@ -6385,7 +5609,7 @@ whilst	trong khi
 spatial	không gian
 respondents	người trả lời
 unto	cho đến
-lt	nó
+it	nó
 ceramic	gốm sứ
 prompt	lời nhắc
 precious	quý giá
@@ -6393,28 +5617,20 @@ minds	tâm trí
 annually	hàng năm
 considerations	cân nhắc
 scanners	máy quét
-atm	ATM
-xanax	xanax
-eq	eq
 pays	thanh toán
 cox	đồng xu
 fingers	ngón tay
 sunny	nhiều nắng
 ebooks	sách điện tử
 delivers	mang lại
-je	tôi
-queensland	vương quốc queensland
 necklace	vòng cổ
 musicians	nhạc sĩ
-leeds	leed
 composite	hỗn hợp
 unavailable	không có sẵn
 cedar	cây tuyết tùng
 arranged	được sắp xếp
-lang	lang
 theaters	rạp hát
 advocacy	vận động
-raleigh	raleigh
 stud	đinh tán
 fold	nếp gấp
 essentially	Thiết yếu
@@ -6423,10 +5639,8 @@ threaded	xâu chuỗi
 uv	tia cực tím
 qualify	đủ điều kiện
 fingering	ngón tay
-blair	blair
 hopes	hy vọng
 assessments	đánh giá
-cms	cmt
 mason	thợ nề
 diagram	biểu đồ
 burns	bỏng
@@ -6434,19 +5648,15 @@ pumps	máy bơm
 slut	đĩ
 ejaculation	xuất tinh
 footwear	giày dép
-sg	sg
 vic	nạn nhân
-beijing	Bắc Kinh
 peoples	các dân tộc
 victor	người chiến thắng
-mario	mario
 pos	tư thế
 attach	gắn
 licenses	giấy phép
 utils	tiện ích
 removing	loại bỏ
 advised	khuyên
-brunswick	brunswick
 spider	nhện
 phys	thể chất
 ranges	các dãy
@@ -6454,9 +5664,7 @@ pairs	cặp
 sensitivity	nhạy cảm
 trails	những con đường mòn
 preservation	sự bảo tồn
-hudson	hudson
 isolated	bị cô lập
-calgary	ca-gô-la
 interim	tạm thời
 assisted	được hỗ trợ
 divine	thần thánh
@@ -6482,17 +5690,13 @@ indians	Ấn Độ
 shield	cái khiên
 harvest	mùa gặt
 membrane	màng
-prague	Praha
 previews	xem trước
-bangladesh	bangladesh
 constitute	cấu tạo
 locally	tại địa phương
 concluded	kết luận
 pickup	nhặt lên
 desperate	tuyệt vọng
 mothers	các bà mẹ
-nascar	nscar
-iceland	Nước Iceland
 demonstration	cuộc biểu tình
 governmental	chính phủ
 manufactured	được sản xuất
@@ -6505,19 +5709,12 @@ variations	biến thể
 moms	các bà mẹ
 sacred	Linh thiêng
 addiction	nghiện
-morocco	Ma-rốc
-chrome	trình duyệt Chrome
-tommy	Tommy
 springfield	cánh đồng suối
 refused	bị từ chối
 brake	phanh
 exterior	ngoại thất
 greeting	Lời chào
 ecology	sinh thái
-oliver	ô liu
-congo	Công-gô
-glen	Glen
-botswana	Botswana
 nav	điều hướng
 delays	sự chậm trễ
 synthesis	tổng hợp
@@ -6525,10 +5722,8 @@ olive	Ôliu
 undefined	không xác định
 unemployment	nạn thất nghiệp
 cyber	mạng
-verizon	verizon
 scored	ghi bàn
 enhancement	sự nâng cao
-newcastle	newcastle
 clone	dòng vô tính
 dicks	cu
 velocity	vận tốc
@@ -6541,51 +5736,37 @@ oasis	ốc đảo
 baseline	đường cơ sở
 cab	taxi
 angry	tức giận
-fa	fa
 societies	xã hội
-silicon	silic
-brazilian	người nước Brazil
 identical	giống hệt nhau
 petroleum	xăng dầu
 compete	hoàn thành
 ist	điều này
-norwegian	người Na Uy
 lover	người yêu
 belong	thuộc về
-honolulu	Honolulu
-beatles	ban nhạc beatles
 lips	đôi môi
 escort	hộ tống
 retention	giữ lại
 exchanges	trao đổi
 pond	ao
 rolls	Bánh cuốn
-thomson	thomson
-barnes	Barnes
 soundtrack	nhạc phim
 wondering	tự hỏi
 malta	mạch nha
 daddy	bố
-lc	lc
 ferry	chiếc phà
 rabbit	con thỏ
 profession	nghề nghiệp
 seating	chỗ ngồi
 dam	con đập
-cnn	CNN
 separately	riêng biệt
 physiology	sinh lý học
 lil	bé nhỏ
 collecting	sưu tập
-das	das
 exports	xuất khẩu
-omaha	omaha
 tire	lốp xe
 participant	người tham gia
 scholarships	học bổng
 recreational	giải trí
-dominican	người Dominica
-chad	chad
 electron	điện tử
 loads	tải
 friendship	tình bạn
@@ -6599,7 +5780,6 @@ sys	hệ thống
 solaris	mặt trời
 frozen	Đông cứng
 occupied	chiếm lĩnh
-josh	Josh
 royalty	tiền bản quyền
 scales	quy mô
 rally	tập hợp
@@ -6613,18 +5793,13 @@ arrested	bắt giam
 expanding	mở rộng
 provincial	tỉnh
 investigations	điều tra
-icq	icq
 ripe	chín muồi
-yamaha	yamaha
 rely	phụ thuộc
 medications	thuốc men
-hebrew	tiếng Do Thái
 gained	đạt được
-rochester	rochester
 dying	sắp chết
 laundry	giặt ủi
 stuck	mắc kẹt
-solomon	solomon
 placing	đặt
 stops	dừng lại
 homework	bài tập về nhà
@@ -6638,34 +5813,26 @@ downloadable	có thể tải xuống
 sophisticated	cầu kì
 imposed	áp đặt
 silence	im lặng
-scsi	scsi
 focuses	tập trung
-soviet	Xô viết
 possession	chiếm hữu
-cu	cu
 laboratories	các phòng thí nghiệm
 treaty	hiệp ước
 vocal	phát âm
 trainer	huấn luyện viên
-organ	đàn organ
 stronger	mạnh mẽ hơn
 volumes	tập
 advances	những tiến bộ
 vegetables	rau
 lemon	chanh vàng
 toxic	độc hại
-dns	dns
 thumbnails	hình thu nhỏ
 darkness	bóng tối
-pty	pty
-ws	là
 nuts	quả hạch
 nail	móng tay
 bizrate	kỳ quái
 vienna	Viên
 implied	bao hàm
 span	nhịp
-stanford	Stanford
 sox	đồ khốn
 stockings	vớ
 joke	câu nói đùa
@@ -6677,10 +5844,8 @@ satisfy	thỏa mãn
 destroyed	bị phá hủy
 shelter	nơi trú ẩn
 chapel	nhà nguyện
-gamespot	gamespot
 manufacture	sản xuất
 layers	lớp
-wordpress	wordpress
 guided	được hướng dẫn
 vulnerability	tính dễ bị tổn thương
 accountability	trách nhiệm giải trình
@@ -6688,12 +5853,10 @@ celebrate	kỉ niệm
 accredited	được công nhận
 appliance	thiết bị
 compressed	nén
-bahamas	bahama
-powell	powell
 mixture	hỗn hợp
 zoophilia	bệnh động vật ăn thịt
 bench	Băng ghế
-univ	đại học
+university	đại học
 tub	bồn tắm
 rider	người cưỡi ngựa
 scheduling	lập kế hoạch
@@ -6701,14 +5864,11 @@ radius	bán kính
 perspectives	quan điểm
 mortality	tỷ lệ tử vong
 logging	khai thác gỗ
-hampton	Hampton
-christians	Thiên Chúa giáo
 borders	biên giới
 therapeutic	trị liệu
 pads	miếng đệm
 butts	mông
 inns	quán trọ
-bobby	bobby
 impressive	ấn tượng
 sheep	con cừu
 accordingly	tương ứng
@@ -6720,7 +5880,6 @@ wines	rượu vang
 nursery	vườn ươm
 harder	khó hơn
 cups	cốc
-ash	tro
 microwave	lò vi sóng
 cheapest	rẻ nhất
 accidents	tai nạn
@@ -6728,11 +5887,8 @@ travesti	hành động lố bịch
 relocation	tái định cư
 stuart	rượu vang
 contributors	người đóng góp
-salvador	Salvador
 ali	bí danh
 salad	xa lát
-np	np
-monroe	monroe
 tender	mềm
 violations	vi phạm
 foam	bọt
@@ -6741,10 +5897,7 @@ paste	dán
 clouds	đám mây
 competitions	cuộc thi
 discretion	tùy ý
-tft	tft
-tanzania	tanzania
 preserve	bảo tồn
-jvc	jvc
 poem	bài thơ
 vibrator	máy rung
 unsigned	chưa ký
@@ -6754,30 +5907,20 @@ easter	Phục Sinh
 theories	lý thuyết
 repository	kho
 praise	khen
-jeremy	Jeremy
-venice	venice
-jo	jo
 concentrations	nồng độ
 vibrators	máy rung
-estonia	Estonia
-christianity	Thiên chúa giáo
 veteran	cựu chiến binh
 streams	dòng
 landing	đổ bộ
 signing	ký kết
 executed	Thực thi
-katie	Katie
 negotiations	đàm phán
 realistic	thực tế
-dt	dt
-cgi	cgi
 showcase	trưng bày
 integral	tích phân
 asks	hỏi
 relax	thư giãn
-namibia	namibia
 generating	tạo ra
-christina	christina
 congressional	quốc hội
 synopsis	Tóm tắt
 hardly	khắc nghiệt
@@ -6789,7 +5932,6 @@ sword	thanh kiếm
 absent	vắng mặt
 photographic	nhiếp ảnh
 sells	bán
-ecuador	Ecuador
 hoping	hi vọng
 accessed	đã truy cập
 spirits	tinh thần
@@ -6815,11 +5957,8 @@ cheaper	giá rẻ hơn
 admitted	thừa nhận
 dairy	sản phẩm bơ sữa
 admit	thừa nhận
-mem	nhớ
 fancy	si mê
 equality	bình đẳng
-samoa	Samoa
-gc	gc
 achieving	đạt được
 tap	vỗ nhẹ
 stickers	nhãn dán
@@ -6827,14 +5966,10 @@ fisheries	thủy sản
 exceptions	ngoại lệ
 reactions	phản ứng
 leasing	cho thuê
-lauren	lauren
 beliefs	niềm tin
-ci	ci
-macromedia	macromedia
 companion	bạn đồng hành
 squad	đội hình
 analyze	phân tích
-ashley	Ashley
 scroll	cuộn
 relate	liên quan
 divisions	sự phân chia
@@ -6849,19 +5984,14 @@ invalid	không hợp lệ
 concerts	buổi hòa nhạc
 martial	võ thuật
 males	nam giới
-victorian	người Victoria
 retain	giữ lại
 colours	màu sắc
 execute	hành hình
 tunnel	đường hầm
 genres	thể loại
-cambodia	Campuchia
 patents	bằng sáng chế
 copyrights	bản quyền
-yn	yn
 chaos	sự hỗn loạn
-lithuania	Litva
-mastercard	thẻ mastercard
 wheat	lúa mì
 chronicles	biên niên sử
 obtaining	thu được
@@ -6870,13 +6000,11 @@ updating	đang cập nhật
 distribute	phân phát
 readings	bài đọc
 decorative	trang trí
-kijiji	kijiji
 confused	bối rối
 compiler	trình biên dịch
 enlargement	mở rộng
 eagles	đại bàng
 bases	căn cứ
-vii	vii
 accused	bị buộc tội
 bee	con ong
 campaigns	chiến dịch
@@ -6890,7 +6018,6 @@ airports	sân bay
 instances	trường hợp
 indigenous	bản địa
 begun	đã bắt đầu
-cfr	cfr
 brunette	tóc nâu
 packets	gói
 anchor	mỏ neo
@@ -6901,10 +6028,7 @@ corruption	tham nhũng
 stat	chỉ số
 trigger	cò súng
 incentives	ưu đãi
-cholesterol	cholesterol
 gathered	tập hợp lại
-essex	essex
-slovenia	Slovenia
 notified	đã thông báo
 differential	sự khác biệt
 beaches	bãi biển
@@ -6924,12 +6048,10 @@ clocks	đồng hồ
 arthritis	viêm khớp
 bios	tiểu sử
 females	phụ nữ
-wallace	Wallace
 nevertheless	tuy nhiên
 reflects	phản ánh
 taxation	đánh thuế
 fever	sốt
-pmc	pmc
 cuisine	ẩm thực
 surely	chắc chắn
 practitioners	học viên
@@ -6938,7 +6060,6 @@ myspace	chỗ của tôi
 theorem	định lý
 inflation	lạm phát
 thee	ngươi
-nb	nb
 ruth	ru rú
 pray	cầu nguyện
 stylus	bút cảm ứng
@@ -6947,15 +6068,12 @@ pope	giáo hoàng
 drums	trống
 contracting	hợp đồng
 topless	cởi trần
-arnold	Arnold
 structured	có cấu trúc
 reasonably	hợp lý
-jeep	xe jeep
 chicks	gà con
 bare	trần trụi
 hung	treo
 cattle	gia súc
-mba	mba
 radical	căn bản
 graduates	tốt nghiệp
 rover	người đi thám hiểm
@@ -6965,37 +6083,28 @@ treasure	kho báu
 reload	tải lại
 distributors	nhà phân phối
 flame	ngọn lửa
-levitra	Levitra
 tanks	xe tăng
 assuming	giả định
 monetary	tiền tệ
 elderly	người già
 pit	hố
-arlington	Arlington
 mono	bệnh tăng bạch cầu đơn nhân
 particles	vật rất nhỏ
 floating	nổi
 extraordinary	đặc biệt
 tile	ngói
 indicating	chỉ ra
-bolivia	bolivia
 spell	Đánh vần
 hottest	nóng nhất
-stevens	Stevens
 coordinate	điều phối
-kuwait	Cô-oét
 exclusively	duy nhất
-emily	Emily
 alleged	bị cáo buộc
 limitation	giới hạn
 widescreen	màn ảnh rộng
 compile	biên soạn
 squirting	xuất tinh
-webster	webster
 struck	đánh
-rx	rx
 illustration	hình minh họa
-plymouth	plymouth
 warnings	cảnh báo
 construct	xây dựng
 apps	ứng dụng
@@ -7003,7 +6112,6 @@ inquiries	thắc mắc
 bridal	cô dâu
 annex	Phụ lục
 mag	tạp chí
-gsm	gsm
 inspiration	cảm hứng
 tribal	bộ lạc
 curious	tò mò
@@ -7012,10 +6120,7 @@ freight	vận chuyển hàng hóa
 rebate	hạ giá
 meetup	gặp
 eclipse	nhật thực
-sudan	sudan
-ddr	ddr
 downloading	đang tải xuống
-rec	rec
 shuttle	đưa đón
 aggregate	tổng hợp
 stunning	kinh ngạc
@@ -7026,15 +6131,12 @@ detect	phát hiện
 sluts	gái điếm
 actively	tích cực
 ciao	chào
-ampland	ampland
 knee	đầu gối
 prep	chuẩn bị
-pb	pb
 complicated	phức tap
 chem	hóa chất
 fastest	nhanh nhất
 butler	quản gia
-shopzilla	shopzilla
 injured	bị thương
 decorating	trang trí
 payroll	lương bổng
@@ -7043,34 +6145,26 @@ expressions	biểu thức
 ton	tấn
 courier	chuyển phát nhanh
 uploaded	đã tải lên
-shakespeare	Shakespeare
 hints	gợi ý
 collapse	sụp đổ
 americas	Châu Mỹ
 connectors	đầu nối
 twinks	đồng tính
 unlikely	không thể
-oe	ôi
-gif	gif
 pros	thuận
 conflicts	xung đột
 techno	kỹ thuật
 beverage	đồ uống
 tribute	cống vật
 wired	có dây
-elvis	elvis
 immune	miễn dịch
-latvia	latvia
 travelers	Du khách
 forestry	lâm nghiệp
 barriers	rào cản
 cant	không thể
-jd	jd
 rarely	hiếm khi
-gpl	gpl
 infected	bị lây nhiễm
 offerings	lễ vật
-martha	martha
 genesis	nguồn gốc
 barrier	rào chắn
 argue	tranh cãi
@@ -7081,11 +6175,7 @@ bicycle	xe đạp
 furnishings	nội thất
 letting	để cho
 arise	nảy sinh
-guatemala	guatemala
-celtic	người Celtic
 thereby	bằng cách ấy
-irc	irc
-jamie	Jamie
 particle	hạt
 perception	sự nhận thức
 minerals	khoáng sản
@@ -7093,70 +6183,52 @@ advise	khuyên nhủ
 humidity	độ ẩm
 bottles	chai
 boxing	quyền anh
-wy	ôi
-dm	dm
-bangkok	bangkok
 renaissance	sự phục hưng
 pathology	bệnh lý
-sara	Sara
 bra	áo ngực
 ordinance	sắc lệnh
 hughes	ôm
 photographers	nhiếp ảnh gia
 bitch	con khốn
 infections	nhiễm trùng
-jeffrey	jeffrey
 chess	cờ vua
 operates	vận hành
-brisbane	brisbane
 configured	được cấu hình
 survive	tồn tại
-oscar	oscar
 festivals	lễ hội
 menus	thực đơn
-joan	Joan
 possibilities	khả năng
 duck	con vịt
 reveal	tiết lộ
 canal	con kênh
 amino	amino
-phi	phi
 contributing	đóng góp
 herbs	các loại thảo mộc
 clinics	phòng khám
-mls	ml
 cow	con bò
-manitoba	manitoba
 analytical	phân tích
 missions	nhiệm vụ
-watson	watson
 lying	nằm
 costumes	trang phục
 strict	nghiêm ngặt
 dive	lặn
-saddam	saddam
 circulation	vòng tuần hoàn
 drill	máy khoan
 offense	xúc phạm
 threesome	có ba người
-bryan	Bryan
-cet	cet
 protest	phản kháng
 handjob	sờ mó
 assumption	giả thiết
-jerusalem	Jerusalem
 hobby	sở thích
 tries	cố gắng
 transexuales	người chuyển giới
 invention	sự phát minh
 nickname	tên nick
-fiji	Fiji
 technician	kỹ thuật viên
 inline	nội tuyến
 executives	giám đốc điều hành
 enquiries	thắc mắc
 washing	rửa
-audi	audi
 staffing	nhân sự
 cognitive	nhận thức
 exploring	khám phá
@@ -7164,11 +6236,9 @@ trick	lừa
 enquiry	cuộc điều tra
 closure	Khép kín
 raid	cuộc đột kích
-ppc	ppc
 timber	gỗ
 volt	vôn
 intense	mãnh liệt
-div	div
 playlist	danh sách phát
 registrar	người đăng ký
 showers	vòi hoa sen
@@ -7178,12 +6248,9 @@ steady	vững chắc
 dirt	bụi bẩn
 statutes	quy chế
 withdrawal	rút tiền
-myers	myers
 drops	giọt
 predicted	dự đoán
 wider	rộng hơn
-saskatchewan	saskatchewan
-jc	jc
 cancellation	hủy bỏ
 plugins	bổ sung
 enrolled	đã ghi danh
@@ -7193,10 +6260,7 @@ ministers	bộ trưởng
 publicly	công khai
 hourly	hàng giờ
 blame	đổ tội
-geneva	Genève
-freebsd	freebsd
 veterinary	thú y
-acer	Acer
 prostores	bán dâm
 reseller	người bán lại
 dist	quận
@@ -7207,7 +6271,6 @@ informal	không chính thức
 relevance	sự liên quan
 incentive	khích lệ
 butterfly	bươm bướm
-tucson	tucson
 mechanics	cơ khí
 heavily	nặng nề
 swingers	người đánh đu
@@ -7219,7 +6282,6 @@ ons	tiện ích
 geek	người đam mê công nghệ
 uncle	chú
 defining	xác định
-xnxx	xnxx
 counting	đếm
 reflection	sự phản xạ
 sink	bồn rửa
@@ -7227,15 +6289,11 @@ accompanied	đi kèm
 assure	cam đoan
 invitation	lời mời
 devoted	tận tâm
-princeton	Princeton
-jacob	jacob
-sodium	natri
 randy	ngẫu nhiên
 spirituality	tâm linh
 hormone	nội tiết tố
 meanwhile	trong khi đó
 proprietary	độc quyền
-timothy	timothy
 childrens	trẻ con
 brick	gạch
 grip	nắm chặt
@@ -7243,69 +6301,51 @@ naval	hải quân
 thumbzilla	ngón tay cái
 medieval	thời trung cổ
 porcelain	sứ
-avi	avi
 bridges	cầu
 pichunter	thợ săn ảnh
 captured	bị bắt
 watt	oát
-thehun	thehun
 decent	tử tế
 casting	vật đúc
-dayton	dayton
 translated	đã dịch
 shortly	trong thời gian ngắn
 cameron	người quay phim
 columnists	người viết chuyên mục
 pins	ghim
-carlos	Carlos
 reno	cải tạo
 donna	không
-andreas	andrea
 warrior	chiến binh
 diploma	bằng cấp
-cabin	cabin
 innocent	vô tội
 bdsm	cực khoái
 scanning	quét
 ide	ý tưởng
 consensus	đoàn kết
-polo	polo
 valium	vali
 copying	sao chép
 rpg	nhập vai
 delivering	giao hàng
 cordless	không dây
-patricia	Patricia
 horn	sừng
 eddie	xoáy nước
-uganda	uganda
 fired	Bị sa thải
 journalism	báo chí
-pd	pd
 prot	ủng hộ
 trivia	chuyện vặt vãnh
-adidas	adidas
-perth	perth
 frog	con ếch
 grammar	ngữ pháp
 intention	chủ đích
-syria	Syria
 disagree	không đồng ý
-klein	klein
-harvey	Harvey
 tires	lốp xe
 logs	nhật ký
 undertaken	thực hiện
 tgp	tgp
 hazard	nguy hiểm
 retro	cổ điển
-leo	Sư Tử
-livesex	đời sống tình dục
 statewide	toàn tiểu bang
 semiconductor	chất bán dẫn
 gregory	tập đoàn
 episodes	tập phim
-boolean	boolean
 circular	dạng hình tròn
 anger	sự tức giận
 diy	tự làm lấy
@@ -7319,9 +6359,6 @@ happiness	niềm hạnh phúc
 arg	tranh luận
 substantially	đáng kể
 bizarre	kỳ quái
-glenn	Glenn
-ur	bạn
-auckland	Auckland
 olympics	Thế vận hội
 fruits	trái cây
 identifier	định danh
@@ -7330,14 +6367,9 @@ worldsex	thế giới tình dục
 ribbon	ruy-băng
 calculations	tính toán
 doe	nai cái
-jpeg	jpeg
 conducting	tiến hành
 startup	khởi động
-suzuki	suzuki
-trinidad	Trinidad
-ati	ati
 kissing	hôn nhau
-wal	đi lang thang
 handy	tiện dụng
 swap	tráo đổi
 exempt	miễn
@@ -7348,35 +6380,26 @@ calculators	máy tính
 geometry	hình học
 impression	ấn tượng
 abs	cơ bụng
-slovakia	Slovakia
 flip	lật
 guild	bang hội
 correlation	sự tương quan
 gorgeous	lộng lẫy
 capitol	thủ đô
-sim	sim
 dishes	đĩa
-rna	rna
-barbados	barbados
-chrysler	chrysler
 nervous	lo lắng
 refuse	từ chối
 extends	mở rộng
 fragrance	hương thơm
-mcdonald	mcdonald
 replica	bản sao
 plumbing	hệ thống ống nước
-brussels	Bruxelles
 tribe	bộ lạc
 neighbors	người hàng xóm
 trades	giao dịch
 superb	tuyệt vời
-buzz	buzz
 transparent	trong suốt
 nuke	vũ khí hạt nhân
 rid	thoát khỏi
 trinity	ba ngôi
-charleston	Charleston
 handled	xử lý
 legends	truyền thuyết
 boom	bùng nổ
@@ -7388,35 +6411,25 @@ projectors	máy chiếu
 inappropriate	không phù hợp
 exhaust	khí thải
 comparing	so sánh
-shanghai	Thượng Hải
 speaks	nói
-burton	burton
 vocational	nghề nghiệp
-davidson	Davidson
 copied	sao chép
-scotia	Scotia
 farming	nông nghiệp
 gibson	vượn
 pharmacies	hiệu thuốc
 fork	cái nĩa
-troy	troy
-ln	ln
 roller	Trục lăn
 introducing	giới thiệu
 batch	lô hàng
 organize	tổ chức
 appreciated	đánh giá cao
 alter	thay đổi
-nicole	Nicole
-latino	người la tinh
 ghana	Ghana
 edges	các cạnh
-uc	úc
 mixing	trộn
 handles	tay cầm
 skilled	có tay nghề cao
 fitted	được trang bị
-albuquerque	albuquerque
 harmony	hòa hợp
 distinguished	phân biệt
 asthma	bệnh hen suyễn
@@ -7426,7 +6439,6 @@ shareholders	cổ đông
 twins	cặp song sinh
 developmental	phát triển
 rip	xé
-zope	zope
 regulated	quy định
 triangle	Tam giác
 amend	sửa đổi
@@ -7434,18 +6446,13 @@ anticipated	dự kiến
 oriental	phương đông
 reward	phần thưởng
 windsor	cửa gió
-zambia	Zambia
 completing	hoàn thành
-gmbh	gmbh
-buf	buf
-ld	ld
 hydrogen	hydro
 webshots	ảnh chụp web
 sprint	tăng tốc
 comparable	so sánh được
 chick	gà con
 advocate	biện hộ
-sims	sim
 confusion	lú lẫn
 copyrighted	có bản quyền
 tray	cái mâm
@@ -7462,7 +6469,6 @@ vessels	tàu thuyền
 harbour	Hải cảng
 walks	đi bộ
 sucks	tệ quá
-sol	sol
 keyboards	những bàn phím
 sage	Hiền nhân
 knives	những con dao
@@ -7483,10 +6489,8 @@ ignored	làm ngơ
 polar	vùng cực
 fallen	rơi
 precise	chính xác
-sussex	sussex
 respiratory	hô hấp
 notifications	thông báo
-msgid	msgstr
 transexual	chuyển giới
 mainstream	Xu hướng
 invoice	hóa đơn
@@ -7498,7 +6502,6 @@ gather	tập trung
 suse	sử dụng
 maternity	thai sản
 backed	được hỗ trợ
-alfred	Alfred
 colonial	thuộc địa
 mf	bà già
 carey	cẩn thận
@@ -7507,8 +6510,6 @@ forming	hình thành
 embassy	đại sứ quán
 cave	hang
 journalists	nhà báo
-danny	danny
-rebecca	rebecca
 slight	mảnh dẻ
 proceeds	tiền thu được
 indirect	gián tiếp
@@ -7518,62 +6519,48 @@ foundations	nền móng
 msgstr	tin nhắn
 arrest	bắt giữ
 volleyball	bóng chuyền
-mw	mw
 adipex	phần mỡ
 horizon	chân trời
 nu	không
 deeply	sâu sắc
 toolbox	hộp công cụ
-ict	ict
 marina	bến du thuyền
 liabilities	nợ phải trả
 prizes	giải thưởng
-bosnia	bosnia
 browsers	trình duyệt
 decreased	giảm
 patio	hiên nhà
-dp	dp
 tolerance	sức chịu đựng
 surfing	lướt sóng
 creativity	sáng tạo
-lloyd	lloyd
 describing	miêu tả
 optics	quang học
 pursue	theo đuổi
 lightning	tia sét
 overcome	vượt qua
 eyed	có mắt
-ou	bạn
 quotations	trích dẫn
 grab	vồ lấy
 inspector	thanh tra
 attract	thu hút
-brighton	Brighton
 beans	đậu
 bookmarks	dấu trang
-ellis	ellis
 disable	vô hiệu hóa
 snake	rắn
 succeed	thành công
-leonard	leonard
 lending	cho vay
 oops	Ối
 reminder	lời nhắc nhở
 nipple	núm vú
-xi	xi
 searched	đã tìm kiếm
 behavioral	hành vi
 riverside	bờ sông
 bathrooms	phòng tắm
 plains	đồng bằng
 sku	mã hàng
-ht	ht
-raymond	raymond
 insights	hiểu biết sâu sắc
 abilities	khả năng
 initiated	khởi xướng
-sullivan	sullivan
-za	za
 midwest	trung tây
 karaoke	karaoke
 trap	cạm bẫy
@@ -7581,26 +6568,20 @@ lonely	cô đơn
 fool	ngu xuẩn
 ve	đã
 nonprofit	phi lợi nhuận
-lancaster	lancaster
 suspended	cấm
 hereby	bằng cách này
 observe	quan sát
-julia	Julia
 containers	hộp đựng
 attitudes	thái độ
-karl	Karl
 berry	quả mọng
 collar	cổ áo
 simultaneously	đồng thời
 racial	chủng tộc
 integrate	tích hợp
-bermuda	bermuda
-amanda	amanda
 sociology	xã hội học
 mobiles	điện thoại di động
 screenshot	ảnh chụp màn hình
 exhibitions	triển lãm
-kelkoo	kelkoo
 confident	tự tin
 retrieved	đã lấy lại
 exhibits	vật trưng bày
@@ -7613,14 +6594,11 @@ pts	điểm
 replied	đã trả lời
 seafood	Hải sản
 novels	tiểu thuyết
-rh	ồ
-rrp	rr
 recipients	người nhận
 playboy	tay chơi
 ought	nên
 delicious	thơm ngon
 traditions	truyền thống
-fg	fg
 jail	nhà giam
 safely	an toàn
 finite	có hạn
@@ -7629,20 +6607,11 @@ periodically	định kỳ
 fixes	sửa lỗi
 sends	gửi
 durable	bền chặt
-mazda	mazda
 allied	liên minh
 throws	ném
 moisture	độ ẩm
-hungarian	người Hungary
 roster	danh sách
 referring	giới thiệu
-symantec	symantec
-spencer	Spencer
-wichita	wichita
-nasdaq	nasdaq
-uruguay	uruguay
-ooo	ôi
-hz	hz
 transform	biến đổi
 timer	hẹn giờ
 tablets	máy tính bảng
@@ -7660,16 +6629,10 @@ wanting	muốn
 custody	sự coi giư
 scratch	cào
 launches	ra mắt
-ipaq	ipaq
 alignment	căn chỉnh
 masturbating	thủ dâm
-henderson	henderson
-bk	bk
-britannica	nước Anh
 comm	liên lạc
-ellen	Ellen
 competitors	đối thủ cạnh tranh
-nhs	nhs
 rocket	tên lửa
 aye	vâng
 bullet	đạn
@@ -7680,39 +6643,27 @@ nasty	bẩn thỉu
 visibility	hiển thị
 latitude	vĩ độ
 consciousness	ý thức
-ste	ste
 tumor	khối u
 ugly	xấu xí
 deposits	tiền gửi
-beverly	belly
 mistress	tình nhân
 encounter	bắt gặp
 trustees	người được ủy thác
-watts	watt
-duncan	ducan
 reprints	tái bản
 hart	con hươu đực
-bernard	Bernard
 resolutions	nghị quyết
 ment	tâm sự
 accessing	truy cập
 forty	bốn mươi
 tubes	ống
 attempted	đã cố gắng
-col	col
 midlands	trung du
 priest	thầy tu
-floyd	floyd
-ronald	ronald
 analysts	nhà phân tích
 queue	xếp hàng
-dx	dx
-sk	sk
 trance	xuất thần
 locale	ngôn ngữ
-nicholas	Nicholas
 biol	sinh học
-yu	bạn
 bundle	bó
 hammer	cây búa
 invasion	cuộc xâm lăng
@@ -7721,11 +6672,8 @@ runner	Á hậu
 rows	hàng
 administered	quản lý
 notion	khái niệm
-sq	vuông
 skins	da
 mailed	gửi qua đường bưu điện
-oc	oc
-fujitsu	fujitsu
 spelling	chính tả
 arctic	Bắc cực
 exams	kỳ thi
@@ -7733,10 +6681,7 @@ rewards	phần thưởng
 beneath	bên dưới
 strengthen	tăng cường
 defend	phòng vệ
-aj	ôi
-frederick	Frederick
 medicaid	trợ cấp y tế
-treo	treo
 infrared	tia hồng ngoại
 seventh	thứ bảy
 gods	vị thần
@@ -7744,21 +6689,17 @@ une	một
 welsh	người xứ Wales
 belly	bụng
 aggressive	hung dữ
-tex	tex
 advertisements	quảng cáo
 quarters	khu phố
 stolen	ăn cắp
-cia	cia
 sublimedirectory	thư mục siêu phàm
 soonest	sớm nhất
-haiti	Haiti
 disturbed	bị làm phiền
 determines	xác định
 sculpture	điêu khắc
 poly	nhiều
 ears	đôi tai
-dod	làm gì
-wp	wp
+do	làm gì
 fist	nắm tay
 naturals	tự nhiên
 neo	tân
@@ -7767,14 +6708,11 @@ lenders	người cho vay
 pharmacology	dược học
 fitting	lắp
 fixtures	đồ đạc
-bloggers	blogger
 mere	chỉ là
 agrees	đồng ý
 passengers	hành khách
 quantities	số lượng
-petersburg	petersburg
 consistently	nhất quán
-powerpoint	powerpoint
 cons	nhược điểm
 surplus	số dư
 elder	đàn anh
@@ -7786,8 +6724,6 @@ taxi	xe tắc xi
 punishment	hình phạt
 appreciation	sự đánh giá
 subsequently	sau đó
-om	ồ
-belarus	Bêlarut
 nat	tự nhiên
 zoning	phân vùng
 gravity	Trọng lực
@@ -7801,25 +6737,17 @@ guitars	ghi-ta
 essence	nước hoa
 flooring	ván sàn
 lightweight	nhẹ
-ethiopia	Ethiopia
-tp	tp
 mighty	hùng mạnh
 athletes	vận động viên
 humanity	nhân loại
 transcription	phiên mã
-jm	jm
-holmes	holmes
 complications	biến chứng
 scholars	học giả
-dpi	dpi
 scripting	kịch bản
-gis	gis
 remembered	đã nhớ
 galaxy	ngân hà
-chester	chester
 snapshot	ảnh chụp nhanh
 caring	quan tâm
-loc	lộc
 worn	rách nát
 synthetic	tổng hợp
 shaw	khăn choàng
@@ -7830,14 +6758,11 @@ expo	triển lãm
 dominant	trội
 twist	xoắn
 specifics	chi tiết cụ thể
-itunes	itunes
 stomach	cái bụng
 partially	một phần
 buried	chôn cất
-cn	cn
 newbie	người mới
 minimize	giảm thiểu
-darwin	Darwin
 ranks	cấp bậc
 wilderness	hoang dã
 debut	ra mắt
@@ -7846,8 +6771,6 @@ tournaments	giải đấu
 bradley	lúa mạch
 deny	từ chối
 anatomy	giải phẫu học
-bali	Bali
-judy	Judy
 sponsorship	sự tài trợ
 headphones	tai nghe
 fraction	phân số
@@ -7855,21 +6778,16 @@ trio	bộ ba
 proceeding	tiến hành
 cube	khối lập phương
 defects	khiếm khuyết
-volkswagen	volkswagen
 uncertainty	tính không chắc chắn
 breakdown	phá vỡ
-milton	milton
 marker	đánh dấu
 reconstruction	tái thiết
 subsidiary	công ty con
 strengths	điểm mạnh
 clarity	trong trẻo
 rugs	thảm
-sandra	sandra
-adelaide	adelaide
 encouraging	đáng khích lệ
 furnished	trang bị
-monaco	monaco
 settled	định cư
 folding	gấp
 emirates	tiểu vương quốc
@@ -7879,35 +6797,28 @@ comparisons	sự so sánh
 beneficial	có lợi
 distributions	sự phân phối
 vaccine	vắc xin
-belize	Belize
 crap	tào lao
 fate	định mệnh
 viewpicture	xem hình ảnh
 promised	đã hứa
-volvo	volvo
 penny	đồng xu
 robust	khỏe mạnh
 bookings	đặt chỗ
 threatened	bị đe dọa
-minolta	minolta
 republicans	những người theo chủ nghĩa cộng hòa
 discusses	thảo luận
 gui	gui
 porter	người khuân vác
-gras	gan
 jungle	rừng
 ver	phiên bản
-rn	rn
 responded	đã trả lời
 rim	vành
 abstracts	tóm tắt
 zen	thiền học
 ivory	ngà voi
 alpine	núi cao
-dis	dis
 prediction	sự dự đoán
 pharmaceuticals	dược phẩm
-andale	Andale
 fabulous	tuyệt vời
 remix	phối lại
 alias	bí danh
@@ -7921,9 +6832,6 @@ ecological	sinh thái
 spice	gia vị
 oval	hình trái xoan
 implies	ngụ ý
-cg	cg
-soma	soma
-ser	ser
 cooler	mát hơn
 appraisal	đánh giá
 consisting	bao gồm
@@ -7931,72 +6839,51 @@ maritime	hàng hải
 periodic	định kỳ
 submitting	nộp
 overhead	trên không
-ascii	ascii
 prospect	tiềm năng
 shipment	lô hàng
 breeding	chăn nuôi
 citations	trích dẫn
 geographical	địa lý
 donor	nhà tài trợ
-mozambique	mozambique
 tension	căng thẳng
-href	href
-benz	benz
 trash	rác
 shapes	hình dạng
-wifi	wifi
 tier	tầng
-fwd	fwd
 earl	bá tước
 manor	trang viên
 envelope	phong bì
-diane	diane
 homeland	quê hương
 disclaimers	tuyên bố từ chối trách nhiệm
 championships	giải vô địch
 excluded	bị loại trừ
-andrea	andrea
 breeds	giống
 rapids	thác ghềnh
 disco	sàn nhảy
-sheffield	Sheffield
-bailey	Bailey
-aus	au
 endif	cuối cùng
 finishing	hoàn thiện
 emotions	những cảm xúc
-wellington	wellington
 incoming	mới đến
 prospects	tương lai
 lexmark	từ vựng
 cleaners	chất tẩy rửa
-bulgarian	tiếng Bungari
 hwy	đường cao tốc
 eternal	Vĩnh hằng
 cashiers	Thu ngân
-guam	guam
 cite	trích dẫn
 aboriginal	thổ dân
 remarkable	đáng chú ý
 rotation	Vòng xoay
-nam	nam
 preventing	ngăn ngừa
 productive	năng suất
 boulevard	đại lộ
-eugene	Eugene
-ix	ix
-gdp	gdp
 pig	con lợn
 metric	Hệ mét
 compliant	tuân thủ
 minus	dấu trừ
 penalties	hình phạt
-bennett	Bennet
 imagination	trí tưởng tượng
 hotmail	thư nóng
 refurbished	Tân trang lại
-joshua	joshua
-armenia	Armenia
 varied	đa dạng
 grande	vĩ đại
 closest	gần nhất
@@ -8007,44 +6894,33 @@ conferencing	hội nghị
 assign	giao phó
 armstrong	cánh tay mạnh mẽ
 politicians	chính trị gia
-trackbacks	trackback
 lit	thắp sáng
 accommodate	chứa
 tigers	Nhiều con hổ
 aurora	rạng Đông
-una	một
-slides	slide
-milan	milan
 premiere	ra mắt
 lender	người cho vay
 villages	làng
 shade	bóng râm
 chorus	Điệp khúc
-christine	christine
 rhythm	nhịp
 digit	chữ số
 argued	Tranh luận
 dietary	chế độ ăn kiêng
 symphony	bản giao hưởng
-clarke	clarke
 sudden	đột nhiên
 accepting	chấp nhận
 precipitation	sự kết tủa
-marilyn	Marilyn
 lions	sư tử
 findlaw	luật pháp
-ada	ada
 pools	hồ bơi
-tb	tb
 lyric	lời bài hát
-claire	claire
 isolation	sự cách ly
 speeds	tốc độ
 sustained	duy trì
 matched	phù hợp
 approximate	xấp xỉ
 rope	dây thừng
-carroll	carroll
 rational	hợp lý
 programmer	lập trình viên
 fighters	máy bay chiến đấu
@@ -8062,17 +6938,11 @@ grave	phần mộ
 legitimate	hợp pháp
 biographies	tiểu sử
 burner	đầu đốt
-yrs	năm
-foo	foo
 investigator	người điều tra
-gba	gba
 plaintiff	nguyên đơn
-finnish	tiếng phần lan
 gentle	dịu dàng
-bm	bm
 prisoners	tù nhân
 deeper	sâu sắc hơn
-muslims	người Hồi giáo
 hose	vòi nước
 mediterranean	Địa Trung Hải
 nightlife	cuộc sống về đêm
@@ -8090,7 +6960,6 @@ duo	cặp đôi
 excessive	quá đáng
 devon	quỷ dữ
 screensaver	bảo vệ màn hình
-helena	Helena
 saves	tiết kiệm
 regarded	đánh giá
 valuation	định giá
@@ -8098,10 +6967,7 @@ unexpected	không ngờ tới
 cigarette	thuốc lá
 fog	sương mù
 characteristic	đặc trưng
-marion	Marion
 lobby	sảnh
-egyptian	người Ai Cập
-tunisia	Tunisia
 metallica	kim loại
 outlined	nêu
 consequently	do đó
@@ -8109,21 +6975,17 @@ headline	tiêu đề
 treating	điều trị
 punch	cú đấm
 appointments	cuộc hẹn
-str	str
 gotta	cần phải
 cowboy	cao bồi
 narrative	chuyện kể
-bahrain	Bahrain
 enormous	lớn lao
 karma	nghiệp chướng
 consist	bao gồm
-betty	betty
 queens	nữ hoàng
 academics	học giả
 pubs	quán rượu
 quantitative	định lượng
 shemales	người chuyển giới
-lucas	lucas
 screensavers	trình bảo vệ màn hình
 subdivision	phân khu
 tribes	bộ lạc
@@ -8131,7 +6993,6 @@ vip	cao cấp
 defeat	đánh bại
 clicks	số lần nhấp chuột
 distinction	sự phân biệt
-honduras	Honduras
 naughty	nghịch ngợm
 hazards	mối nguy hiểm
 insured	được bảo hiểm
@@ -8152,29 +7013,22 @@ silly	ngớ ngẩn
 nutritional	dinh dưỡng
 yea	vâng
 mercy	nhân từ
-hartford	Hartford
 freely	tự do
-marcus	Marcus
 sunrise	bình Minh
 wrapping	gói
 mild	nhẹ
 fur	lông thú
-nicaragua	Nicaragua
 weblogs	nhật ký web
 timeline	mốc thời gian
 tar	hắc ín
 belongs	thuộc về
-rj	rj
 readily	dễ dàng
 affiliation	liên kết
-soc	soc
 fence	hàng rào
 nudist	người theo chủ nghĩa khỏa thân
 infinite	vô hạn
-diana	Diana
 ensures	đảm bảo
 relatives	họ hàng
-lindsay	lindsay
 clan	thị tộc
 legally	hợp pháp
 shame	nỗi tủi nhục
@@ -8184,7 +7038,6 @@ bracelets	vòng tay
 sync	đồng bộ hóa
 civilian	dân sự
 telephony	điện thoại
-mesa	mesa
 fatal	gây tử vong
 remedy	phương thuốc
 realtors	người môi giới bất động sản
@@ -8210,29 +7063,19 @@ borough	quận
 maintains	duy trì
 failing	thất bại
 shortcuts	phím tắt
-ka	ka
 retained	giữ lại
-voyeurweb	voyeurweb
-pamela	cây pamela
-andrews	Andrew
 marble	đá hoa
 extending	mở rộng
-jesse	Jesse
 specifies	chỉ định
 hull	thân tàu
-logitech	logitech
-surrey	surrey
 briefing	cuộc họp
-belkin	belkin
-dem	họ
+them	họ
 accreditation	công nhận
-wav	wav
 blackberry	dâu đen
 highland	Cao nguyên
 meditation	thiền
 modular	mô-đun
 microphone	cái mic cờ rô
-macedonia	Macedonia
 combining	kết hợp
 brandon	rượu mạnh
 instrumental	nhạc cụ
@@ -8241,37 +7084,26 @@ organizing	tổ chức
 shed	túp lều
 balloon	bóng bay
 moderators	người điều hành
-winston	winston
 memo	bản ghi nhớ
 ham	giăm bông
 solved	đã giải quyết
 tide	thủy triều
-kazakhstan	Kazakhstan
-hawaiian	người Hawaii
 standings	bảng xếp hạng
 partition	vách ngăn
 invisible	vô hình
 gratuit	miễn phí
 consoles	bảng điều khiển
 funk	trò đùa
-fbi	FBI
-qatar	qatar
 magnet	nam châm
 translations	bản dịch
-porsche	porsche
-cayman	cayman
 jaguar	báo đốm
 reel	cuộn dây
 sheer	tuyệt đối
 commodity	hàng hóa
 posing	tạo dáng
-wang	Vương
 kilometers	km
-rp	rp
 bind	trói buộc
 thanksgiving	lễ tạ ơn
-rand	rand
-hopkins	hopkins
 urgent	cấp bách
 guarantees	đảm bảo
 infants	trẻ sơ sinh
@@ -8280,14 +7112,8 @@ cylinder	hình trụ
 witch	phù thủy
 buck	Cái xô
 indication	chỉ dẫn
-eh	Hở
 congratulations	Chúc mừng
-tba	tba
-cohen	cohen
-sie	sie
-usgs	usgs
 puppy	cún yêu
-kathy	Kathy
 acre	mẫu Anh
 graphs	đồ thị
 surround	vây quanh
@@ -8298,22 +7124,15 @@ enemies	kẻ thù
 lows	mức thấp
 controllers	bộ điều khiển
 aqua	nước
-chen	Trần
-emma	emma
 consultancy	tư vấn
 finances	tài chính
 accepts	chấp nhận
 enjoying	thưởng thức
 conventions	quy ước
-eva	eva
 patrol	tuần tra
 smell	mùi
 pest	côn trùng
-hc	hc
-italiano	người Ý
 coordinates	tọa độ
-rca	rca
-fp	fp
 carnival	lễ hội hóa trang
 roughly	đại khái
 sticker	nhãn dán
@@ -8323,36 +7142,23 @@ reef	rạn san hô
 physically	về thể chất
 divide	chia
 stakeholders	các bên liên quan
-hydrocodone	hydrocodone
-gst	gst
 consecutive	liên tiếp
-cornell	Cornell
 satin	sa tanh
 bon	vui vẻ
 deserve	xứng đáng
 attempting	cố gắng
 mailto	gửi thư
 promo	khuyến mãi
-jj	jj
 representations	sự đại diện
-chan	chan
 worried	lo lắng
 tunes	giai điệu
 garbage	rác
 competing	cạnh tranh
 combines	kết hợp
-mas	mẹ
-beth	beth
-bradford	Bradford
-len	len
 phrases	cụm từ
-kai	kai
 peninsula	bán đảo
-chelsea	Chelsea
 boring	nhạt nhẽo
-reynolds	reynolds
 dom	nhà thờ
-jill	jill
 accurately	chính xác
 speeches	bài phát biểu
 reaches	đạt tới
@@ -8366,34 +7172,25 @@ quizzes	câu đố
 parliamentary	nghị viện
 obj	vật thể
 prefix	tiếp đầu ngữ
-lucia	lucia
 savannah	thảo nguyên
 barrel	thùng
 typing	đánh máy
 nerve	dây thần kinh
-dans	dans
 planets	những hành tinh
 deficit	thiếu hụt hoặc khuyết
 boulder	tảng đá
 pointing	Chỉ trỏ
 renew	thay mới
 coupled	kết hợp
-viii	viiii
-myanmar	myanmar
-metadata	metadata
-harold	harold
 circuits	Chu trình
 floppy	đĩa mềm
 texture	kết cấu
 handbags	túi xách
 jar	cái lọ
-ev	ev
 somerset	người nào đó
 incurred	phát sinh
 acknowledge	thừa nhận
 thoroughly	triệt để
-antigua	antigua
-nottingham	nottingham
 thunder	sấm sét
 tent	lều
 caution	thận trọng
@@ -8407,7 +7204,6 @@ miniature	thu nhỏ
 dept	ban
 hack	gian lận
 dare	dám
-euros	euro
 interstate	liên bang
 pirates	Hải tặc
 aerial	trên không
@@ -8421,34 +7217,21 @@ hired	được thuê
 makeup	trang điểm
 textile	dệt may
 lamb	cừu non
-madagascar	Madagascar
-nathan	nathan
 tobago	thuốc lá
 presenting	trình bày
-cos	vì
 troubleshooting	xử lý sự cố
-uzbekistan	uzbekistan
 indexes	chỉ số
 pac	nhịp độ
-rl	rl
-erp	erp
 centuries	thế kỉ
-gl	kính
+glass	kính
 magnitude	kích cỡ
-ui	ui
-richardson	Richardson
-hindu	đạo Hindu
-dh	dh
 fragrances	nước hoa
 vocabulary	từ vựng
 licking	liếm
 earthquake	động đất
-vpn	vpn
 fundraising	gây quỹ
-fcc	fcc
 markers	đánh dấu
 weights	trọng lượng
-albania	người Anbani
 geological	Địa chất học
 assessing	đánh giá
 lasting	bền vững
@@ -8457,23 +7240,17 @@ eds	biên tập
 introduces	giới thiệu
 kills	giết chết
 roommate	bạn cùng phòng
-webcams	webcam
 pushed	đẩy
 webmasters	quản trị trang web
-ro	ro
-df	df
 computational	tính toán
 acdbentity	tính quen thuộc
 participated	đã tham gia
 junk	rác
 handhelds	Thiết bị cầm tay
 wax	sáp
-lucy	lucy
 answering	trả lời
-hans	Hans
 impressed	ấn tượng
 slope	dốc
-reggae	nhạc reggae
 failures	thất bại
 poet	nhà thơ
 conspiracy	âm mưu
@@ -8496,24 +7273,18 @@ preceding	trước
 merit	công lao
 enzyme	enzim
 cumulative	tích lũy
-zshops	zshop
 planes	máy bay
-edmonton	edmonton
 tackle	giải quyết
 disks	đĩa
 condo	chung cư
-pokemon	pokemon
 amplifier	bộ khuếch đại
 ambien	môi trường xung quanh
 arbitrary	Bất kỳ
 prominent	nổi bật
 retrieve	lấy lại
-lexington	lexington
-vernon	vernon
 sans	không
 worldcat	mèo thế giới
 titanium	titan
-irs	IRS
 fairy	tiên
 builds	xây dựng
 contacted	đã liên hệ
@@ -8523,10 +7294,6 @@ bye	tạm biệt
 cdt	cdt
 recorders	máy ghi âm
 occasional	thỉnh thoảng
-leslie	Leslie
-casio	casio
-deutsche	tiếng Đức
-ana	Ana
 postings	bài đăng
 innovations	đổi mới
 kitty	mèo con
@@ -8535,31 +7302,23 @@ dude	anh bạn
 drain	làm khô hạn
 monte	núi
 fires	hỏa hoạn
-algeria	Algeria
 blessed	Hạnh phúc
-luis	luis
 reviewing	xem xét
-cardiff	Cardiff
 cornwall	bức tường ngô
 favors	ân huệ
 potato	khoai tây
 panic	hoảng loạn
 explicitly	rõ ràng
 sticks	gậy
-leone	leon
 transsexual	chuyển đổi giới tính
-ez	ez
 citizenship	quyền công dân
 excuse	thứ lỗi
 reforms	cải cách
 basement	tầng hầm
 onion	củ hành
 strand	sợi dây
-pf	pf
 sandwich	bánh mì sandwich
-uw	ồ
 lawsuit	vụ kiện
-alto	giọng alto
 informative	nhiều thông tin
 girlfriend	bạn gái
 bloomberg	hoa nở
@@ -8568,9 +7327,7 @@ hierarchy	hệ thống cấp bậc
 influenced	bị ảnh hưởng
 banners	băng rôn
 reject	từ chối
-eau	eau
 abandoned	bị bỏ rơi
-bd	bd
 circles	vòng tròn
 italic	in nghiêng
 beats	nhịp đập
@@ -8582,39 +7339,29 @@ complement	bổ sung
 cult	giáo phái
 dash	dấu gạch ngang
 passive	thụ động
-mauritius	Mauritius
 valued	có giá trị
 cage	cái lồng
 checklist	danh mục
-bangbus	bangbus
 requesting	yêu cầu
 courage	lòng can đảm
 verde	xanh tươi
-lauderdale	lauderdale
 scenarios	kịch bản
 gazette	công báo
-hitachi	hitachi
-divx	divx
 extraction	khai thác
 batman	người dơi
 elevation	độ cao
 hearings	phiên điều trần
-coleman	coman
 hugh	ôm
 lap	lòng
 utilization	sự tận dụng
 beverages	đồ uống
 calibration	sự định cỡ
-jake	Jake
 eval	đánh giá
 efficiently	hiệu quả
-anaheim	anaheim
-ping	ping
 textbook	sách giáo khoa
 dried	khô
 entertaining	giải trí
 prerequisite	điều kiện tiên quyết
-luther	Luther
 frontier	biên giới
 settle	ổn định
 stopping	dừng lại
@@ -8624,11 +7371,8 @@ hypothesis	giả thuyết
 palmer	cây cọ
 medicines	các loại thuốc
 flux	tuôn ra
-derby	trận derby
-sao	sao
 peaceful	hoà bình
 altered	bị thay đổi
-pontiac	pontiac
 regression	hồi quy
 doctrine	học thuyết
 scenic	có cảnh đẹp thiên nhiên
@@ -8643,17 +7387,11 @@ consistency	Tính nhất quán
 collectors	người sưu tầm
 conclude	kết luận
 recognised	được công nhận
-munich	Munich
-oman	oman
 celebs	người nổi tiếng
-gmc	gmc
 propose	cầu hôn
-hh	hh
-azerbaijan	Azerbaijan
 lighter	nhẹ hơn
 rage	cơn thịnh nộ
 adsl	quảng cáo
-uh	ừ
 prix	giải nhất
 astrology	chiêm tinh học
 advisors	cố vấn
@@ -8664,43 +7402,30 @@ occurring	xảy ra
 supplemental	bổ sung
 travelling	đi du lịch
 talented	có tài
-annie	Annie
 pillow	cái gối
 induction	hướng dẫn
-derek	derek
 precisely	đúng
 shorter	ngắn hơn
-harley	harley
 spreading	truyền bá
 provinces	tỉnh
 relying	dựa vào
 finals	trận chung kết
-paraguay	paraguay
 steal	ăn cắp
 parcel	bưu kiện
 refined	tinh tế
-fd	fd
-bo	bo
 fifteen	mười lăm
 widespread	phổ biến rộng rãi
 incidence	tỷ lệ mắc bệnh
 fears	sợ hãi
 predict	dự đoán
 boutique	cửa hàng
-acrylic	acrylic
 rolled	cán
 tuner	bộ chỉnh âm
-avon	avon
 incidents	sự cố
-peterson	Peterson
-rays	tia
-asn	mông
-shannon	shannon
 toddler	trẻ mới biết đi
 enhancing	tăng cường
 flavor	hương vị
 alike	như nhau
-walt	điệu valse
 homeless	vô gia cư
 horrible	tệ hại
 hungry	đói bụng
@@ -8709,21 +7434,14 @@ acne	mụn
 blocked	bị chặn
 interference	sự can thiệp
 warriors	chiến binh
-palestine	xứ Palestin
 listprice	bảng giá
-libs	lib
 undo	Hoàn tác
-cadillac	cadillac
 atmospheric	khí quyển
-malawi	Malawi
-wm	cái gì
-pk	pk
 sagem	cây xô thơm
 knowledgestorm	cơn bão tri thức
 dana	bố thí
 halo	hào quang
 ppm	trang/phút
-curtis	curtis
 parental	cha mẹ
 referenced	được tham chiếu
 strikes	đình công
@@ -8738,19 +7456,15 @@ gasoline	xăng
 apt	đúng cách
 dressed	mặc quần áo
 scout	trinh sát
-belfast	Belfast
 exec	người điều hành
 dealt	xử lý
-niagara	Niagara
 inf	thông tin
-eos	eos
 warcraft	chiến thuật
 charms	bùa chú
 catalyst	chất xúc tác
 trader	thương nhân
 bucks	Xô
 allowance	trợ cấp
-vcr	vcr
 denial	phủ nhận
 uri	nước tiểu
 designation	sự chỉ định
@@ -8765,19 +7479,15 @@ badge	huy hiệu
 wrist	cổ tay
 civilization	nền văn minh
 analyzed	phân tích
-vietnamese	Tiếng Việt
 heath	cây thạch thảo
 tremendous	to lớn
 ballot	phiếu
-lexus	Lexus
 varying	thay đổi
 remedies	biện pháp khắc phục
 validity	hiệu lực
 trustee	người được ủy thác
-maui	maui
 handjobs	làm bằng tay
 weighted	có trọng lượng
-angola	Angola
 squirt	tia nước
 performs	thực hiện
 plastics	nhựa
@@ -8788,103 +7498,73 @@ helmet	mũ bảo hiểm
 salaries	lương
 postcard	bưu thiếp
 elephant	con voi
-yemen	yêmen
 encountered	đã gặp
 tsunami	sóng thần
 scholar	học giả
-nickel	niken
 internationally	quốc tế
 surrounded	Được bao quanh
-psi	psi
 buses	xe buýt
-expedia	expedia
 geology	địa chất học
 pct	phần trăm
-wb	wb
 creatures	sinh vật
 coating	lớp áo
 commented	đã bình luận
 wallet	cái ví
 cleared	đã xóa
 smilies	mặt cười
-vids	video
 accomplish	hoàn thành
 boating	chèo thuyền
 drainage	thoát nước
-shakira	shakira
 corners	góc
 broader	rộng hơn
 vegetarian	người ăn chay
 rouge	màu hồng
 yeast	men
-yale	đại học Yale
 newfoundland	vùng đất mới
-sn	sn
-qld	qld
 pas	tạm thời
 clearing	thanh toán bù trừ
 investigated	điều tra
-dk	dk
 ambassador	đại sứ
 coated	tráng
 intend	có ý định
-stephanie	Stephanie
 contacting	liên lạc
 vegetation	thảm thực vật
 doom	sự chết
 findarticles	tìm bài viết
-louise	Louise
-kenny	kenny
 specially	đặc biệt
 owen	nợ
 routines	thói quen
 hitting	đánh
-yukon	yukon
 beings	chúng sinh
 bite	cắn
-issn	issn
 aquatic	thủy sinh
 reliance	sự trông cậy
 habits	thói quen
 striking	nổi bật
 myth	huyền thoại
 infectious	truyền nhiễm
-podcasts	podcast
-singh	singh
-gig	buổi biểu diễn
-gilbert	gilbert
-sas	sas
-ferrari	ferrari
 continuity	liên tục
 brook	dòng suối
-fu	fu
 outputs	kết quả đầu ra
 phenomenon	hiện tượng
 ensemble	quần thể
-insulin	insulin
 assured	yên tâm
-biblical	kinh thánh
 weed	cần sa
 conscious	biết rõ
 accent	giọng
-mysimon	mysimon
 eleven	mười một
 wives	những người vợ
 ambient	môi trường xung quanh
 utilize	sử dụng
 mileage	số dặm
-oecd	oecd
 prostate	tuyến tiền liệt
 adaptor	bộ chuyển đổi
 auburn	màu nâu vàng
 unlock	mở khóa
-hyundai	huyndai
 pledge	lời hứa
 vampire	ma cà rồng
-angela	Angela
 relates	liên quan
 nitrogen	nitơ
-xerox	xerox
 dice	xúc xắc
 merger	sáp nhập
 softball	bóng mềm
@@ -8893,20 +7573,16 @@ quad	bốn người
 dock	bến tàu
 differently	khác nhau
 firewire	dây lửa
-mods	mod
 nextel	tiếp theo
 framing	đóng khung
 organised	được tổ chức
 musician	nhạc sĩ
 blocking	chặn
-rwanda	Rwanda
 sorts	sắp xếp
 integrating	tích hợp
-vsnet	vsnet
 limiting	hạn chế
 dispatch	gửi đi
 revisions	sửa đổi
-papua	papa
 restored	được phục hồi
 hint	gợi ý
 armor	áo giáp
@@ -8915,21 +7591,15 @@ chargers	bộ sạc
 remark	nhận xét
 dozens	hàng chục
 varies	thay đổi
-msie	msie
 reasoning	lý luận
-wn	wn
-liz	Liz
 rendered	kết xuất
 picking	hái
 charitable	từ thiện
 guards	lính canh
 annotated	chú thích
-ccd	ccd
-sv	sv
 convinced	bị thuyết phục
 openings	lỗ hở
 buys	Mua
-burlington	burlington
 replacing	thay thế
 researcher	nhà nghiên cứu
 watershed	lưu vực sông
@@ -8941,57 +7611,41 @@ kruger	người lùn
 pockets	túi
 granny	bà nội
 pork	thịt lợn
-zu	zu
 equilibrium	trạng thái cân bằng
 viral	nổi tiếng
 inquire	hỏi thăm
 pipes	đường ống
 characterized	đặc trưng
 laden	chất đầy
-aruba	Aruba
 cottages	nhà tranh
 realtor	người môi giới bất động sản
 merge	hợp nhất
 privilege	đặc quyền
-edgar	Edgar
 develops	phát triển
 qualifying	đủ điều kiện
 chassis	khung xe
-dubai	dubai
 estimation	ước lượng
 barn	chuồng trại
 pushing	đẩy
-llp	llp
 fleece	vải lông cừu
 pediatric	nhi khoa
-boc	boc
 fare	giá vé
-dg	dg
-asus	asus
 pierce	khoan
-allan	allan
 dressing	Cách ăn mặc
 techrepublic	cộng hòa công nghệ
 sperm	tinh trùng
-vg	vg
 bald	hói
 filme	phim
 craps	xúc xắc
-fuji	fuji
 frost	sương giá
-leon	leon
 institutes	viện
 mold	khuôn
 dame	phu nhân
-fo	cho
-sally	sally
 yacht	thuyền buồm
-tracy	tracy
 prefers	thích hơn
 drilling	khoan
 brochures	tài liệu quảng cáo
 herb	thảo dược
-tmp	tmp
 alot	nhiều
 ate	ăn
 breach	sự vi phạm
@@ -9004,10 +7658,8 @@ benchmark	điểm chuẩn
 beginners	người mới bắt đầu
 instructors	giảng viên
 highlighted	nhấn mạnh
-bedford	bedford
 stationery	văn phòng phẩm
 idle	nhàn rỗi
-mustang	Mustang
 unauthorized	không được phép
 clusters	cụm
 antibody	kháng thể
@@ -9015,10 +7667,8 @@ competent	có thẩm quyền
 momentum	Quán tính
 fin	vây
 wiring	hệ thống dây điện
-io	io
 pastor	mục sư
 mud	bùn
-calvin	Calvin
 uni	đại học
 shark	cá mập
 contributor	người đóng góp
@@ -9032,12 +7682,7 @@ grows	mọc
 cliff	vách đá
 desirable	mong muốn
 tract	đường
-ul	ul
-ballet	vở ballet
-ol	ôi
 journalist	nhà báo
-abraham	Áp-ra-ham
-js	js
 bumper	bội thu
 afterwards	sau đó
 webpage	trang web
@@ -9045,11 +7690,8 @@ religions	tôn giáo
 garlic	tỏi
 hostels	ký túc xá
 shine	chiếu sáng
-senegal	người Sénégal
 explosion	vụ nổ
-pn	pn
 banned	bị cấm
-wendy	Wendy
 briefs	tóm tắt
 signatures	chữ ký
 diffs	sự khác biệt
@@ -9057,13 +7699,11 @@ cove	vịnh nhỏ
 mumbai	Mumbai
 ozone	khí quyển
 disciplines	môn học
-casa	nhà ở
-mu	mu
+casa	nhà
 daughters	con gái
 conversations	cuộc trò chuyện
 radios	radio
 tariff	thuế quan
-nvidia	nvidia
 opponent	phản đối
 pasta	mỳ ống
 simplified	giản thể
@@ -9077,23 +7717,16 @@ inbox	hộp thư đến
 focal	tiêu điểm
 bibliographic	thư mục
 vagina	âm đạo
-eden	Vườn Địa Đàng
 distant	xa xôi
 incl	bao gồm
-champagne	Rượu sâm banh
 ala	than ôi
 decimal	số thập phân
-hq	hq
 deviation	sự lệch lạc
 superintendent	giám đốc
-propecia	propecia
 dip	nhúng
-nbc	nbc
-samba	điệu samba
 hostel	nhà trọ
 housewives	các bà nội trợ
 employ	thuê
-mongolia	Mông Cổ
 penguin	chim cánh cụt
 magical	huyền diệu
 influences	ảnh hưởng
@@ -9102,11 +7735,9 @@ irrigation	thủy lợi
 miracle	phép màu
 manually	bằng tay
 reprint	in lại
-reid	Reid
-wt	cái gì
+what	cái gì
 hydraulic	thủy lực
 centered	trung tâm
-robertson	robertson
 flex	uốn cong
 yearly	hàng năm
 penetration	thâm nhập
@@ -9117,39 +7748,28 @@ conviction	lòng tin chắc, sự kết án, phán quyết
 hash	hàm băm
 omissions	thiếu sót
 writings	bài viết
-hamburg	hamburg
 lazy	lười
-mv	mv
-mpg	mpg
 retrieval	thu hồi
 qualities	phẩm chất
-cindy	cindy
 lolita	cô gái nhỏ
 fathers	những người cha
 carb	tinh bột
 charging	sạc
-cas	cas
 marvel	kỳ quan
 lined	lót
-cio	cio
-dow	xuống
+down	xuống
 prototype	nguyên mẫu
 importantly	quan trọng
-rb	rb
 petite	nhỏ nhắn
 apparatus	bộ máy
-upc	upc
 terrain	địa hình
-dui	dui
 pens	bút mực
 explaining	giải thích
-yen	yên
 strips	dải
 gossip	chuyện phiếm
 rangers	kiểm lâm
 nomination	sự đề cử
 empirical	thực nghiệm
-mh	mh
 rotary	quay
 worm	sâu
 dependence	sự phụ thuộc
@@ -9158,46 +7778,35 @@ beginner	người bắt đầu
 boxed	đóng hộp
 lid	Nắp
 sexuality	tình dục
-polyester	polyester
 cubic	khối
 deaf	điếc
 commitments	cam kết
 suggesting	gợi ý
 sapphire	ngọc bích
-kinase	kinase
 skirts	váy
 mats	thảm
 remainder	phần còn lại
-crawford	crawford
 labeled	dán nhãn
 privileges	đặc quyền
 televisions	tivi
 specializing	chuyên môn
 marking	đánh dấu
 commodities	hàng hóa
-pvc	nhựa PVC
-serbia	Serbia
 sheriff	cảnh sát trưởng
 griffin	chim ưng
 declined	suy giảm
-guyana	Guyana
 spies	gián điệp
-blah	bla
 mime	kịch câm
 neighbor	hàng xóm
 motorcycles	xe máy
 elect	trúng tuyển
 highways	đường xa lộ
-thinkpad	thinkpad
 concentrate	tập trung
 intimate	thân mật
 reproductive	sinh sản
-preston	preston
 deadly	chết người
-cunt	lồn
 feof	sự giả dối
 bunny	chú thỏ
-chevy	chevy
 molecules	phân tử
 rounds	vòng
 longest	dài nhất
@@ -9206,7 +7815,6 @@ tions	ý kiến
 intervals	khoảng thời gian
 sentences	câu
 dentists	nha sĩ
-usda	usda
 exclusion	loại trừ
 workstation	trạm làm việc
 holocaust	sự tàn sát
@@ -9215,7 +7823,6 @@ flyer	tờ rơi
 peas	đậu Hà Lan
 dosage	liều lượng
 receivers	máy thu
-urls	url
 customise	tùy chỉnh
 disposition	bố trí
 variance	phương sai
@@ -9228,13 +7835,9 @@ adaptive	thích nghi
 computed	tính toán
 needle	cây kim
 baths	bồn tắm
-enb	enb
-gg	gg
 cathedral	thánh đường
 brakes	phanh
-og	ôi
 nirvana	niết bàn
-ko	ko
 fairfield	sân hội chợ
 owns	sở hữu
 til	cho đến khi
@@ -9249,79 +7852,61 @@ blowing	thổi
 fascinating	lôi cuốn
 landscapes	phong cảnh
 heated	đun nóng
-lafayette	lafayette
-jackie	jackie
-wto	wto
 computation	tính toán
 hay	cỏ khô
 cardiovascular	tim mạch
-ww	ôi
 sparc	tia lửa
 cardiac	tim
 salvation	sự cứu rỗi
 dover	dover
-adrian	Adrian
 predictions	phỏng đoán
 accompanying	đi kèm
-vatican	vatican
 brutal	tàn bạo
 learners	người học
-gd	gd
 selective	chọn lọc
 arbitration	trọng tài
 configuring	cấu hình
 token	mã thông báo
 editorials	bài xã luận
-zinc	kẽm
+zincat	kẽm
 sacrifice	hy sinh
 seekers	người tìm kiếm
 guru	đạo sư
-isa	là một
 removable	có thể tháo rời
 convergence	sự hội tụ
 yields	sản lượng
-gibraltar	gibraltar
 levy	thu thuế
 suited	phù hợp
 numeric	số
 anthropology	nhân học
 skating	trượt băng
 kinda	đại loại
-aberdeen	aberdeen
 emperor	hoàng đế
 grad	tốt nghiệp
 malpractice	hành vi sai trái
-dylan	dylan
 bras	áo ngực
 belts	thắt lưng
 blacks	người da đen
 educated	có học thức
 rebates	giảm giá
 reporters	những phóng viên
-burke	burke
 proudly	Tự hào
-pix	tiên
 necessity	sự cần thiết
 rendering	kết xuất
 mic	micrô
 inserted	chèn vào
 pulling	đang kéo
 basename	tên cơ sở
-kyle	Kyle
 obesity	béo phì
 curves	đường cong
 suburban	ngoại ô
 touring	du lịch
-clara	clara
 vertex	đỉnh
-bw	ôi
 hepatitis	viêm gan
 nationally	toàn quốc
 tomato	cà chua
-andorra	andorra
 waterproof	không thấm nước
 expired	hết hạn
-mj	mj
 travels	chuyến đi
 flush	tuôn ra
 waiver	sự từ bỏ
@@ -9333,43 +7918,33 @@ invitations	lời mời
 functioning	hoạt động
 delight	Hân hoan
 survivor	người sống sót
-garcia	Garcia
 cingular	hình vành khuyên
 economies	nền kinh tế
 alexandria	alexandria
 bacterial	vi khuẩn
-moses	Môi-se
 counted	tính
 undertake	đảm nhận
 declare	tuyên bố
 continuously	liên tục
-johns	John
-valves	van
 gaps	khoảng trống
 impaired	suy yếu
 achievements	thành tựu
 donors	nhà tài trợ
 tear	xé
 jewel	viên ngọc quý
-teddy	Teddy
-lf	nếu
+If	nếu
 convertible	có thể chuyển đổi
-ata	ata
 teaches	dạy
 ventures	sự mạo hiểm
-nil	không
 bufing	đánh bóng
 stranger	người lạ
 tragedy	bi kịch
-julian	Julian
 nest	tổ
-pam	bố
 dryer	máy sấy khô
 painful	đau đớn
 velvet	nhung
 tribunal	tòa án
 ruled	cai trị
-nato	NATO
 pensions	lương hưu
 prayers	những lời cầu nguyện
 funky	sôi nổi
@@ -9381,32 +7956,23 @@ gale	cơn lốc
 joins	tham gia
 adolescent	thanh niên
 nominations	đề cử
-wesley	wesley
-dim	lờ mờ
 lately	gần đây
 cancelled	đã hủy bỏ
 scary	đáng sợ
 mattress	nệm
-mpegs	mpeg
-brunei	brunei
 likewise	tương tự như vậy
 banana	chuối
 introductory	giới thiệu
-slovak	tiếng Slovak
 cakes	Bánh
-stan	stan
 reservoir	Hồ chứa
 occurrence	tần suất xảy ra
 idol	thần tượng
 bloody	dính máu
 mixer	máy trộn
 remind	nhắc lại
-wc	wc
 worcester	điều tồi tệ nhất
-sbjct	sbjct
 demographic	nhân khẩu học
 charming	quyến rũ
-mai	mai
 tooth	răng
 disciplinary	kỷ luật
 annoying	khó chịu
@@ -9428,7 +7994,6 @@ mentor	người hướng dẫn
 interpreted	thông dịch
 evaluations	đánh giá
 fought	đã chiến đấu
-baghdad	baghdad
 elimination	sự loại bỏ
 metres	mét
 hypothetical	giả định
@@ -9437,9 +8002,7 @@ complimentary	ca ngợi
 helicopter	trực thăng
 pencil	bút chì
 freeze	đông cứng
-hk	HK
 performer	người biểu diễn
-abu	abu
 titled	có tiêu đề
 commissions	hoa hồng
 sphere	quả cầu
@@ -9449,7 +8012,6 @@ ratios	tỷ lệ
 concord	sự hòa hợp
 graduated	đã tốt nghiệp
 endorsed	xác nhận
-ty	ty
 surprising	thật ngạc nhiên
 walnut	quả óc chó
 lance	cây thương
@@ -9457,16 +8019,10 @@ ladder	thang
 italia	nước Ý
 unnecessary	không cần thiết
 dramatically	đáng kể
-liberia	Li-bê-ri-a
-sherman	sherman
 cork	nút bần
 maximize	tối đa hóa
-cj	cj
-hansen	Hansen
 senators	thượng nghị sĩ
 workout	tập thể dục
-mali	Mali
-yugoslavia	Nam Tư
 bleeding	sự chảy máu
 characterization	đặc tính
 colon	Đại tràng
@@ -9475,15 +8031,12 @@ lanes	làn đường
 purse	cái ví
 fundamentals	nguyên tắc cơ bản
 contamination	sự ô nhiễm
-mtv	mtv
 endangered	bị đe dọa
 compromise	thỏa hiệp
 masturbation	thủ dâm
 optimize	tối ưu hóa
 stating	nêu rõ
 dome	mái vòm
-caroline	caroline
-leu	le
 expiration	hết hạn
 namespace	không gian tên
 align	căn chỉnh
@@ -9509,56 +8062,37 @@ plots	mảnh đất
 polished	đánh bóng
 yang	dương
 gently	dịu dàng
-greensboro	Greensboro
-tulsa	tulsa
 locking	khóa
-casey	Casey
 controversial	gây tranh cãi
 draws	hòa
 fridge	tủ lạnh
 blanket	cái chăn
 bloom	hoa
-qc	qc
-simpsons	simpsons
-lou	lou
-elliott	Elliott
 recovered	đã phục hồi
-fraser	Fraser
 justify	biện minh
 upgrading	nâng cấp
 blades	lưỡi dao
-pgp	pgp
 loops	vòng lặp
 surge	dâng trào
 frontpage	trang đầu
 trauma	tổn thương
-aw	ôi
-tahoe	tahoe
 advert	Quảng cáo
 possess	sở hữu
 demanding	đòi hỏi khắt khe
 defensive	phòng ngự
 sip	một hớp
 flashers	đèn nháy
-subaru	subaru
 forbidden	cấm
-tf	tf
-vanilla	vanilla
 programmers	lập trình viên
-pj	pj
 monitored	theo dõi
 installations	cài đặt
-deutschland	nước Đức
 picnic	đi chơi picnic
 souls	linh hồn
 arrivals	lượt đến
 spank	đánh đòn
-cw	cw
 practitioner	người hành nghề
 motivated	có động lực
-wr	wr
 dumb	câm
-smithsonian	smithsonian
 hollow	rỗng
 vault	kho tiền
 securely	một cách an toàn
@@ -9566,27 +8100,19 @@ examining	kiểm tra
 fioricet	tia lửa
 groove	rãnh
 revelation	sự mặc khải
-rg	R G
 pursuit	theo đuổi
 delegation	phái đoàn
 wires	Dây điện
-bl	bl
 dictionaries	từ điển
 mails	thư
 backing	ủng hộ
 greenhouse	nhà kính
 sleeps	ngủ
-vc	vc
-blake	blake
 transparency	minh bạch
-dee	dee
-travis	travis
-wx	wx
 endless	bất tận
 figured	hình dung
 orbit	quỹ đạo
 currencies	tiền tệ
-niger	niger
 bacon	thịt xông khói
 survivors	người sống sót
 positioning	định vị
@@ -9595,33 +8121,22 @@ colony	thuộc địa
 cannon	pháo
 circus	rạp xiếc
 promoted	thăng chức
-forbes	forbes
-mae	mae
-moldova	Moldova
-mel	mel
 descending	giảm dần
-paxil	paxil
 spine	xương sống
 trout	cá hồi
 enclosed	gửi kèm
 feat	kỳ công
 temporarily	một cách tạm thời
-ntsc	ntsc
 cooked	nấu chín
 thriller	giật gân
 transmit	chuyển giao
-apnic	apnic
 fatty	béo
-gerald	gerald
 pressed	ép
 frequencies	tần số
 scanned	đã quét
 reflections	sự phản xạ
 hunger	nạn đói
-mariah	Mariah
-sic	sic
 municipality	đô thị
-usps	usps
 joyce	niềm vui
 detective	thám tử
 surgeon	bác sĩ phẫu thuật
@@ -9629,7 +8144,6 @@ cement	xi măng
 experiencing	trải nghiệm
 fireplace	lò sưởi
 endorsement	sự chứng thực
-bg	bg
 planners	người lập kế hoạch
 disputes	tranh chấp
 textiles	tài liệu
@@ -9639,64 +8153,44 @@ closes	đóng cửa
 seq	thứ tự
 psychiatry	tâm thần học
 persistent	kiên trì
-deborah	deborah
-conf	conf
-marco	Marco
 assists	hỗ trợ
 summaries	tóm tắt
 glow	ánh sáng
-gabriel	Gabriel
 auditor	kiểm toán viên
-wma	mẹ
 aquarium	bể nuôi cá
 violin	đàn vi ô lông
 prophet	nhà tiên tri
-cir	vòng tròn
+circle	vòng tròn
 bracket	dấu ngoặc
 looksmart	nhìn thông minh
-isaac	isaac
-oxide	oxit
 oaks	cây sồi
 magnificent	tráng lệ
-erik	erik
 colleague	đồng nghiệp
 naples	giấc ngủ ngắn
 promptly	kịp thời
-modems	modem
 adaptation	sự thích ứng
-hu	hu
 harmful	có hại
 paintball	súng sơn
-prozac	prozac
 sexually	tình dục
 enclosure	bao vây
-acm	acm
 dividend	cổ tức
-newark	Newark
-kw	kw
-paso	paso
-glucose	đường glucoza
 phantom	ma
 norm	chuẩn mực
 playback	phát lại
 supervisors	người giám sát
 westminster	westminster
 turtle	con rùa
-ips	ips
 distances	khoảng cách
 absorption	sự hấp thụ
 treasures	Châu báu
-dsc	dsc
 warned	cảnh báo
 neural	thần kinh
 ware	đồ
 fossil	hóa thạch
-mia	Mia
 hometown	quê hương
 badly	tệ
 transcripts	bảng điểm
 apollo	xin lỗi
-wan	wan
 disappointed	thất vọng
 persian	người Ba Tư
 continually	liên tục
@@ -9706,46 +8200,33 @@ handmade	làm bằng tay
 greene	cây xanh
 entrepreneurs	doanh nhân
 robots	robot
-grenada	Grenada
 creations	sáng tạo
 jade	ngọc bích
 scoop	muỗng, xúc
 acquisitions	mua lại
 foul	Hôi
-keno	keno
-gtk	gtk
 earning	kiếm tiền
 mailman	người đưa thư
-sanyo	sanyo
 nested	lồng vào nhau
 biodiversity	sự đa dạng sinh học
 excitement	sự phấn khích
-somalia	somali
 movers	máy động lực
 verbal	bằng lời nói
 blink	chớp mắt
 presently	hiện tại
 seas	biển
-carlo	carlo
 workflow	quy trình làm việc
 mysterious	bí ẩn
 novelty	sự mới lạ
-bryant	Bryant
 tiles	gạch ngói
 voyuer	kẻ rình mò
 librarian	thủ thư
 subsidiaries	công ty con
 switched	chuyển đổi
-stockholm	X-tốc-khôm
-tamil	tamil
-garmin	garmin
-ru	ru
 pose	tư thế
 fuzzy	mờ
-indonesian	người Indonesia
 grams	gam
 therapist	nhà trị liệu
-richards	Richards
 mrna	thưa ngài
 budgets	ngân sách
 toolkit	bộ công cụ
@@ -9753,9 +8234,6 @@ promising	đầy hứa hẹn
 relaxation	thư giãn
 goat	con dê
 render	kết xuất
-carmen	carmen
-ira	Iraq
-sen	sen
 thereafter	sau đó
 hardwood	cây phong
 erotica	khiêu dâm
@@ -9764,30 +8242,20 @@ sail	chèo
 forge	làm giả
 commissioners	ủy viên
 dense	ngu độn
-dts	dts
 brave	can đảm
 forwarding	chuyển tiếp
-qt	qt
 awful	tồi tệ
 nightmare	cơn ác mộng
 airplane	Máy bay
 reductions	sự giảm bớt
-southampton	Southampton
-istanbul	istanbul
 impose	áp đặt
 organisms	sinh vật
-sega	sega
 telescope	kính thiên văn
 viewers	những người xem
-asbestos	amiăng
-portsmouth	portmouth
-cdna	cdna
-meyer	meyer
 enters	đi vào
 pod	vỏ
 savage	độc ác
 advancement	thăng tiến
-wu	wu
 harassment	quấy rối
 willow	cây liễu
 resumes	sơ yếu lý lịch
@@ -9797,33 +8265,25 @@ throwing	ném
 existed	tồn tại
 whore	con điếm
 generators	máy phát điện
-lu	lu
 wagon	toa xe
 barbie	búp bê barbie
-dat	dat
 favour	ủng hộ
-soa	soa
 knock	cú đánh
 urge	thúc giục
-smtp	smtp
 generates	tạo ra
 potatoes	Những quả khoai tây
 thorough	kỹ lưỡng
 replication	nhân rộng
 inexpensive	không tốn kém
-kurt	Kurt
 receptors	thụ thể
 peers	đồng nghiệp
-roland	roland
 optimum	tối ưu
 neon	đèn neon
 interventions	sự can thiệp
 quilt	may chăn
-huntington	Huntington
 creature	sinh vật
 ours	của chúng tôi
 mounts	gắn kết
-syracuse	cây siracuse
 internship	kỳ thực tập
 lone	cô đơn
 refresh	làm cho khỏe lại
@@ -9831,36 +8291,27 @@ aluminium	nhôm
 snowboard	ván trượt tuyết
 beastality	thú tính
 webcast	truyền hình trực tuyến
-michel	michel
 evanescence	sự phù du
 subtle	tế nhị
 coordinated	phối hợp
-notre	Notre
 shipments	lô hàng
-maldives	maldives
 stripes	sọc
 firmware	phần sụn
 antarctica	Nam Cực
 cope	đối phó
 shepherd	chăn cừu
-lm	ừm
-canberra	canberra
 cradle	cái nôi
 chancellor	thủ tướng
-mambo	mambo
 lime	chanh xanh
-kirk	Kirk
 flour	bột mì
 controversy	tranh cãi
 legendary	huyền thoại
-bool	bool
 sympathy	sự đồng cảm
 choir	hợp xướng
 avoiding	tránh
 beautifully	đẹp đẽ
 blond	tóc vàng
 expects	mong đợi
-cho	cho
 jumping	nhảy
 fabrics	vải
 antibodies	kháng thể
@@ -9868,7 +8319,6 @@ polymer	polyme
 hygiene	vệ sinh
 wit	mưu mẹo
 poultry	gia cầm
-virtue	Đức hạnh
 burst	nổ
 examinations	kỳ thi
 surgeons	bác sĩ phẫu thuật
@@ -9876,13 +8326,8 @@ bouquet	bó hoa
 immunology	miễn dịch học
 promotes	thúc đẩy
 mandate	thi hành
-wiley	wiley
 departmental	phòng ban
-bbs	bbs
-spas	spa
-ind	ind
 corpus	tử thi
-johnston	Johnston
 terminology	thuật ngữ
 gentleman	quý ông
 fibre	chất xơ
@@ -9893,16 +8338,11 @@ jets	máy bay phản lực
 indices	chỉ số
 roommates	bạn cùng phòng
 adware	phần mềm quảng cáo
-qui	quy
-intl	quốc tế
 threatening	đe dọa
 spokesman	người phát ngôn
-zoloft	zoloft
 activists	nhà hoạt động
-frankfurt	Frankfurt
 prisoner	Tù nhân
 daisy	hoa cúc
-halifax	Halifax
 encourages	khuyến khích
 ultram	cực độ
 cursor	con trỏ
@@ -9914,10 +8354,8 @@ restructuring	tái cơ cấu
 insects	côn trùng
 terminals	thiết bị đầu cuối
 crude	thô
-morrison	Morrison
 maiden	thiếu nữ
 simulations	mô phỏng
-cz	cz
 sufficiently	đủ
 examines	kiểm tra
 viking	tên ông vua
@@ -9930,13 +8368,9 @@ conditional	có điều kiện
 mug	cốc
 crossword	ô chữ
 bother	làm phiền
-budapest	budapest
 conceptual	khái niệm
 knitting	đan lát
 attacked	bị tấn công
-hl	hl
-bhutan	bhutan
-liechtenstein	liechtenstein
 mating	giao phối
 compute	tính toán
 redhead	tóc đỏ
@@ -9944,9 +8378,7 @@ arrives	đến
 translator	người phiên dịch
 automobiles	ô tô
 tractor	máy kéo
-allah	thánh Allah
 continent	lục địa
-ob	được
 unwrap	mở gói
 fares	giá vé
 longitude	kinh độ
@@ -9958,7 +8390,6 @@ pike	cá chó
 safer	an toàn hơn
 insertion	chèn
 instrumentation	thiết bị đo đạc
-ids	id
 hugo	ôm
 wagner	người đánh cược
 constraint	hạn chế
@@ -9966,31 +8397,25 @@ groundwater	nước ngầm
 touched	chạm vào
 strengthening	tăng cường
 cologne	nước hoa
-gzip	gzip
 wishing	ước gì
 ranger	nhân viên kiểm lâm
 smallest	nhỏ nhất
 insulation	vật liệu cách nhiệt
 newman	người mới
 marsh	đầm lầy
-ricky	ricky
 ctrl	Điều khiển
 scared	sợ hãi
-theta	theta
 infringement	sự vi phạm
 bent	uốn cong
-laos	Nước Lào
 subjective	chủ quan
 monsters	quái vật
 asylum	tị nạn
 lightbox	hộp đèn
 robbie	tên cướp
 stake	cổ phần
-cocktail	cocktail
 outlets	cửa hàng
-swaziland	Swaziland
 varieties	Đẳng cấp
 arbor	cây thông
-mediawiki	wiki truyền thông
 configurations	cấu hình
 poison	chất độc
+php php

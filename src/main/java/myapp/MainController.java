@@ -137,7 +137,7 @@ public class MainController {
 			Task<Scene> rederTask = new Task<>() {
 				@Override
 				protected Scene call() throws Exception {
-					words.add_word(english,mean);
+					Words.add_word(english,mean);
 					Thread.sleep(1000);
 
 					return null;
@@ -174,7 +174,7 @@ public class MainController {
 		if (word == "") {
 			word = "b";
 		}
-        words.delete_word(word);
+        Words.delete_word(word);
 		SugesstionUpdate.sugesstionUpdate(searchBar.getText(),words, suggestionBox, searchBar);
 		searchBar.setText("");
 	}
@@ -197,12 +197,12 @@ public class MainController {
 	@FXML
 	private void ShutDownStage(ActionEvent event) {
 
-		this.MainStage.close();
+		MainStage.close();
 
 	}
 	@FXML
 	private void MinimizeStage(ActionEvent event){
-      this.MainStage.setIconified(true);
+      MainStage.setIconified(true);
 	}
 
 	@FXML

@@ -3,31 +3,30 @@ package myapp.SuggestionBox;
 import myapp.API;
 import myapp.SuggestionBox.WordDetails.WordDetails;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.sql.*;
 import java.util.*;
 
 public class Words {
 
-    private int word_capacity;
+    private static int word_capacity;
     public static Map<String,List<String>>meaning=new HashMap<>();
-    private Connection sqlite_connection=null;
+    static private Connection sqlite_connection=null;
 
     public Connection getSqlite_connection() {
         return sqlite_connection;
     }
 
-    public void setSqlite_connection(Connection sqlite_connection) {
-        this.sqlite_connection = sqlite_connection;
-    }
     public Words(){
         try {
 
             Class.forName("org.sqlite.JDBC");
             Connection connection= DriverManager.getConnection("jdbc:sqlite:wordsApi.db");
-            this.sqlite_connection=connection;
+            sqlite_connection=connection;
             WordDetails.sqlite_connection=connection;
             String sql="SELECT* FROM words";
-            PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
+            PreparedStatement statement=sqlite_connection.prepareStatement(sql);
             ResultSet resultSet=statement.executeQuery();
             while (resultSet.next()){
 
@@ -37,12 +36,12 @@ public class Words {
                 meaning.get(resultSet.getString(2)).add(resultSet.getString(3));
 
             }
-            this.word_capacity=meaning.size();
+            word_capacity=meaning.size();
             statement.close();
-            PreparedStatement statement1=this.sqlite_connection.prepareStatement("SELECT MAX(word_id) FROM words");
+            PreparedStatement statement1=sqlite_connection.prepareStatement("SELECT MAX(word_id) FROM words");
             ResultSet resultSet1=statement1.executeQuery();
             while (resultSet1.next()){
-                this.word_capacity=resultSet1.getInt(1);
+                word_capacity=resultSet1.getInt(1);
                 break;
             }
 
@@ -60,7 +59,7 @@ public class Words {
         try {
             List<String> allWordsWithPrefix = new ArrayList<>();
             String sql = "SELECT word_name FROM words WHERE word_name LIKE ? LIMIT 100";
-            try (PreparedStatement statement = this.sqlite_connection.prepareStatement(sql)) {
+            try (PreparedStatement statement = sqlite_connection.prepareStatement(sql)) {
                 statement.setString(1, prefix + "%");
                 try (ResultSet resultSet = statement.executeQuery()) {
                     while (resultSet.next()) {
@@ -75,13 +74,13 @@ public class Words {
             return Collections.emptyList(); // Return an empty list instead of null
         }
     }
-    public void add_word(String word,String meaning){
+    public static void add_word(String word,String meaning){
 
         try {
 
             String sql="INSERT INTO words VALUES(?,?,?)";
-            PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
-            statement.setInt(1,this.word_capacity+1);
+            PreparedStatement statement=sqlite_connection.prepareStatement(sql);
+            statement.setInt(1,word_capacity+1);
             statement.setString(2,word);
             statement.setString(3,meaning);
             statement.executeUpdate();
@@ -93,7 +92,7 @@ public class Words {
                 Words.meaning.get(word).add(meaning);
 
             }
-            this.word_capacity++;
+            word_capacity++;
             API.addWord(word);
             statement.close();
 
@@ -104,7 +103,7 @@ public class Words {
         }
 
     }
-    public void delete_word(String content){
+    public static void delete_word(String content){
 
         String[] word=content.split(":");
         if(word.length!=2){
@@ -120,7 +119,7 @@ public class Words {
         try {
 
             String sql="DELETE FROM words WHERE word_name= ? AND vie_meaning= ?";
-            PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
+            PreparedStatement statement=sqlite_connection.prepareStatement(sql);
             statement.setString(1,word[0]);
             statement.setString(2,word[1]);
             statement.executeUpdate();
@@ -136,6 +135,65 @@ public class Words {
 
 
     }
+    public static void update_word(String word,String meaning,String new_meaning){
+
+        delete_word(word+": "+meaning);
+        add_word(word,new_meaning);
+
+    }
+
+    public static void update_from_txt(){
+        try{
+            FileReader fileReader=new FileReader("data/List.txt");
+            BufferedReader bufferedReader=new BufferedReader(fileReader);
+            Map<String,String>word=new HashMap<>();
+
+            String line="";
+            while ((line=bufferedReader.readLine())!=null){
+
+                String[] words=line.split("\\t");
+                if(words.length<2){
+                    continue;
+                }
+                word.put(words[0],words[1]);
+
+            }
+            bufferedReader.close();
+            fileReader.close();
+            Set<String>set=meaning.keySet();
+            for(String s:set){
+                if(!word.containsKey(s)){
+
+                    List<String>list=new ArrayList<>();
+                    for(String mean:meaning.get(s)){
+
+                        list.add(mean);
+                    }
+
+                    for(String mean:list){
+
+                        String content=s+": "+mean;
+                        delete_word(content);
+
+                    }
+
+                }
+
+
+            }
+
+
+        }catch (Exception e){
+
+            e.printStackTrace();
+
+        }
+
+
+
+
+    }
+
     public List<String>get_4_random_words(){
 
         try {
@@ -143,7 +201,7 @@ public class Words {
             List<String>randomWords=new ArrayList<>();
 
             String sql = "SELECT * FROM words WHERE LENGTH(CAST(word_name AS TEXT)) <= ? ORDER BY RANDOM() LIMIT 4";
-            PreparedStatement statement=this.sqlite_connection.prepareStatement(sql);
+            PreparedStatement statement=sqlite_connection.prepareStatement(sql);
             statement.setInt(1,8);
             ResultSet resultSet=statement.executeQuery();
             while (resultSet.next()){
