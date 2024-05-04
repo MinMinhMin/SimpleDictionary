@@ -1,7 +1,9 @@
 package myapp.SuggestionBox;
 
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.*;
+import javafx.scene.control.ContextMenu;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
@@ -10,33 +12,32 @@ import java.io.IOException;
 
 public class CreateSuggestionItem {
 	public static HBox createSuggestionItem(String suggestion, String meaning, TextField searchBar) {
-        HBox suggestionItem = new HBox();
+		HBox suggestionItem = new HBox();
 		suggestionItem.getStyleClass().add("suggestion-item");
-        StringBuilder stringBuilder=new StringBuilder();
-        stringBuilder.append(suggestion);
-        stringBuilder.append(": ");
-        stringBuilder.append(meaning);
+		String stringBuilder = suggestion +
+				": " +
+				meaning;
 
-			ContextMenu contextMenu = loadContextMenu();
+		ContextMenu contextMenu = loadContextMenu();
 
-			Label wordLabel = new Label(stringBuilder.toString());
-			suggestionItem.getChildren().addAll(wordLabel);
+		Label wordLabel = new Label(stringBuilder);
+		suggestionItem.getChildren().addAll(wordLabel);
 
-			// Add hover effect
-			suggestionItem.setOnMouseEntered(event -> suggestionItem.setStyle("-fx-background-color: #fce3e3;-fx-border-width: 3;-fx-border-color: rgb(18, 19, 20)"));
-			suggestionItem.setOnMouseExited(event -> suggestionItem.setStyle("-fx-background-color: transparent;"));
+		// Add hover effect
+		suggestionItem.setOnMouseEntered(event -> suggestionItem.setStyle("-fx-background-color: #fce3e3;-fx-border-width: 3;-fx-border-color: rgb(18, 19, 20)"));
+		suggestionItem.setOnMouseExited(event -> suggestionItem.setStyle("-fx-background-color: transparent;"));
 
-			suggestionItem.setOnMouseClicked(event -> {
-				if (event.getButton() == MouseButton.SECONDARY) {
-					((ContextMenuController) contextMenu.getUserData()).setSelectedWord(suggestion,meaning);
-					contextMenu.show(suggestionItem, event.getScreenX(), event.getScreenY());
-				} else if (event.getButton() == MouseButton.PRIMARY) {
-					searchBar.setText(suggestion+": "+meaning);
-				}
-			});
+		suggestionItem.setOnMouseClicked(event -> {
+			if (event.getButton() == MouseButton.SECONDARY) {
+				((ContextMenuController) contextMenu.getUserData()).setSelectedWord(suggestion, meaning);
+				contextMenu.show(suggestionItem, event.getScreenX(), event.getScreenY());
+			} else if (event.getButton() == MouseButton.PRIMARY) {
+				searchBar.setText(suggestion + ": " + meaning);
+			}
+		});
 
-			suggestionItem.setMinWidth(Region.USE_PREF_SIZE);
-			suggestionItem.setMaxWidth(Region.USE_PREF_SIZE);
+		suggestionItem.setMinWidth(Region.USE_PREF_SIZE);
+		suggestionItem.setMaxWidth(Region.USE_PREF_SIZE);
 
 
 		return suggestionItem;

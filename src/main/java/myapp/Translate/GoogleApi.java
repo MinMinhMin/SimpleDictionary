@@ -3,6 +3,8 @@ package myapp.Translate;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import myapp.Main;
+import myapp.MainController;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -52,8 +54,10 @@ public class GoogleApi {
             connection.disconnect();
             return Json(translated_text.toString());
         }catch (Exception e){
-
-            System.out.println("Null");
+            if(!MainController.isInternetConnected){
+                Main.mainController.POPUP("No internet connection",false);
+            }
+            System.out.println("Empty box or no internet connection");
 
         }
         return null;

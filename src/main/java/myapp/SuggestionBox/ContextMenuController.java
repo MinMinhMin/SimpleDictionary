@@ -19,6 +19,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
+import myapp.Main;
 import myapp.MainController;
 import myapp.SuggestionBox.WordDetails.DetailBoxController;
 
@@ -27,17 +28,15 @@ import java.util.Objects;
 
 public class ContextMenuController {
 
+	private static Stage DetailBoxStage;
 	private String selectedWord;
 	private String mean;
-
-
-
-
 
 	public void handleDetail() throws IOException {
 		handleOption("Word Detail");
 	}
-	public void handleUpdate() throws IOException{
+
+	public void handleUpdate() throws IOException {
 		handleOption("Update");
 	}
 
@@ -47,17 +46,22 @@ public class ContextMenuController {
 
 	private void handleOption(String option) throws IOException {
 		if (option == "Word Detail") {
+			if (DetailBoxStage != null) {
+				DetailBoxStage.close();
+			}
 			showDetailBox(selectedWord);
 
 		}
-		if(option == "Update"){
+		if (option == "Update") {
 			showUpdateBox(selectedWord, mean);
 		}
 
 	}
-	public void showUpdateBox(String selectedWord,String CurrentMeaning){
+
+	public void showUpdateBox(String selectedWord, String CurrentMeaning) {
 		MainController.addWordStage = new Stage();
-		Label label = new Label("Update meaning of "+'"'+selectedWord+'"'+':');
+		MainController.addWordStage.initOwner(MainController.MainStage);
+		Label label = new Label("Update meaning of " + '"' + selectedWord + '"' + ':');
 		label.setStyle("-fx-font-weight: 900;");
 		label.setMaxWidth(Double.MAX_VALUE);
 		label.setAlignment(Pos.CENTER);
@@ -74,7 +78,7 @@ public class ContextMenuController {
 		MainController.applyScaleTransition(closeButton);
 		setButton.setOnAction(event -> {
 			String NewMeaning = meaning.getText();
-
+			MainController.log.Update(Main.mainController.getDate().getText() + " " + Main.mainController.getTime().getText() + " ( " + "Change " + selectedWord + ": " + CurrentMeaning + " to " + selectedWord + ": " + NewMeaning + ")");
 			ProgressBar progressBar = new ProgressBar();
 			progressBar.getStylesheets().add(ContextMenuController.class.getResource("/myapp/Styling.css").toExternalForm());
 			progressBar.getStyleClass().add("progress-bar");
@@ -84,19 +88,21 @@ public class ContextMenuController {
 			loadingPane.getChildren().add(progressBar);
 			loadingPane.getChildren().add(loadingText);
 			loadingPane.setStyle("-fx-border-color: rgb(7, 17, 17);-fx-border-width: 10;-fx-background-radius: 30; -fx-border-radius:  20");
-			Scene loadingscene = new Scene(loadingPane,200,180);
+			Scene loadingscene = new Scene(loadingPane, 200, 180);
 			MainController.addWordStage.setScene(loadingscene);
 			Task<Scene> rederTask = new Task<>() {
 				@Override
 				protected Scene call() throws Exception {
 
 					//Update Meaning of word eg: Update(selectedWord,CurrentMeaning,NewMeaning);
-                    Words.update_word(selectedWord,CurrentMeaning,NewMeaning);
-					Thread.sleep(1000);
+					Words.update_word(selectedWord, CurrentMeaning, NewMeaning);
 					return null;
 				}
 			};
-			rederTask.setOnSucceeded(event2 -> MainController.addWordStage.close());
+			rederTask.setOnSucceeded(event2 -> {
+				MainController.addWordStage.close();
+				Main.mainController.POPUP("Change word success!",true);
+			});
 			new Thread(rederTask).start();
 
 		});
@@ -119,22 +125,19 @@ public class ContextMenuController {
 		MainController.addWordStage.show();
 	}
 
-
-	private  Stage DetailBoxStage;
 	public void setSelectedWord(String word, String meaning) {
 		this.selectedWord = word;
 		this.mean = meaning;
 	}
 
-	public void showDetailBox(String word) throws IOException{
+	public void showDetailBox(String word) throws IOException {
+
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("/myapp/DetailBox.fxml"));
 		Parent layout = loader.load();
 		DetailBoxController detailBoxController = loader.getController();
-		if(Objects.equals(word, detailBoxController.getWord())) {
+		if (Objects.equals(word, detailBoxController.getWord())) {
+
 			return;
-		}
-		if (DetailBoxStage != null) {
-			DetailBoxStage.close();
 		}
 		DetailBoxStage = new Stage();
 		DetailBoxStage.initOwner(MainController.MainStage);
@@ -149,7 +152,7 @@ public class ContextMenuController {
 		loadingPane.getChildren().add(progressBar);
 		loadingPane.getChildren().add(loadingText);
 		loadingPane.setStyle("-fx-border-color: rgb(7, 17, 17);-fx-border-width: 10;-fx-background-radius: 30; -fx-border-radius:  20");
-		Scene loadingscene = new Scene(loadingPane,385,500);
+		Scene loadingscene = new Scene(loadingPane, 385, 500);
 		DetailBoxStage.setResizable(false);
 		DetailBoxStage.initStyle(StageStyle.TRANSPARENT);
 		DetailBoxStage.setScene(loadingscene);
@@ -173,7 +176,7 @@ public class ContextMenuController {
 			@Override
 			protected Scene call() throws Exception {
 				detailBoxController.setWord(selectedWord);
-				Thread.sleep(1000);
+				Thread.sleep(500);
 				Scene scene;
 				FadeTransition ft = new FadeTransition(Duration.millis(1300), layout);
 				ft.setFromValue(0.0);
@@ -185,7 +188,10 @@ public class ContextMenuController {
 		};
 		rederTask.setOnSucceeded(event -> DetailBoxStage.setScene(rederTask.getValue()));
 		new Thread(rederTask).start();
+		MainController.log.Update(Main.mainController.getDate().getText() + " " + Main.mainController.getTime().getText() + " ( " + "Word Detail: " + selectedWord + ")");
+
 	}
+
 	private void adjustDetailBoxPosition() {
 		if (DetailBoxStage != null && MainController.MainStage != null) {
 			double offsetX = -1335;

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<ContextMenu fx:id="settingMenu" xmlns="http://javafx.com/javafx"
+             xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.SettingMenuController" style="-fx-border-width: 5; -fx-border-color: rgb(18, 19, 20) ;-fx-border-radius: 10;-fx-background-radius: 10">
+
+    <items>
+        <CustomMenuItem>
+            <content>
+                <HBox spacing="20">
+                    <children>
+                        <Text text="Reload Internet" style="-fx-font-size: 18;-fx-font-weight: 900"/>
+                        <Button  fx:id="reloadInternet" stylesheets="@Styling.css" styleClass="refreshButton" prefHeight="20" prefWidth="20" />
+                    </children>
+                </HBox>
+            </content>
+        </CustomMenuItem>
+        <CustomMenuItem>
+            <content>
+                <HBox spacing="20">
+                    <children>
+                        <Text text="Translate: " style="-fx-font-size: 18;-fx-font-weight: 900" />
+                        <ToggleButton fx:id="ChangeTranslateButton" prefHeight="30" prefWidth="50"  />
+
+                    </children>
+                </HBox>
+            </content>
+        </CustomMenuItem>
+        <SeparatorMenuItem/>
+    </items>
+</ContextMenu>
+
