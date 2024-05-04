@@ -89,9 +89,10 @@ public class ContextMenuController {
 			Task<Scene> rederTask = new Task<>() {
 				@Override
 				protected Scene call() throws Exception {
-					//Update Meaning of word eg: Update(selectedWord,CurrentMeaning,NewMeaning);
-					Thread.sleep(1000);
 
+					//Update Meaning of word eg: Update(selectedWord,CurrentMeaning,NewMeaning);
+                    Words.update_word(selectedWord,CurrentMeaning,NewMeaning);
+					Thread.sleep(1000);
 					return null;
 				}
 			};
