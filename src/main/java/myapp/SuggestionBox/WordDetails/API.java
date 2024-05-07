@@ -14,15 +14,15 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
+//API update thông tin của từ nếu từ đó chưa có trong data
 public class API {
-	//API update thông tin của từ nếu từ đó chưa có trong data
+	// tạo các thuộc tính dựa trên string js trả về từ API
 	private List<Meaning> meanings;
 	private List<Phonetic> phonetics;
 	private String word;
 	private License license;
 	private List<String> sourceUrls;
-
+	// trích xuất các đối tượng link audio, IPA , type trong string js do API trả về
 	public static String get_audio_list(String url, int homonyms, String IPA) {
 
 		StringBuilder stringBuilder = new StringBuilder();
@@ -53,7 +53,7 @@ public class API {
 		return null;
 
 	}
-
+    // thêm các word details vào SQLite data cho từ lấy từ API
 	public static void addWord(String word) {
 
 		//connect to online dictionary
@@ -179,7 +179,7 @@ public class API {
 
 
 	}
-
+	//tạo phương thức, class phù hợp để trích xuất dữ liệu từ API
 	public List<Meaning> getMeanings() {
 		return meanings;
 	}

@@ -7,20 +7,22 @@ import java.util.List;
 public class CrossBoard {
 
 	char[][] board = new char[10][8];
+	//tạo bảng cỡ 10x8
 	boolean[][] visit = new boolean[10][8];
-
+	// thuật toán
 	CrossBoard() {
-
+	//phương thức khởi tạo
 		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < 8; j++) {
 				this.board[i][j] = (char) ((int) ((Math.random()) * 26 + 97));
+				// tạo bảng 10x8 gồm các chữ cái random
 				this.visit[i][j] = false;
 			}
 
 		}
 
 	}
-
+// tạo gợi ý của từng từ. vd:Hello --> H__lo
 	public static String getHint(String word) {
 
 		StringBuilder hint = new StringBuilder(word);
@@ -41,7 +43,7 @@ public class CrossBoard {
 	public char[][] getBoard() {
 		return board;
 	}
-
+// thuật toán random
 	public boolean allVisit(int x, int y, int endX, int endY, String word) {
 		if (endX < 0 || endX >= 10 || endY < 0 || endY >= 8) {
 			return false;
@@ -89,7 +91,7 @@ public class CrossBoard {
 
 
 	}
-
+// thuật toán random
 	public boolean canBePlaced(int x, int y, String word) {
 		List<List<Integer>> list = new ArrayList<>();
 		list.add(Arrays.asList(0, word.length() - 1));
@@ -108,7 +110,7 @@ public class CrossBoard {
 
 
 	}
-
+// thêm từ vào bảng
 	public void addWord(String word) {
 
 		if (word.length() > 10) return;
