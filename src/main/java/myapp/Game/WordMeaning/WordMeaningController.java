@@ -118,7 +118,9 @@ public class WordMeaningController {
 		Answer3.setText(ans[2]);
 		Answer4.setText(ans[3]);
 		if (questionsType[questionsIndex] == "audio") {
+
 			Speaker.setVisible(true);
+			System.out.println(questions.get(questionsIndex).getAudio_link_answer());
 			final Media sound = new Media(questions.get(questionsIndex).getAudio_link_answer());
 			final MediaPlayer mediaPlayer = new MediaPlayer(sound);
 			Speaker.setOnMouseClicked(e -> {
