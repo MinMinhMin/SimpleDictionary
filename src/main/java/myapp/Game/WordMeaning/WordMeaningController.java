@@ -44,6 +44,8 @@ public class WordMeaningController {
 	final public Font pixelify = Font.loadFont(new FileInputStream(new File("src/main/java/myapp/Game/WordMeaning/[phongchuviet.com] FVF Fernando 08/FVF Fernando 08.ttf")), 10);
 	final private String[] questionsType = new String[]{"no_audio", "audio", "no_audio", "audio", "audio", "no_audio", "no_audio"};
 	protected Stage stage;
+	private List<Image> TutorialImages = new ArrayList<>();
+	private PicturePlayer TutorialPicturePlayer;
 	private int questionsIndex = -1;
 	private int BeingAtacked = 0;
 	private int AttackShigure = 0;
@@ -406,6 +408,12 @@ public class WordMeaningController {
 				setMute();
 			});
 		});
+		URL picurl = getClass().getResource("/myapp/Game/Shigure-chan_tutorial.png");
+		Image image = new Image(picurl.toString());
+		TutorialImages.add(image);
+		TutorialPicturePlayer = new PicturePlayer(TutorialImages);
+		TutorialPicturePlayer.setMainStage(Main.mainController.getMainStage());
+		TutorialPicturePlayer.createStage();
 
 		THEME.setVolume(0.7);
 		THEME.seek(THEME.getStartTime());
@@ -572,13 +580,8 @@ public class WordMeaningController {
 
 	@FXML
 	private void tutorialClicked() {
-		List<Image> images = new ArrayList<>();
-		URL picurl = getClass().getResource("/myapp/Game/Shigure-chan_tutorial.png");
-		Image image = new Image(picurl.toString());
-		images.add(image);
-		PicturePlayer picturePlayer = new PicturePlayer(images);
-		picturePlayer.setMainStage(Main.mainController.getMainStage());
-		picturePlayer.setOwnedStages(Main.mainController.getOwnedStages());
-		picturePlayer.showStage();
+		TutorialPicturePlayer.BlurOwnedStages(Main.mainController.getOwnedStages());
+		TutorialPicturePlayer.BlurMainStage();
+		TutorialPicturePlayer.showStage();
 	}
 }
