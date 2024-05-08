@@ -110,6 +110,7 @@ public class MainController {
 	public ContextMenu settingMenu = settingMenuController.loadSettingMenu();
 
 	private final List<Image> TutorialImages = new ArrayList<>();
+	private PicturePlayer TutorialPicturePLayer;
 
 	public Stage getMainStage() {
 		return MainStage;
@@ -169,6 +170,9 @@ public class MainController {
 				Image test = new Image(picurl.toString());
 				TutorialImages.add(test);
 			}
+			TutorialPicturePLayer = new PicturePlayer(TutorialImages);
+			TutorialPicturePLayer.setMainStage(MainStage);
+			TutorialPicturePLayer.createStage();
 			//
 
 			//Thao tác chuột
@@ -544,10 +548,9 @@ public class MainController {
 	//Ấn nút hướng dẫn
 	@FXML
 	private void tutorialClicked() {
-		PicturePlayer picturePlayer = new PicturePlayer(TutorialImages);
-		picturePlayer.setMainStage(MainStage);
-		picturePlayer.setOwnedStages(getOwnedStages());
-		picturePlayer.showStage();
+		TutorialPicturePLayer.BlurMainStage();
+		TutorialPicturePLayer.BlurOwnedStages(getOwnedStages());
+		TutorialPicturePLayer.showStage();
 
 	}
 

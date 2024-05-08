@@ -92,25 +92,16 @@ public class PicturePlayer {
 
 	public void setMainStage(Stage MainStage) {
 		this.mainStage = MainStage;
-		Scene scene = mainStage.getScene();
-		Parent root = scene.getRoot();
-		ColorAdjust adj = new ColorAdjust(0, -0.9, -0.5, 0);
-		GaussianBlur blur = new GaussianBlur(20);
-		adj.setInput(blur);
-		root.setEffect(adj);
-		picturePlayerStage.initModality(Modality.APPLICATION_MODAL);
-		picturePlayerStage.initOwner(MainStage);
-		picturePlayerStage.setResizable(false);
-		picturePlayerStage.initStyle(StageStyle.TRANSPARENT);
-		MainStage.xProperty().addListener((observable, oldValue, newValue) -> {
-			adjustpicturePlayerStagePosition();
-		});
-		picturePlayerStage.yProperty().addListener((observable, oldValue, newValue) -> {
-			adjustpicturePlayerStagePosition();
-		});
-		adjustpicturePlayerStagePosition();
 	}
-	public void setOwnedStages(List<Stage> OwnedStages){
+	public void BlurMainStage(){
+		Scene mainStageScene = mainStage.getScene();
+		Parent mainStageSceneRoot = mainStageScene.getRoot();
+		ColorAdjust colorAdjust = new ColorAdjust(0, -0.9, -0.5, 0);
+		GaussianBlur gaussianBlur = new GaussianBlur(20);
+		colorAdjust.setInput(gaussianBlur);
+		mainStageSceneRoot.setEffect(colorAdjust);
+	}
+	public void BlurOwnedStages(List<Stage> OwnedStages){
 		this.ownedStages = OwnedStages;
 		for(Stage stage:ownedStages){
 			Scene scene = stage.getScene();
@@ -131,7 +122,18 @@ public class PicturePlayer {
 		}
 	}
 
-	public void showStage() {
+	public void createStage() {
+		picturePlayerStage.initModality(Modality.APPLICATION_MODAL);
+		picturePlayerStage.setResizable(false);
+		picturePlayerStage.initStyle(StageStyle.TRANSPARENT);
+		picturePlayerStage.initOwner(mainStage);
+		mainStage.xProperty().addListener((observable, oldValue, newValue) -> {
+			adjustpicturePlayerStagePosition();
+		});
+		picturePlayerStage.yProperty().addListener((observable, oldValue, newValue) -> {
+			adjustpicturePlayerStagePosition();
+		});
+		adjustpicturePlayerStagePosition();
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("PicturePlayer.fxml"));
 			loader.setController(this);
@@ -147,11 +149,12 @@ public class PicturePlayer {
 			}
 			PictureBox.getChildren().add(imageViews.get(0));
 			picturePlayerStage.setScene(scene);
-
-			picturePlayerStage.show();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+	public void showStage(){
+		picturePlayerStage.show();
 	}
 
 

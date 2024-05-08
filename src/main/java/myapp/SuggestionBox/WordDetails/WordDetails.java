@@ -90,7 +90,7 @@ public class WordDetails implements Word_Information {
 					phonetic.setLink(resultSet2.getString(5));
 					if (phonetic.getLink() == null) {
 
-						// System.out.println("test");
+						 System.out.println("test");
 						phonetic.setLink("https://d1qx7pbj0dvboc.cloudfront.net/" + word + ".mp3");
 
 					}

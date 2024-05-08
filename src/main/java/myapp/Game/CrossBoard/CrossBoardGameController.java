@@ -2,6 +2,7 @@ package myapp.Game.CrossBoard;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -40,6 +41,8 @@ public class CrossBoardGameController implements Initializable {
 	private List<String> wordsToFind;
 	private final Map<String, String> hint = new HashMap<>();
 	private final Map<String, Text> textMap = new HashMap<>();
+	private List<Image> TutorialImages = new ArrayList<>();
+	private PicturePlayer TutorialPicturePlayer;
 	@FXML
 	private Text word1, word2, word3, word4, point, choosenWord, Time;
 	private final Words words = Main.mainController.getWords();
@@ -93,6 +96,14 @@ public class CrossBoardGameController implements Initializable {
 
 	@Override
 	public void initialize(URL url, ResourceBundle resourceBundle) {
+		Platform.runLater(()->{
+			URL picurl = getClass().getResource("/myapp/Game/CrossBoard_tutorial.png");
+			Image image = new Image(picurl.toString());
+			TutorialImages.add(image);
+			TutorialPicturePlayer = new PicturePlayer(TutorialImages);
+			TutorialPicturePlayer.setMainStage(Main.mainController.getMainStage());
+			TutorialPicturePlayer.createStage();
+		});
 		Clicksound.setOnEndOfMedia(() -> {
 			Clicksound.seek(Duration.ZERO);
 			Clicksound.stop();
@@ -303,14 +314,9 @@ public class CrossBoardGameController implements Initializable {
 
 	@FXML
 	private void tutorialClicked() {
-		List<Image> images = new ArrayList<>();
-		URL picurl = getClass().getResource("/myapp/Game/CrossBoard_tutorial.png");
-		Image image = new Image(picurl.toString());
-		images.add(image);
-		PicturePlayer picturePlayer = new PicturePlayer(images);
-		picturePlayer.setMainStage(Main.mainController.getMainStage());
-		picturePlayer.setOwnedStages(Main.mainController.getOwnedStages());
-		picturePlayer.showStage();
+		TutorialPicturePlayer.BlurOwnedStages(Main.mainController.getOwnedStages());
+		TutorialPicturePlayer.BlurMainStage();
+		TutorialPicturePlayer.showStage();
 	}
 
 }

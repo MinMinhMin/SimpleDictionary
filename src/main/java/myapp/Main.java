@@ -14,6 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main extends Application {
+	private List<Image> images = new ArrayList<>();
+    private PicturePlayer infoPicturePlayer;
 
 	public static MainController mainController;
 	double xOffset, yOffset;
@@ -21,6 +23,13 @@ public class Main extends Application {
 	public static void main(String[] args) {
 
 		launch(args);
+	}
+	private void setImages(){
+		for (int index = 1; index <= 4; index++) {
+			URL picurl = getClass().getResource("Intro/Intro" + (index) + ".png");
+			Image picimage = new Image(picurl.toString());
+			images.add(picimage);
+		}
 	}
 
 	@Override
@@ -60,17 +69,14 @@ public class Main extends Application {
 		mainController.logShow();//Log stage
 
 		//Giới thiệu
-		List<Image> images = new ArrayList<>();
-		for (int index = 1; index <= 4; index++) {
-			URL picurl = getClass().getResource("Intro/Intro" + (index) + ".png");
-			Image picimage = new Image(picurl.toString());
-			images.add(picimage);
-		}
-		PicturePlayer picturePlayer = new PicturePlayer(images);
-		picturePlayer.setMainStage(primaryStage);
+		setImages();
+		infoPicturePlayer = new PicturePlayer(images);
+		infoPicturePlayer.setMainStage(primaryStage);
 
 		primaryStage.show();
-		picturePlayer.showStage();
+		infoPicturePlayer.createStage();
+		infoPicturePlayer.BlurMainStage();
+		infoPicturePlayer.showStage();
 	}
 
 	//GitHub links
