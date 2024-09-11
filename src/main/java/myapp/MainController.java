@@ -80,14 +80,16 @@ public class MainController {
 
 	//Nhạc
 	private final List<String> songs = Arrays.asList(
-			"music/Ichika Nito - Away (Official Music Video).mp3",
-			"music/The World is still Beautiful.mp3",
-			"music/Forever.mp3"
+			"music/The Name of Life.mp3",
+			"music/Summer.mp3",
+			"music/Dream.mp3",
+			"music/Glorious Morning.mp3"
 	);
 	private final List<String> songnames = Arrays.asList(
-			"Away",
-			"TWisBeautiful",
-			"Forever"
+			"Name of Life",
+			"Summer",
+			"Dream",
+			"Glorious Morn"
 	);
 	@FXML
 	private VBox MusicBox;

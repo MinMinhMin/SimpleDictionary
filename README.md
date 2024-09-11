@@ -63,6 +63,10 @@
   <img src="https://github.com/MinMinhMin/SimpleDictionary/blob/master/src/main/resources/myapp/polymorphism.jpg" alt="GIF" width="800" height="400">
 </p>
 
+<p align="center">
+  <img src="https://github.com/MinMinhMin/SimpleDictionary/blob/master/src/main/resources/myapp/inheritance3.jpg" alt="GIF" width="800" height="400">
+</p>
+
 <span style="float:right; margin-left: 10px;">
     <img src="https://github.com/MinMinhMin/SimpleDictionary/blob/master/src/main/resources/myapp/Game/shigure6.gif" alt="GIF" style="max-width: 200px;">
 </span>

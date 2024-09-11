@@ -129,8 +129,9 @@ public class DetailBoxController {
 			scaleTransition.applyScaleTransition();
 			audio.getStylesheets().add(DetailBoxController.class.getResource("/myapp/Styling.css").toExternalForm());
 			audio.getStyleClass().add("audioButton");
-			final Media sound = new Media(text);
-			final MediaPlayer mediaPlayer = new MediaPlayer(sound);
+			Media sound = new Media(text);
+			MediaPlayer mediaPlayer = new MediaPlayer(sound);
+			mediaPlayer.setOnError(() -> System.out.println("Media error occurred: " + mediaPlayer.getError()));
 			audio.setOnAction(
 					e -> {
 						mediaPlayer.seek(mediaPlayer.getStartTime());
